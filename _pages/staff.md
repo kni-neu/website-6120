@@ -1,11 +1,11 @@
 ---
 layout: page
-title: staff
+title: personnel
 permalink: /staff/
-description: Instructional staff
+description: Instructional staff and lecturers
 nav: true
 nav_order: 2
-display_categories: [professor, teaching assistant]
+display_categories: [staffing, guest lecturers]
 horizontal: false
 ---
 

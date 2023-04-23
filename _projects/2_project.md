@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
+title: teaching assistant
 description: a project with a background image
 img: assets/img/3.jpg
 importance: 2
-category: teaching assistant
+category: staffing
 ---
 
 Every project has a beautiful feature showcase page.
