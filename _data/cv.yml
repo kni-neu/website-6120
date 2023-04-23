@@ -1,19 +1,19 @@
-- title: General Information
+- title: Instructor / Lecturer
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
+    - name: Professor
+      value: Karl Ni
     - name: Date of Birth
       value: 14th March 1879
     - name: Languages
       value: English, German
 
-- title: Education
+- title: Teaching Assistant
   type: time_table
   contents:
     - title: PhD
       institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      year: Week 1
       description:
         - Description 1.
         - Description 2.
@@ -28,22 +28,22 @@
         - Description 1.
         - Description 2.
 
-- title: Experience
+- title: Syllabus
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Introduction and Applications
+      institution: January 11
+      year: Week 1
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - <a href="https://docs.google.com/presentation/d/1XMaZVpPpFRjFHDfBriO6z2p_RjBprwpWTKC-7bsHsWQ/edit?usp=sharing">Lecture Notes</a>
+        - Lecture Recording
+        - title: Suggested Reading
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Reading 1
+            - Reading 2
+    - title: Data Processing and Joins
+      institution: January 18
+      year: Week 2
       description:
         - Description 1.
         - Description 2.

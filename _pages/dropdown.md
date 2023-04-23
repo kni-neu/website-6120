@@ -5,9 +5,9 @@ nav: true
 nav_order: 6
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
+    - title: spring 2023
+      permalink: https://course.ccs.neu.edu/cs6220
     - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: fall 2023
+      permalink: /
 ---
