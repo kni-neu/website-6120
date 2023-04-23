@@ -1,32 +1,16 @@
-- title: Instructor / Lecturer
+- title: Grading Criterion
   type: map
   contents:
-    - name: Professor
-      value: Karl Ni
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
-- title: Teaching Assistant
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: Week 1
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - name: Labs & Participation
+      value: 10%
+    - name: Assignments
+      value: 20%
+    - name: Final Project
+      value: 20%
+    - name: Midterm Exam
+      value: 25%
+    - name: Final Exam
+      value: 25%
 
 - title: Syllabus
   type: time_table
@@ -61,25 +45,8 @@
       institution: University of Zurich, Zurich, Switzerland
       year: 1909 - 1911
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Data Mining Topics
   type: nested_list
   contents:
     - title: Topic 1.
@@ -91,7 +58,7 @@
         - Description 1.
         - Description 2.
 
-- title: Other Interests
+- title: Suggested Textbooks
   type: list
   contents:
     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
