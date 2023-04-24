@@ -1,28 +1,8 @@
-- title: Course Information
-  type: list
-  contents:
-    - <u>Description:</u> Data mining is a practical discipline that combines computer science, statistics, math, and optimization techniques to analyze data and gather valuable knowledge from it. This course is designed to study fundamental data mining concepts and provide hands-on experience with several methods. The students will develop a broad and deep background in data mining and crucial skills to solve practical data science challenges. Problems will involve the analysis of real databases coming from various fields, such as food science, astronomy, human resources, social sciences, and banking, among others. Students are expected to have previous knowledge in the Python programming language.
-    - <u>Outcomes>:</u> By the end of this course, you will be able to identify fundamental principles, techniques, and data mining applications. You will also apply computational and statistical methods to visualize, explore, and prepare data for posterior analysis. In addition, you will be able to translate real-life problems and frame them under supervised or unsupervised paradigms. Later you can apply different classification, prediction, or clustering approaches, where you will be able to evaluate them empirically and choose the best one with clear foundations.
-
-- title: Grading Criterion
-  type: map
-  contents:
-    - name: Labs & Participation
-      value: 10%
-    - name: Assignments
-      value: 20%
-    - name: Final Project
-      value: 20%
-    - name: Midterm Exam
-      value: 25%
-    - name: Final Exam
-      value: 25%
-
-- title: Syllabus
+- title: schedule
   type: time_table
   contents:
     - title: Introduction and Applications
-      institution: January 11
+      institution: September 12
       year: Week 1
       description:
         - <a href="https://docs.google.com/presentation/d/1XMaZVpPpFRjFHDfBriO6z2p_RjBprwpWTKC-7bsHsWQ/edit?usp=sharing">Lecture Notes</a>
@@ -31,14 +11,13 @@
           contents:
             - Reading 1
             - Reading 2
-    - title: Data Processing and Joins
-      institution: January 18
+    - title: Data processing and table join
+      institution: September 19
       year: Week 2
       description:
         - Description 1.
         - Description 2.
-
-    - title: Director
+    - title: Feature processing and dimensionality
       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
       year: 1917-1933
 
@@ -52,7 +31,22 @@
       year: 1909 - 1911
 
 
-- title: Data Mining Topics
+- title: grading criterion
+  type: map
+  contents:
+    - name: Labs & Participation
+      value: 10%
+    - name: Assignments
+      value: 20%
+    - name: Final Project
+      value: 20%
+    - name: Midterm Exam
+      value: 25%
+    - name: Final Exam
+      value: 25%
+
+
+- title: data mining topics
   type: nested_list
   contents:
     - title: Topic 1.
@@ -64,7 +58,7 @@
         - Description 1.
         - Description 2.
 
-- title: Suggested Textbooks
+- title: suggested textbooks
   type: list
   contents:
     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
