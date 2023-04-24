@@ -1,10 +1,10 @@
 ---
 layout: page
-title: yuanxun qin
-description: teaching assistant, san jose
+title: george ignatius
+description: staff applied scientist, etsy
 img: assets/img/3.jpg
 importance: 2
-category: staffing
+category: guest lecturer
 ---
 
 Every project has a beautiful feature showcase page.

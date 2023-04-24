@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome to class -- Introduction to Data Mining. Looking forward the semester!
-date: 2023-06-01 16:11:00-0400
+date: 2023-04-01 16:11:00-0400
 inline: false
 related_posts: false
 ---
@@ -16,6 +16,8 @@ Data mining is a practical discipline that combines computer science, statistics
 
 
 ***
+
+### Course Outcomes
 
 By the end of this course, you will be able to identify fundamental principles, techniques, and data mining applications. You will also apply computational and statistical methods to visualize, explore, and prepare data for posterior analysis. In addition, you will be able to translate real-life problems and frame them under supervised or unsupervised paradigms. Later you can apply different classification, prediction, or clustering approaches, where you will be able to evaluate them empirically and choose the best one with clear foundations.A simple inline announcement.
 

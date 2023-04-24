@@ -1,8 +1,8 @@
 ---
 layout: page
-title: professor
-description: a project with a background image
-img: assets/img/12.jpg
+title: karl ni
+description: professor
+img: https://pbs.twimg.com/profile_images/757076762236891136/ccrb9A3u_400x400.jpg
 importance: 1
 category: staffing
 ---

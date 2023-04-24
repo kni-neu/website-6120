@@ -1,7 +1,7 @@
 ---
 layout: page
-title: yuanxun qin
-description: teaching assistant, san jose
+title: rosie
+description: a dog who loves data and treats
 img: assets/img/3.jpg
 importance: 2
 category: staffing

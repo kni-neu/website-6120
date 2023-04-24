@@ -1,10 +1,10 @@
 ---
 layout: page
-title: yuanxun qin
-description: teaching assistant, san jose
-img: assets/img/3.jpg
+title: jamie wilcox
+description: senior data scientist, c.b. robinson
+img: https://yellowcrayon.github.io/images/NicePhoto2.png
 importance: 2
-category: staffing
+category: guest lecturer
 ---
 
 Every project has a beautiful feature showcase page.
