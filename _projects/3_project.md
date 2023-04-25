@@ -2,7 +2,7 @@
 layout: page
 title: rosie
 description: a dog who loves data and treats
-img: assets/img/3.jpg
+img: assets/img/rosie.jpg
 importance: 2
 category: staffing
 ---
