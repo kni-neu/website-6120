@@ -9,15 +9,16 @@
         - Lecture Recording
         - title: Suggested Reading
           contents:
-            - <a href="/homework-1" Reading 1
+            - <a href="/cs6220/data-mining/homework-1">Reading 1</a>
             - Reading 2
-    - title: Data processing and table join
+        - <a href="/cs6220/data-mining/homework-1">Assignment 1</a>
+    - title: Data processing and table joins
       institution: September 19
       year: Week 2
       description:
         - Description 1.
         - Description 2.
-    - title: Feature processing and dimensionality
+    - title: Feature processing and dimensionality reduction
       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
       year: 1917-1933
 
