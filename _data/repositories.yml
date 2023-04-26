@@ -30,10 +30,11 @@ github_users:
   - zhenghaos
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - JieUpup/BreastCancerProjectForData-Mining
+  - ahleung2/CS6220_final_project
+  - sbchengyiwei/Project_Data_Mining
+  - Charolf/cs6220-final-project
+  - EloiseZLY/lingyi_datamining_finalproject
+  - wyang10/CS6220-Data-Mining
+  - JamieTong/CS6220-Final-Project
+  - MomollyWang/ColorExtractor
