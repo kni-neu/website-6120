@@ -8,7 +8,37 @@ The original website source is [here](https://github.com/alshedivat/al-folio). I
   * `bundle install` to install fsevent
   * `./start-server.sh`
   * To install the environment:
-    * `apt-get install vim`
+    * `apt-get update`
+    * `apt-get install -y vim`
+    * `apt-get install -y git`
+    * `echo "alias clear='printf \"\\033c\"'" >> ~/.bashrc`, which will create the clear function in bash
+
+For python and other things in my Etsy machines, here are the Docker commands:
+
+```
+RUN \
+  apt-get update && \
+  apt-get -y upgrade && \
+  apt-get install -y build-essential && \
+  apt-get install -y software-properties-common && \
+  apt-get install -y byobu curl git htop man unzip vim wget && \
+  rm -rf /var/lib/apt/lists/*
+
+RUN \
+  apt update && \
+  apt install git && \
+  apt install python3 && \
+  apt install -y python3-pip && \
+  echo "alias pip=pip3" >> /root/.bashrc && \
+  echo "alias python=python3" >> /root/.bashrc
+
+RUN \
+  source /root/.bashrc && \
+  pip3 install numpy ipython
+```
+
+
+
 
 What was done:
 * Installed the fsevent gem in Gemfile
