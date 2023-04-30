@@ -1,3 +1,23 @@
+# Karl's Notes for Adapting Al-Folio
+
+The original website source is [here](https://github.com/alshedivat/al-folio). Initially, this cannot be donw with `docker-compose up` alone. So, the steps are:
+
+* `docker-compose up` to pull the image
+* Run `./start-docker.sh` to start the container and interact with shell. Then, inside the container:
+  * `cd home`
+  * `bundle install` to install fsevent
+  * `./start-server.sh`
+  * To install the environment:
+    * `apt-get install vim`
+
+What was done:
+* Installed the fsevent gem in Gemfile
+* add `force-pulling` to bundle command (and didn't use bundler)
+
+Port is 8080
+
+
+
 # al-folio
 
 The website is [here](https://github.com/alshedivat/al-folio)
