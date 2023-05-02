@@ -1,6 +1,6 @@
 ---
 layout: page
-title: yuanxun qin
+title: haoping lin
 description: teaching assistant, san jose
 img: assets/img/3.jpg
 importance: 2
