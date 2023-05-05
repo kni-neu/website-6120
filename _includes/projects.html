@@ -8,10 +8,19 @@
       {%- endif %}
       <div class="card hoverable">
         {%- if project.img %}
-        {%- include figure.html
-          path=project.img
-          alt="project thumbnail" 
-          height="320" -%}
+          {%- if project.category == "staffing" %}
+          {%- include figure.html
+            path=project.img
+            alt="project thumbnail" 
+            height="260"
+            max-width="100%" -%}
+          {%- else %}
+          {%- include figure.html
+            path=project.img
+            alt="project thumbnail" 
+            height="320"
+            max-width="100%" -%}
+          {%- endif %}
         {%- endif %}
         <div class="card-body">
           <h2 class="card-title text-lowercase">{{ project.title }}</h2>

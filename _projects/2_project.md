@@ -2,7 +2,7 @@
 layout: page
 title: haoping lin
 description: teaching assistant, san jose
-img: assets/img/3.jpg
+img: assets/img/haoping.jpeg
 importance: 2
 category: staffing
 ---
