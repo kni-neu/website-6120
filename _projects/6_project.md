@@ -1,8 +1,8 @@
 ---
 layout: page
 title: kyle zaragoza
-description: senior software engineer, google
-img: https://media.licdn.com/dms/image/C5603AQGaV2HwJMuqRA/profile-displayphoto-shrink_200_200/0/1580056735637?e=1687996800&v=beta&t=d2n1cnPUDoxXGjxGniSCGPdZnt089a6VfbiyAGpp66c
+description: sr. software engineer, google
+img: /assets/img/kyle-edit.jpg
 importance: 2
 category: guest lecturer
 ---
