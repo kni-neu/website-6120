@@ -1,7 +1,8 @@
 ---
 layout: page
 title: haoping lin
-description: teaching assistant, san jose
+description: teaching assistant
+office_hours: to be determined
 img: assets/img/haoping.jpeg
 importance: 2
 category: staffing

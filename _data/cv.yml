@@ -7,12 +7,17 @@
       description:
         - <a href="https://docs.google.com/presentation/d/187Dq0ctCx8zW_8G8lLbzc3D3xX_CcWCK">Lecture Notes</a>
         - Lecture Recording
+        - title: Topics
+          contents:
+            - A Course Overview
+            - Data Vocabulary
         - title: Suggested Reading
           contents:
             - <a href="/cs6220/data-mining/homework-1">Reading 1</a>
             - Reading 2
         - <a href="/cs6220/data-mining/homework-1">Assignment 1</a>
-    - title: Massive Data Processing
+
+    - title: Storing and Working with "Big" Data
       institution: September 19
       year: Week 2
       description:
@@ -20,18 +25,97 @@
           contents:
             - Distributed Filesystems and Storage
             - Introducing the MapReduce Paradigm
-    - title: Multiple Data Sources
+            - Distributed Computation
+
+    - title: Multiple Data Sources and Preprocessing
       institution: September 26
       year: Week 3
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: Week 4
       description:
+        - title: Topics
+          contents:
+            - The Multiple Places Where Data Lives
+            - Using MapReduce to Create Training Data
+            - Covariance, Correlation, and Cosine Similarity
+            - Dimensionality Reduction and Feature Selection
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
+    - title: Mining for Association Rules
+      institution: October 3
+      year: Week 4
+
+    - title: Mining for Anomalies
+      institution: October 10
       year: Week 5
+      description:
+        - title: Topics
+          contents:
+            - Introducing the Gaussian Distribution
+            - Parameter Estimation for Distributions
+            - Classifying Between Two Distributions
+            - Detecting Anomalies with Naive Bayes
+            - An Introduction to Naive Bayes Classification
+            - Evaluation Metrics and Expected Precision/Recall
+
+    - title: Mining Images
+      institution: October 17
+      year: Week 6
+      description:
+        - title: Topics
+          contents:
+            - Logistic Regression - A Precursor
+            - Deep Learning - A Historical Perspective
+            - Convolutional Neural Networks
+        - title: Laboratory
+          contents:
+            - Fine-tuning MNIST
+
+    - title: Mining Text
+      institution: October 24
+      year: Week 7
+      description:
+        - title: Topics
+          contents:
+            - Some Basic Approaches
+            - Semi-Supervised Learning
+            - The Concept of an Embedding Space
+            - The Attention Mechanism
+            - Large Language Models - From BERT to ChatGPT
+       
+
+    - title: No Instruction This Week
+      institution: October 31
+      year: Week 8
+
+    - title: Course Review
+      institution: November 7
+      year: Week 9
+
+    - title: Midterm Exam
+      institution: November 14
+      year: Week 10
+
+    - title: Mining Graphs and Social Networks
+      institution: November 21
+      year: Week 11
+
+    - title: Special Topics in Data Mining
+      institution: November 28
+      year: Week 12
+      description:
+        - title: Topics
+          contents:
+            - Recommendation Sciences
+            - Time Series Analysis
+            - Mining Structured Data
+
+    - title: Project Presentations
+      institution: December 5
+      year: Week 13
+
+    - title: Final Exams
+      institution: December 12
+      year: Week 14
+
+
 
 
 - title: grading criterion

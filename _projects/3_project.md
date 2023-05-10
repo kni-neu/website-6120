@@ -2,6 +2,7 @@
 layout: page
 title: rosie
 description: a dog who loves data and treats
+office_hours: non-napping hours
 img: assets/img/rosie-cropped.jpg
 importance: 2
 category: staffing
