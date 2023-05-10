@@ -11,10 +11,7 @@
           contents:
             - A Course Overview
             - Data Vocabulary
-        - title: Suggested Reading
-          contents:
-            - <a href="/cs6220/data-mining/homework-1">Reading 1</a>
-            - Reading 2
+        - <a href="http://infolab.stanford.edu/~ullman/mmds/ch1n.pdf">Suggested Reading</a>
         - <a href="/cs6220/data-mining/homework-1">Assignment 1</a>
 
     - title: Storing and Working with "Big" Data
@@ -64,8 +61,9 @@
             - Logistic Regression - A Precursor
             - Deep Learning - A Historical Perspective
             - Convolutional Neural Networks
-        - title: Laboratory
+        - title: In-Class Colabs
           contents:
+            - Logistic Regression
             - Fine-tuning MNIST
 
     - title: Mining Text
