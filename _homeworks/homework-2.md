@@ -11,8 +11,7 @@ horizontal: false
 #### accessing the assignment
 -----
 
-Accept the [classroom homework invitation](https://classroom.github.com/a/Kog9MCRN). Review the homework in this [pdf file](https://github
-.com/kni-neu/homework-2/blob/main/assignment2-questions.pdf).
+Accept the [classroom homework invitation](https://classroom.github.com/a/Kog9MCRN). Review the homework in this [pdf file](https://github.com/kni-neu/homework-2/blob/master/assignment2-questions.pdf).
 
 If Github Classrooms does not work for you, you can use [this template](https://github.com/kni-neu/homework-2) by
 
