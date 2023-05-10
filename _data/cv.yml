@@ -18,31 +18,50 @@
       institution: September 19
       year: Week 2
       description:
+        - Lecture Notes
+        - Lecture Recording
         - title: Topics
           contents:
             - Distributed Filesystems and Storage
             - Introducing the MapReduce Paradigm
             - Distributed Computation
+        - <a href="http://infolab.stanford.edu/~ullman/mmds/ch2.pdf">Suggested Reading</a>
+        - <a href="/cs6220/data-mining/homework-2">Assignment 2</a>
 
     - title: Multiple Data Sources and Preprocessing
       institution: September 26
       year: Week 3
       description:
+        - Lecture Notes
+        - Lecture Recording
         - title: Topics
           contents:
             - The Multiple Places Where Data Lives
             - Using MapReduce to Create Training Data
             - Covariance, Correlation, and Cosine Similarity
             - Dimensionality Reduction and Feature Selection
+        - <a href="http://infolab.stanford.edu/~ullman/mmds/ch2.pdf">Suggested Reading</a>
 
     - title: Mining for Association Rules
       institution: October 3
       year: Week 4
+      description:
+        - Lecture Notes
+        - Lecture Recording
+        - title: Topics
+          contents:
+            - Definitions of Frequent Itemsets
+            - Determining Frequent Itemsets
+            - Creating Association Rules
+        - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch5_association_analysis.pdf">Suggested Reading</a>
+        - Assignment 3
 
     - title: Mining for Anomalies
       institution: October 10
       year: Week 5
       description:
+        - Lecture Notes
+        - Lecture Recording
         - title: Topics
           contents:
             - Introducing the Gaussian Distribution
@@ -51,6 +70,7 @@
             - Detecting Anomalies with Naive Bayes
             - An Introduction to Naive Bayes Classification
             - Evaluation Metrics and Expected Precision/Recall
+        - Suggested Reading
 
     - title: Mining Images
       institution: October 17
@@ -65,6 +85,8 @@
           contents:
             - Logistic Regression
             - Fine-tuning MNIST
+        - Suggested Reading
+        - Assignment 4
 
     - title: Mining Text
       institution: October 24
@@ -77,6 +99,7 @@
             - The Concept of an Embedding Space
             - The Attention Mechanism
             - Large Language Models - From BERT to ChatGPT
+        - Suggested Reading
        
 
     - title: No Instruction This Week
@@ -86,6 +109,20 @@
     - title: Course Review
       institution: November 7
       year: Week 9
+      description:
+        - Lecture Notes
+        - Lecture Recording
+        - title: Topics
+          contents:
+            - Linear Algebra Review
+            - MapReduce Problems
+            - Principle Component Analysis
+            - Association Rule Mining
+            - Parameter Estimation
+            - Unsupervised Clustering
+            - Bayesian Framework
+            - Supervised Logistic Regression
+        - Assignment 5 - Project Proposals
 
     - title: Midterm Exam
       institution: November 14
@@ -94,16 +131,26 @@
     - title: Mining Graphs and Social Networks
       institution: November 21
       year: Week 11
+      description:
+        - Lecture Notes
+        - Lecture Recording
+        - title: Topics
+          contents:
+            - Some Basic Approaches
+        - Suggested Reading
 
     - title: Special Topics in Data Mining
       institution: November 28
       year: Week 12
       description:
+        - Lecture Notes
+        - Lecture Recording
         - title: Topics
           contents:
             - Recommendation Sciences
             - Time Series Analysis
             - Mining Structured Data
+        - Suggested Readings
 
     - title: Project Presentations
       institution: December 5
