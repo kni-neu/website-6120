@@ -84,6 +84,7 @@
             - Logistic Regression - A Precursor
             - Deep Learning - A Historical Perspective
             - Convolutional Neural Networks
+            - Batch Data Processing
         - title: In-Class Colabs
           contents:
             - Logistic Regression
@@ -181,19 +182,20 @@
       value: 25%
 
 
-- title: data mining topics
+- title: course meeting times
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Lectures
       items: 
-        - Description 1.
+        - "Tues, 6pm-9:20pm"
         - Description 2.
-    - title: Topic 2.
+    - title: Office Hours
       items:
-        - Description 1.
-        - Description 2.
+        - "Professor, Thurs, 8:30-9:30pm"
+        - "TA, Date/Time TBD"
 
 - title: suggested textbooks
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/index.php">Introduction to Data Mining, 2nd Edition</a> Pang-Ning Tan, Michael Steinbach, Anuj Karpatne, Vipin Kumar, 2018 
+    - <a href="http://www.mmds.org">Mining of Massive Data Sets, 3rd Edition</a> Jure Leskovec, Anand Rajaraman, and Jeff Ullman, 2014
