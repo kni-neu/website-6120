@@ -14,7 +14,6 @@ Welcome to CS6220! It's nice to meet you. You can find my academic and commerica
 
 <br>
 <br>
-Feel free to catch me on social media:
 
 <div class="social">
   <div class="contact-icons">
