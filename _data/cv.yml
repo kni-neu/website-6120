@@ -25,7 +25,7 @@
             - Distributed Filesystems and Storage
             - Introducing the MapReduce Paradigm
             - Distributed Computation
-        - <a href="http://infolab.stanford.edu/~ullman/mmds/ch2.pdf">Suggested Reading</a>
+        - <a href="http://infolab.stanford.edu/~ullman/mmds/ch2.pdf">Suggested Reading - Chapter 2, Sections 2.1-2.4</a>
         - <a href="/cs6220/data-mining/homework-2">Assignment 2</a>
 
     - title: Preprocessing and Evaluating Your Algorithms
@@ -42,7 +42,7 @@
             - Dimensionality Reduction and Feature Selection
         - title: Suggested Reading
           contents:
-            - <a href="http://infolab.stanford.edu/~ullman/mmds/ch2.pdf">Map Reduce, Section X</a>
+            - <a href="http://infolab.stanford.edu/~ullman/mmds/ch2.pdf">Map Reduce, Sections 2.5-2.7</a>
             - <a href="https://files.eric.ed.gov/fulltext/EJ1115277.pdf">Evaluation Metrics</a>
 
     - title: Mining for Association Rules
