@@ -12,7 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>homework 1 | Data Mining  CS 6220</title>
     <meta name="author" content="Data Mining  CS 6220">
-    <meta name="description" content="setup and review">
+    <meta name="description" content="review and data exploration">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -115,8 +115,13 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">homework 1</h1>
-            <p class="post-description">setup and review</p>
+            <h1 class="post-title">homework 1
+		<!-- Added a PDF to the header -->
+		
+		   <a href="/cs6220/data-mining/assets/pdf/assignment-1.pdf" target="_blank" rel="noopener noreferrer" class="float-right">
+			   <i class="fas fa-file-pdf"></i></a>
+	    </h1>
+            <p class="post-description">review and data exploration</p>
           </header>
 
           <article>
@@ -124,43 +129,52 @@
 <h3 id="getting-started-with-data">getting started with data</h3>
 <hr>
 
-<p>Accept the <a href="https://classroom.github.com/" rel="external nofollow noopener" target="_blank">classroom homework invitation</a>. Please review the homework in this <a href="https://github.com/kni-neu/homework-3/blob/master/assignment3-questions.pdf" rel="external nofollow noopener" target="_blank">pdf file</a>. Remember that reading resources can be found on Canvas under the schedule in Syllabus.</p>
-
-<p>If Github Classrooms does not work for you, you can use <a href="https://github.com/kni-neu/homework-3" rel="external nofollow noopener" target="_blank">this Github template</a> to start your repository by</p>
-
-<ol>
-  <li>clicking <strong>Use this template</strong>
-</li>
-  <li>creating a new repository, and</li>
-  <li>making it visible to <strong>kni-neu</strong>, <strong>nkumeh</strong>, and <strong>pratyaksh64</strong>.</li>
-</ol>
+<p>Accept the <a href="https://classroom.github.com/" rel="external nofollow noopener" target="_blank">classroom homework invitation</a>. Please review the homework in this <a href="/cs6220/data-mining//assets/pdf/assignment-1.pdf">pdf file</a>. Remember that reading resources can be found in the <a href="/cs6220/data-mining//syllabus">syllabus</a>.</p>
 
 <hr>
 <h3 id="data-and-starter-kit">data and starter kit</h3>
 <hr>
 
-<p>You will need <a href="./data">the data</a>. If you are using Colab (not required), you would need a Google account.</p>
+<p>You will need <a href="https://course.ccs.neu.edu/cs6220/fall2023/homework-1/">the data</a> for the review portion and <a href="https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data" rel="external nofollow noopener" target="_blank">netflix data</a> for the exploration portion.</p>
 
-<p><img src="https://assets3.thrillist.com/v1/image/2677184/792x528/scale;webp=auto;jpeg_quality=60.jpg" alt="">
-<br>
+<center>
+<img src="https://assets3.thrillist.com/v1/image/2677184/792x528/scale;webp=auto;jpeg_quality=60.jpg" width="500" height="auto">
+</center>
+<p><br>
 <br></p>
 
 <p>Here are the starter kits that you might find useful.</p>
 
 <ul>
   <li>
-    <p>Document templates can be either <a href="https://github.com/kni-neu/homework-3/blob/master/assignment3-questions.tex" rel="external nofollow noopener" target="_blank">LaTeX File</a> or <a href="https://docs.google.com/document/d/1Q8fpJo-gF_L0_TwUdw5E7x7faOAStK4n" rel="external nofollow noopener" target="_blank">DOCX File</a>. When you’ve compiled/finished writing, <strong>download the PDF</strong> from Overleaf/Google and upload it to the submission link.</p>
+    <p>Document templates can be either <a href="https://www.overleaf.com/read/gbwryydmdjhv" rel="external nofollow noopener" target="_blank">LaTeX File</a> or <a href="https://docs.google.com/document/d/1Q8fpJo-gF_L0_TwUdw5E7x7faOAStK4n" rel="external nofollow noopener" target="_blank">DOCX File</a>. When you’ve compiled/finished writing, <strong>download the PDF</strong> from Overleaf/Google and upload it to the submission link.</p>
   </li>
   <li>
-    <p>To help you get started, you may find that this <a href="./">Colaboratory Link</a> is useful. In order to submit, you’ll need to Download the file as a <code class="language-plaintext highlighter-rouge">*.ipynb</code> file (Under <strong>File</strong> → <strong>Download</strong> → <strong>Download .ipynb</strong>.)</p>
+    <p>You may find <a href="http://colab.research.google.com" rel="external nofollow noopener" target="_blank">Colaboratory</a> useful, which you can subsequently download the file as a <code class="language-plaintext highlighter-rouge">*.ipynb</code> file (Under <strong>File</strong> → <strong>Download</strong> → <strong>Download .ipynb</strong>.)</p>
+  </li>
+  <li>
+    <p>You can use any repository system to submit code as long as there is an online link to it. The standard way is to use Github, but you can have a sharepoint folder too as long as it’s clear what each individual file is.</p>
   </li>
 </ul>
 
 <hr>
-<h4 id="submission-instructions">Submission Instructions</h4>
+<h4 id="submission-instructions">submission instructions</h4>
 <hr>
 
-<p>Commit your <code class="language-plaintext highlighter-rouge">*.py</code> or <code class="language-plaintext highlighter-rouge">*.ipynb</code> (either is fine), output files (<code class="language-plaintext highlighter-rouge">publishers_no_titles.txt</code> and <code class="language-plaintext highlighter-rouge">titles_no_publishers.txt</code>), and <code class="language-plaintext highlighter-rouge">assignment3.pdf</code> to that repository and provide the URL via <a href="https://www.gradescope.com/courses/494275" rel="external nofollow noopener" target="_blank">Gradescope</a>.</p>
+<p>Commit all your code to your repository, and submit via <a href="https://www.gradescope.com/courses/494275" rel="external nofollow noopener" target="_blank">Gradescope</a>. There, you will upload your PDF and provide the link to your repository, which should have all the code that you used to generate your solutions.</p>
+
+<p><br><br><br></p>
+<hr style="border:2px solid gray">
+
+<h4 id="project-checkpoint">project checkpoint</h4>
+<hr>
+
+<p>Each week, there will be a checkpoint for you project so that you are on track to turn in the project at the end of the semester. This week</p>
+
+<ul>
+  <li>Start surveying the available data (preferably <em>outside</em> of Kaggle).</li>
+  <li>Start introducing yourself to your classmates and seeing whether or not you’d like to form a team</li>
+</ul>
 
 
           </article>
