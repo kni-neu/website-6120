@@ -8,7 +8,7 @@ hw_pdf: assignment-1.pdf
 horizontal: false
 ---
 
-------
+<hr style="border:2px solid gray">
 ### getting started with data
 -----
 
