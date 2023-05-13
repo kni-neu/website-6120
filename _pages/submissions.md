@@ -1,7 +1,7 @@
 ---
 layout: submissions
 permalink: /submissions/
-title: submissions
+title: homeworks
 nav: true
 nav_order: 2
 ---

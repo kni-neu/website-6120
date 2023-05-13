@@ -5,6 +5,8 @@ permalink: /homework-2/
 description: map reduce and data analysis
 nav: true
 hw_pdf: assignment-2.pdf
+assigned: september 19
+due_date: october 3
 horizontal: false
 ---
 
