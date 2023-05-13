@@ -2,8 +2,9 @@
 layout: page
 title: homework 1
 permalink: /homework-1/
-description: setup and review
+description: review and data exploration
 nav: true
+hw_pdf: assignment-1.pdf
 horizontal: false
 ---
 
@@ -11,34 +12,41 @@ horizontal: false
 ### getting started with data
 -----
 
-Accept the [classroom homework invitation](https://classroom.github.com/). Please review the homework in this [pdf file](https://github.com/kni-neu/homework-3/blob/master/assignment3-questions.pdf). Remember that reading resources can be found on Canvas under the schedule in Syllabus.
-
-If Github Classrooms does not work for you, you can use [this Github template](https://github.com/kni-neu/homework-3) to start your repository by
-
-1. clicking **Use this template**
-2. creating a new repository, and
-3. making it visible to **kni-neu**, **nkumeh**, and **pratyaksh64**.
+Accept the [classroom homework invitation](https://classroom.github.com/). Please review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-1.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
 
 -----
 ### data and starter kit
 -----
 
-You will need [the data](./data). If you are using Colab (not required), you would need a Google account.
+You will need [the data](https://course.ccs.neu.edu/cs6220/fall2023/homework-1/) for the review portion and [netflix data](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data) for the exploration portion.
 
-![](https://assets3.thrillist.com/v1/image/2677184/792x528/scale;webp=auto;jpeg_quality=60.jpg)
+<center>
+<img src="https://assets3.thrillist.com/v1/image/2677184/792x528/scale;webp=auto;jpeg_quality=60.jpg" width="500" height="auto">
+</center>
 <br>
 <br>
 
 Here are the starter kits that you might find useful.
 
-* Document templates can be either [LaTeX File](https://github.com/kni-neu/homework-3/blob/master/assignment3-questions.tex) or [DOCX File](https://docs.google.com/document/d/1Q8fpJo-gF_L0_TwUdw5E7x7faOAStK4n). When you've compiled/finished writing, **download the PDF** from Overleaf/Google and upload it to the submission link.
+* Document templates can be either [LaTeX File](https://www.overleaf.com/read/gbwryydmdjhv) or [DOCX File](https://docs.google.com/document/d/1Q8fpJo-gF_L0_TwUdw5E7x7faOAStK4n). When you've compiled/finished writing, **download the PDF** from Overleaf/Google and upload it to the submission link.
 
-* To help you get started, you may find that this [Colaboratory Link](./) is useful. In order to submit, you'll need to Download the file as a `*.ipynb` file (Under **File** &rarr; **Download** &rarr; **Download .ipynb**.)
+* You may find [Colaboratory](http://colab.research.google.com) useful, which you can subsequently download the file as a `*.ipynb` file (Under **File** &rarr; **Download** &rarr; **Download .ipynb**.)
+
+* You can use any repository system to submit code as long as there is an online link to it. The standard way is to use Github, but you can have a sharepoint folder too as long as it's clear what each individual file is.
 
 -----
-#### Submission Instructions
+#### submission instructions
 -----
 
-Commit your `*.py` or `*.ipynb` (either is fine), output files (`publishers_no_titles.txt` and `titles_no_publishers.txt`), and `assignment3.pdf` to that repository and provide the URL via [Gradescope](https://www.gradescope.com/courses/494275).
+Commit all your code to your repository, and submit via [Gradescope](https://www.gradescope.com/courses/494275). There, you will upload your PDF and provide the link to your repository, which should have all the code that you used to generate your solutions.
 
+<br><br><br>
+<hr style="border:2px solid gray">
+#### project checkpoint
+-----
+
+Each week, there will be a checkpoint for you project so that you are on track to turn in the project at the end of the semester. This week
+
+* Start surveying the available data (preferably *outside* of Kaggle).
+* Start introducing yourself to your classmates and seeing whether or not you'd like to form a team
 
