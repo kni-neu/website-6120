@@ -22,6 +22,13 @@ Accept the [classroom homework invitation](https://classroom.github.com/a/Kog9MC
 
 You will need [the data](https://course.ccs.neu.edu/cs6220/fall2023/homework-2/). If you are using Colabs (not a requirement), you would need a Google account.
 
+<center>
+<img 
+  src="https://thehubbackend.com/media/49573-0_QxsWlMTDGmTebavF.jpg"
+  width="500" height="auto">
+</center>
+<br>
+
 Here are the starter kits that you might find useful.
 
 * Document templates can be either [Overleaf TeX File](https://www.overleaf.com/read/zfwcfsbbgtxj) or [DOCX File](https://docs.google.com/
