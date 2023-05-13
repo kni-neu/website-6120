@@ -1,0 +1,201 @@
+- title: homeworks
+  type: time_table
+  contents:
+    - title: Introduction and Applications
+      institution: September 12
+      year: Week 1
+      description:
+        - <a href="https://docs.google.com/presentation/d/187Dq0ctCx8zW_8G8lLbzc3D3xX_CcWCK">Lecture Notes</a>
+        - Lecture Recording
+        - title: Topics
+          contents:
+            - A Course Overview
+            - Data Vocabulary
+        - <a href="http://infolab.stanford.edu/~ullman/mmds/ch1n.pdf">Suggested Reading</a>
+        - <a href="/cs6220/data-mining/homework-1">Assignment 1</a>
+
+    - title: Exploring, Storing, and Working with "Big" Data
+      institution: September 19
+      year: Week 2
+      description:
+        - Lecture Notes
+        - Lecture Recording
+        - title: Topics
+          contents:
+            - Distributed Filesystems and Storage
+            - Introducing the MapReduce Paradigm
+            - Distributed Computation
+        - <a href="http://infolab.stanford.edu/~ullman/mmds/ch2.pdf">Suggested Reading</a>
+        - <a href="/cs6220/data-mining/homework-2">Assignment 2</a>
+
+    - title: Preprocessing and Evaluating Your Algorithms
+      institution: September 26
+      year: Week 3
+      description:
+        - Lecture Notes
+        - Lecture Recording
+        - title: Topics
+          contents:
+            - The Multiple Places Where Data Lives & Multi-source Joins
+            - Using MapReduce to Create Training Data
+            - Covariance, Correlation, and Cosine Similarity
+            - Dimensionality Reduction and Feature Selection
+        - title: Suggested Reading
+          contents:
+            - <a href="http://infolab.stanford.edu/~ullman/mmds/ch2.pdf">Map Reduce, Section X</a>
+            - <a href="https://files.eric.ed.gov/fulltext/EJ1115277.pdf">Evaluation Metrics</a>
+
+    - title: Mining for Association Rules
+      institution: October 3
+      year: Week 4
+      description:
+        - Lecture Notes
+        - Lecture Recording
+        - title: Topics
+          contents:
+            - Definitions of Frequent Itemsets
+            - Determining Frequent Itemsets
+            - Creating Association Rules
+        - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch5_association_analysis.pdf">Suggested Reading</a>
+        - Assignment 3
+
+    - title: Mining for Anomalies
+      institution: October 10
+      year: Week 5
+      description:
+        - Lecture Notes
+        - Lecture Recording
+        - title: Topics
+          contents:
+            - Introducing the Gaussian Distribution
+            - Parameter Estimation for Distributions
+            - Classifying Between Two Distributions
+            - Detecting Anomalies with Naive Bayes
+            - An Introduction to Naive Bayes Classification
+            - Evaluation Metrics and Expected Precision/Recall
+        - Suggested Reading
+
+    - title: Mining Images
+      institution: October 17
+      year: Week 6
+      description:
+        - title: Topics
+          contents:
+            - Logistic Regression - A Precursor
+            - Deep Learning - A Historical Perspective
+            - Convolutional Neural Networks
+            - Batch Data Processing
+        - title: In-Class Colabs
+          contents:
+            - Logistic Regression
+            - Fine-tuning MNIST
+        - Suggested Reading
+        - Assignment 4
+
+    - title: Mining Text
+      institution: October 24
+      year: Week 7
+      description:
+        - title: Topics
+          contents:
+            - Some Basic Approaches
+            - Semi-Supervised Learning
+            - The Concept of an Embedding Space
+            - The Attention Mechanism
+            - Large Language Models - From BERT to ChatGPT
+        - Suggested Reading
+       
+
+    - title: No Instruction This Week
+      institution: October 31
+      year: Week 8
+
+    - title: Course Review
+      institution: November 7
+      year: Week 9
+      description:
+        - Lecture Notes
+        - Lecture Recording
+        - title: Topics
+          contents:
+            - Linear Algebra Review
+            - MapReduce Problems
+            - Principle Component Analysis
+            - Association Rule Mining
+            - Parameter Estimation
+            - Unsupervised Clustering
+            - Bayesian Framework
+            - Supervised Logistic Regression
+        - Assignment 5 - Project Proposals
+
+    - title: Midterm Exam
+      institution: November 14
+      year: Week 10
+
+    - title: Mining Graphs and Social Networks
+      institution: November 21
+      year: Week 11
+      description:
+        - Lecture Notes
+        - Lecture Recording
+        - title: Topics
+          contents:
+            - Some Basic Approaches
+        - Suggested Reading
+
+    - title: Special Topics in Data Mining
+      institution: November 28
+      year: Week 12
+      description:
+        - Lecture Notes
+        - Lecture Recording
+        - title: Topics
+          contents:
+            - Recommendation Sciences
+            - Time Series Analysis
+            - Mining Structured Data
+        - Suggested Readings
+
+    - title: Project Presentations
+      institution: December 5
+      year: Week 13
+
+    - title: Final Exams
+      institution: December 12
+      year: Week 14
+
+
+
+
+- title: grading criterion
+  type: timetable
+  contents:
+    - name: Labs & Participation
+      value: 10%
+    - name: Assignments
+      value: 20%
+    - name: Final Project
+      value: 20%
+    - name: Midterm Exam
+      value: 25%
+    - name: Final Exam
+      value: 25%
+
+
+- title: course meeting times
+  type: nested_list
+  contents:
+    - title: Lectures
+      items: 
+        - "Tues, 6pm-9:20pm"
+        - Room TBD
+    - title: Office Hours
+      items:
+        - "Professor, Thurs, 8:30-9:30pm"
+        - "TA, Date/Time TBD"
+
+- title: suggested textbooks
+  type: list
+  contents:
+    - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/index.php">Introduction to Data Mining, 2nd Edition</a> Pang-Ning Tan, Michael Steinbach, Anuj Karpatne, Vipin Kumar, 2018 
+    - <a href="http://www.mmds.org">Mining of Massive Data Sets, 3rd Edition</a> Jure Leskovec, Anand Rajaraman, and Jeff Ullman, 2014
