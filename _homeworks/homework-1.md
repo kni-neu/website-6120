@@ -32,7 +32,15 @@ Here are the starter kits that you might find useful.
 
 * Document templates can be either [LaTeX File](https://www.overleaf.com/read/gbwryydmdjhv) or [DOCX File](https://docs.google.com/document/d/1Q8fpJo-gF_L0_TwUdw5E7x7faOAStK4n). When you've compiled/finished writing, **download the PDF** from Overleaf/Google and upload it to the submission link.
 
-* You may find [Colaboratory](http://colab.research.google.com) useful, which you can subsequently download the file as a `*.ipynb` file (Under **File** &rarr; **Download** &rarr; **Download .ipynb**.)
+* You may find [Colaboratory](http://colab.research.google.com) useful, which you can subsequently download the file as a `*.ipynb` file (Under **File** &rarr; **Download** &rarr; **Download .ipynb**.) In Colab, you can download the data with 
+
+  ```
+  !wget https://course.ccs.neu.edu/cs6220/fall2023/homework-1/netflix-data/movie_titles.csv
+  !wget https://course.ccs.neu.edu/cs6220/fall2023/homework-1/netflix-data/combined_data_1.txt
+  !wget https://course.ccs.neu.edu/cs6220/fall2023/homework-1/netflix-data/combined_data_2.txt
+  !wget https://course.ccs.neu.edu/cs6220/fall2023/homework-1/netflix-data/combined_data_3.txt
+  !wget https://course.ccs.neu.edu/cs6220/fall2023/homework-1/netflix-data/combined_data_4.txt
+  ```
 
 * You can use any repository system to submit code as long as there is an online link to it. The standard way is to use Github, but you can have a sharepoint folder too as long as it's clear what each individual file is.
 

@@ -1,9 +1,10 @@
 ---
 layout: page
-title: homework 2
-permalink: /homework-2/
-description: map reduce and data analysis
+title: project presentation
+permalink: /project-presentation/
+description: Present your work.
 nav: true
+nav_order: 1
 hw_pdf: assignment-2.pdf
 assigned: september 19
 due_date: october 3

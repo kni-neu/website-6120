@@ -176,6 +176,9 @@ collections:
   homeworks:
     output: true
     permalink: /homeworks/:path/
+  project:
+    output: true
+    permalink: /project/:path/
 
 news:
   enabled: true

@@ -1,12 +1,12 @@
 ---
 layout: page
-title: homework 2
-permalink: /homework-2/
-description: map reduce and data analysis
+title: homework 3
+permalink: /homework-3/
+description: parameter estimation and the bayesian framework
 nav: true
 hw_pdf: assignment-2.pdf
-assigned: september 19
-due_date: october 3
+assigned: october 3
+due_date: october 17
 horizontal: false
 ---
 

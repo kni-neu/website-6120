@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<!-- _layouts/cv.html -->
+<!-- _layouts/submissions.html -->
 
         <div class="post">
 
@@ -10,6 +10,7 @@ layout: default
             <p class="post-description">{{ page.description }}</p>
           </header>
 
+	  <h2>your homeworks</h2>
           <article>
             <div class="cv">
 
@@ -27,8 +28,38 @@ layout: default
 
                   <div>
 		      <ul class="card-text font-weight-light list-group list-group-flush">
+			<li class="list-group-item"> {{ homework.description }} </li>
 		 	<li class="list-group-item"><strong> assigned:</strong> {{ homework.assigned }}</li>
 			<li class="list-group-item"><strong> due date:</strong> {{ homework.due_date }}</li>
+		      </ul>
+                  </div>
+                </div>
+              {% endfor %}
+              </div>
+          </article>
+
+	  <br>
+	  <br>
+	  <h2>your project</h2>
+          <article>
+            <div class="cv">
+
+              {% for project in site.project %}
+
+                <div class="card mt-3 p-3">
+		  <h3 class="card-title font-weight-medium"><a href="{{ project.url | relative_url }}"> {{ project.title }}</a>
+		  {% if project.hw_pdf %}
+		  <a href="{{ project.hw_pdf | prepend: 'assets/pdf/' | relative_url}}"
+				  target="_blank" rel="noopener noreferrer" class="float-right">
+				  <i class="fas fa-file-pdf">
+				  </i>
+		  {% endif %}
+		  </h3>
+
+                  <div>
+		      <ul class="card-text font-weight-light list-group list-group-flush">
+		 	<li class="list-group-item"><strong> assigned:</strong> {{ project.assigned }}</li>
+			<li class="list-group-item"><strong> due date:</strong> {{ project.due_date }}</li>
 		      </ul>
                   </div>
                 </div>
