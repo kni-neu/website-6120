@@ -59,7 +59,7 @@
         - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch5_association_analysis.pdf">Suggested Reading</a>
         - Assignment 3
 
-    - title: Mining for Anomalies
+    - title: Mining Data without Labels
       institution: October 10
       year: Week 5
       description:
@@ -69,22 +69,24 @@
           contents:
             - Introducing the Gaussian Distribution
             - Parameter Estimation for Distributions
-            - Classifying Between Two Distributions
             - Detecting Anomalies with Naive Bayes
-            - An Introduction to Naive Bayes Classification
+            - Unsupervised Modeling with k-Means and Clustering
             - Evaluation Metrics and Expected Precision/Recall
         - Suggested Reading
 
-    - title: Mining Images
+    - title: Mining Structured Data and Images
       institution: October 17
       year: Week 6
       description:
         - title: Topics
           contents:
-            - Logistic Regression - A Precursor
+            - An Introduction to Naive Bayes Classification
+            - The Bayesian Framework - Posterior Probabilities
+            - Logistic Regression - A Precursor to AI Innovation
             - Deep Learning - A Historical Perspective
             - Convolutional Neural Networks
             - Batch Data Processing
+            - Evaluation Metrics and Expected Precision / Recall
         - title: In-Class Colabs
           contents:
             - Logistic Regression
