@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: syllabus
 permalink: /syllabus/
 title: syllabus
 nav: true
