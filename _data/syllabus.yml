@@ -26,7 +26,10 @@
             - Introducing the MapReduce Paradigm
             - Distributed Computation
         - <a href="http://infolab.stanford.edu/~ullman/mmds/ch2.pdf">Suggested Reading - Chapter 2, Sections 2.1-2.4</a>
-        - <a href="/cs6220/data-mining/homework-2">Assignment 2</a>
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+            - <a href="http://gradescope.com">Assignment 1 is <b>due</b></a>
+            - <a href="/cs6220/data-mining/homework-2">Assignment 2</a>
 
     - title: Preprocessing and Evaluating Your Algorithms
       institution: September 26
@@ -57,7 +60,10 @@
             - Determining Frequent Itemsets
             - Creating Association Rules
         - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch5_association_analysis.pdf">Suggested Reading</a>
-        - Assignment 3
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+            - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
+            - Assignment 3
 
     - title: Mining Data without Labels
       institution: October 10
@@ -92,7 +98,10 @@
             - Logistic Regression
             - Fine-tuning MNIST
         - Suggested Reading
-        - Assignment 4
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+          - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
+          - Assignment 4
 
     - title: Mining Text
       institution: October 24
@@ -112,12 +121,10 @@
       institution: October 31
       year: Week 8
 
-    - title: Course Review
+    - title: Midterm Exam
       institution: November 7
       year: Week 9
       description:
-        - Lecture Notes
-        - Lecture Recording
         - title: Topics
           contents:
             - Linear Algebra Review
