@@ -1,0 +1,21 @@
+- title: week 2 colabs
+  type: time_table
+  contents:
+    - title: Homework 1 Assignment Review
+      institution: Python and Dynamic Programming
+      year: Review
+    - title: Counting Shakespeare's Words
+      institution: Basic Spark and RDD's
+      year: In-Class
+    - title: Setup for Homework 2 - PySpark
+      institution: Spark Data Ingestion
+      year: Homework
+
+- title: week 3 colabs
+  type: time_table
+  contents:
+    - title: Some More Practice with PySpark and MapReduce
+      institution: Spark Joins and RDD's
+      year: In-Class
+
+
