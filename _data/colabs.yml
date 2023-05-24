@@ -4,12 +4,15 @@
     - title: Homework 1 Assignment Review
       institution: Python and Dynamic Programming
       year: Review
+      colab_link: https://colab.research.google.com/drive/118KuzlyghGwFFSIpJGxe4P-F8LYSPT01
     - title: Counting Shakespeare's Words
       institution: Basic Spark and RDD's
       year: In-Class
+      colab_link: https://colab.research.google.com/drive/1tXmlcGWm0SXmOn9AJEIVRfXj4yULjoZl
     - title: Setup for Homework 2 - PySpark
       institution: Spark Data Ingestion
-      year: Homework
+      year: Setup
+      colab_link: https://colab.research.google.com/drive/1dAqxrOEqrvlqhCJ2jwKX4UrDlNNACWC7
 
 - title: week 3 colabs
   type: time_table
