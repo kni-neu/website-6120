@@ -4,7 +4,7 @@ title: homework 3
 permalink: /homework-3/
 description: dimensionality reduction and market basket analysis
 nav: true
-hw_pdf: assignment-2.pdf
+hw_pdf: assignment-3.pdf
 assigned: october 3
 due_date: october 17
 horizontal: false
@@ -24,7 +24,7 @@ You will need [the data](https://course.ccs.neu.edu/cs6220/fall2023/homework-3/)
 
 <center>
 <img 
-  src="https://thehubbackend.com/media/49573-0_QxsWlMTDGmTebavF.jpg"
+  src="https://wineinternationalassociation.org/wp-content/uploads/2020/12/18523855_l.jpg"
   width="500" height="auto">
 </center>
 <br>
