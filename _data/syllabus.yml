@@ -101,7 +101,7 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
           - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
-          - Assignment 4
+          - <a href="/cs6220/data-mining/homework-2">Assignment 4</a>
 
     - title: Mining Text
       institution: October 24
@@ -120,6 +120,11 @@
     - title: No Instruction This Week
       institution: October 31
       year: Week 8
+      description:
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+            - <a href="http://gradescope.com">Assignment 4 is <b>due</b></a>
+            - <a href="/cs6220/data-mining/homework-2">Assignment 5</a>
 
     - title: Midterm Exam
       institution: November 7
@@ -151,6 +156,10 @@
           contents:
             - Some Basic Approaches
         - Suggested Reading
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+            - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
+            - <a href="/cs6220/data-mining/homework-2">Assignment 6</a>
 
     - title: Special Topics in Data Mining
       institution: November 28
@@ -168,6 +177,11 @@
     - title: Project Presentations
       institution: December 5
       year: Week 13
+      description:
+        - Lecture Notes
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+            - <a href="http://gradescope.com">Project slides and writeup are <b>due</b></a>
 
     - title: Final Exams
       institution: December 12

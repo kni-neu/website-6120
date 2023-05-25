@@ -1,12 +1,12 @@
 ---
 layout: page
-title: homework 3
-permalink: /homework-3/
-description: dimensionality reduction, parameter estimation, and market basket analysis
+title: homework 4
+permalink: /homework-4/
+description: parameter estimation and bayes rule
 nav: true
 hw_pdf: assignment-2.pdf
-assigned: october 3
-due_date: october 17
+assigned: october 17
+due_date: october 31
 horizontal: false
 ---
 
