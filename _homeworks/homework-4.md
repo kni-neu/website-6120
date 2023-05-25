@@ -31,11 +31,11 @@ You will need [the data](https://course.ccs.neu.edu/cs6220/fall2023/homework-3/)
 
 Here are the starter kits that you might find useful.
 
+* [Here are some mathematical properties](https://docs.google.com/presentation/d/1zy2veJEjDT-0acPbGsrEC93EP0MOZIx54jL-gA7wPqE) that will help you in derivations.
+
 * Document templates can be either [Overleaf TeX File](https://www.overleaf.com/read/zfwcfsbbgtxj) or [DOCX File](https://docs.google.com/
 document/d/1qXipr5Ko2Xpf71GbLzEZXa9khB5w4O2B/edit?usp=sharing&ouid=117230435864186314036&rtpof=true&sd=true). When you've compiled/finishe
 d writing, **download the PDF** from Overleaf/Google and upload it to the submission link. 
-
-* Upload your processed `output.txt` file in the specified format in the [homework questions](./assignment2-questions.pdf). 
 
 * To help you get started, you may find that this [Colaboratory Link](https://colab.research.google.com/drive/1dAqxrOEqrvlqhCJ2jwKX4UrDlNNACWC7?usp=sharing) is useful. In order to submit, you'll need to Download the file as a `*.ipynb` file (Under **File** &rarr; **Download** &rarr; **Download .ipynb**.)
 

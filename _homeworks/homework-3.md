@@ -2,7 +2,7 @@
 layout: page
 title: homework 3
 permalink: /homework-3/
-description: dimensionality reduction, parameter estimation, and market basket analysis
+description: dimensionality reduction and market basket analysis
 nav: true
 hw_pdf: assignment-2.pdf
 assigned: october 3
