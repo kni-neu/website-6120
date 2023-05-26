@@ -17,8 +17,25 @@
 - title: week 3 colabs
   type: time_table
   contents:
-    - title: Some More Practice with PySpark and MapReduce
-      institution: Spark Joins and RDD's
+    - title: Large Scale Preprocessing
+      institution: Practice with PySpark and power iterations to identify principle components
       year: In-Class
+      colab_link: https://colab.research.google.com/drive/1S843xYzx7BsmmZxkMmuV4qwKKcT6ROgK
+
+- title: week 5 colabs
+  type: time_table
+  contents:
+    - title: Mining Unlabeled Data
+      institution: Bayesian prediction of anomalies
+      year: In-Class
+      colab_link: https://colab.research.google.com/
+
+- title: week 6 colabs
+  type: time_table
+  contents:
+    - title: Mining Structured Data and Images
+      institution: Manually coding logistic regression optimization
+      year: In-Class
+      colab_link: https://colab.research.google.com/
 
 
