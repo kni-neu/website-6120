@@ -63,7 +63,7 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
-            - Assignment 3
+            - <a href="/cs6220/data-mining/homework-3">Assignment 3</a>
 
     - title: Mining Data without Labels
       institution: October 10
@@ -101,7 +101,7 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
           - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
-          - <a href="/cs6220/data-mining/homework-2">Assignment 4</a>
+          - <a href="/cs6220/data-mining/homework-4">Assignment 4</a>
 
     - title: Mining Text
       institution: October 24
