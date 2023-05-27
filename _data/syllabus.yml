@@ -63,9 +63,9 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
-            - <a href="/cs6220/data-mining/homework-3">Assignment 3</a>
+            - <a href="/cs6220/data-mining/homework-3">Assignment 3 is assigned</a>
 
-    - title: Mining Data without Labels
+    - title: Mining with Distributions
       institution: October 10
       year: Week 5
       description:
@@ -80,19 +80,17 @@
             - Evaluation Metrics and Expected Precision/Recall
         - Suggested Reading
 
-    - title: Mining Structured Data and Images
+    - title: Mining Structured Data
       institution: October 17
       year: Week 6
       description:
         - title: Topics
           contents:
+            - Reviewing Some Linear Algebra
             - An Introduction to Naive Bayes Classification
             - The Bayesian Framework - Posterior Probabilities
+            - Tree-based Algorithms - Random Forests
             - Logistic Regression - A Precursor to AI Innovation
-            - Deep Learning - A Historical Perspective
-            - Convolutional Neural Networks
-            - Batch Data Processing
-            - Evaluation Metrics and Expected Precision / Recall
         - title: In-Class Colabs
           contents:
             - Logistic Regression
@@ -101,33 +99,10 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
           - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
-          - <a href="/cs6220/data-mining/homework-4">Assignment 4</a>
-
-    - title: Mining Text
-      institution: October 24
-      year: Week 7
-      description:
-        - title: Topics
-          contents:
-            - Some Basic Approaches
-            - Semi-Supervised Learning
-            - The Concept of an Embedding Space
-            - The Attention Mechanism
-            - Large Language Models - From BERT to ChatGPT
-        - Suggested Reading
-       
-
-    - title: No Instruction This Week
-      institution: October 31
-      year: Week 8
-      description:
-        - title: <a href="../submissions">Submissions</a>
-          contents:
-            - <a href="http://gradescope.com">Assignment 4 is <b>due</b></a>
-            - <a href="/cs6220/data-mining/homework-2">Assignment 5</a>
+          - <a href="/cs6220/data-mining/homework-4">Assignment 4 is assigned</a>
 
     - title: Midterm Exam
-      institution: November 7
+      institution: October 24
       year: Week 9
       description:
         - title: Topics
@@ -139,13 +114,47 @@
             - Parameter Estimation
             - Unsupervised Clustering
             - Bayesian Framework
-            - Supervised Logistic Regression
-        - Assignment 5 - Project Proposals
 
-    - title: Midterm Exam
+    - title: No Instruction This Week
+      institution: October 31
+      year: Week 8
+      description:
+        - Happy Halloween
+
+    - title: Mining Images
+      institution: November 7
+      year: Week 7
+      description:
+        - title: Topics
+          contents:
+            - Deep Learning - A Historical Perspective
+            - The Backpropation Algorithm
+            - Convolutional Neural Networks
+            - Batch Data Processing
+            - Evaluation Metrics and Expected Precision / Recall
+        - title: In-Class Colabs
+          contents:
+            - Image Classification
+        - Suggested Reading
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+          - <a href="http://gradescope.com">Assignment 4 is <b>due</b></a>
+          - <a href="/cs6220/data-mining/homework-4">Assignment 5 is assigned</a>
+
+
+    - title: Mining Text
       institution: November 14
       year: Week 10
-
+      description:
+        - title: Topics
+          contents:
+            - Some Basic Approaches
+            - Semi-Supervised Learning
+            - The Concept of an Embedding Space
+            - The Attention Mechanism
+            - Large Language Models - From BERT to ChatGPT
+        - Suggested Reading
+       
     - title: Mining Graphs and Social Networks
       institution: November 21
       year: Week 11
@@ -159,7 +168,7 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
-            - Project submissions - <a href="/cs6220/data-mining/project-presentation">slides</a> and <a href="/cs6220/data-mining/project-writeup">writeup</a>
+            - Project finalization - <a href="/cs6220/data-mining/project-presentation">slides</a> and <a href="/cs6220/data-mining/project-writeup">writeup</a>
 
     - title: Special Topics in Data Mining
       institution: November 28
@@ -174,7 +183,7 @@
             - Mining Structured Data
         - Suggested Readings
 
-    - title: Project Presentations
+    - title: Industry Day and Parting Advice
       institution: December 5
       year: Week 13
       description:
@@ -186,7 +195,14 @@
     - title: Final Exams
       institution: December 12
       year: Week 14
-
+      description:
+        - title: Topics
+          contents:
+            - Objective Functions
+            - Logistic Regression
+            - Evaluation Metrics
+            - Backpropagation
+            - Convolutions and Recurrence
 
 
 
