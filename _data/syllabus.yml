@@ -40,7 +40,7 @@
         - title: Topics
           contents:
             - The Multiple Places Where Data Lives & Multi-source Joins
-            - Using MapReduce to Create Training Data
+            - Working with Vectors - Reviewing Basic Linear Algebra
             - Covariance, Correlation, and Cosine Similarity
             - Dimensionality Reduction and Feature Selection
         - title: Suggested Reading
@@ -86,7 +86,6 @@
       description:
         - title: Topics
           contents:
-            - Reviewing Some Linear Algebra
             - An Introduction to Naive Bayes Classification
             - The Bayesian Framework - Posterior Probabilities
             - Tree-based Algorithms - Random Forests
@@ -127,6 +126,7 @@
       description:
         - title: Topics
           contents:
+            - Working with Tensors - Reviewing Multivariate Calculus
             - Deep Learning - A Historical Perspective
             - The Backpropation Algorithm
             - Convolutional Neural Networks

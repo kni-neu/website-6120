@@ -4,7 +4,7 @@ title: homework 4
 permalink: /homework-4/
 description: parameter estimation and bayes rule
 nav: true
-hw_pdf: assignment-2.pdf
+hw_pdf: assignment-4.pdf
 assigned: october 17
 due_date: october 31
 horizontal: false
@@ -53,6 +53,5 @@ repository and provide the URL via [Gradescope](https://www.gradescope.com/cours
 
 Each week, there will be a checkpoint for you project so that you are on track to turn in the project at the end of the semester. This week
 
-* Start surveying the available data (preferably *outside* of Kaggle).
-* Start introducing yourself to your classmates and seeing whether or not you'd like to form a team
+* Discuss with your peers, form a team that you can work with, and arrive on a topic that you think you could be passionate about. Your team should not be more than four people.
 

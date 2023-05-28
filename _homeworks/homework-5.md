@@ -21,13 +21,13 @@ If Github Classrooms does not work for you, you can use [this Github template](h
 
 1. clicking **Use this template** 
 2. creating a new repository, and 
-3. making it visible to **kni-neu**, **nkumeh**, and **pratyaksh64**.
+3. making it visible to **kni-neu**, **ConnrLin**
 
 -----
 #### data and starter kit
 -----
 
-You will need [this data](https://course.ccs.neu.edu/cs6220/fall2023/homework-5/), which you can read more about [here](https://www.kaggle.com/competitions/titanic/overview). If you are using Colab (not required)
+You will need [this data](https://course.ccs.neu.edu/cs6220/fall2023/homework-5/) - TODO: delete columns that provide label information from both training and testing (or just training), which you can read more about [here](https://www.kaggle.com/competitions/titanic/overview). If you are using Colab (not required)
 , you would need a Google account.
 
 <center>
@@ -44,4 +44,13 @@ Here are the starter kits that you might find useful.
 VpGZY8kBjhWRok2a_UIUTO0ER5). When you've compiled/finished writing, **download the PDF** from Overleaf/Google and upload it to your repository.
 
 * In order to submit, you'll need to Download the file as a `*.ipynb` file (Under **File** &rarr; **Download** &rarr; **Download .ipynb**.) 
+
+<br><br><br>
+<hr style="border:2px solid gray">
+#### project checkpoint
+-----
+
+Each week, there will be a checkpoint for you project so that you are on track to turn in the project at the end of the semester. This week
+
+* write a proposal with the guidelines provided in the [proposal page](../project-proposal) under [submissions](../submissions). You will be submitting this into Gradescope along with your assignment.
 

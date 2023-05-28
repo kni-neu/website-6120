@@ -51,8 +51,9 @@ repository and provide the URL via [Gradescope](https://www.gradescope.com/cours
 #### project checkpoint
 -----
 
+
 Each week, there will be a checkpoint for you project so that you are on track to turn in the project at the end of the semester. This week
 
-* Start surveying the available data (preferably *outside* of Kaggle).
-* Start introducing yourself to your classmates and seeing whether or not you'd like to form a team
+* Identify at least three different candidate datasets that have *at least* 100,000 samples (preferably outside of Kaggle). Provide the link to the dataset description and how you would download the data. 
+* Meet a few more of your classmates that you haven't met before. Write down the names of 3+ students that you've met, and why they're taking this class.
 
