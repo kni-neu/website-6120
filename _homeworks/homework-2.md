@@ -60,4 +60,4 @@ repository and provide the URL via [Gradescope](https://www.gradescope.com/cours
 
 Each week, there will be a checkpoint for your project so that you are on track to turn in the project at the end of the semester. This week
 
-* Start thinking about what types of topics you're interested in researching. Write a few of them down and explain what interests you about them.
+* start thinking about what types of topics you're interested in researching. Write a three of them down and explain what interests you about them.

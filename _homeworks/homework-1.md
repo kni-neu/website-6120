@@ -48,15 +48,15 @@ Here are the starter kits that you might find useful.
 #### submission instructions
 -----
 
-Commit all your materials to your repository, and submit via [Gradescope](https://www.gradescope.com/courses/494275). There, you will upload your PDF and provide the link to your repository, which should have all the code that you used to generate your solutions.
+Commit all your materials to your repository, and submit via [Gradescope](https://www.gradescope.com/courses/494275). There, you will upload your PDF and provide the link to your repository, which should have all the code that you used to generate your solutions. You will also enter in your functions for testing.
 
 <br><br><br>
 <hr style="border:2px solid gray">
 #### project checkpoint
 -----
 
-Each week, there will be a checkpoint for you project so that you are on track to turn in the project at the end of the semester. This week
+Each week, there will be a checkpoint for you project so that you are on track to turn in the project at the end of the semester. In your homework this week, you will
 
-* Start surveying the available data (preferably *outside* of Kaggle).
-* Start introducing yourself to your classmates and seeing whether or not you'd like to form a team
+* start surveying the available data (preferably *outside* of Kaggle). List three interesting datasets here.
+* start introducing yourself to your classmates and seeing whether or not you'd like to form a team. List the names of three classmates that you've met.
 
