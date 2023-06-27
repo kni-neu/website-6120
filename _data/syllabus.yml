@@ -45,10 +45,10 @@
             - Dimensionality Reduction and Feature Selection
         - title: Suggested Reading
           contents:
+            - <a href="https://cs229.stanford.edu/section/cs229-linalg.pdf">Linear Algebra Review</a>
             - <a href="http://infolab.stanford.edu/~ullman/mmds/ch2.pdf">Map Reduce, Sections 2.5-2.7</a>
-            - <a href="https://files.eric.ed.gov/fulltext/EJ1115277.pdf">Evaluation Metrics</a>
 
-    - title: Exploring Your Data (Distribution and Evaluation)
+    - title: Exploring and Characterizing Your Data
       institution: October 3
       year: Week 4
       description:
@@ -61,7 +61,9 @@
             - Detecting Anomalies with Naive Bayes
             - Unsupervised Modeling with k-Means and Clustering
             - Evaluation Metrics and Expected Precision/Recall
-        - Suggested Reading
+        - title: Suggested Reading
+          contents:
+            - <a href="https://files.eric.ed.gov/fulltext/EJ1115277.pdf">Evaluation Metrics</a>
 
 
     - title: Mining for Association Rules
