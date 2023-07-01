@@ -37,7 +37,16 @@ RUN \
   pip3 install numpy ipython
 ```
 
+Installing course material as follows:
 
+```
+RUN \
+  pip install openai && \
+  pip install gpt_index==0.4.24 && \
+  pip install PyPDF2 && \
+  pip install PyCryptodome && \
+  pip install gradio
+```
 
 
 What was done:
