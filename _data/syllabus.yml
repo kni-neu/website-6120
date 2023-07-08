@@ -65,27 +65,9 @@
           contents:
             - <a href="https://files.eric.ed.gov/fulltext/EJ1115277.pdf">Evaluation Metrics</a>
 
-
-    - title: Mining for Association Rules
+    - title: Mining "Small" Data
       institution: October 10
       year: Week 5
-      description:
-        - Lecture Notes
-        - Lecture Recording
-        - title: Topics
-          contents:
-            - Definitions of Frequent Itemsets
-            - Determining Frequent Itemsets
-            - Creating Association Rules
-        - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch5_association_analysis.pdf">Suggested Reading</a>
-        - title: <a href="../submissions">Submissions</a>
-          contents:
-            - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
-            - <a href="/cs6220/data-mining/homework-3">Assignment 3 is assigned</a>
-
-    - title: Mining "Small" Data
-      institution: October 17
-      year: Week 6
       description:
         - title: Topics
           contents:
@@ -103,29 +85,9 @@
           - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
           - <a href="/cs6220/data-mining/homework-4">Assignment 4 is assigned</a>
 
-    - title: Midterm Exam
-      institution: October 24
-      year: Week 7
-      description:
-        - title: Topics
-          contents:
-            - Linear Algebra Review
-            - MapReduce Problems
-            - Principle Component Analysis
-            - Association Rule Mining
-            - Parameter Estimation
-            - Unsupervised Clustering
-            - Bayesian Framework
-
-    - title: No Instruction This Week
-      institution: October 31
-      year: Week 8
-      description:
-        - Happy Halloween
-
-    - title: Mining Images
-      institution: November 7
-      year: Week 9
+    - title: Mining Image and Multimedia Data
+      institution: October 17
+      year: Week 6
       description:
         - title: Topics
           contents:
@@ -144,6 +106,41 @@
           - <a href="http://gradescope.com">Assignment 4 is <b>due</b></a>
           - <a href="/cs6220/data-mining/homework-4">Assignment 5 is assigned</a>
 
+    - title: Midterm Exam
+      institution: October 24
+      year: Week 7
+      description:
+        - title: Topics
+          contents:
+            - Linear Algebra Review
+            - MapReduce Problems
+            - Principle Component Analysis
+            - Parameter Estimation
+            - Unsupervised Clustering
+            - Bayesian Framework
+
+    - title: No Instruction This Week
+      institution: October 31
+      year: Week 8
+      description:
+        - Happy Halloween
+
+    - title: Mining for Association Rules
+      institution: November 7
+      year: Week 9
+      description:
+        - Lecture Notes
+        - Lecture Recording
+        - title: Topics
+          contents:
+            - Definitions of Frequent Itemsets
+            - Determining Frequent Itemsets
+            - Creating Association Rules
+        - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch5_association_analysis.pdf">Suggested Reading</a>
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+            - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
+            - <a href="/cs6220/data-mining/homework-3">Assignment 3 is assigned</a>
 
     - title: Mining Text
       institution: November 14
@@ -203,6 +200,7 @@
           contents:
             - Objective Functions
             - Logistic Regression
+            - Association Rule Mining
             - Evaluation Metrics
             - Backpropagation
             - Convolutions and Recurrence
