@@ -60,19 +60,20 @@
             - Parameter Estimation for Distributions
             - Detecting Anomalies with Naive Bayes
             - Unsupervised Modeling with k-Means and Clustering
-            - Evaluation Metrics and Expected Precision/Recall
         - title: Suggested Reading
           contents:
             - <a href="https://files.eric.ed.gov/fulltext/EJ1115277.pdf">Evaluation Metrics</a>
 
-    - title: Mining "Small" Data
+    - title: The Foundations of Data Mining and Machine Learning
       institution: October 10
       year: Week 5
       description:
         - title: Topics
           contents:
+            - Foundations with the Bayesian Framework
+            - Evaluation Metrics and Expected Precision/Recall
+            - Principles of Data Mining and Machine Learning
             - An Introduction to Naive Bayes Classification
-            - The Bayesian Framework - Posterior Probabilities
             - Tree-based Algorithms - Random Forests
             - Logistic Regression - A Precursor to AI Innovation
         - title: In-Class Colabs
