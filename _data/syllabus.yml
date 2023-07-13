@@ -35,7 +35,7 @@
       institution: September 26
       year: Week 3
       description:
-        - Lecture Notes
+        - <a href="https://docs.google.com/presentation/d/1_iZ64qQFtviPHITXKyWSbArg--lX13N0opKy_XmF16Y">Lecture Notes</a>
         - Lecture Recording
         - title: Topics
           contents:
@@ -48,7 +48,7 @@
             - <a href="https://cs229.stanford.edu/section/cs229-linalg.pdf">Linear Algebra Review</a>
             - <a href="http://infolab.stanford.edu/~ullman/mmds/ch2.pdf">Map Reduce, Sections 2.5-2.7</a>
 
-    - title: Exploring and Characterizing Your Data
+    - title: Mining Data without Labels
       institution: October 3
       year: Week 4
       description:
@@ -57,23 +57,41 @@
         - title: Topics
           contents:
             - Introducing the Gaussian Distribution
-            - Parameter Estimation for Distributions
+            - Parameter Estimation of a Distribution
             - Detecting Anomalies with Naive Bayes
             - Unsupervised Modeling with k-Means and Clustering
         - title: Suggested Reading
           contents:
             - <a href="https://files.eric.ed.gov/fulltext/EJ1115277.pdf">Evaluation Metrics</a>
 
-    - title: The Foundations of Data Mining and Machine Learning
+
+    - title: Foundations of Machine Learning
       institution: October 10
       year: Week 5
       description:
         - title: Topics
           contents:
-            - Foundations with the Bayesian Framework
+            - The Bayesian Framework
             - Evaluation Metrics and Expected Precision/Recall
-            - Principles of Data Mining and Machine Learning
-            - An Introduction to Naive Bayes Classification
+            - The Objective Function, Regularization, and Constraints
+            - Supervision in Machine Learning
+            - Training Splits
+            - Bias and Variance
+        - Suggested Reading
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+          - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
+          - <a href="/cs6220/data-mining/homework-4">Assignment 4 is assigned</a>
+
+
+    - title: Mining "Small"-ish Data
+      institution: October 10
+      year: Week 5
+      description:
+        - title: Topics
+          contents:
+            - The Bayesian Framework
+            - Naive Bayes Classification
             - Tree-based Algorithms - Random Forests
             - Logistic Regression - A Precursor to AI Innovation
         - title: In-Class Colabs
@@ -213,14 +231,14 @@
   contents:
     - name: Labs & Participation
       value: 10%
+    - name: Data Mining Project
+      value: 10%
     - name: Assignments
       value: 20%
-    - name: Final Project
-      value: 20%
     - name: Midterm Exam
-      value: 25%
+      value: 30%
     - name: Final Exam
-      value: 25%
+      value: 30%
 
 
 - title: course meeting times
