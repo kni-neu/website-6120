@@ -69,8 +69,11 @@ What was done:
 
 Port is 8080
 
+## Notes for Class
 
+[LoRA](https://huggingface.co/blog/lora) is Low Rank Adaptation, from [this Slack thread](https://etsy.slack.com/archives/G01NG238P26/p1684430126703639).
 
+[PEFT](https://huggingface.co/blog/peft) is an efficient adaptation, from [this Slack thread](https://etsy.slack.com/archives/C04NQ8TE4FK/p1682393925651359)
 
 
 
