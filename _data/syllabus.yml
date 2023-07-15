@@ -65,26 +65,7 @@
             - <a href="https://files.eric.ed.gov/fulltext/EJ1115277.pdf">Evaluation Metrics</a>
 
 
-    - title: Foundations of Machine Learning
-      institution: October 10
-      year: Week 5
-      description:
-        - title: Topics
-          contents:
-            - The Bayesian Framework
-            - Evaluation Metrics and Expected Precision/Recall
-            - The Objective Function, Regularization, and Constraints
-            - Supervision in Machine Learning
-            - Training Splits
-            - Bias and Variance
-        - Suggested Reading
-        - title: <a href="../submissions">Submissions</a>
-          contents:
-          - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
-          - <a href="/cs6220/data-mining/homework-4">Assignment 4 is assigned</a>
-
-
-    - title: Mining "Small"-ish Data
+    - title: Mining Small-ish Data
       institution: October 10
       year: Week 5
       description:
@@ -93,11 +74,8 @@
             - The Bayesian Framework
             - Naive Bayes Classification
             - Tree-based Algorithms - Random Forests
-            - Logistic Regression - A Precursor to AI Innovation
-        - title: In-Class Colabs
-          contents:
-            - Logistic Regression
-            - Fine-tuning MNIST
+            - The Bias and Variance Tradeoff
+            - Training Splits and Evalution Metrics
         - Suggested Reading
         - title: <a href="../submissions">Submissions</a>
           contents:
@@ -110,15 +88,13 @@
       description:
         - title: Topics
           contents:
-            - Working with Tensors - Reviewing Multivariate Calculus
-            - Deep Learning - A Historical Perspective
-            - The Backpropation Algorithm
-            - Convolutional Neural Networks
-            - Batch Data Processing
-            - Evaluation Metrics and Expected Precision / Recall
+            - The Objective Function, Regularization, and Constraints
+            - Logistic Regression - Precursor to Modern Data Mining
+            - Batch Data Processing - Gradient Descent
         - title: In-Class Colabs
           contents:
-            - Image Classification
+            - Logistic Regression
+            - Fine-tuning MNIST
         - Suggested Reading
         - title: <a href="../submissions">Submissions</a>
           contents:
@@ -144,7 +120,7 @@
       description:
         - Happy Halloween
 
-    - title: Mining for Association Rules
+    - title: Mining Image and Multimedia Data
       institution: November 7
       year: Week 9
       description:
@@ -152,9 +128,10 @@
         - Lecture Recording
         - title: Topics
           contents:
-            - Definitions of Frequent Itemsets
-            - Determining Frequent Itemsets
-            - Creating Association Rules
+            - Working with Tensors - Reviewing Multivariate Calculus
+            - Deep Learning - A Historical Perspective
+            - The Backpropation Algorithm
+            - Convolutional Neural Networks
         - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch5_association_analysis.pdf">Suggested Reading</a>
         - title: <a href="../submissions">Submissions</a>
           contents:
@@ -189,8 +166,26 @@
             - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
             - Project finalization - <a href="/cs6220/data-mining/project-presentation">slides</a> and <a href="/cs6220/data-mining/project-writeup">writeup</a>
 
-    - title: Special Topics in Data Mining
+
+    - title: Mining for Association Rules
       institution: November 28
+      year: Week 9
+      description:
+        - Lecture Notes
+        - Lecture Recording
+        - title: Topics
+          contents:
+            - Definitions of Frequent Itemsets
+            - Determining Frequent Itemsets
+            - Creating Association Rules
+        - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch5_association_analysis.pdf">Suggested Reading</a>
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+            - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
+            - <a href="/cs6220/data-mining/homework-3">Assignment 3 is assigned</a>
+
+    - title: Special Topics in Data Mining
+      institution: December 5
       year: Week 12
       description:
         - Lecture Notes
@@ -202,16 +197,7 @@
             - Mining Structured Data
         - Suggested Readings
 
-    - title: Industry Day and Parting Advice
-      institution: December 5
-      year: Week 13
-      description:
-        - Lecture Notes
-        - title: <a href="../submissions">Submissions</a>
-          contents:
-            - <a href="http://gradescope.com">Project slides and writeup are <b>due</b></a>
-
-    - title: Final Exams
+    - title: Final Exam
       institution: December 12
       year: Week 14
       description:
