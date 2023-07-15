@@ -109,7 +109,7 @@
       description:
         - Happy Halloween
 
-    - title: Mining Image and Multimedia Data
+    - title: <a href="https://docs.google.com/presentation/d/13P7r91bTkcFIZ5yTwoQg0yod8GyV06HD">Mining Images with Deep Learning</a>
       institution: November 7
       year: Week 9
       description:
@@ -125,7 +125,7 @@
             - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
             - <a href="/cs6220/data-mining/homework-3">Assignment 3 is assigned</a>
 
-    - title: Mining Text
+    - title: <a href="https://docs.google.com/presentation/d/190c34CI3NXNCCQLfF47YE49RjWENrO0VBkzxJb8ElXQ">Mining Text with Self Supervision</a>
       institution: November 14
       year: Week 10
       description:
@@ -138,13 +138,15 @@
             - Large Language Models - From BERT to ChatGPT
         - Suggested Reading
        
-    - title: Mining Graphs and Social Networks
+    - title: Mining for General Applications
       institution: November 21
       year: Week 11
       description:
         - title: Topics
           contents:
-            - Some Basic Approaches
+            - Social Network Data Mining
+            - Recommendation Sciences
+            - Time Series Analysis
         - Suggested Reading
         - title: <a href="../submissions">Submissions</a>
           contents:
@@ -167,18 +169,15 @@
             - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
             - <a href="/cs6220/data-mining/homework-3">Assignment 3 is assigned</a>
 
-    - title: Special Topics in Data Mining
+    - title: Industry Day and Final Lectures
       institution: December 5
       year: Week 13
       description:
-        - Lecture Notes
-        - Lecture Recording
-        - title: Topics
+        - title: Applications of Data Mining
           contents:
-            - Recommendation Sciences
-            - Time Series Analysis
-            - Mining Structured Data
-        - Suggested Readings
+            - <a href="http://localhost:8080/cs6220/data-mining/projects/4_project/">Mining for Anomalous Behavior</a>
+            - <a href="http://localhost:8080/cs6220/data-mining/projects/5_project/">Mining in Operational Logistics</a>
+            - <a href="http://localhost:8080/cs6220/data-mining/projects/6_project/">Mining to Notify and Alert</a>
 
     - title: Final Exam
       institution: December 12
