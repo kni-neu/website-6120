@@ -52,10 +52,11 @@
       institution: October 3
       year: Week 4
       description:
-        - Lecture Notes
+        - <a href="https://docs.google.com/presentation/d/1fOjbqGd333oUAFzxR2szUMxJ6ELgrgeWaQ9jK3YF1nU">Lecture Notes</a>
         - Lecture Recording
         - title: Topics
           contents:
+            - Training Splits and Evalution Metrics
             - Introducing the Gaussian Distribution
             - Parameter Estimation of a Distribution
             - Detecting Anomalies with Naive Bayes
@@ -65,17 +66,17 @@
             - <a href="https://files.eric.ed.gov/fulltext/EJ1115277.pdf">Evaluation Metrics</a>
 
 
-    - title: Mining Small-ish Data  - Foundations of Statistical Learning
+    - title: Mining Small-ish Data  - Statistical Learning
       institution: October 10
       year: Week 5
       description:
+        - <a href="https://docs.google.com/presentation/d/1takFRDshiqBCmmaUuSZweQ6E6ZHHQYGAj1ooK70gml0">Lecture Notes</a>
+        - Lecture Recording
         - title: Topics
           contents:
             - The Bayesian Framework
             - Naive Bayes Classification
             - Tree-based Algorithms - Random Forests
-            - The Bias and Variance Tradeoff
-            - Training Splits and Evalution Metrics
         - Suggested Reading
         - title: <a href="../submissions">Submissions</a>
           contents:
@@ -86,11 +87,13 @@
       institution: October 17
       year: Week 6
       description:
+        - <a href="https://docs.google.com/presentation/d/1k-XNBA8uxGXqsANkooXDawvtzcn5fUIvDq-dbZANEKQ">Lecture Notes</a>
         - title: Topics
           contents:
             - The Objective Function, Regularization, and Constraints
             - Logistic Regression - Precursor to Modern Data Mining
             - Batch Data Processing - Gradient Descent
+            - The Bias and Variance Tradeoff
         - title: In-Class Colabs
           contents:
             - Logistic Regression
