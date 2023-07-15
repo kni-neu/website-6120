@@ -1,12 +1,10 @@
 - title: schedule
   type: time_table
   contents:
-    - title: Introduction and Applications
+    - title: <a href="https://docs.google.com/presentation/d/187Dq0ctCx8zW_8G8lLbzc3D3xX_CcWCK">Introduction and Applications</a>
       institution: September 12
       year: Week 1
       description:
-        - <a href="https://docs.google.com/presentation/d/187Dq0ctCx8zW_8G8lLbzc3D3xX_CcWCK">Lecture Notes</a>
-        - Lecture Recording
         - title: Topics
           contents:
             - A Course Overview
@@ -14,12 +12,10 @@
         - <a href="http://infolab.stanford.edu/~ullman/mmds/ch1n.pdf">Suggested Reading</a>
         - <a href="/cs6220/data-mining/homework-1">Assignment 1</a>
 
-    - title: Accessing, Storing, and Computing with "Big" Data
+    - title: <a href="https://docs.google.com/presentation/d/1xD603tDiholUFDW5BoW_rZjVOR9PflL3Xqb8Z6uSr1A">Accessing, Storing, and Computing with "Big" Data</a>
       institution: September 19
       year: Week 2
       description:
-        - <a href="https://docs.google.com/presentation/d/1xD603tDiholUFDW5BoW_rZjVOR9PflL3Xqb8Z6uSr1A">Lecture Notes</a>
-        - Lecture Recording
         - title: Topics
           contents:
             - Distributed Filesystems and Storage
@@ -31,12 +27,10 @@
             - <a href="http://gradescope.com">Assignment 1 is <b>due</b></a>
             - <a href="/cs6220/data-mining/homework-2">Assignment 2</a>
 
-    - title: Large Scale Data (Pre)-Processing
+    - title: <a href="https://docs.google.com/presentation/d/1_iZ64qQFtviPHITXKyWSbArg--lX13N0opKy_XmF16Y">Large Scale Data (Pre)-Processing</a>
       institution: September 26
       year: Week 3
       description:
-        - <a href="https://docs.google.com/presentation/d/1_iZ64qQFtviPHITXKyWSbArg--lX13N0opKy_XmF16Y">Lecture Notes</a>
-        - Lecture Recording
         - title: Topics
           contents:
             - Working with Vectors - Reviewing Linear Algebra
@@ -48,12 +42,10 @@
             - <a href="https://cs229.stanford.edu/section/cs229-linalg.pdf">Linear Algebra Review</a>
             - <a href="http://infolab.stanford.edu/~ullman/mmds/ch2.pdf">Map Reduce, Sections 2.5-2.7</a>
 
-    - title: Mining Data without Labels
+    - title: <a href="https://docs.google.com/presentation/d/1fOjbqGd333oUAFzxR2szUMxJ6ELgrgeWaQ9jK3YF1nU">Mining Data without Labels</a>
       institution: October 3
       year: Week 4
       description:
-        - <a href="https://docs.google.com/presentation/d/1fOjbqGd333oUAFzxR2szUMxJ6ELgrgeWaQ9jK3YF1nU">Lecture Notes</a>
-        - Lecture Recording
         - title: Topics
           contents:
             - Training Splits and Evalution Metrics
@@ -66,12 +58,10 @@
             - <a href="https://files.eric.ed.gov/fulltext/EJ1115277.pdf">Evaluation Metrics</a>
 
 
-    - title: Mining Small-ish Data  - Statistical Learning
+    - title: <a href="https://docs.google.com/presentation/d/1takFRDshiqBCmmaUuSZweQ6E6ZHHQYGAj1ooK70gml0">Mining Small-ish Data  - Statistical Learning</a>
       institution: October 10
       year: Week 5
       description:
-        - <a href="https://docs.google.com/presentation/d/1takFRDshiqBCmmaUuSZweQ6E6ZHHQYGAj1ooK70gml0">Lecture Notes</a>
-        - Lecture Recording
         - title: Topics
           contents:
             - The Bayesian Framework
@@ -83,21 +73,17 @@
           - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
           - <a href="/cs6220/data-mining/homework-4">Assignment 4 is assigned</a>
 
-    - title: Mining Big Data - Foundations of Machine Learning
+    - title: <a href="https://docs.google.com/presentation/d/1k-XNBA8uxGXqsANkooXDawvtzcn5fUIvDq-dbZANEKQ">Mining Big Data - Foundations of Machine Learning</a>
       institution: October 17
       year: Week 6
       description:
-        - <a href="https://docs.google.com/presentation/d/1k-XNBA8uxGXqsANkooXDawvtzcn5fUIvDq-dbZANEKQ">Lecture Notes</a>
         - title: Topics
           contents:
             - The Objective Function, Regularization, and Constraints
             - Logistic Regression - Precursor to Modern Data Mining
             - Batch Data Processing - Gradient Descent
             - The Bias and Variance Tradeoff
-        - title: In-Class Colabs
-          contents:
-            - Logistic Regression
-            - Fine-tuning MNIST
+        - '<b>In-Class Colabs</b>: Logistic Regression with MNIST'
         - Suggested Reading
         - title: <a href="../submissions">Submissions</a>
           contents:
@@ -127,8 +113,6 @@
       institution: November 7
       year: Week 9
       description:
-        - Lecture Notes
-        - Lecture Recording
         - title: Topics
           contents:
             - Working with Tensors - Reviewing Multivariate Calculus
@@ -158,8 +142,6 @@
       institution: November 21
       year: Week 11
       description:
-        - Lecture Notes
-        - Lecture Recording
         - title: Topics
           contents:
             - Some Basic Approaches
@@ -174,8 +156,6 @@
       institution: November 28
       year: Week 12
       description:
-        - Lecture Notes
-        - Lecture Recording
         - title: Topics
           contents:
             - Definitions of Frequent Itemsets
