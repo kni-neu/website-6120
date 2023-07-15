@@ -65,7 +65,7 @@
             - <a href="https://files.eric.ed.gov/fulltext/EJ1115277.pdf">Evaluation Metrics</a>
 
 
-    - title: Mining Small-ish Data
+    - title: Mining Small-ish Data  - Foundations of Statistical Learning
       institution: October 10
       year: Week 5
       description:
@@ -82,7 +82,7 @@
           - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
           - <a href="/cs6220/data-mining/homework-4">Assignment 4 is assigned</a>
 
-    - title: Mining Image and Multimedia Data
+    - title: Mining Big Data - Foundations of Machine Learning
       institution: October 17
       year: Week 6
       description:
@@ -169,7 +169,7 @@
 
     - title: Mining for Association Rules
       institution: November 28
-      year: Week 9
+      year: Week 12
       description:
         - Lecture Notes
         - Lecture Recording
@@ -186,7 +186,7 @@
 
     - title: Special Topics in Data Mining
       institution: December 5
-      year: Week 12
+      year: Week 13
       description:
         - Lecture Notes
         - Lecture Recording
@@ -209,7 +209,6 @@
             - Evaluation Metrics
             - Backpropagation
             - Convolutions and Recurrence
-
 
 
 - title: grading criterion
