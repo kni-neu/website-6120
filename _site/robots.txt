@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: http://0.0.0.0:8080/cs6220/data-mining//sitemap.xml
