@@ -57,6 +57,10 @@ Port is 8080
 
 Stack Overflow's [Hard reset](https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files).
 
+Stack Overflow's [Download IG Image](https://stackoverflow.com/questions/46445788/how-to-get-a-image-or-video-url-from-ig-post).
+
+Some styling in [hover over image](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity).
+
 # al-folio
 
 The website is [here](https://github.com/alshedivat/al-folio)
