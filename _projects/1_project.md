@@ -8,9 +8,31 @@ importance: 1
 category: staffing
 ---
 
-Welcome to CS6220! It's nice to meet you. You can find my academic and commerical background on my [LinkedIn profile](https://www.linkedin.com/in/karl-ni/), but beyond that, some of my interests include ragtime piano, rock climbing and painting.
+Welcome to CS6220! It's nice to meet you. You can find my academic and commerical background on my [LinkedIn profile](https://www.linkedin.com/in/karl-ni/), but beyond that, some of my interests include ragtime piano, rock climbing and painting. 
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="https://s.hdnux.com/photos/01/33/32/72/23965342/3/1200x0.jpg" title="climbing" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+      <a href="https://www.instagram.com/karl_el_fun/">
+        {% include figure.html path="assets/img/dogafterwk.jpg" title="painting" class="img-fluid rounded z-depth-1" %}
+      </a>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+      <a href="https://karllab41.github.io/interests/1_interests/">
+        {% include figure.html path="https://www.cmuse.org/wp-content/uploads/2018/09/famous-ragtime-piano-music.jpg" title="ragtime piano" class="img-fluid rounded z-depth-1" %}
+      </a>
+    </div>
+</div>
+
+
+I'm looking forward to getting to know everyone this semester. Please feel free to stop by during office hours.
+
+<center>
 {% include figure.html path="assets/img/karl-interests.png" title="example image" class="img-fluid rounded z-depth-1" %}
+</center>
+
 
 <br>
 <br>
@@ -23,6 +45,6 @@ Welcome to CS6220! It's nice to meet you. You can find my academic and commerica
   <div class="contact-note">
     {{ site.contact_note }}
   </div>
-
 </div>
+
 
