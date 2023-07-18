@@ -138,7 +138,7 @@
             - Large Language Models - From BERT to ChatGPT
         - Suggested Reading
        
-    - title: Mining in General Applications
+    - title: <a href="https://docs.google.com/presentation/d/16MkqSdPGUh2NcPyh1G9A6HvF-f3UWZBVTXLoQf_BeaA">Mining in General Applications</a>
       institution: November 21
       year: Week 11
       description:
@@ -154,7 +154,7 @@
             - Project finalization - <a href="/cs6220/data-mining/project-presentation">slides</a> and <a href="/cs6220/data-mining/project-writeup">writeup</a>
 
 
-    - title: Mining for Association Rules
+    - title: <a href="https://docs.google.com/presentation/d/1IE7ETRqsaf7EkV9_aGyi5_1zrmqquojw">Mining for Association Rules</a>
       institution: November 28
       year: Week 12
       description:
