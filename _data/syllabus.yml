@@ -138,7 +138,7 @@
             - Large Language Models - From BERT to ChatGPT
         - Suggested Reading
        
-    - title: Mining for General Applications
+    - title: Mining in General Applications
       institution: November 21
       year: Week 11
       description:
@@ -175,9 +175,9 @@
       description:
         - title: Applications of Data Mining
           contents:
-            - <a href="http://localhost:8080/cs6220/data-mining/projects/4_project/">Mining for Anomalous Behavior</a>
-            - <a href="http://localhost:8080/cs6220/data-mining/projects/5_project/">Mining in Operational Logistics</a>
-            - <a href="http://localhost:8080/cs6220/data-mining/projects/6_project/">Mining to Notify and Alert</a>
+            - <a href="/cs6220/data-mining/projects/4_project/">Mining for Anomalous Behavior</a>
+            - <a href="/cs6220/data-mining/projects/5_project/">Mining in Operational Logistics</a>
+            - <a href="/cs6220/data-mining/projects/6_project/">Mining to Notify and Alert</a>
 
     - title: Final Exam
       institution: December 12
