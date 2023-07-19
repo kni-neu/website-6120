@@ -25,7 +25,7 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href="http://gradescope.com">Assignment 1 is <b>due</b></a>
-            - <a href="/cs6220/data-mining/homework-2">Assignment 2</a>
+            - <a href="/cs6220/data-mining/homework-2">Assignment 2 is assigned</a>
 
     - title: <a href="https://docs.google.com/presentation/d/1_iZ64qQFtviPHITXKyWSbArg--lX13N0opKy_XmF16Y">Large Scale Data (Pre)-Processing</a>
       institution: September 26
@@ -48,7 +48,6 @@
       description:
         - title: Topics
           contents:
-            - Training Splits and Evalution Metrics
             - Introducing the Gaussian Distribution
             - Parameter Estimation of a Distribution
             - Detecting Anomalies with Naive Bayes
@@ -56,6 +55,10 @@
         - title: Suggested Reading
           contents:
             - <a href="https://files.eric.ed.gov/fulltext/EJ1115277.pdf">Evaluation Metrics</a>
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+            - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
+            - <a href="/cs6220/data-mining/homework-3">Assignment 3 is assigned</a>
 
 
     - title: <a href="https://docs.google.com/presentation/d/1takFRDshiqBCmmaUuSZweQ6E6ZHHQYGAj1ooK70gml0">Mining Small-ish Data  - Statistical Learning</a>
