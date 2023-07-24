@@ -40,6 +40,7 @@
         - title: Suggested Reading
           contents:
             - <a href="https://cs229.stanford.edu/section/cs229-linalg.pdf">Linear Algebra Review</a>
+            - <a href="http://infolab.stanford.edu/~ullman/mmds/ch11.pdf">Dimensionality Reduction</a>
             - <a href="http://infolab.stanford.edu/~ullman/mmds/ch2.pdf">Map Reduce, Sections 2.5-2.7</a>
 
     - title: <a href="https://docs.google.com/presentation/d/1fOjbqGd333oUAFzxR2szUMxJ6ELgrgeWaQ9jK3YF1nU">Mining Data without Labels</a>
@@ -70,7 +71,9 @@
             - The Bayesian Framework
             - Naive Bayes Classification
             - Tree-based Algorithms - Random Forests
-        - Suggested Reading
+        - title: Suggested Reading
+          contents:
+            - <a href="https://files.eric.ed.gov/fulltext/EJ1115277.pdf">Evaluation Metrics</a>
         - title: <a href="../submissions">Submissions</a>
           contents:
           - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
