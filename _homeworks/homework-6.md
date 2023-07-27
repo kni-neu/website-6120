@@ -1,8 +1,8 @@
 ---
 layout: page
-title: homework 4
-permalink: /homework-4/
-description: parameter estimation and bayes rule
+title: homework 6
+permalink: /homework-6/
+description: deep learning and the keras toolbox
 nav: true
 hw_pdf: assignment-4.pdf
 assigned: october 17
@@ -11,20 +11,20 @@ horizontal: false
 ---
 
 <hr style="border:2px solid gray">
-#### mastering map reduce
+#### deep learning
 -----
 
-Accept the [classroom homework invitation](https://classroom.github.com/a/Kog9MCRN). Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-4.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
+Accept the [classroom homework invitation](https://classroom.github.com/a/Kog9MCRN). Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-6.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
 
 -----
 #### data and starter kit
 -----
 
-You will need [the data](https://course.ccs.neu.edu/cs6220/fall2023/homework-3/). If you are using Colabs (not a requirement), you would need a Google account.
+You will need [the data](https://course.ccs.neu.edu/cs6220/fall2023/homework-6/). If you are using Colabs (not a requirement), you would need a Google account.
 
 <center>
 <img 
-  src="https://developer-blogs.nvidia.com/wp-content/uploads/2022/08/AdobeStock_144726520-e1661451314329.jpeg"
+  src="https://images.immediate.co.uk/production/volatile/sites/7/2018/01/TIT011DJ_0-345b632.jpg"
   width="500" height="auto">
 </center>
 <br>

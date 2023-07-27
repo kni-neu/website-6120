@@ -94,7 +94,7 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
           - <a href="http://gradescope.com">Assignment 4 is <b>due</b></a>
-          - <a href="/cs6220/data-mining/homework-4">Assignment 5 is assigned</a>
+          - <a href="/cs6220/data-mining/homework-5">Assignment 5 is assigned</a>
 
     - title: Midterm Exam
       institution: October 24
@@ -129,7 +129,7 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
-            - <a href="/cs6220/data-mining/homework-5">Assignment 6 is assigned</a>
+            - <a href="/cs6220/data-mining/homework-6">Assignment 6 is assigned</a>
 
     - title: <a href="https://docs.google.com/presentation/d/190c34CI3NXNCCQLfF47YE49RjWENrO0VBkzxJb8ElXQ">Mining Text with Self Supervision</a>
       institution: November 14
@@ -146,7 +146,7 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
-            - <a href="/cs6220/data-mining/homework-5">Assignment 7 is assigned</a>
+            - <a href="/cs6220/data-mining/homework-7">Assignment 7 is assigned</a>
 
     - title: <a href="https://docs.google.com/presentation/d/16MkqSdPGUh2NcPyh1G9A6HvF-f3UWZBVTXLoQf_BeaA">Mining in General Applications</a>
       institution: November 21
@@ -174,10 +174,6 @@
             - Determining Frequent Itemsets
             - Creating Association Rules
         - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch5_association_analysis.pdf">Suggested Reading</a>
-        - title: <a href="../submissions">Submissions</a>
-          contents:
-            - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
-            - <a href="/cs6220/data-mining/homework-3">Assignment 3 is assigned</a>
 
     - title: Industry Day and Final Lectures
       institution: December 5
@@ -188,6 +184,10 @@
             - <a href="/cs6220/data-mining/projects/4_project/">Mining for Anomalous Behavior</a>
             - <a href="/cs6220/data-mining/projects/5_project/">Mining in Operational Logistics</a>
             - <a href="/cs6220/data-mining/projects/6_project/">Mining to Notify and Alert</a>
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+            - <a href="http://gradescope.com">Project report is <b>due</b></a>
+            
 
     - title: Final Exam
       institution: December 12
