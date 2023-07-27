@@ -128,8 +128,8 @@
         - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch5_association_analysis.pdf">Suggested Reading</a>
         - title: <a href="../submissions">Submissions</a>
           contents:
-            - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
-            - <a href="/cs6220/data-mining/homework-3">Assignment 3 is assigned</a>
+            - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
+            - <a href="/cs6220/data-mining/homework-5">Assignment 6 is assigned</a>
 
     - title: <a href="https://docs.google.com/presentation/d/190c34CI3NXNCCQLfF47YE49RjWENrO0VBkzxJb8ElXQ">Mining Text with Self Supervision</a>
       institution: November 14
@@ -143,7 +143,11 @@
             - The Attention Mechanism
             - Large Language Models - From BERT to ChatGPT
         - Suggested Reading
-       
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+            - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
+            - <a href="/cs6220/data-mining/homework-5">Assignment 7 is assigned</a>
+
     - title: <a href="https://docs.google.com/presentation/d/16MkqSdPGUh2NcPyh1G9A6HvF-f3UWZBVTXLoQf_BeaA">Mining in General Applications</a>
       institution: November 21
       year: Week 11
@@ -156,7 +160,7 @@
         - Suggested Reading
         - title: <a href="../submissions">Submissions</a>
           contents:
-            - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
+            - <a href="http://gradescope.com">Assignment 7 is <b>due</b></a>
             - Project finalization - <a href="/cs6220/data-mining/project-presentation">slides</a> and <a href="/cs6220/data-mining/project-writeup">writeup</a>
 
 
