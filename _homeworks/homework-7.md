@@ -4,9 +4,9 @@ title: homework 7
 permalink: /homework-7/
 description: self-supervision
 nav: true
-hw_pdf: assignment-4.pdf
-assigned: october 17
-due_date: october 31
+hw_pdf: assignment-7.pdf
+assigned: november 14
+due_date: november 21
 horizontal: false
 ---
 
@@ -14,13 +14,13 @@ horizontal: false
 #### text mining
 -----
 
-Accept the [classroom homework invitation](https://classroom.github.com/a/Kog9MCRN). Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-6.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
+Accept the [classroom homework invitation](https://classroom.github.com/a/Kog9MCRN). Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-7.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
 
 -----
 #### data and starter kit
 -----
 
-You will need [the data](https://course.ccs.neu.edu/cs6220/fall2023/homework-6/). If you are using Colabs (not a requirement), you would need a Google account.
+You will need [the data](https://course.ccs.neu.edu/cs6220/fall2023/homework-7/). If you are using Colabs (not a requirement), you would need a Google account.
 
 <center>
 <img 
