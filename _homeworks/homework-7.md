@@ -2,7 +2,7 @@
 layout: page
 title: homework 7
 permalink: /homework-7/
-description: self-supervision
+description: sampling and repurposing LLMs
 nav: true
 hw_pdf: assignment-7.pdf
 assigned: november 14
@@ -11,7 +11,7 @@ horizontal: false
 ---
 
 <hr style="border:2px solid gray">
-#### text mining
+#### sampling and repurposing LLMs
 -----
 
 Accept the [classroom homework invitation](https://classroom.github.com/a/Kog9MCRN). Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-7.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
