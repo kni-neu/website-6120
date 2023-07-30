@@ -20,7 +20,7 @@ Accept the [classroom homework invitation](https://classroom.github.com/a/Kog9MC
 #### data and starter kit
 -----
 
-You will need [the data](https://course.ccs.neu.edu/cs6220/fall2023/homework-7/). If you are using Colabs (not a requirement), you would need a Google account.
+This week, we'll be [fine-tuning Llama2](https://towardsdatascience.com/fine-tune-your-own-llama-2-model-in-a-colab-notebook-df9823a04a32) in [this notebook](https://colab.research.google.com/drive/1PEQyJO1-f6j0S_XJ8DV50NkpzasXkrzd). You will need [the data](https://course.ccs.neu.edu/cs6220/fall2023/homework-7/). If you are using Colabs (not a requirement), you would need a Google account.
 
 <center>
 <img 
