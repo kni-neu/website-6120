@@ -10,12 +10,12 @@
             - A Course Overview
             - Data Vocabulary
         - <a href="http://infolab.stanford.edu/~ullman/mmds/ch1n.pdf">Suggested Reading</a>
-        - <a href="/cs6220/data-mining/homework-1">Assignment 1 is assigned</a>
+        - <a href="/cs6220/data-mining/homework-1">Assignment 1 is assigned</a> - Exploring Data
 
 
     - title: <a href="https://docs.google.com/presentation/d/1IE7ETRqsaf7EkV9_aGyi5_1zrmqquojw">Mining for Association Rules</a>
       institution: September 19
-      year: Week 4
+      year: Week 2
       description:
         - title: Topics
           contents:
@@ -26,12 +26,12 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href="http://gradescope.com">Assignment 1 is <b>due</b></a>
-            - <a href="/cs6220/data-mining/homework-2">Assignment 2 is assigned</a>
+            - <a href="/cs6220/data-mining/homework-2">Assignment 2 is assigned</a> - Association Rules
 
 
     - title: <a href="https://docs.google.com/presentation/d/1xD603tDiholUFDW5BoW_rZjVOR9PflL3Xqb8Z6uSr1A">Accessing, Storing, and Computing with "Big" Data</a>
       institution: September 26
-      year: Week 2
+      year: Week 3
       description:
         - title: Topics
           contents:
@@ -42,12 +42,12 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
-            - <a href="/cs6220/data-mining/homework-3">Assignment 3 is assigned</a>
+            - <a href="/cs6220/data-mining/homework-3">Assignment 3 is assigned</a> - Map Reduce Problem
 
 
     - title: <a href="https://docs.google.com/presentation/d/1_iZ64qQFtviPHITXKyWSbArg--lX13N0opKy_XmF16Y">Large Scale Data (Pre)-Processing</a>
       institution: October 3
-      year: Week 3
+      year: Week 4
       description:
         - title: Topics
           contents:
@@ -134,7 +134,7 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
-            - <a href="/cs6220/data-mining/homework-6">Assignment 6 is assigned</a>
+            - <a href="/cs6220/data-mining/homework-6">Assignment 6 is assigned</a> - Gradient Descent
 
 
     - title: <a href="https://docs.google.com/presentation/d/13P7r91bTkcFIZ5yTwoQg0yod8GyV06HD">Mining Images with Deep Learning</a>
