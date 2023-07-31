@@ -10,10 +10,27 @@
             - A Course Overview
             - Data Vocabulary
         - <a href="http://infolab.stanford.edu/~ullman/mmds/ch1n.pdf">Suggested Reading</a>
-        - <a href="/cs6220/data-mining/homework-1">Assignment 1</a>
+        - <a href="/cs6220/data-mining/homework-1">Assignment 1 is assigned</a>
+
+
+    - title: <a href="https://docs.google.com/presentation/d/1IE7ETRqsaf7EkV9_aGyi5_1zrmqquojw">Mining for Association Rules</a>
+      institution: September 19
+      year: Week 4
+      description:
+        - title: Topics
+          contents:
+            - Definitions of Frequent Itemsets
+            - Determining Frequent Itemsets
+            - Creating Association Rules
+        - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch5_association_analysis.pdf">Suggested Reading</a>
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+            - <a href="http://gradescope.com">Assignment 1 is <b>due</b></a>
+            - <a href="/cs6220/data-mining/homework-2">Assignment 2 is assigned</a>
+
 
     - title: <a href="https://docs.google.com/presentation/d/1xD603tDiholUFDW5BoW_rZjVOR9PflL3Xqb8Z6uSr1A">Accessing, Storing, and Computing with "Big" Data</a>
-      institution: September 19
+      institution: September 26
       year: Week 2
       description:
         - title: Topics
@@ -24,11 +41,12 @@
         - <a href="http://infolab.stanford.edu/~ullman/mmds/ch2.pdf">Suggested Reading - Chapter 2, Sections 2.1-2.4</a>
         - title: <a href="../submissions">Submissions</a>
           contents:
-            - <a href="http://gradescope.com">Assignment 1 is <b>due</b></a>
-            - <a href="/cs6220/data-mining/homework-2">Assignment 2 is assigned</a>
+            - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
+            - <a href="/cs6220/data-mining/homework-3">Assignment 3 is assigned</a>
+
 
     - title: <a href="https://docs.google.com/presentation/d/1_iZ64qQFtviPHITXKyWSbArg--lX13N0opKy_XmF16Y">Large Scale Data (Pre)-Processing</a>
-      institution: September 26
+      institution: October 3
       year: Week 3
       description:
         - title: Topics
@@ -43,9 +61,10 @@
             - <a href="http://infolab.stanford.edu/~ullman/mmds/ch11.pdf">Dimensionality Reduction</a>
             - <a href="http://infolab.stanford.edu/~ullman/mmds/ch2.pdf">Map Reduce, Sections 2.5-2.7</a>
 
+
     - title: <a href="https://docs.google.com/presentation/d/1fOjbqGd333oUAFzxR2szUMxJ6ELgrgeWaQ9jK3YF1nU">Mining Data without Labels</a>
-      institution: October 3
-      year: Week 4
+      institution: October 10
+      year: Week 5
       description:
         - title: Topics
           contents:
@@ -58,13 +77,13 @@
             - <a href="https://files.eric.ed.gov/fulltext/EJ1115277.pdf">Evaluation Metrics</a>
         - title: <a href="../submissions">Submissions</a>
           contents:
-            - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
-            - <a href="/cs6220/data-mining/homework-3">Assignment 3 is assigned</a>
+          - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
+          - <a href="/cs6220/data-mining/homework-4">Assignment 4 is assigned</a>
 
 
     - title: <a href="https://docs.google.com/presentation/d/1takFRDshiqBCmmaUuSZweQ6E6ZHHQYGAj1ooK70gml0">Mining Small-ish Data  - Statistical Learning</a>
-      institution: October 10
-      year: Week 5
+      institution: October 17
+      year: Week 6
       description:
         - title: Topics
           contents:
@@ -76,25 +95,9 @@
             - <a href="https://files.eric.ed.gov/fulltext/EJ1115277.pdf">Evaluation Metrics</a>
         - title: <a href="../submissions">Submissions</a>
           contents:
-          - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
-          - <a href="/cs6220/data-mining/homework-4">Assignment 4 is assigned</a>
-
-    - title: <a href="https://docs.google.com/presentation/d/1k-XNBA8uxGXqsANkooXDawvtzcn5fUIvDq-dbZANEKQ">Mining Big Data - Foundations of Machine Learning</a>
-      institution: October 17
-      year: Week 6
-      description:
-        - title: Topics
-          contents:
-            - The Objective Function, Regularization, and Constraints
-            - Logistic Regression - Precursor to Modern Data Mining
-            - Batch Data Processing - Gradient Descent
-            - The Bias and Variance Tradeoff
-        - '<b>In-Class Colabs</b>: Logistic Regression with MNIST'
-        - Suggested Reading
-        - title: <a href="../submissions">Submissions</a>
-          contents:
           - <a href="http://gradescope.com">Assignment 4 is <b>due</b></a>
           - <a href="/cs6220/data-mining/homework-5">Assignment 5 is assigned</a>
+
 
     - title: Midterm Exam
       institution: October 24
@@ -115,9 +118,28 @@
       description:
         - Happy Halloween
 
-    - title: <a href="https://docs.google.com/presentation/d/13P7r91bTkcFIZ5yTwoQg0yod8GyV06HD">Mining Images with Deep Learning</a>
+
+    - title: <a href="https://docs.google.com/presentation/d/1k-XNBA8uxGXqsANkooXDawvtzcn5fUIvDq-dbZANEKQ">Mining Big Data - Foundations of Machine Learning</a>
       institution: November 7
       year: Week 9
+      description:
+        - title: Topics
+          contents:
+            - The Objective Function, Regularization, and Constraints
+            - Logistic Regression - Precursor to Modern Data Mining
+            - Batch Data Processing - Gradient Descent
+            - The Bias and Variance Tradeoff
+        - '<b>In-Class Colabs</b>: Logistic Regression with MNIST'
+        - Suggested Reading
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+            - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
+            - <a href="/cs6220/data-mining/homework-6">Assignment 6 is assigned</a>
+
+
+    - title: <a href="https://docs.google.com/presentation/d/13P7r91bTkcFIZ5yTwoQg0yod8GyV06HD">Mining Images with Deep Learning</a>
+      institution: November 14
+      year: Week 10
       description:
         - title: Topics
           contents:
@@ -128,12 +150,13 @@
         - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch5_association_analysis.pdf">Suggested Reading</a>
         - title: <a href="../submissions">Submissions</a>
           contents:
-            - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
-            - <a href="/cs6220/data-mining/homework-6">Assignment 6 is assigned</a>
+            - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
+            - <a href="/cs6220/data-mining/homework-7">Assignment 7 is assigned</a>
+
 
     - title: <a href="https://docs.google.com/presentation/d/190c34CI3NXNCCQLfF47YE49RjWENrO0VBkzxJb8ElXQ">Mining Text with Self Supervision</a>
-      institution: November 14
-      year: Week 10
+      institution: November 21
+      year: Week 11
       description:
         - title: Topics
           contents:
@@ -145,12 +168,13 @@
         - Suggested Reading
         - title: <a href="../submissions">Submissions</a>
           contents:
-            - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
-            - <a href="/cs6220/data-mining/homework-7">Assignment 7 is assigned</a>
+            - <a href="http://gradescope.com">Assignment 7 is <b>due</b></a>
+            - Project finalization - <a href="/cs6220/data-mining/project-presentation">slides</a> and <a href="/cs6220/data-mining/project-writeup">writeup</a>
+
 
     - title: <a href="https://docs.google.com/presentation/d/16MkqSdPGUh2NcPyh1G9A6HvF-f3UWZBVTXLoQf_BeaA">Mining in General Applications</a>
-      institution: November 21
-      year: Week 11
+      institution: November 28
+      year: Week 12
       description:
         - title: Topics
           contents:
@@ -158,22 +182,7 @@
             - Recommendation Sciences
             - Time Series Analysis
         - Suggested Reading
-        - title: <a href="../submissions">Submissions</a>
-          contents:
-            - <a href="http://gradescope.com">Assignment 7 is <b>due</b></a>
-            - Project finalization - <a href="/cs6220/data-mining/project-presentation">slides</a> and <a href="/cs6220/data-mining/project-writeup">writeup</a>
 
-
-    - title: <a href="https://docs.google.com/presentation/d/1IE7ETRqsaf7EkV9_aGyi5_1zrmqquojw">Mining for Association Rules</a>
-      institution: November 28
-      year: Week 12
-      description:
-        - title: Topics
-          contents:
-            - Definitions of Frequent Itemsets
-            - Determining Frequent Itemsets
-            - Creating Association Rules
-        - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch5_association_analysis.pdf">Suggested Reading</a>
 
     - title: Industry Day and Final Lectures
       institution: December 5
