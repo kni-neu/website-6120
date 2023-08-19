@@ -10,7 +10,7 @@
             - A Course Overview
             - Data Vocabulary
         - <a href="http://infolab.stanford.edu/~ullman/mmds/ch1n.pdf">Suggested Reading</a>
-        - <a href="/cs6220/data-mining/homework-1">Assignment 1 is assigned</a> - Exploring Data
+        - <a href="/cs6220/data-mining/homework-1">Assignment 1 is assigned</a> - <i>Review & Exploring Data</i>
 
 
     - title: <a href="https://docs.google.com/presentation/d/1IE7ETRqsaf7EkV9_aGyi5_1zrmqquojw">Mining for Association Rules</a>
@@ -26,7 +26,7 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href="http://gradescope.com">Assignment 1 is <b>due</b></a>
-            - <a href="/cs6220/data-mining/homework-2">Assignment 2 is assigned</a> - Association Rules
+            - <a href="/cs6220/data-mining/homework-2">Assignment 2 is assigned</a> - <i>Association Rules</i>
 
 
     - title: <a href="https://docs.google.com/presentation/d/1xD603tDiholUFDW5BoW_rZjVOR9PflL3Xqb8Z6uSr1A">Accessing, Storing, and Computing with "Big" Data</a>
@@ -42,7 +42,7 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
-            - <a href="/cs6220/data-mining/homework-3">Assignment 3 is assigned</a> - Map Reduce Problem
+            - <a href="/cs6220/data-mining/homework-3">Assignment 3 is assigned</a> - <i>Map Reduce Problem</i>
 
 
     - title: <a href="https://docs.google.com/presentation/d/1_iZ64qQFtviPHITXKyWSbArg--lX13N0opKy_XmF16Y">Large Scale Data (Pre)-Processing</a>
@@ -78,7 +78,7 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
           - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
-          - <a href="/cs6220/data-mining/homework-4">Assignment 4 is assigned</a>
+          - <a href="/cs6220/data-mining/homework-4">Assignment 4 is assigned</a> - <i>Parameter Estimation & Clustering</i>
 
 
     - title: <a href="https://docs.google.com/presentation/d/1takFRDshiqBCmmaUuSZweQ6E6ZHHQYGAj1ooK70gml0">Mining Small-ish Data  - Statistical Learning</a>
@@ -96,7 +96,7 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
           - <a href="http://gradescope.com">Assignment 4 is <b>due</b></a>
-          - <a href="/cs6220/data-mining/homework-5">Assignment 5 is assigned</a>
+          - <a href="/cs6220/data-mining/homework-5">Assignment 5 is assigned</a> - <i>Bayesian Framework & ML Libraries</i>
 
 
     - title: Midterm Exam
@@ -134,7 +134,7 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
-            - <a href="/cs6220/data-mining/homework-6">Assignment 6 is assigned</a> - Gradient Descent
+            - <a href="/cs6220/data-mining/homework-6">Assignment 6 is assigned</a> - <i>Gradient Descent</i>
 
 
     - title: <a href="https://docs.google.com/presentation/d/13P7r91bTkcFIZ5yTwoQg0yod8GyV06HD">Mining Images with Deep Learning</a>
@@ -151,7 +151,7 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
-            - <a href="/cs6220/data-mining/homework-7">Assignment 7 is assigned</a>
+            - <a href="/cs6220/data-mining/homework-7">Assignment 7 is assigned</a> - <i>Noise Contrastive Estimation</i>
 
 
     - title: <a href="https://docs.google.com/presentation/d/190c34CI3NXNCCQLfF47YE49RjWENrO0VBkzxJb8ElXQ">Mining Text with Self Supervision</a>
