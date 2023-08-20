@@ -172,7 +172,7 @@
             - Project finalization - <a href="/cs6220/data-mining/project-presentation">slides</a> and <a href="/cs6220/data-mining/project-writeup">writeup</a>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/16MkqSdPGUh2NcPyh1G9A6HvF-f3UWZBVTXLoQf_BeaA">Mining in General Applications</a>
+    - title: <a href="https://docs.google.com/presentation/d/16MkqSdPGUh2NcPyh1G9A6HvF-f3UWZBVTXLoQf_BeaA">Data Mining Applications</a>
       institution: November 28
       year: Week 12
       description:
@@ -188,7 +188,7 @@
       institution: December 5
       year: Week 13
       description:
-        - title: Applications of Data Mining
+        - title: Data Mining in Industry
           contents:
             - <a href="/cs6220/data-mining/projects/4_project/">Mining for Anomalous Behavior</a>
             - <a href="/cs6220/data-mining/projects/5_project/">Mining in Operational Logistics</a>
