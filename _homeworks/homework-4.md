@@ -24,7 +24,7 @@ You will need [the data](https://course.ccs.neu.edu/cs6220/fall2023/homework-3/)
 
 <center>
 <img 
-  src="https://developer-blogs.nvidia.com/wp-content/uploads/2022/08/AdobeStock_144726520-e1661451314329.jpeg"
+  src="https://www.drivingline.com/s3/drivingline.prd/media/2328747/1996-ford-f-150-pickup-truck-neg-cn320025-005.jpg"
   width="500" height="auto">
 </center>
 <br>

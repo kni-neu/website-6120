@@ -32,7 +32,7 @@ You will need [this data](https://course.ccs.neu.edu/cs6220/fall2023/homework-5/
 
 <center>
 <img 
-  src="https://media.npr.org/assets/img/2012/03/29/titanic_custom-fc6a03aedd8e562d780ecf9b9a8a947d4dcbf163-s1600-c85.webp"
+  src="https://developer-blogs.nvidia.com/wp-content/uploads/2022/08/AdobeStock_144726520-e1661451314329.jpeg"
   width="500" height="auto">
 </center>
 <br>

@@ -45,13 +45,13 @@
             - <a href="/cs6220/data-mining/homework-3">Assignment 3 is assigned</a> - <i>Map Reduce Problem</i>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1_iZ64qQFtviPHITXKyWSbArg--lX13N0opKy_XmF16Y">Large Scale Data (Pre)-Processing</a>
+    - title: <a href="https://docs.google.com/presentation/d/1_hi0odj6LdwfEEo34HbtbI3LwDGOdXifZOPeAchP0p4">Large Scale Data (Pre)-Processing</a>
       institution: October 3
       year: Week 4
       description:
         - title: Topics
           contents:
-            - Working with Vectors - Reviewing Linear Algebra
+            - Basics of Linear Algebra and Probability Theory
             - The Multiple Places Where Data Lives & Multi-source Joins
             - Covariance, Correlation, and Cosine Similarity
             - Dimensionality Reduction and Feature Selection
