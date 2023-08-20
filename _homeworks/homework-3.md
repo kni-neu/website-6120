@@ -35,15 +35,25 @@ Here are the starter kits that you might find useful.
 document/d/1qXipr5Ko2Xpf71GbLzEZXa9khB5w4O2B/edit?usp=sharing&ouid=117230435864186314036&rtpof=true&sd=true). When you've compiled/finishe
 d writing, **download the PDF** from Overleaf/Google and upload it to the submission link. 
 
-* Upload your processed `output.txt` file in the specified format in the [homework questions](./assignment2-questions.pdf). 
+* Upload your processed `output.txt` file in the specified format in the [homework questions]({{ site.baseurl }}/assets/pdf/assignment-3.pdf)
 
 * To help you get started, you may find that this [Colaboratory Link](https://colab.research.google.com/drive/1dAqxrOEqrvlqhCJ2jwKX4UrDlNNACWC7?usp=sharing) is useful. In order to submit, you'll need to Download the file as a `*.ipynb` file (Under **File** &rarr; **Download** &rarr; **Download .ipynb**.)
 
 
 #### submission instructions
 
-Commit your `*.py` or `*.ipynb` (either is fine as long as they are commented appropriately), `output.txt`, and `assignment2.pdf` to that 
-repository and provide the URL via [Gradescope](https://www.gradescope.com/courses/494275).
+* Commit your `*.py` or `*.ipynb` (either is fine as long as they are commented appropriately), `output.txt`, and `name-submission-3.pdf` to that 
+repository and provide the URL via [Gradescope](https://www.gradescope.com/courses/494275) before 5pm, Tuesday, October 3.
+
+* Make sure that you have documented your code with comments so that the TA can have an easier time understanding your logic. This will, in some cases, result in at least partial cre
+dit.
+
+* Include a diagram of your pipeline description in your writeup.
+
+* Include in your writeup the recommendations for the users with following user IDs: 924, 8941, 8942, 9019, 9020, 9021, 9022, 9990, 9992, 9993.
+
+* We will be checking for plagiarism, comparing code that is too similar to classmate or past class alumni homework. This will automatically result in zero credit.
+
 
 
 <br><br><br>
