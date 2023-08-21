@@ -2,7 +2,7 @@
 layout: page
 title: homework 5
 permalink: /homework-5/
-description: logistic regression and deep networks
+description: bayes rules and ml toolboxes
 nav: true
 hw_pdf: assignment-5.pdf
 assigned: october 31
@@ -11,7 +11,7 @@ horizontal: false
 ---
 
 <hr style="border:2px solid gray">
-#### Naïve Bayes and Logistic Regression
+#### bayes rules and ml toolboxes
 -----
 
 Please accept the [classroom homework invitation](https://classroom.github.com/a/Oa1cmMV1) and review the homework in this [pdf file](https://github.com/kni-neu/homework-5/
@@ -27,8 +27,7 @@ If Github Classrooms does not work for you, you can use [this Github template](h
 #### data and starter kit
 -----
 
-You will need [this data](https://course.ccs.neu.edu/cs6220/fall2023/homework-5/) - TODO: delete columns that provide label information from both training and testing (or just training), which you can read more about [here](https://www.kaggle.com/competitions/titanic/overview). If you are using Colab (not required)
-, you would need a Google account.
+You will need [this data](https://course.ccs.neu.edu/cs6220/fall2023/homework-5/). 
 
 <center>
 <img 

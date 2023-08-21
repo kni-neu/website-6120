@@ -2,7 +2,7 @@
 layout: page
 title: homework 3
 permalink: /homework-3/
-description: dimensionality reduction and market basket analysis
+description: mastering map reduce
 nav: true
 hw_pdf: assignment-3.pdf
 assigned: october 3
@@ -39,7 +39,7 @@ d writing, **download the PDF** from Overleaf/Google and upload it to the submis
 
 * To help you get started, you may find that this [Colaboratory Link](https://colab.research.google.com/drive/1dAqxrOEqrvlqhCJ2jwKX4UrDlNNACWC7?usp=sharing) is useful. In order to submit, you'll need to Download the file as a `*.ipynb` file (Under **File** &rarr; **Download** &rarr; **Download .ipynb**.)
 
-
+<br>
 #### submission instructions
 
 * Commit your `*.py` or `*.ipynb` (either is fine as long as they are commented appropriately), `output.txt`, and `name-submission-3.pdf` to that 
