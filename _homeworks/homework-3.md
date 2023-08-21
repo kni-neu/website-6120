@@ -55,15 +55,3 @@ dit.
 * We will be checking for plagiarism, comparing code that is too similar to classmate or past class alumni homework. This will automatically result in zero credit.
 
 
-
-<br><br><br>
-<hr style="border:2px solid gray">
-#### project checkpoint
------
-
-
-Each week, there will be a checkpoint for you project so that you are on track to turn in the project at the end of the semester. This week
-
-* Identify at least three different candidate datasets that have *at least* 100,000 samples (preferably outside of Kaggle). Provide the link to the dataset description and how you would download the data. 
-* Meet a few more of your classmates that you haven't met before. Write down the names of 3+ students that you've met, and why they're taking this class.
-

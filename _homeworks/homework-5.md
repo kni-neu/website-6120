@@ -44,12 +44,3 @@ VpGZY8kBjhWRok2a_UIUTO0ER5). When you've compiled/finished writing, **download t
 
 * In order to submit, you'll need to Download the file as a `*.ipynb` file (Under **File** &rarr; **Download** &rarr; **Download .ipynb**.) 
 
-<br><br><br>
-<hr style="border:2px solid gray">
-#### project checkpoint
------
-
-Each week, there will be a checkpoint for you project so that you are on track to turn in the project at the end of the semester. This week
-
-* write a proposal with the guidelines provided in the [proposal page](../project-proposal) under [submissions](../submissions). You will be submitting this into Gradescope along with your assignment.
-

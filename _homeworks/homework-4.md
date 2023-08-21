@@ -44,13 +44,3 @@ d writing, **download the PDF** from Overleaf/Google and upload it to the submis
 Commit your `*.py` or `*.ipynb` (either is fine as long as they are commented appropriately), `output.txt`, and `assignment2.pdf` to that 
 repository and provide the URL via [Gradescope](https://www.gradescope.com/courses/494275).
 
-
-<br><br><br>
-<hr style="border:2px solid gray">
-#### project checkpoint
------
-
-Each week, there will be a checkpoint for you project so that you are on track to turn in the project at the end of the semester. This week
-
-* Discuss with your peers, form a team that you can work with, and arrive on a topic that you think you could be passionate about. Your team should not be more than four people.
-

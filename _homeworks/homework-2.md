@@ -51,6 +51,7 @@ repository and provide the URL via [Gradescope](https://www.gradescope.com/cours
 * We will be checking for plagiarism, comparing code that is too similar to classmate or past class alumni homework. This will automatically result in zero credit.
 
 
+<!--
 <br><br><br>
 <hr style="border:2px solid gray">
 #### project checkpoint
@@ -59,3 +60,4 @@ repository and provide the URL via [Gradescope](https://www.gradescope.com/cours
 Each week, there will be a checkpoint for your project so that you are on track to turn in the project at the end of the semester. This week
 
 * start thinking about what types of topics you're interested in researching. Write a three of them down and explain what interests you about them.
+-->
