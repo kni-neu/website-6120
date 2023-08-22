@@ -72,9 +72,7 @@
             - Parameter Estimation of a Distribution
             - Detecting Anomalies with Naive Bayes
             - Unsupervised Modeling with k-Means and Clustering
-        - title: Suggested Reading
-          contents:
-            - <a href="https://files.eric.ed.gov/fulltext/EJ1115277.pdf">Evaluation Metrics</a>
+        - Suggested Reading
         - title: <a href="../submissions">Submissions</a>
           contents:
           - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
