@@ -2,7 +2,7 @@
 layout: page
 title: final project writeup
 permalink: /project-writeup/
-description: final project writeup
+description: final project presentation and writeup
 nav: true
 nav_order: 2
 hw_pdf: assignment-1.pdf
@@ -18,7 +18,7 @@ horizontal: false
 #### submission instructions
 -----
 
-Commit all your code to your repository, and submit via [Gradescope](https://www.gradescope.com/courses/494275). There, you will upload your PDF and provide the link to your repository, which should have all the code that you used to generate your solutions.
+Commit all your code to your repository, and submit via [Gradescope](https://www.gradescope.com/courses/583114). There, you will upload your PDF and provide the link to your repository, which should have all the code that you used to generate your solutions.
 
 <br><br><br>
 <hr style="border:2px solid gray">

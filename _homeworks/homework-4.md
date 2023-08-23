@@ -42,5 +42,5 @@ d writing, **download the PDF** from Overleaf/Google and upload it to the submis
 #### submission instructions
 
 Commit your `*.py` or `*.ipynb` (either is fine as long as they are commented appropriately), `output.txt`, and `assignment2.pdf` to that 
-repository and provide the URL via [Gradescope](https://www.gradescope.com/courses/494275).
+repository and provide the URL via [Gradescope](https://www.gradescope.com/courses/583114).
 

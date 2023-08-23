@@ -43,7 +43,7 @@ d writing, **download the PDF** from Overleaf/Google and upload it to the submis
 #### submission instructions
 
 * Commit your `*.py` or `*.ipynb` (either is fine as long as they are commented appropriately), `output.txt`, and `name-submission-3.pdf` to that 
-repository and provide the URL via [Gradescope](https://www.gradescope.com/courses/494275) before 5pm, Tuesday, October 3.
+repository and provide the URL via [Gradescope](https://www.gradescope.com/courses/583114) before 5pm, Tuesday, October 3.
 
 * Make sure that you have documented your code with comments so that the TA can have an easier time understanding your logic. This will, in some cases, result in at least partial cre
 dit.

@@ -40,7 +40,15 @@ You will need [this data](https://course.ccs.neu.edu/cs6220/fall2023/homework-5/
 Here are the starter kits that you might find useful.
 
 * Document templates can be either [LaTeX File](https://github.com/kni-neu/homework-5/blob/master/assignment5.tex) or [DOCX File](https://docs.google.com/document/d/1E1QXKc
-VpGZY8kBjhWRok2a_UIUTO0ER5). When you've compiled/finished writing, **download the PDF** from Overleaf/Google and upload it to your repository.
+VpGZY8kBjhWRok2a_UIUTO0ER5). When you've compiled/finished writing, **download the PDF** from Overleaf/Google/Microsoft and upload it to your repository.
 
 * In order to submit, you'll need to Download the file as a `*.ipynb` file (Under **File** &rarr; **Download** &rarr; **Download .ipynb**.) 
+
+-----
+#### submission instructions
+-----
+
+Commit your `*.py` or `*.ipynb` (either is fine as long as they are commented appropriately), `output.txt`, and `assignment2.pdf` 
+to that 
+repository and provide the URL via [Gradescope](https://www.gradescope.com/courses/583114).
 
