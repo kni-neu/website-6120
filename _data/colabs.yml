@@ -5,20 +5,24 @@
       institution: Python and Dynamic Programming
       year: Review
       colab_link: https://colab.research.google.com/drive/118KuzlyghGwFFSIpJGxe4P-F8LYSPT01
-    - title: Counting Shakespeare's Words
-      institution: Basic Spark and RDD's
-      year: In-Class
-      colab_link: https://colab.research.google.com/drive/1tXmlcGWm0SXmOn9AJEIVRfXj4yULjoZl
-    - title: Setup for Homework 2 - PySpark
-      institution: Spark Data Ingestion
-      year: Setup
-      colab_link: https://colab.research.google.com/drive/1dAqxrOEqrvlqhCJ2jwKX4UrDlNNACWC7
 
 - title: week 3 colabs
   type: time_table
   contents:
+    - title: Counting Shakespeare's Words
+      institution: Basic Spark and RDD's
+      year: In-Class
+      colab_link: https://colab.research.google.com/drive/1tXmlcGWm0SXmOn9AJEIVRfXj4yULjoZl
+    - title: Setup for Homework 3 - PySpark
+      institution: Spark Data Ingestion
+      year: Setup
+      colab_link: https://colab.research.google.com/drive/1dAqxrOEqrvlqhCJ2jwKX4UrDlNNACWC7
+
+- title: week 4 colabs
+  type: time_table
+  contents:
     - title: Large Scale Preprocessing
-      institution: Practice with PySpark and power iterations to identify principle components
+      institution: Practice with power iterations to identify principle components
       year: In-Class
       colab_link: https://colab.research.google.com/drive/1S843xYzx7BsmmZxkMmuV4qwKKcT6ROgK
 
@@ -38,4 +42,10 @@
       year: In-Class
       colab_link: https://colab.research.google.com/
 
-
+- title: final exam
+  type: time_table
+  contents:
+    - title: Comprehensive Hour Long Project
+      institution: Practical applications of data mining
+      year: In-Class
+      colab_link: https://colab.research.google.com/drive/1uTwmC-yoZ2sjwP_wCWZJBRSr7shYHn8b
