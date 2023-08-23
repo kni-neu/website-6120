@@ -14,7 +14,7 @@ horizontal: false
 #### clustering and parameter estimation
 -----
 
-Accept the [classroom homework invitation](https://classroom.github.com/a/Kog9MCRN). Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-4.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
+Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-4.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
 
 -----
 #### data and starter kit

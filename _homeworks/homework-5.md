@@ -14,8 +14,8 @@ horizontal: false
 #### bayes rules and ml toolboxes
 -----
 
-Please accept the [classroom homework invitation](https://classroom.github.com/a/Oa1cmMV1) and review the homework in this [pdf file](https://github.com/kni-neu/homework-5/
-blob/master/assignment5.pdf).
+Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-5.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
+
 
 If Github Classrooms does not work for you, you can use [this Github template](https://github.com/kni-neu/homework-5) to start your repository by 
 

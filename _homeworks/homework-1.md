@@ -14,7 +14,7 @@ horizontal: false
 ### getting started with data
 -----
 
-Accept the [classroom homework invitation](https://classroom.github.com/). Please review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-1.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
+Please review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-1.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
 
 -----
 ### data and starter kit
