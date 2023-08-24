@@ -4,7 +4,7 @@ title: homework 6
 permalink: /homework-6/
 description: deep learning and the keras toolbox
 nav: true
-hw_pdf: assignment-4.pdf
+hw_pdf: assignment-6.pdf
 assigned: october 17
 due_date: october 31
 horizontal: false
@@ -42,7 +42,6 @@ d writing, **download the PDF** from Overleaf/Google and upload it to the submis
 
 #### submission instructions
 
-Commit your `*.py` or `*.ipynb` (either is fine as long as they are commented appropriately), `output.txt`, and `assignment2.pdf` to that 
-repository and provide the URL via [Gradescope](https://www.gradescope.com/courses/583114).
+Commit your code to a repository and your homework writeup (call it `assignment6.pdf`). Submit the Git URL and PDF file to [Gradescope](https://www.gradescope.com/courses/583114).
 
 
