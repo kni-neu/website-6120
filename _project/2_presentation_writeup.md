@@ -5,7 +5,7 @@ permalink: /project-writeup/
 description: final project presentation and writeup
 nav: true
 nav_order: 2
-hw_pdf: assignment-1.pdf
+hw_pdf: project-writeup-template.pdf
 assigned: october, 2023
 due_date: october, 2023
 horizontal: false
