@@ -24,7 +24,7 @@ Feel free to use whatever word/paper editing software that you're comfortable wi
 
 #### rubric and criterion
 
- * Conclusions in data mining are predicated with the assumption that there are enough rows / samples to render the result statistically significant. "Enough" depends on the diversity and quantity of features and labels, but for the purposes of this course, I would encourage at least 100,000 rows. 
+ * _Clarity and presentation_ (25%): Relates to both written and oral delivery, where on December 5
  * Objective is well-motivated and.
  * Modeling does not overfit the data.
  * Modeling accounts for class imbalance, and predictions aren't overly simplisitic (e.g., we shouldn't be predicting a single label 100% of the time.)
