@@ -90,6 +90,7 @@
             - Tree-based Algorithms - Random Forests
         - title: Suggested Reading
           contents:
+            - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch3_classification.pdf">Chapters 3.1 - 3.3 </a>
             - <a href="https://files.eric.ed.gov/fulltext/EJ1115277.pdf">Evaluation Metrics</a>
         - title: <a href="../submissions">Submissions</a>
           contents:
@@ -123,6 +124,7 @@
       description:
         - title: Topics
           contents:
+            - The Classification Framework
             - The Objective Function, Regularization, and Constraints
             - Logistic Regression - Precursor to Modern Data Mining
             - Batch Data Processing - Gradient Descent
