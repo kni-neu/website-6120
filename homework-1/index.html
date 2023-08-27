@@ -173,7 +173,15 @@
 <h4 id="submission-instructions">submission instructions</h4>
 <hr>
 
-<p>Commit all your materials to your repository, and submit via <a href="https://www.gradescope.com/courses/583114" rel="external nofollow noopener" target="_blank">Gradescope</a>. There, you will upload your PDF and provide the link to your repository, which should have all the code that you used to generate your solutions. You will also enter in your functions for testing.</p>
+<p>Commit all your code and materials to your repository, and submit via <a href="https://www.gradescope.com/courses/583114" rel="external nofollow noopener" target="_blank">Gradescope</a>. There, you will upload your PDF and provide the link to your repository, which should have all the code that you used to generate your solutions.</p>
+
+<p>Please use Python. For the questions that requested you to write a function code, we should be able to import your file and run your function. For example, the following should work:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">cs6220homework1</span> <span class="k">as</span> <span class="n">hw1</span>
+
+<span class="nf">print</span><span class="p">(</span> <span class="sh">"</span><span class="s">Cardinality of items in basket_items.csv is: </span><span class="sh">"</span><span class="p">,</span>  
+       <span class="n">hw1</span><span class="p">.</span><span class="nf">cardinality_items</span><span class="p">(</span><span class="sh">"</span><span class="s">basket_items.csv</span><span class="sh">"</span><span class="p">)</span> <span class="p">)</span>
+</code></pre></div></div>
 
 <!--
 <br><br><br>
