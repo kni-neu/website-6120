@@ -2,7 +2,7 @@
 layout: page
 title: haoping lin
 description: teaching assistant
-office_hours: to be determined
+office_hours: Monday 2 p.m.-4 p.m.
 img: assets/img/haoping.jpeg
 importance: 2
 category: staffing
