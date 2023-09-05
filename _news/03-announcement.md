@@ -6,7 +6,11 @@ inline: false
 related_posts: false
 ---
 
-Instruction will be *in-classroom*, but I'll make the best effort to be available online for anyone who has questions outside of lectures. Please note that our first lecture will occur in Room 906 and **not** our regular room of Room 301, which will be our assigned room for the semester.
+Instruction will be *in-classroom*, but I'll make the best effort to be available online for anyone who has questions outside of lectures. 
+
+* Please note that our first lecture will occur in Room 906 and **not** our regular room of Room 301, which will be our assigned room for the semester. All subsequent lectures will occur in Room 301.
+
+* Note the absence on October 31; there will be no lecture then. You will have a bit of reprieve after your midterm exam. Happy Halloween!
 
 * Our [teams channel](https://teams.microsoft.com/l/channel/19%3aY043MpXT47Duh1mwK_TunPsNrVXGH8xgfnvCLO67rco1%40thread.tacv2/General?groupId=e31a60da-d05c-4951-8ba9-fa1c4cc69b09&tenantId=a8eec281-aaa3-4dae-ac9b-9a398b9215e7) is now active. Right now, the available channel is general, but we will include homework channels.
 
