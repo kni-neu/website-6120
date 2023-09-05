@@ -32,7 +32,7 @@ Here are the starter kits that you might find useful.
 
 * Document templates can be either [LaTeX File](https://www.overleaf.com/read/gbwryydmdjhv) or [DOCX File](https://docs.google.com/document/d/1Q8fpJo-gF_L0_TwUdw5E7x7faOAStK4n). When you've compiled/finished writing, **download the PDF** from Overleaf/Google and upload it to the submission link.
 
-* You may find [Colaboratory](http://colab.research.google.com) useful, which you can subsequently download the file as a `*.ipynb` file (Under **File** &rarr; **Download** &rarr; **Download .ipynb**.) In Colab, you can download the data with 
+* You may find [Colaboratory](https://colab.research.google.com/drive/1sg2CqHhX707YT3IcvCub4PUbCsaOZ6C2) useful, which you can subsequently download the file as a `*.ipynb` file (Under **File** &rarr; **Download** &rarr; **Download .ipynb**.) In Colab, you can download the data with 
 
   ```
   !wget https://course.ccs.neu.edu/cs6220/fall2023/homework-1/netflix-data/movie_titles.csv
@@ -48,16 +48,8 @@ Here are the starter kits that you might find useful.
 #### submission instructions
 -----
 
-Commit all your code and materials to your repository, and submit via [Gradescope](https://www.gradescope.com/courses/583114). There, you will upload your PDF and provide the link to your repository, which should have all the code that you used to generate your solutions. 
+Commit all your code and materials to your repository, and submit via [Gradescope](https://www.gradescope.com/courses/583114). There, you will upload your PDF and code.
 
-Please use Python. For the questions that requested you to write a function code, we should be able to import your file and run your function. For example, the following should work:
-
-```python
-import cs6220homework1 as hw1
-
-print( "Cardinality of items in basket_items.csv is: ",  
-       hw1.cardinality_items("basket_items.csv") )
-```
 
 <!--
 <br><br><br>
