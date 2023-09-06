@@ -33,7 +33,7 @@ If you're reading this, I like eating, taking long drives, and seeing some amazi
         {% include figure.html path="https://windycitypaws.com/wp-content/uploads/2016/05/AdobeStock_68495552Mini.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="https://www.environmentaldesigns.com/wp-content/uploads/2021/10/BackyardIdeasforDogs1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -55,7 +55,7 @@ I live in the San Francisco Bay Area, and I'm almost twelve years old! I love go
         {% include figure.html path="assets/img/rosie-cone.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/fire-hydrant.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
