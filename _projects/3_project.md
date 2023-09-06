@@ -45,13 +45,10 @@ Here are some of my friends doing some of my favorite things
     </div>
 </div>
 <div class="caption">
-    I really like this picture.
+    I like this picture.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
+I live in the San Francisco Bay Area, and I'm almost twelve years old! I love going for walks, eating chicken, and hanging out with my other dog friend Newton. I can sit, roll over, and lie down. But you need to give me treats.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -62,7 +59,7 @@ You describe how you toiled, sweated, *bled* for your project, and then... you r
     </div>
 </div>
 <div class="caption">
-    Sometimes I have to wear a cone because I bite myself. These photos are artistically styled 2/3 + 1/3; they make wearing the cone less shameful.
+    Sometimes I have to wear a cone because I bite myself. <!-- These photos are artistically styled 2/3 + 1/3; they make wearing the cone less shameful.-->
 </div>
 
 <!--
