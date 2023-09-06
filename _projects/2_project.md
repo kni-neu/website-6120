@@ -12,7 +12,7 @@ Hello, I'm Haoping Lin, and I'm thrilled to be your CS6220 Teaching Assistant fo
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/dirve_path.jpg" title="Path Map" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/drive_path.jpg" title="Path Map" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/guitar.jpg" title="My Interest" class="img-fluid rounded z-depth-1" %}
