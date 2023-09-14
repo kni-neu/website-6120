@@ -22,15 +22,6 @@ Feel free to use whatever word/paper editing software that you're comfortable wi
 
 <br>
 
-#### rubric and criterion
-
- * _Clarity and presentation_ (25%): Relates to both written and oral delivery, where on December 5
- * Objective is well-motivated and.
- * Modeling does not overfit the data.
- * Modeling accounts for class imbalance, and predictions aren't overly simplisitic (e.g., we shouldn't be predicting a single label 100% of the time.)
- * Preprocessing.
-
-
 -----
 #### submission instructions
 -----
