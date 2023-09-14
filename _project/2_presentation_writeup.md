@@ -13,6 +13,13 @@ horizontal: false
 
 <hr style="border:2px solid gray">
 
+#### templates
+
+Feel free to use the following templates for your project.
+
+* [Project Slides](https://docs.google.com/presentation/d/1cH9TaR2MHpiYLMkeZjyZ7e78E00jE66zNv6xxu6M72E/edit#slide=id.p)
+* [Project Writeup](https://www.overleaf.com/read/kszvtsstmnfs)
+
 #### rubric and criterion
 
 <br>
@@ -38,8 +45,4 @@ Commit all your code to your repository, and submit via [Gradescope](https://www
 #### project checkpoint
 -----
 
-Each week, there will be a checkpoint for you project so that you are on track to turn in the project at the end of the semester. This week
-
-* Start surveying the available data (preferably *outside* of Kaggle).
-* Start introducing yourself to your classmates and seeing whether or not you'd like to form a team
 
