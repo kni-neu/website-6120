@@ -13,36 +13,49 @@ horizontal: false
 
 <hr style="border:2px solid gray">
 
-#### templates
+#### project presentation and writeup
+
+There are two components to your project: your writeup and your code. 
+
+<br>
+-----
+
+#### starter kit
 
 Feel free to use the following templates for your project.
 
-* [Project Slides](https://docs.google.com/presentation/d/1cH9TaR2MHpiYLMkeZjyZ7e78E00jE66zNv6xxu6M72E/edit#slide=id.p)
-* [Project Writeup](https://www.overleaf.com/read/kszvtsstmnfs)
-
-#### rubric and criterion
+* [Project Slide Template](https://docs.google.com/presentation/d/1cH9TaR2MHpiYLMkeZjyZ7e78E00jE66zNv6xxu6M72E/edit#slide=id.p)
+* [Project Writeup Template](https://www.overleaf.com/read/kszvtsstmnfs)
 
 <br>
+-----
+
+#### rubric and criterion
 
 |---|---|---|
 |---|---|---|
 | 25% | : | __Clarity and presentation__ : Relates to both written and oral delivery, (e.g., presentations on December 5) |
 | 5% | : |  __Motivation and impact__ : Problem is carefully chosen, important, and interesting |
 | 5% | : |  __Background and related work__: Background, literature survey: applications and technical |
-| 30% | : | <br> __Data specifics__: <br> &emsp; - The amount of data should be enough to provide sufficient statistics (10%)<br> &emsp; - Data exploration and exploration should be complete (20%) |
-| <br> 20% | <br>: | <br>  __Modeling implementation__: Ensure robustness against class imbalance and overfitting
-| 10% | : |  __Results and evaulation__: Well reasoned evaluation with appropriate metrics .
-| 5%  | : |  __Conclusions__: Reflections and future directions
+| 30% | : | __Data specifics__: The amount of data should be enough to provide sufficient statistics (10%) |
+|     | : | __Data specifics__: Data exploration and exploration should be complete (20%) |
+| 20% | : | __Modeling implementation__: Ensure robustness against class imbalance and overfitting
+| 10% | : | __Results and evaulation__: Well reasoned evaluation with appropriate metrics .
+| 5%  | : | __Conclusions__: Reflections and future directions
+
+<br>
 
 -----
 #### submission instructions
 -----
 
-Commit all your code to your repository, and submit via [Gradescope](https://www.gradescope.com/courses/583114). There, you will upload your PDF and provide the link to your repository, which should have all the code that you used to generate your solutions.
+Commit all your code to your repository, and submit via [Gradescope](https://www.gradescope.com/courses/583114). There, you will upload your PDF and provide the link to your repository, which should have all the code that you used to generate your solutions. Please submit only __once__ per team by including all persons on Gradescope.
 
+<!--
 <br><br><br>
 <hr style="border:2px solid gray">
 #### project checkpoint
 -----
+-->
 
 
