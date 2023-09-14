@@ -15,7 +15,7 @@ horizontal: false
 
 #### project presentation and writeup
 
-There are two components to your project: your writeup and your code. 
+Feel free to pick any topic that you have data for. You can form groups of up to four; in your writeup, have a contributions sections denoting what each member worked on. There are two components to your project: your writeup and your code. 
 
 <br>
 -----
@@ -31,6 +31,8 @@ Feel free to use the following templates for your project.
 -----
 
 #### rubric and criterion
+
+There are two submissions to your project: your writeup and your code. Combined, your contributions will be graded on the following.
 
 |---|---|---|
 |---|---|---|
