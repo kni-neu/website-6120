@@ -26,14 +26,6 @@
       year: In-Class
       colab_link: https://colab.research.google.com/drive/1Hh4N3S1YTI5DqVux34ptxxiF9rL-Jibe
 
-- title: week 5 colabs
-  type: time_table
-  contents:
-    - title: Mining Unlabeled Data
-      institution: Bayesian prediction of anomalies
-      year: In-Class
-      colab_link: https://colab.research.google.com/
-
 - title: week 6 colabs
   type: time_table
   contents:
