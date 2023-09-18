@@ -136,6 +136,7 @@
         - title: Suggested Reading
           contents:
             - <a href="https://files.eric.ed.gov/fulltext/EJ1115277.pdf">Evaluation Metrics</a>
+            - Logistic Regression (<a href="https://web.stanford.edu/~jurafsky/slp3/5.pdf">[1]</a>, <a href="https://www.math.snu.ac.kr/~hichoi/machinelearning/lecturenotes/LogisticRegression.pdf">[2]</a>)
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
@@ -152,7 +153,7 @@
             - Deep Learning - A Historical Perspective
             - The Backpropation Algorithm
             - Convolutional Neural Networks
-        - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch5_association_analysis.pdf">Suggested Reading</a>
+        - <a href="https://www.deeplearningbook.org/contents/mlp.html">Suggested Reading</a>
 
 
     - title: <a href="https://docs.google.com/presentation/d/190c34CI3NXNCCQLfF47YE49RjWENrO0VBkzxJb8ElXQ">Mining Text with Self Supervision</a>
@@ -244,3 +245,4 @@
   contents:
     - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/index.php">Introduction to Data Mining, 2nd Edition</a> Pang-Ning Tan, Michael Steinbach, Anuj Karpatne, Vipin Kumar, 2018 
     - <a href="http://www.mmds.org">Mining of Massive Data Sets, 3rd Edition</a> Jure Leskovec, Anand Rajaraman, and Jeff Ullman, 2014
+    - <a href="https://www.deeplearningbook.org/">Deep Learning</a> Ian Goodfellow, Yoshua Bengio, and Aaron Courville, 2016
