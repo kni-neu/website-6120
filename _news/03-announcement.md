@@ -18,4 +18,4 @@ Instruction will be *in-classroom*, but I'll make the best effort to be availabl
 
 * Our staff e-mail is [cs6220-staff@ccs.neu.edu](mailto:cs6220-staff.ccs.neu.edu). This will e-mail instructor and teaching assistant as they appear on Canvas and Khoury enrollment. 
 
-
+Looking forward to the semester. Homework 1 is out and released as are the lecture notes.
