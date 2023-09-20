@@ -38,16 +38,7 @@ d writing, **download the PDF** from Overleaf/Google and upload it to the submis
 #### submission instructions
 -----
 
-* Commit your `*.py` or `*.ipynb` (either is fine as long as they are commented appropriately), `output.txt`, and `assignment2.pdf` to that 
-repository and provide the URL via [Gradescope](https://www.gradescope.com/courses/583114) before 5pm, Tuesday, October 3.
-
-* Make sure that you have documented your code with comments so that the TA can have an easier time understanding your logic. This will, in some cases, result in at least partial credit.
-
-* Include a diagram of your pipeline description in your writeup.
-
-* Include in your writeup the recommendations for the users with following user IDs: 924, 8941, 8942, 9019, 9020, 9021, 9022, 9990, 9992, 9993.
-
-* We will be checking for plagiarism, comparing code that is too similar to classmate or past class alumni homework. This will automatically result in zero credit.
+* Save your doc file or compile your PDF into a file called `assignment2.pdf`and submit via  [Gradescope](https://www.gradescope.com/courses/583114) before 5pm, Tuesday, September 29.
 
 
 <!--
