@@ -75,7 +75,7 @@
         - title: Suggested Reading
           contents:
             - <a href="https://web.stanford.edu/class/archive/cs/cs109/cs109.1204/lectureNotes/LN21_parameters_mle.pdf">Maximum Likelihood</a>
-            - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch7_clustering.pdf">Unsupervised Clustering</a>
+            - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch7_clustering.pdf">Unsupervised Clustering, Chapter 7 - 7.2</a>
         - title: <a href="../submissions">Submissions</a>
           contents:
           - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
