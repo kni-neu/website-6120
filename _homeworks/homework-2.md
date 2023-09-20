@@ -30,7 +30,7 @@ You will need [the data](https://course.ccs.neu.edu/cs6220/fall2023/homework-2/)
 
 Here are the starter kits that you might find useful.
 
-* Document templates can be either [Overleaf TeX File](https://www.overleaf.com/read/zfwcfsbbgtxj) or [DOCX File](https://docs.google.com/
+* Document templates can be either [Overleaf TeX File](https://www.overleaf.com/read/gbwryydmdjhv) or [DOCX File](https://docs.google.com/
 document/d/1qXipr5Ko2Xpf71GbLzEZXa9khB5w4O2B/edit?usp=sharing&ouid=117230435864186314036&rtpof=true&sd=true). When you've compiled/finishe
 d writing, **download the PDF** from Overleaf/Google and upload it to the submission link. 
 
