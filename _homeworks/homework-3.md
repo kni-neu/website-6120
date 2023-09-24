@@ -31,8 +31,7 @@ You will need [the data](https://course.ccs.neu.edu/cs6220/fall2023/homework-3/)
 
 Here are the starter kits that you might find useful.
 
-* Document templates can be either [Overleaf TeX File](https://www.overleaf.com/read/zfwcfsbbgtxj) or [DOCX File](https://docs.google.com/
-document/d/1qXipr5Ko2Xpf71GbLzEZXa9khB5w4O2B/edit?usp=sharing&ouid=117230435864186314036&rtpof=true&sd=true). When you've compiled/finishe
+* Document templates can be either [Overleaf TeX File](https://www.overleaf.com/read/gbwryydmdjhv) or [DOCX File](https://docs.google.com/document/d/1Q8fpJo-gF_L0_TwUdw5E7x7faOAStK4n). When you've compiled/finishe
 d writing, **download the PDF** from Overleaf/Google and upload it to the submission link. 
 
 * Upload your processed `output.txt` file in the specified format in the [homework questions]({{ site.baseurl }}/assets/pdf/assignment-3.pdf)
@@ -43,7 +42,7 @@ d writing, **download the PDF** from Overleaf/Google and upload it to the submis
 #### submission instructions
 
 * Commit your `*.py` or `*.ipynb` (either is fine as long as they are commented appropriately), `output.txt`, and `name-submission-3.pdf` to that 
-repository and provide the URL via [Gradescope](https://www.gradescope.com/courses/583114) before 5pm, Tuesday, October 3.
+repository and provide the URL via [Gradescope](gradescope.com/courses/583114/assignments/3398384) before 5pm, Tuesday, October 10.
 
 * Make sure that you have documented your code with comments so that the TA can have an easier time understanding your logic. This will, in some cases, result in at least partial cre
 dit.
