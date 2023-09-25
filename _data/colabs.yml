@@ -1,11 +1,3 @@
-- title: week 2 colabs
-  type: time_table
-  contents:
-    - title: Homework 1 Assignment Review
-      institution: Python and Dynamic Programming
-      year: Review
-      colab_link: https://colab.research.google.com/drive/118KuzlyghGwFFSIpJGxe4P-F8LYSPT01
-
 - title: week 3 colabs
   type: time_table
   contents:
@@ -34,10 +26,3 @@
       year: In-Class
       colab_link: https://colab.research.google.com/
 
-- title: final exam
-  type: time_table
-  contents:
-    - title: Comprehensive Hour Long Project
-      institution: Practical applications of data mining
-      year: In-Class
-      colab_link: https://colab.research.google.com/drive/1uTwmC-yoZ2sjwP_wCWZJBRSr7shYHn8b
