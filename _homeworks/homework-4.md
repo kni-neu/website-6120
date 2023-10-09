@@ -5,8 +5,8 @@ permalink: /homework-4/
 description: clustering and parameter estimation
 nav: true
 hw_pdf: assignment-4.pdf
-assigned: october 17
-due_date: october 31
+assigned: october 10
+due_date: october 17
 horizontal: false
 ---
 
