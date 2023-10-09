@@ -44,6 +44,6 @@ File** &rarr; **Download** &rarr; **Download .ipynb**.)
 
 #### submission instructions
 
-Commit your `*.py` or `*.ipynb` (either is fine as long as they are commented appropriately), `output.txt`, and `assignment2.pdf` to that 
-repository and provide the URL via [Gradescope](https://www.gradescope.com/courses/583114).
+Submit your homework on [Gradescope, Assignment 4](https://www.gradescope.com/courses/583114/assignments/3492464). You will need to upload a PDF and your Python code (either as a notebook or as a Python file.)
+
 

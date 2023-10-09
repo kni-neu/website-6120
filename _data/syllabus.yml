@@ -135,7 +135,7 @@
         - '<b>In-Class Colabs</b>: Logistic Regression with MNIST'
         - title: Suggested Reading
           contents:
-            - <a href="https://files.eric.ed.gov/fulltext/EJ1115277.pdf">Evaluation Metrics</a>
+            - <a href="/cs6220/data-mining/assets/pdf/model-eval.pdf">Evaluation Metrics</a>
             - Logistic Regression (<a href="https://web.stanford.edu/~jurafsky/slp3/5.pdf">[1]</a>, <a href="https://www.math.snu.ac.kr/~hichoi/machinelearning/lecturenotes/LogisticRegression.pdf">[2]</a>)
         - title: <a href="../submissions">Submissions</a>
           contents:
