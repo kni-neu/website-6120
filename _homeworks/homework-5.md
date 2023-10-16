@@ -5,8 +5,8 @@ permalink: /homework-5/
 description: bayes rules and ml toolboxes
 nav: true
 hw_pdf: assignment-5.pdf
-assigned: october 31
-due_date: november 14
+assigned: october 17 
+due_date: november 7
 horizontal: false
 ---
 
@@ -32,9 +32,9 @@ You will need [this data](https://course.ccs.neu.edu/cs6220/fall2023/homework-5/
 
 Here are the starter kits that you might find useful.
 
-* Document templates can be either [LaTeX File](https://github.com/kni-neu/homework-5/blob/master/assignment5.tex) or [DOCX File](https://docs.google.com/document/d/1E1QXKcVpGZY8kBjhWRok2a_UIUTO0ER5). When you've compiled/finished writing, **download the PDF** from Overleaf/Google/Microsoft and upload it to your repository.
+* Document templates can be either [LaTeX File](https://www.overleaf.com/read/gbwryydmdjhv) or [DOCX File](https://docs.google.com/document/d/1E1QXKcVpGZY8kBjhWRok2a_UIUTO0ER5). When you've compiled/finished writing, **download the PDF** from Overleaf/Google/Microsoft and upload it to your repository.
 
-* Here is the Colab that can serve as a homework template. In order to submit, you'll need to Download the file as a `*.ipynb` file (Under **File** &rarr; **Download** &rarr; **Download .ipynb**.) 
+* [Here is the Colab that can serve as a homework template](https://colab.research.google.com/drive/1AZj7WIKkxtaE1-TNq4wjBKUx2KXuBlFm?usp=sharing). In order to submit, you'll need to Download the file as a `*.ipynb` file (Under **File** &rarr; **Download** &rarr; **Download .ipynb**.) 
 
 -----
 #### submission instructions
