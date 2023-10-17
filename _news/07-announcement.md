@@ -8,6 +8,12 @@ related_posts: false
 
 This homework is not due for three weeks, but a portion of it is designed to help you with midterm preparation. Of the three questions in [homework 5](/cs6220/data-mining/homework-4/), questions 1 and 2 are about Bayes Theorem, which are designed to aid in studying.
 
+-----
+
+### Midterm Preparation
+
+<br>
+
 The midterm exam will consist of ten questions, and students will have the entire three hours and twenty minutes to complete it. All formulas will be provided; no cheatsheets, computers, or electronic devices are allowed. (You can bring your phones, just don't use them during the exam.) We will provide scratch paper. The breakdown of these questions are:
 
 * Map Reduce Questions (30%)
