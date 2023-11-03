@@ -15,3 +15,17 @@ Midterms are graded and will be returned next week (November 7). The grade histo
 The distribution is shown below.
 
 ![](/cs6220/data-mining/assets/img/midterm-distribution.png)
+
+Breaking down the performance, the average scoring per question provides the following insights:
+
+* Students most understood how to do PySpark joins
+* Students least understood the intuition behind k-means.
+
+On key concepts,
+
+* Map reduce understanding remains middling
+* Application of Bayesian Theory could be improved, but general concept understanding is apparent.
+
+Average score by question is shown below. 
+
+![](/cs6220/data-mining/assets/img/midterm-by-question.png)
