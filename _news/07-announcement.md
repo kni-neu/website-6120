@@ -6,7 +6,7 @@ inline: false
 related_posts: false
 ---
 
-This homework is not due for three weeks, but a portion of it is designed to help you with midterm preparation. Of the three questions in [homework 5](/cs6220/data-mining/homework-4/), questions 1 and 2 are about Bayes Theorem, which are designed to aid in studying.
+This homework is not due for three weeks, but a portion of it is designed to help you with midterm preparation. Of the three questions in [homework 5]({{ site.baseurl }}/homework-4/), questions 1 and 2 are about Bayes Theorem, which are designed to aid in studying.
 
 -----
 
