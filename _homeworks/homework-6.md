@@ -38,6 +38,5 @@ d writing, **download the PDF** from Overleaf/Google and upload it to the submis
 
 #### submission instructions
 
-Commit your code to a repository and your homework writeup (call it `assignment6.pdf`). Submit the Git URL and PDF file to [Gradescope](https://www.gradescope.com/courses/583114).
-
+Submit your work to [Gradescope](http://gradescope.com). There, you will need to upload a PDF file with the written answers (including the plots) to all the questions above. As well, there will be a link to upload your Python code. Make sure that the signature matches the above signature as we will check it against other types of data.
 
