@@ -137,12 +137,12 @@
         - '<b>In-Class Colabs</b>: Logistic Regression with MNIST'
         - title: Suggested Reading
           contents:
-            - <a href="/cs6220/data-mining/assets/pdf/model-eval.pdf">Evaluation Metrics</a>
+            - <a href="https://ia800702.us.archive.org/7/items/datamining_201811/DS-book%20u5.pdf">Evaluation Metrics</a>, Chapter 8.5
             - Logistic Regression (<a href="https://web.stanford.edu/~jurafsky/slp3/5.pdf">[1]</a>, <a href="https://www.math.snu.ac.kr/~hichoi/machinelearning/lecturenotes/LogisticRegression.pdf">[2]</a>)
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
-            - <a href="/cs6220/data-mining/homework-6">Assignment 6 is assigned</a> - <i>Gradient Descent</i>
+            - <a href="/cs6220/data-mining/homework-6">Assignment 6 is assigned</a> - <i>Evaluation Metrics</i>
 
 
     - title: <a href="https://docs.google.com/presentation/d/13P7r91bTkcFIZ5yTwoQg0yod8GyV06HD">Mining Images with Deep Learning</a>

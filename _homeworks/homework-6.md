@@ -2,7 +2,7 @@
 layout: page
 title: homework 6
 permalink: /homework-6/
-description: deep learning and the keras toolbox
+description: classifier evaluation metrics
 nav: true
 hw_pdf: assignment-6.pdf
 assigned: october 17
@@ -11,7 +11,7 @@ horizontal: false
 ---
 
 <hr style="border:2px solid gray">
-#### deep learning
+#### evaluating classifier performance
 -----
 
 Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-6.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
@@ -20,11 +20,11 @@ Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-
 #### data and starter kit
 -----
 
-You will need [the data](https://course.ccs.neu.edu/cs6220/fall2023/homework-6/data/titanic). If you are using Colabs (not a requirement), you would need a Google account.
+You will need [the data](https://course.ccs.neu.edu/cs6220/fall2023/homework-6/). If you are using Colabs (not a requirement), you would need a Google account.
 
 <center>
 <img 
-  src="https://images.immediate.co.uk/production/volatile/sites/7/2018/01/TIT011DJ_0-345b632.jpg"
+  src="https://www.llnl.gov/sites/www/files/2022-12/targetChamber.jpg"
   width="500" height="auto">
 </center>
 <br>
