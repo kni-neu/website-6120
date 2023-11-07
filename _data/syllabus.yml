@@ -156,6 +156,10 @@
             - The Backpropation Algorithm
             - Convolutional Neural Networks
         - <a href="https://www.deeplearningbook.org/contents/mlp.html">Suggested Reading</a>
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+            - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
+            - <a href="/cs6220/data-mining/homework-7">Assignment 7 is assigned</a> - <i>Logistic Regression and Deep Learning</i>
 
 
     - title: <a href="https://docs.google.com/presentation/d/190c34CI3NXNCCQLfF47YE49RjWENrO0VBkzxJb8ElXQ">Mining Text with Self Supervision</a>
@@ -172,8 +176,8 @@
         - Suggested Reading
         - title: <a href="../submissions">Submissions</a>
           contents:
+            - <a href="/cs6220/data-mining/project-proposal">Project proposals</a> are <b>recommended</b>
             - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
-            - <a href="/cs6220/data-mining/project-proposal">Project proposals</a> are <a href="http://gradescope.com"><b>due</b></a>
 
     - title: <a href="https://docs.google.com/presentation/d/16MkqSdPGUh2NcPyh1G9A6HvF-f3UWZBVTXLoQf_BeaA">Data Mining Applications</a>
       institution: November 28
