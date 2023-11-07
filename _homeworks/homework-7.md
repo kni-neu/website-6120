@@ -1,12 +1,12 @@
 ---
 layout: page
-title: homework 6
-permalink: /homework-6/
+title: homework 7
+permalink: /homework-7/
 description: deep learning and the keras toolbox
 nav: true
-hw_pdf: assignment-6.pdf
-assigned: october 17
-due_date: october 31
+hw_pdf: assignment-7.pdf
+assigned: november 7
+due_date: november 21
 horizontal: false
 ---
 
@@ -14,13 +14,13 @@ horizontal: false
 #### deep learning
 -----
 
-Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-6.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
+Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-7.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
 
 -----
 #### data and starter kit
 -----
 
-You will need [the data](https://course.ccs.neu.edu/cs6220/fall2023/homework-6/data/titanic). If you are using Colabs (not a requirement), you would need a Google account.
+You will need [the data](https://course.ccs.neu.edu/cs6220/fall2023/homework-7/data/titanic). If you are using Colabs (not a requirement), you would need a Google account.
 
 <center>
 <img 
