@@ -129,7 +129,7 @@
       description:
         - title: Topics
           contents:
-            - The Classification Framework
+            - Evaluating with Confusion Matrices, Thresholds, ROC Curves
             - The Objective Function, Regularization, and Constraints
             - Logistic Regression - Precursor to Modern Data Mining
             - Batch Data Processing - Gradient Descent
