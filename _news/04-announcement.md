@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week 2 will be in Room 301. Lecture notes and HW2 are released.
+title: Week 2 will be in Room 301. Lecture notes and Homework 2 are released.
 date: 2023-09-18
 inline: false
 related_posts: false

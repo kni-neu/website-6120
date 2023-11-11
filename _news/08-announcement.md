@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Midterm statistics are out. Homework 5 is due next week. Homework 6 is released.
+title: Midterm statistics are out. Homework 6 & 7 are released and due Nov 14 & Nov 21.
 date: 2023-11-02
 inline: false
 related_posts: false

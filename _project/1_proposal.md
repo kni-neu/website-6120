@@ -7,7 +7,7 @@ nav: true
 nav_order: 0
 hw_pdf: project-proposal.pdf
 assigned: september 12, 2023
-due_date: november 21, 2023
+due_date: not required but recommended
 horizontal: false
 ---
 

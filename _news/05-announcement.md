@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Homework 3 will be due next week, October 10, and please submit your labs.
+title: Homework 3 will be due next week, Oct 10, and please submit your labs.
 date: 2023-10-03
 inline: false
 related_posts: false

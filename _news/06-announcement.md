@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Homework 4 is released and will be due on October 17, one week from the 10/10 lecture.
+title: Homework 4 is released and will be due on Oct 17, one week from the Oct 10 lecture.
 date: 2023-10-09
 inline: false
 related_posts: false

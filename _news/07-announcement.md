@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Homework 5 is released and will be due on November 7. The midterm is next week. 
+title: Homework 5 is released and will be due on Nov 7. The midterm is next week. 
 date: 2023-10-15
 inline: false
 related_posts: false
