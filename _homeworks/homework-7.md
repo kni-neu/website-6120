@@ -14,7 +14,7 @@ horizontal: false
 #### deep learning
 -----
 
-Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-7.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
+This is the final homework of the semester for CS6220. Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-7.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
 
 -----
 #### data and starter kit
@@ -38,6 +38,6 @@ d writing, **download the PDF** from Overleaf/Google and upload it to the submis
 
 #### submission instructions
 
-Commit your code to a repository and your homework writeup. Submit the Python Code (or IPYNB)and PDF file to [Gradescope](https://www.gradescope.com/courses/583114).
+Commit your code and PDF writeup to a repository. Submit both of these via [Gradescope](https://www.gradescope.com/courses/583114).
 
 
