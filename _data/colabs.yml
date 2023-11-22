@@ -18,11 +18,18 @@
       year: In-Class
       colab_link: https://colab.research.google.com/drive/1Hh4N3S1YTI5DqVux34ptxxiF9rL-Jibe
 
-- title: week 6 colabs
+- title: week 10 colabs
   type: time_table
   contents:
     - title: Mining Structured Data and Images
       institution: Manually coding logistic regression optimization
       year: In-Class
-      colab_link: https://colab.research.google.com/
+      colab_link: https://colab.research.google.com/drive/19MfDLK9bG_RQcnSlekgHvr8cHZU4OSYW
 
+- title: week 11 colabs
+  type: time_table
+  contents:
+    - title: Using Keras and Traditional Text Mining
+      institution: Fun diffusion models, the MNIST convolutional network, and TF/IDF practice
+      year: In-Class
+      colab_link: https://colab.research.google.com/drive/139P4GXd2WJjvELYdUUpkCej5VBlREq7K
