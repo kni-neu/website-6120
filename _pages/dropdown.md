@@ -9,5 +9,5 @@ children:
       permalink: https://course.ccs.neu.edu/cs6220/spring2023
     - title: divider
     - title: fall 2023
-      permalink: /
+      permalink: https://course.ccs.neu.edu/cs6220/fall2023/website
 ---
