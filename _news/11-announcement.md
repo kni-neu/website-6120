@@ -6,4 +6,4 @@ inline: True
 related_posts: false
 ---
 
-That's a wrap on the semester! Grades are submitted.
+That's a wrap on the semester; have a wonderful holiday!
