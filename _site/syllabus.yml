@@ -1,0 +1,254 @@
+- title: schedule
+  type: time_table
+  contents:
+    - title: <a href="https://docs.google.com/presentation/d/180EMjmUsFUa0lMMEAT-zNG5yN8UhYixb">Introduction and Applications</a>
+      institution: September 12
+      year: Week 1
+      description:
+        - title: Topics
+          contents:
+            - A Course Overview
+            - Data Vocabulary
+        - <a href="http://infolab.stanford.edu/~ullman/mmds/ch1n.pdf">Suggested Reading</a>
+        - <a href="/cs6220/fall2023/website/homework-1">Assignment 1 is assigned</a> - <i>Review & Exploring Data</i>
+
+
+    - title: <a href="https://docs.google.com/presentation/d/1IE7ETRqsaf7EkV9_aGyi5_1zrmqquojw">Mining for Association Rules</a>
+      institution: September 19
+      year: Week 2
+      description:
+        - title: Topics
+          contents:
+            - Definitions of Frequent Itemsets
+            - Determining Frequent Itemsets
+            - Creating Association Rules
+        - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch5_association_analysis.pdf">Suggested Reading</a>
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+            - <a href="http://gradescope.com">Assignment 1 is <b>due</b></a>
+            - <a href="/cs6220/fall2023/website/homework-2">Assignment 2 is assigned</a> - <i>Association Rules</i>
+
+
+    - title: <a href="https://docs.google.com/presentation/d/1xD603tDiholUFDW5BoW_rZjVOR9PflL3Xqb8Z6uSr1A">Accessing, Storing, and Computing with "Big" Data</a>
+      institution: September 26
+      year: Week 3
+      description:
+        - title: Topics
+          contents:
+            - Distributed Filesystems and Storage
+            - Introducing the MapReduce Paradigm
+            - Distributed Computation
+        - <a href="http://infolab.stanford.edu/~ullman/mmds/ch2.pdf">Suggested Reading - Chapter 2, Sections 2.1-2.4</a>
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+            - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
+            - <a href="/cs6220/fall2023/website/homework-3">Assignment 3 is assigned</a> - <i>Map Reduce Problem</i>
+
+
+    - title: <a href="https://docs.google.com/presentation/d/1_hi0odj6LdwfEEo34HbtbI3LwDGOdXifZOPeAchP0p4">Large Scale Data (Pre)-Processing</a>
+      institution: October 3
+      year: Week 4
+      description:
+        - title: Topics
+          contents:
+            - Basics of Linear Algebra and Probability Theory
+            - The Multiple Places Where Data Lives & Multi-source Joins
+            - Covariance, Correlation, and Cosine Similarity
+            - Dimensionality Reduction and Feature Selection
+        - title: Suggested Reading
+          contents:
+            - <a href="https://cs229.stanford.edu/section/cs229-linalg.pdf">Linear Algebra Review</a>
+            - <a href="http://infolab.stanford.edu/~ullman/mmds/ch11.pdf">Dimensionality Reduction</a>
+            - <a href="http://infolab.stanford.edu/~ullman/mmds/ch2.pdf">Map Reduce, Sections 2.5-2.7</a>
+
+
+    - title: <a href="https://docs.google.com/presentation/d/1fOjbqGd333oUAFzxR2szUMxJ6ELgrgeWaQ9jK3YF1nU">Mining Data without Labels</a>
+      institution: October 10
+      year: Week 5
+      description:
+        - title: Topics
+          contents:
+            - Introducing the Gaussian Distribution
+            - Parameter Estimation of a Distribution
+            - Anomaly and Outlier Detection
+            - Unsupervised Modeling with k-Means and Clustering
+        - title: Suggested Reading
+          contents:
+            - <a href="https://web.stanford.edu/class/archive/cs/cs109/cs109.1204/lectureNotes/LN21_parameters_mle.pdf">Maximum Likelihood</a>
+            - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch7_clustering.pdf">Unsupervised Clustering, Chapter 7 - 7.2</a>
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+          - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
+          - <a href="/cs6220/fall2023/website/homework-4">Assignment 4 is assigned</a> - <i>Parameter Estimation & Clustering</i>
+
+
+    - title: <a href="https://docs.google.com/presentation/d/1takFRDshiqBCmmaUuSZweQ6E6ZHHQYGAj1ooK70gml0">Mining Small-ish Data  - Statistical Learning</a>
+      institution: October 17
+      year: Week 6
+      description:
+        - title: Topics
+          contents:
+            - The Bayesian Framework
+            - Naive Bayes Classification
+            - Tree-based Algorithms - Random Forests
+        - title: Suggested Reading
+          contents:
+            - <a href="https://faculty.washington.edu/tamre/BayesTheorem.pdf">Bayes Theorem</a>
+            - <a href="http://guidetodatamining.com/assets/guideChapters/DataMining-ch6.pdf">Naïve Bayes</a>
+            - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch3_classification.pdf">Tree Algorithms - Chapters 3.1 - 3.3 </a>
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+          - <a href="http://gradescope.com">Assignment 4 is <b>due</b></a>
+          - <a href="/cs6220/fall2023/website/homework-5">Assignment 5 is assigned</a> - <i>Bayesian Framework & ML Libraries</i>
+
+
+    - title: Midterm Exam
+      institution: October 24
+      year: Week 7
+      description:
+        - title: Topics
+          contents:
+            - Linear Algebra Review
+            - MapReduce Problems
+            - Principle Component Analysis
+            - Parameter Estimation
+            - Unsupervised Clustering
+            - Bayesian Framework
+        - <a href="../news/07-announcement">Suggested Preparation</a>
+
+    - title: No Instruction This Week
+      institution: October 31
+      year: Week 8
+      description:
+        - Happy Halloween
+
+
+    - title: <a href="https://docs.google.com/presentation/d/1k-XNBA8uxGXqsANkooXDawvtzcn5fUIvDq-dbZANEKQ">Mining Big Data - Foundations of Machine Learning</a>
+      institution: November 7
+      year: Week 9
+      description:
+        - title: Topics
+          contents:
+            - Evaluating with Confusion Matrices, Thresholds, ROC Curves
+            - The Objective Function, Regularization, and Constraints
+            - Logistic Regression - Precursor to Modern Data Mining
+            - Batch Data Processing - Gradient Descent
+            - The Bias and Variance Tradeoff
+        - '<b>In-Class Colabs</b>: Logistic Regression with MNIST'
+        - title: Suggested Reading
+          contents:
+            - <a href="https://ia800702.us.archive.org/7/items/datamining_201811/DS-book%20u5.pdf">Evaluation Metrics</a>, Chapter 8.5
+            - Logistic Regression (<a href="https://web.stanford.edu/~jurafsky/slp3/5.pdf">[1]</a>, <a href="https://www.math.snu.ac.kr/~hichoi/machinelearning/lecturenotes/LogisticRegression.pdf">[2]</a>)
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+            - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
+            - <a href="/cs6220/fall2023/website/homework-6">Assignment 6 is assigned</a> - <i>Evaluation Metrics</i>
+
+
+    - title: <a href="https://docs.google.com/presentation/d/139BKh8IBQWrZ6Izsk8g2lLMmrZwF5aPemRCImd5eTWw">Mining Images with Deep Learning</a>
+      institution: November 14
+      year: Week 10
+      description:
+        - title: Topics
+          contents:
+            - Working with Tensors - Reviewing Multivariate Calculus
+            - Deep Learning - A Historical Perspective
+            - The Backpropation Algorithm
+            - Convolutional Neural Networks
+        - <a href="https://www.deeplearningbook.org/contents/mlp.html">Suggested Reading</a>
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+            - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
+            - <a href="/cs6220/fall2023/website/homework-7">Assignment 7 is assigned</a> - <i>Logistic Regression and Deep Learning</i>
+
+
+    - title: <a href="https://docs.google.com/presentation/d/190c34CI3NXNCCQLfF47YE49RjWENrO0VBkzxJb8ElXQ">Mining Text with Self Supervision</a>
+      institution: November 21
+      year: Week 11
+      description:
+        - title: Topics
+          contents:
+            - Some Basic Approaches
+            - Semi-Supervised Learning
+            - The Concept of an Embedding Space
+            - The Attention Mechanism
+            - Large Language Models - From BERT to ChatGPT
+        - Suggested Reading
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+            - <a href="/cs6220/fall2023/website/project-proposal">Project proposals</a> are <b>recommended</b>
+            - <a href="http://gradescope.com">Assignment 7 is <b>due</b></a>
+
+    - title: <a href="https://docs.google.com/presentation/d/16MkqSdPGUh2NcPyh1G9A6HvF-f3UWZBVTXLoQf_BeaA">Data Mining Applications</a>
+      institution: November 28
+      year: Week 12
+      description:
+        - title: Topics
+          contents:
+            - Social Network Data Mining
+            - Recommendation Sciences
+            - Time Series Analysis
+        - Suggested Reading
+
+
+    - title: <a href="https://docs.google.com/presentation/d/1T8E2ul2sH5b380N1LFXxJ2sn47nMqbGaJkph4jcIvDo/edit#slide=id.p">Project Presentations and Industry Day</a>
+      institution: December 5
+      year: Week 13
+      description:
+        - title: Data Mining in Industry
+          contents:
+            - <a href="/cs6220/fall2023/website/projects/4_project/">Mining for Anomalous Behavior</a>
+            - <a href="/cs6220/fall2023/website/projects/5_project/">Mining in Operational Logistics</a>
+            - <a href="/cs6220/fall2023/website/projects/6_project/">Mining to Notify and Alert</a>
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+            - <a href="/cs6220/fall2023/website/presentation-and-project">Final projects</a> are <a href="http://gradescope.com"><b>due</b></a>, including <a href="https://docs.google.com/presentation/d/1cH9TaR2MHpiYLMkeZjyZ7e78E00jE66zNv6xxu6M72E">presentation slides</a> and <a href="https://www.overleaf.com/project/64e2ee609dd6f4b743ea664e">writeup</a> 
+            
+
+    - title: Final Exam
+      institution: December 12
+      year: Week 14
+      description:
+        - title: Topics
+          contents:
+            - Objective Functions
+            - Logistic Regression
+            - Association Rule Mining
+            - Evaluation Metrics
+            - Backpropagation
+            - Convolutions and Recurrence
+
+
+- title: grading criterion
+  type: map
+  contents:
+    - name: Labs & Participation
+      value: 10%
+    - name: Data Mining Project
+      value: 10%
+    - name: Assignments
+      value: 20%
+    - name: Midterm Exam
+      value: 30%
+    - name: Final Exam
+      value: 30%
+
+
+- title: course meeting times
+  type: nested_list
+  contents:
+    - title: Lectures
+      items: 
+        - "Tues, 6pm-9:20pm"
+        - Room TBD
+    - title: Office Hours
+      items:
+        - "Professor, Thurs, 8:30-9:30pm"
+        - "TA, Date/Time TBD"
+
+- title: suggested textbooks
+  type: list
+  contents:
+    - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/index.php">Introduction to Data Mining, 2nd Edition</a> Pang-Ning Tan, Michael Steinbach, Anuj Karpatne, Vipin Kumar, 2018 
+    - <a href="http://www.mmds.org">Mining of Massive Data Sets, 3rd Edition</a> Jure Leskovec, Anand Rajaraman, and Jeff Ullman, 2014
+    - <a href="https://www.deeplearningbook.org/">Deep Learning</a> Ian Goodfellow, Yoshua Bengio, and Aaron Courville, 2016

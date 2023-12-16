@@ -7,5 +7,9 @@
 .tweet-cache
 Gemfile.lock
 vendor
-_site
+
+# The below line was originally uncommented, as the website automatically builds
+# the _site. Now that Fall 2023 has moved into a branch, we keep the _site build
+# that we've created locally.
+# _site
 
