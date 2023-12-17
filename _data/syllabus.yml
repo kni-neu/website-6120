@@ -2,7 +2,7 @@
   type: time_table
   contents:
     - title: <a href="https://docs.google.com/presentation/d/180EMjmUsFUa0lMMEAT-zNG5yN8UhYixb">Introduction and Applications</a>
-      institution: September 12
+      institution: January 11
       year: Week 1
       description:
         - title: Topics
@@ -14,7 +14,7 @@
 
 
     - title: <a href="https://docs.google.com/presentation/d/1IE7ETRqsaf7EkV9_aGyi5_1zrmqquojw">Mining for Association Rules</a>
-      institution: September 19
+      institution: January 18
       year: Week 2
       description:
         - title: Topics
@@ -30,7 +30,7 @@
 
 
     - title: <a href="https://docs.google.com/presentation/d/1xD603tDiholUFDW5BoW_rZjVOR9PflL3Xqb8Z6uSr1A">Accessing, Storing, and Computing with "Big" Data</a>
-      institution: September 26
+      institution: January 25
       year: Week 3
       description:
         - title: Topics
@@ -46,7 +46,7 @@
 
 
     - title: <a href="https://docs.google.com/presentation/d/1_hi0odj6LdwfEEo34HbtbI3LwDGOdXifZOPeAchP0p4">Large Scale Data (Pre)-Processing</a>
-      institution: October 3
+      institution: February 1
       year: Week 4
       description:
         - title: Topics
@@ -63,7 +63,7 @@
 
 
     - title: <a href="https://docs.google.com/presentation/d/1fOjbqGd333oUAFzxR2szUMxJ6ELgrgeWaQ9jK3YF1nU">Mining Data without Labels</a>
-      institution: October 10
+      institution: February 8
       year: Week 5
       description:
         - title: Topics
@@ -83,7 +83,7 @@
 
 
     - title: <a href="https://docs.google.com/presentation/d/1takFRDshiqBCmmaUuSZweQ6E6ZHHQYGAj1ooK70gml0">Mining Small-ish Data  - Statistical Learning</a>
-      institution: October 17
+      institution: February 15
       year: Week 6
       description:
         - title: Topics
@@ -95,6 +95,22 @@
           contents:
             - <a href="https://faculty.washington.edu/tamre/BayesTheorem.pdf">Bayes Theorem</a>
             - <a href="http://guidetodatamining.com/assets/guideChapters/DataMining-ch6.pdf">Naïve Bayes</a>
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+          - <a href="http://gradescope.com">Assignment 4 is <b>due</b></a>
+          - <a href="/cs6220/data-mining/homework-5">Assignment 5 is assigned</a> - <i>Bayesian Framework & ML Libraries</i>
+
+
+    - title: <a href="https://docs.google.com/presentation/d/1takFRDshiqBCmmaUuSZweQ6E6ZHHQYGAj1ooK70gml0">Mining Medium Sized Data</a>
+      institution: February 22
+      year: Week 6
+      description:
+        - title: Topics
+          contents:
+            - Course Review and Midterm Preparation
+            - Tree-based Algorithms - Random Forests
+        - title: Suggested Reading
+          contents:
             - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch3_classification.pdf">Tree Algorithms - Chapters 3.1 - 3.3 </a>
         - title: <a href="../submissions">Submissions</a>
           contents:
@@ -103,7 +119,7 @@
 
 
     - title: Midterm Exam
-      institution: October 24
+      institution: February 29
       year: Week 7
       description:
         - title: Topics
@@ -116,20 +132,23 @@
             - Bayesian Framework
         - <a href="../news/07-announcement">Suggested Preparation</a>
 
-    - title: No Instruction This Week
-      institution: October 31
+
+
+    - title: No Instruction This Week - Spring Break
+      institution: March 7
       year: Week 8
       description:
-        - Happy Halloween
+        - Have a nice break!
+
 
 
     - title: <a href="https://docs.google.com/presentation/d/1k-XNBA8uxGXqsANkooXDawvtzcn5fUIvDq-dbZANEKQ">Mining Big Data - Foundations of Machine Learning</a>
-      institution: November 7
+      institution: March 14
       year: Week 9
       description:
         - title: Topics
           contents:
-            - Evaluating with Confusion Matrices, Thresholds, ROC Curves
+            - The Classification Framework
             - The Objective Function, Regularization, and Constraints
             - Logistic Regression - Precursor to Modern Data Mining
             - Batch Data Processing - Gradient Descent
@@ -137,16 +156,16 @@
         - '<b>In-Class Colabs</b>: Logistic Regression with MNIST'
         - title: Suggested Reading
           contents:
-            - <a href="https://ia800702.us.archive.org/7/items/datamining_201811/DS-book%20u5.pdf">Evaluation Metrics</a>, Chapter 8.5
+            - <a href="/cs6220/data-mining/assets/pdf/model-eval.pdf">Evaluation Metrics</a>
             - Logistic Regression (<a href="https://web.stanford.edu/~jurafsky/slp3/5.pdf">[1]</a>, <a href="https://www.math.snu.ac.kr/~hichoi/machinelearning/lecturenotes/LogisticRegression.pdf">[2]</a>)
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
-            - <a href="/cs6220/data-mining/homework-6">Assignment 6 is assigned</a> - <i>Evaluation Metrics</i>
+            - <a href="/cs6220/data-mining/homework-6">Assignment 6 is assigned</a> - <i>Gradient Descent</i>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/139BKh8IBQWrZ6Izsk8g2lLMmrZwF5aPemRCImd5eTWw">Mining Images with Deep Learning</a>
-      institution: November 14
+    - title: <a href="https://docs.google.com/presentation/d/13P7r91bTkcFIZ5yTwoQg0yod8GyV06HD">Mining Images with Deep Learning</a>
+      institution: March 22
       year: Week 10
       description:
         - title: Topics
@@ -156,14 +175,10 @@
             - The Backpropation Algorithm
             - Convolutional Neural Networks
         - <a href="https://www.deeplearningbook.org/contents/mlp.html">Suggested Reading</a>
-        - title: <a href="../submissions">Submissions</a>
-          contents:
-            - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
-            - <a href="/cs6220/data-mining/homework-7">Assignment 7 is assigned</a> - <i>Logistic Regression and Deep Learning</i>
 
 
     - title: <a href="https://docs.google.com/presentation/d/190c34CI3NXNCCQLfF47YE49RjWENrO0VBkzxJb8ElXQ">Mining Text with Self Supervision</a>
-      institution: November 21
+      institution: March 28
       year: Week 11
       description:
         - title: Topics
@@ -176,11 +191,11 @@
         - Suggested Reading
         - title: <a href="../submissions">Submissions</a>
           contents:
-            - <a href="/cs6220/data-mining/project-proposal">Project proposals</a> are <b>recommended</b>
-            - <a href="http://gradescope.com">Assignment 7 is <b>due</b></a>
+            - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
+            - <a href="/cs6220/data-mining/project-proposal">Project proposals</a> are <a href="http://gradescope.com"><b>due</b></a>
 
     - title: <a href="https://docs.google.com/presentation/d/16MkqSdPGUh2NcPyh1G9A6HvF-f3UWZBVTXLoQf_BeaA">Data Mining Applications</a>
-      institution: November 28
+      institution: April 4
       year: Week 12
       description:
         - title: Topics
@@ -191,8 +206,22 @@
         - Suggested Reading
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1T8E2ul2sH5b380N1LFXxJ2sn47nMqbGaJkph4jcIvDo/edit#slide=id.p">Project Presentations and Industry Day</a>
-      institution: December 5
+    - title: Project Presentations
+      institution: April 11
+      year: Week 13
+      description:
+        - title: Data Mining in Industry
+          contents:
+            - <a href="/cs6220/data-mining/projects/4_project/">Mining for Anomalous Behavior</a>
+            - <a href="/cs6220/data-mining/projects/5_project/">Mining in Operational Logistics</a>
+            - <a href="/cs6220/data-mining/projects/6_project/">Mining to Notify and Alert</a>
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+            - <a href="/cs6220/data-mining/presentation-and-project">Final projects</a> are <a href="http://gradescope.com"><b>due</b></a>, including <a href="https://docs.google.com/presentation/d/1cH9TaR2MHpiYLMkeZjyZ7e78E00jE66zNv6xxu6M72E">presentation slides</a> and <a href="https://www.overleaf.com/project/64e2ee609dd6f4b743ea664e">writeup</a> 
+
+
+    - title: Industry Day
+      institution: April 18
       year: Week 13
       description:
         - title: Data Mining in Industry
@@ -206,7 +235,7 @@
             
 
     - title: Final Exam
-      institution: December 12
+      institution: April 25
       year: Week 14
       description:
         - title: Topics

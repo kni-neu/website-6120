@@ -2,7 +2,7 @@
 layout: about
 title: home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. San Jose, CA - k.ni@northeastern.edu
+subtitle: <a href='https://www.khoury.northeastern.edu/'>Khoury College of Computer Science</a>. <a href='https://www.google.com/maps/place/Northeastern+University+in+Silicon+Valley'>San Jose, CA</a> - <a href='mailto:k.ni@northeastern.edu'>Karl's E-Mail</a>
 
 profile:
   align: right
@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <p>CRN 20658</p>
-    <p><a href="https://admin.khoury.northeastern.edu/teaching/schedules/section/249868?semester=Fall+2023&campus=2859">Tues 6-9pm</a></p>
+    <p><a href="https://admin.khoury.northeastern.edu/teaching/schedules/section/250398?semester=Spring+2024&campus=2859">Thurs 4:30-7:50pm</a></p>
     <p><a href="https://admin.khoury.northeastern.edu/teaching/rooms/108782/?semester=Fall+2023&campus=2859">San Jose 902</a></p>
 
 news: true  # includes a list of news items
