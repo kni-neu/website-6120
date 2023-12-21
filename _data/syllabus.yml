@@ -1,7 +1,7 @@
 - title: schedule
   type: time_table
   contents:
-    - title: <a href="https://docs.google.com/presentation/d/180EMjmUsFUa0lMMEAT-zNG5yN8UhYixb">Introduction and Applications</a>
+    - title: <a href="https://docs.google.com/presentation/d/1ZrrVmpDQwfz5KI7QtrRks9YXgoyvRep2/edit?usp=sharing&ouid=117230435864186314036&rtpof=true&sd=true">Introduction and Applications</a>
       institution: January 11
       year: Week 1
       description:
@@ -13,7 +13,7 @@
         - <a href="/cs6220/data-mining/homework-1">Assignment 1 is assigned</a> - <i>Review & Exploring Data</i>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1IE7ETRqsaf7EkV9_aGyi5_1zrmqquojw">Mining for Association Rules</a>
+    - title: <a href="">Mining for Association Rules</a>
       institution: January 18
       year: Week 2
       description:
@@ -29,7 +29,7 @@
             - <a href="/cs6220/data-mining/homework-2">Assignment 2 is assigned</a> - <i>Association Rules</i>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1xD603tDiholUFDW5BoW_rZjVOR9PflL3Xqb8Z6uSr1A">Accessing, Storing, and Computing with "Big" Data</a>
+    - title: <a href="">Accessing, Storing, and Computing with "Big" Data</a>
       institution: January 25
       year: Week 3
       description:
@@ -45,7 +45,7 @@
             - <a href="/cs6220/data-mining/homework-3">Assignment 3 is assigned</a> - <i>Map Reduce Problem</i>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1_hi0odj6LdwfEEo34HbtbI3LwDGOdXifZOPeAchP0p4">Large Scale Data (Pre)-Processing</a>
+    - title: <a href="">Large Scale Data (Pre)-Processing</a>
       institution: February 1
       year: Week 4
       description:
@@ -62,7 +62,7 @@
             - <a href="http://infolab.stanford.edu/~ullman/mmds/ch2.pdf">Map Reduce, Sections 2.5-2.7</a>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1fOjbqGd333oUAFzxR2szUMxJ6ELgrgeWaQ9jK3YF1nU">Mining Data without Labels</a>
+    - title: <a href="">Mining Data without Labels</a>
       institution: February 8
       year: Week 5
       description:
@@ -82,7 +82,7 @@
           - <a href="/cs6220/data-mining/homework-4">Assignment 4 is assigned</a> - <i>Parameter Estimation & Clustering</i>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1takFRDshiqBCmmaUuSZweQ6E6ZHHQYGAj1ooK70gml0">Mining Small-ish Data  - Statistical Learning</a>
+    - title: <a href="">Mining Small-ish Data  - Statistical Learning</a>
       institution: February 15
       year: Week 6
       description:
@@ -101,7 +101,7 @@
           - <a href="/cs6220/data-mining/homework-5">Assignment 5 is assigned</a> - <i>Bayesian Framework & ML Libraries</i>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1takFRDshiqBCmmaUuSZweQ6E6ZHHQYGAj1ooK70gml0">Mining Medium Sized Data</a>
+    - title: <a href="">Mining Medium Sized Data</a>
       institution: February 22
       year: Week 6
       description:
@@ -142,7 +142,7 @@
 
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1k-XNBA8uxGXqsANkooXDawvtzcn5fUIvDq-dbZANEKQ">Mining Big Data - Foundations of Machine Learning</a>
+    - title: <a href="">Mining Big Data - Foundations of Machine Learning</a>
       institution: March 14
       year: Week 9
       description:
@@ -164,7 +164,7 @@
             - <a href="/cs6220/data-mining/homework-6">Assignment 6 is assigned</a> - <i>Gradient Descent</i>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/13P7r91bTkcFIZ5yTwoQg0yod8GyV06HD">Mining Images with Deep Learning</a>
+    - title: <a href="">Mining Images with Deep Learning</a>
       institution: March 22
       year: Week 10
       description:
@@ -177,7 +177,7 @@
         - <a href="https://www.deeplearningbook.org/contents/mlp.html">Suggested Reading</a>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/190c34CI3NXNCCQLfF47YE49RjWENrO0VBkzxJb8ElXQ">Mining Text with Self Supervision</a>
+    - title: <a href="">Mining Text with Self Supervision</a>
       institution: March 28
       year: Week 11
       description:
@@ -194,7 +194,7 @@
             - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
             - <a href="/cs6220/data-mining/project-proposal">Project proposals</a> are <a href="http://gradescope.com"><b>due</b></a>
 
-    - title: <a href="https://docs.google.com/presentation/d/16MkqSdPGUh2NcPyh1G9A6HvF-f3UWZBVTXLoQf_BeaA">Data Mining Applications</a>
+    - title: <a href="">Data Mining Applications</a>
       institution: April 4
       year: Week 12
       description:
@@ -210,7 +210,7 @@
       institution: April 11
       year: Week 13
       description:
-        - title: Data Mining in Industry
+        - title: Project Presentations and Outbriefs
           contents:
             - <a href="/cs6220/data-mining/projects/4_project/">Mining for Anomalous Behavior</a>
             - <a href="/cs6220/data-mining/projects/5_project/">Mining in Operational Logistics</a>
