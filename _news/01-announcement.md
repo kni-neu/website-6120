@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome to class -- an introduction to Data Mining. Looking forward to the semester!
-date: 2023-04-01 16:11:00-0400
+date: 2023-12-22 16:11:00-0400
 inline: false
 related_posts: false
 ---

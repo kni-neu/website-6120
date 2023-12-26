@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Recommended books and supplemental reading materials for the semester.
-date: 2023-05-29 16:11:00-0400
+date: 2023-12-29 16:11:00-0400
 inline: false
 related_posts: false
 ---
