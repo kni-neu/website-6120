@@ -36,6 +36,7 @@
         - title: Topics
           contents:
             - Distributed Filesystems and Storage
+            - Structured Data Analysis (SQL)
             - Introducing the MapReduce Paradigm
             - Distributed Computation
         - <a href="http://infolab.stanford.edu/~ullman/mmds/ch2.pdf">Suggested Reading - Chapter 2, Sections 2.1-2.4</a>
@@ -82,7 +83,7 @@
           - <a href="/cs6220/data-mining/homework-4">Assignment 4 is assigned</a> - <i>Parameter Estimation & Clustering</i>
 
 
-    - title: <a href="">Mining Small-ish Data  - Statistical Learning</a>
+    - title: <a href="">Mining Small-ish to Medium-sized Data  - Statistical Learning</a>
       institution: February 15
       year: Week 6
       description:
@@ -95,27 +96,23 @@
           contents:
             - <a href="https://faculty.washington.edu/tamre/BayesTheorem.pdf">Bayes Theorem</a>
             - <a href="http://guidetodatamining.com/assets/guideChapters/DataMining-ch6.pdf">Naïve Bayes</a>
+            - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch3_classification.pdf">Tree Algorithms - Chapters 3.1 - 3.3 </a>
         - title: <a href="../submissions">Submissions</a>
           contents:
           - <a href="http://gradescope.com">Assignment 4 is <b>due</b></a>
           - <a href="/cs6220/data-mining/homework-5">Assignment 5 is assigned</a> - <i>Bayesian Framework & ML Libraries</i>
 
 
-    - title: <a href="">Mining Medium Sized Data</a>
+    - title: <a href="">Course Review, Midterm Preparation</a>
       institution: February 22
       year: Week 6
       description:
         - title: Topics
           contents:
             - Course Review and Midterm Preparation
-            - Tree-based Algorithms - Random Forests
-        - title: Suggested Reading
-          contents:
-            - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch3_classification.pdf">Tree Algorithms - Chapters 3.1 - 3.3 </a>
         - title: <a href="../submissions">Submissions</a>
           contents:
-          - <a href="http://gradescope.com">Assignment 4 is <b>due</b></a>
-          - <a href="/cs6220/data-mining/homework-5">Assignment 5 is assigned</a> - <i>Bayesian Framework & ML Libraries</i>
+          - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
 
 
     - title: Midterm Exam
@@ -142,13 +139,13 @@
 
 
 
-    - title: <a href="">Mining Big Data - Foundations of Machine Learning</a>
+    - title: <a href="">Foundations of Machine Learning</a>
       institution: March 14
       year: Week 9
       description:
         - title: Topics
           contents:
-            - The Classification Framework
+            - Algorithmic Evaluation with Confusion Matrices, Thresholds, ROC Curves
             - The Objective Function, Regularization, and Constraints
             - Logistic Regression - Precursor to Modern Data Mining
             - Batch Data Processing - Gradient Descent
@@ -156,12 +153,12 @@
         - '<b>In-Class Colabs</b>: Logistic Regression with MNIST'
         - title: Suggested Reading
           contents:
-            - <a href="/cs6220/data-mining/assets/pdf/model-eval.pdf">Evaluation Metrics</a>
+            - <a href="https://ia800702.us.archive.org/7/items/datamining_201811/DS-book%20u5.pdf">Evaluation Metrics</a>, Chapter 8.5
             - Logistic Regression (<a href="https://web.stanford.edu/~jurafsky/slp3/5.pdf">[1]</a>, <a href="https://www.math.snu.ac.kr/~hichoi/machinelearning/lecturenotes/LogisticRegression.pdf">[2]</a>)
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
-            - <a href="/cs6220/data-mining/homework-6">Assignment 6 is assigned</a> - <i>Gradient Descent</i>
+            - <a href="/cs6220/data-mining/homework-6">Assignment 6 is assigned</a> - <i>Evaluation Metrics</i>
 
 
     - title: <a href="">Mining Images with Deep Learning</a>
@@ -175,6 +172,9 @@
             - The Backpropation Algorithm
             - Convolutional Neural Networks
         - <a href="https://www.deeplearningbook.org/contents/mlp.html">Suggested Reading</a>
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+            - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
 
 
     - title: <a href="">Mining Text with Self Supervision</a>
@@ -188,10 +188,11 @@
             - The Concept of an Embedding Space
             - The Attention Mechanism
             - Large Language Models - From BERT to ChatGPT
-        - Suggested Reading
+        - title: Suggested Reading
+          contents:
+            - <a href="https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf">Information Retrieval, Chapter 13</a>
         - title: <a href="../submissions">Submissions</a>
           contents:
-            - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
             - <a href="/cs6220/data-mining/project-proposal">Project proposals</a> are <a href="http://gradescope.com"><b>due</b></a>
 
     - title: <a href="">Data Mining Applications</a>
