@@ -4,7 +4,7 @@ title: jamie wilcox
 description: sr. data scientist, c.b. robinson
 img: https://yellowcrayon.github.io/images/NicePhoto2.png
 importance: 2
-category: guest lecturer
+category: guest lecturers
 ---
 
 Jamie Wilcox is currently a Data Science Lead at C.H. Robinson, a shipping and logistics company, where she build machine learning models. She was previously a data scientist at Quora, a social networking website whose mission is to share and grow the world's knowledge. Before that she studied mechanical engineering and used lasers to measure forces created by proteins.

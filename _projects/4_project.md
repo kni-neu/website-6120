@@ -4,7 +4,7 @@ title: patrick callier
 description: sr. applied scientist, etsy
 img: https://64.media.tumblr.com/83bf8fe84a8c78ea10c6f7135276b736/tumblr_nrwimroRAF1stmou2o1_500.jpg
 importance: 2
-category: guest lecturer
+category: guest lecturers
 ---
 
 Patrick Callier is a Senior Applied Scientist at Etsy using computer vision to improve the shopping experience for Etsy buyers. Prior to Etsy, Patrick worked at Square tackling problems ranging from account takeover to credit risk modeling. Before that, he received a Ph.D. in Linguistics from Georgetown University in 2013. Patrick lives in San Francisco and is a fan of good tea, fresh bread, and video games.

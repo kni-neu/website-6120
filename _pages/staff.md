@@ -5,7 +5,7 @@ permalink: /staff/
 description: Instructional staff and lecturers
 nav: true
 nav_order: 3
-display_categories: [staffing, guest lecturer]
+display_categories: [staffing, guest lecturers]
 horizontal: false
 ---
 

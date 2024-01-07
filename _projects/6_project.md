@@ -4,7 +4,7 @@ title: kyle zaragoza
 description: sr. software engineer, google
 img: /assets/img/kyle-edit.jpg
 importance: 2
-category: guest lecturer
+category: guest lecturers
 ---
 
 Kyle Zaragoza is a Senior Software Engineer at Google Search, working on notifications for your Android phone, proactive search results in the Search Bar, and leads an effort that works on infrastructure and the quality of search recommendations. Previously, Kyle worked with the United States Government on computational problems for the Department of Defense.
