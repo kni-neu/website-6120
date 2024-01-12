@@ -11,7 +11,7 @@ profile:
   address: >
     <p>CRN 20658</p>
     <p><a href="https://admin.khoury.northeastern.edu/teaching/schedules/section/250398?semester=Spring+2024&campus=2859">Thurs 4:30-7:50pm</a></p>
-    <p><a href="https://admin.khoury.northeastern.edu/teaching/schedules/section/250398?semester=Spring+2024&campus=2859">San Jose 1010</a></p>
+    <p><a href="https://admin.khoury.northeastern.edu/teaching/schedules/section/250398?semester=Spring+2024&campus=2859">San Jose 912/913</a></p>
 
 news: true  # includes a list of news items
 latest_posts: false # includes a list of the newest posts
