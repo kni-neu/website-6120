@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New room for the remainder of the semester - San Jose 912/913
-date: 2023-01-12 16:11:00-0400
+date: 2024-01-12 16:11:00-0400
 inline: false
 related_posts: false
 ---
