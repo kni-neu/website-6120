@@ -6,8 +6,8 @@ description: final presentation and writeup
 nav: true
 nav_order: 2
 hw_pdf: project-description.pdf
-assigned: september 12, 2023
-due_date: december 5, 2023
+assigned: january 11, 2024
+due_date: TBD
 horizontal: false
 ---
 
