@@ -5,8 +5,8 @@ permalink: /homework-2/
 description: market basket analysis and association rules
 nav: true
 hw_pdf: assignment-2.pdf
-assigned: september 19
-due_date: september 26
+assigned: january 18
+due_date: january 25
 horizontal: false
 ---
 
