@@ -5,8 +5,8 @@ permalink: /homework-1/
 description: review and data exploration
 nav: true
 hw_pdf: assignment-1.pdf
-assigned: september 12
-due_date: september 19
+assigned: january 11
+due_date: january 18
 horizontal: false
 ---
 
