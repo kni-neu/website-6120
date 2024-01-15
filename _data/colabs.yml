@@ -7,7 +7,7 @@
       colab_link: https://colab.research.google.com/drive/1xcRZiCQUszD2WhIbvQP0E2dP5i7WiFcY?usp=sharing
 
 - title: week 2 colabs
-  type: time_table
+  type: pdf_table
   contents:
     - title: Introducing Docker and Docker Containers
       institution: Industry Practice of Containerization
