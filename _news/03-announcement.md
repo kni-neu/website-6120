@@ -8,7 +8,7 @@ related_posts: false
 
 Instruction will be *in-classroom*, but I'll make the best effort to be available online for anyone who has questions outside of lectures. 
 
-This week, we'll be learning about market basket analysis, which is a rule-based approach to mining transactional data. The main topics this week will be to learn about frequent itemsets and association rules. Market basket analysis is a pivotol techniques used by retailers to uncover associations between items. The hypothesis is that combinations of items that occur together frequently in transactions data form relationships that we can exploit.
+This week, we'll be learning about [market basket analysis](https://docs.google.com/presentation/d/12DNum5DdpnZV8NYnpzc6pQUUcRVM6jz0), which is a rule-based approach to mining transactional data. The main topics this week will be to learn about frequent itemsets and association rules. Market basket analysis are pivotol techniques used by retailers to uncover associations between items. The hypothesis is that combinations of items that occur together frequently in transactions data form relationships that we can exploit.
 
 * Please note that our lectures will now occur in Room 912/913 and **not** Room 1010.
 
