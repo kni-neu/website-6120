@@ -208,29 +208,24 @@
         - Suggested Reading
 
 
-    - title: Project Presentations
+    - title: Industry Day
       institution: April 11
+      year: Week 13
+      description:
+        - title: Data Mining in Industry and in Practice
+          contents:
+            - <a href="/cs6220/data-mining/projects/4_project/">Mining for Anomalous Behavior</a>
+            - <a href="/cs6220/data-mining/projects/5_project/">Mining in Operational Logistics</a>
+            - <a href="/cs6220/data-mining/projects/6_project/">Mining to Notify and Alert</a>
+
+    - title: Project Presentations and Final Review
+      institution: April 18
       year: Week 13
       description:
         - title: Project Presentations and Outbriefs
           contents:
-            - <a href="/cs6220/data-mining/projects/4_project/">Mining for Anomalous Behavior</a>
-            - <a href="/cs6220/data-mining/projects/5_project/">Mining in Operational Logistics</a>
-            - <a href="/cs6220/data-mining/projects/6_project/">Mining to Notify and Alert</a>
-        - title: <a href="../submissions">Submissions</a>
-          contents:
-            - <a href="/cs6220/data-mining/presentation-and-project">Final projects</a> are <a href="http://gradescope.com"><b>due</b></a>, including <a href="https://docs.google.com/presentation/d/1cH9TaR2MHpiYLMkeZjyZ7e78E00jE66zNv6xxu6M72E">presentation slides</a> and <a href="https://www.overleaf.com/project/64e2ee609dd6f4b743ea664e">writeup</a> 
-
-
-    - title: Industry Day
-      institution: April 18
-      year: Week 13
-      description:
-        - title: Data Mining in Industry
-          contents:
-            - <a href="/cs6220/data-mining/projects/4_project/">Mining for Anomalous Behavior</a>
-            - <a href="/cs6220/data-mining/projects/5_project/">Mining in Operational Logistics</a>
-            - <a href="/cs6220/data-mining/projects/6_project/">Mining to Notify and Alert</a>
+            - Please add your presentations to this slide deck.
+            - Feel free to use templates for <a href="https://docs.google.com/presentation/d/1cH9TaR2MHpiYLMkeZjyZ7e78E00jE66zNv6xxu6M72E">slides</a> and <a href="../presentation-and-project/">writeup</a>
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href="/cs6220/data-mining/presentation-and-project">Final projects</a> are <a href="http://gradescope.com"><b>due</b></a>, including <a href="https://docs.google.com/presentation/d/1cH9TaR2MHpiYLMkeZjyZ7e78E00jE66zNv6xxu6M72E">presentation slides</a> and <a href="https://www.overleaf.com/project/64e2ee609dd6f4b743ea664e">writeup</a> 
