@@ -48,7 +48,7 @@ Here are the starter kits that you might find useful.
 #### submission instructions
 -----
 
-Commit all your code and materials to your repository, and submit via [Gradescope](https://www.gradescope.com/courses/583114). There, you will upload your PDF and code.
+Commit all your code and materials to your repository, and submit via [Gradescope](https://www.gradescope.com/courses/690988). There, you will upload your PDF and code.
 
 
 <!--

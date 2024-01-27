@@ -37,7 +37,7 @@ d writing, **download the PDF** from Overleaf/Google and upload it to the submis
 #### submission instructions
 -----
 
-* Save your doc file or compile your PDF into a file called `assignment2.pdf`and submit via  [Gradescope](https://www.gradescope.com/courses/583114) before 5pm, Thursday, January 25.
+* Save your doc file or compile your PDF into a file called `assignment2.pdf`and submit via  [Gradescope](https://www.gradescope.com) before 5pm, Thursday, January 25.
 
 
 <!--

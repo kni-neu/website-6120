@@ -42,10 +42,9 @@ d writing, **download the PDF** from Overleaf/Google and upload it to the submis
 #### submission instructions
 
 * Commit your `*.py` or `*.ipynb` (either is fine as long as they are commented appropriately), `output.txt`, and `name-submission-3.pdf` to that 
-repository and provide the URL via [Gradescope](gradescope.com/courses/583114/assignments/3398384) before 5pm, Tuesday, October 10.
+repository and provide the URL via [Gradescope](https://www.gradescope.com/courses/690988/assignments/4010650) before 5pm, Thursday, February 8.
 
-* Make sure that you have documented your code with comments so that the TA can have an easier time understanding your logic. This will, in some cases, result in at least partial cre
-dit.
+* Make sure that you have documented your code with comments so that the TA can have an easier time understanding your logic. This will, in some cases, result in at least partial credit.
 
 * Include a diagram of your pipeline description in your writeup.
 
