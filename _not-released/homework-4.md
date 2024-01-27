@@ -5,8 +5,8 @@ permalink: /homework-4/
 description: clustering and parameter estimation
 nav: true
 hw_pdf: assignment-4.pdf
-assigned: october 10
-due_date: october 17
+assigned: february 8
+due_date: february 15
 horizontal: false
 ---
 
@@ -46,6 +46,6 @@ File** &rarr; **Download** &rarr; **Download .ipynb**.)
 
 #### submission instructions
 
-Submit your homework on [Gradescope, Assignment 4](https://www.gradescope.com/courses/583114/assignments/3492464). You will need to upload a PDF and your Python code (either as a notebook or as a Python file.)
+Submit your homework on [Gradescope, Assignment 4](https://www.gradescope.com/). You will need to upload a PDF and your Python code (either as a notebook or as a Python file.)
 
 

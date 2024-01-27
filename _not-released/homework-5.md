@@ -5,8 +5,8 @@ permalink: /homework-5/
 description: bayes rules and ml toolboxes
 nav: true
 hw_pdf: assignment-5.pdf
-assigned: october 17 
-due_date: november 7
+assigned: february 15
+due_date: february 22
 horizontal: false
 ---
 
