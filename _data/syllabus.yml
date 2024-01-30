@@ -27,7 +27,7 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href="http://gradescope.com">Assignment 1 is <b>due</b></a>
-            - <a href="/cs6220/data-mining/homework-2">Assignment 2 is assigned</a> - <i>Association Rules</i>
+            - <a href="../homework-2">Assignment 2 is assigned</a> - <i>Association Rules</i>
 
 
     - title: <a href="https://docs.google.com/presentation/d/1CvBT11AOrbFPYuCaNeYGA-TpTLu-Fzf-">Accessing, Storing, and Computing with "Big" Data</a>
@@ -43,11 +43,12 @@
         - <a href="http://infolab.stanford.edu/~ullman/mmds/ch2.pdf">Suggested Reading - Chapter 2, Sections 2.1-2.4</a>
         - title: <a href="../submissions">Submissions</a>
           contents:
+            - <a href="../news/05-announcement">Recitation video is available</a>
             - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
-            - <a href="/cs6220/data-mining/homework-3">Assignment 3 is assigned</a> - <i>Map Reduce Problem</i>
+            - <a href="../homework-3">Assignment 3 is assigned</a> - <i>Map Reduce Problem</i>
 
 
-    - title: <a href="">Large Scale Data (Pre)-Processing</a>
+    - title: <a href="https://docs.google.com/presentation/d/1bRGmQdy1LqrotcOWELdRn3jyxb23VeQz">Large Scale Data (Pre)-Processing</a>
       institution: February 1
       year: Week 4
       description:
