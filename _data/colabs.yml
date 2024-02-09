@@ -37,10 +37,10 @@
 - title: week 5 colabs
   type: time_table
   contents:
-    - title: Large Scale Preprocessing
+    - title: Principle component analysis
       institution: Practice with power iterations to identify principle components
       year: In-Class
-      colab_link: https://colab.research.google.com/drive/1Hh4N3S1YTI5DqVux34ptxxiF9rL-Jibe
+      colab_link: https://colab.research.google.com/drive/16jeUZhERNq4DaVU0g9m7S0Zd4HRQMfO6
 
 - title: week 10 colabs
   type: time_table
