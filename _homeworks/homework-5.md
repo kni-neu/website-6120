@@ -40,6 +40,5 @@ Here are the starter kits that you might find useful.
 #### submission instructions
 -----
 
-Commit your `*.py` or `*.ipynb` (either is fine as long as they are commented appropriately), `output.txt`, and `assignment2.pdf` 
-to that repository and provide the URL via [Gradescope](https://www.gradescope.com/courses/583114).
+Commit your `*.py` or `*.ipynb` (either is fine as long as they are commented appropriately), `output.txt`, and `assignment2.pdf` to that repository and provide the URL via [Gradescope](https://www.gradescope.com/).
 
