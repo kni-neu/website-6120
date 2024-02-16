@@ -73,7 +73,6 @@
           contents:
             - Introducing the Gaussian Distribution
             - Parameter Estimation of a Distribution
-            - Anomaly and Outlier Detection
             - Unsupervised Modeling with k-Means and Clustering
         - title: Suggested Reading
           contents:
@@ -91,9 +90,9 @@
       description:
         - title: Topics
           contents:
+            - Anomaly and Outlier Detection
             - The Bayesian Framework
             - Naive Bayes Classification
-            - Tree-based Algorithms - Random Forests
         - title: Suggested Reading
           contents:
             - <a href="https://faculty.washington.edu/tamre/BayesTheorem.pdf">Bayes Theorem</a>
@@ -111,6 +110,7 @@
       description:
         - title: Topics
           contents:
+            - Statistical and Decision Tree Classification
             - Course Review and Midterm Preparation
         - title: <a href="../submissions">Submissions</a>
           contents:
@@ -171,7 +171,7 @@
 
     - title: <a href="">Mining Images with Deep Learning</a>
       institution: March 29
-      year: Week 10
+      year: Week 11
       description:
         - title: Topics
           contents:
@@ -206,7 +206,7 @@
 
     - title: Industry Day
       institution: April 11
-      year: Week 13
+      year: Week 12
       description:
         - title: Data Mining in Industry and in Practice
           contents:
