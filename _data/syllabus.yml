@@ -102,7 +102,7 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
           - <a href="http://gradescope.com">Assignment 4 is <b>due</b></a>
-          - <a href="/cs6220/data-mining/homework-5">Assignment 5 is assigned</a> - <i>Bayesian Framework & ML Libraries</i>
+          - <a href="../homework-5">Assignment 5 is assigned</a> - <i>Bayesian Framework & ML Libraries</i>
 
 
     - title: <a href="https://docs.google.com/presentation/d/1vh_IrsHOMkrAUxKSyfDurK6e4pAyKn_M">Course Review, Midterm Preparation</a>
@@ -115,6 +115,7 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
           - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
+          - <a href="../homework-6">Assignment 6 is assigned</a> - <i>Evaluation Metrics</i>
 
 
     - title: Midterm Exam
@@ -140,10 +141,16 @@
         - Have a nice break!
 
 
-
-    - title: <a href="">Foundations of Machine Learning</a>
+    - title: No Instruction This Week - Instructor Absence 
       institution: March 14
       year: Week 9
+      description:
+        - Office hours held instead
+      
+      
+    - title: <a href="">Foundations of Machine Learning</a>
+      institution: March 22
+      year: Week 10
       description:
         - title: Topics
           contents:
@@ -163,7 +170,7 @@
 
 
     - title: <a href="">Mining Images with Deep Learning</a>
-      institution: March 22
+      institution: March 29
       year: Week 10
       description:
         - title: Topics
@@ -179,7 +186,7 @@
 
 
     - title: <a href="">Mining Text with Self Supervision</a>
-      institution: March 28
+      institution: April 4
       year: Week 11
       description:
         - title: Topics
@@ -195,17 +202,6 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href="/cs6220/data-mining/project-proposal">Project proposals</a> are <a href="http://gradescope.com"><b>due</b></a>
-
-    - title: <a href="">Data Mining Applications</a>
-      institution: April 4
-      year: Week 12
-      description:
-        - title: Topics
-          contents:
-            - Social Network Data Mining
-            - Recommendation Sciences
-            - Time Series Analysis
-        - Suggested Reading
 
 
     - title: Industry Day
