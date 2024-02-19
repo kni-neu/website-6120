@@ -5,8 +5,8 @@ permalink: /homework-6/
 description: classifier evaluation metrics
 nav: true
 hw_pdf: assignment-6.pdf
-assigned: november 7
-due_date: november 14
+assigned: February 22
+due_date: March 28
 horizontal: false
 ---
 
@@ -20,7 +20,7 @@ Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-
 #### data and starter kit
 -----
 
-You will need [the data](https://course.ccs.neu.edu/cs6220/fall2023/homework-6/). If you are using Colabs (not a requirement), you would need a Google account.
+For those of you who have not completed Q3 from homework 5, you will need [the data from the last assignment](https://course.ccs.neu.edu/cs6220/fall2023/homework-5/) as well as the [starter Colab kit](https://colab.research.google.com/drive/1cPJ5eDwVU_F7H3XDRG1Y7Mfd12kwa7Iw?usp=sharing). For this assignment, you will need [the data](https://course.ccs.neu.edu/cs6220/fall2023/homework-6/). If you are using Colabs (not a requirement), you would need a Google account.
 
 <center>
 <img 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Homework 5, Question 3 can be omitted (and will be updated). The midterm is next week.
+title: Homework 5, Question 3 can be omitted. Project proposals due 3/21. Midterm is next week.
 date: 2024-02-19
 inline: false
 related_posts: false
@@ -36,3 +36,9 @@ I would suggest that you practice these so that you needn't look up at the board
 [Here](https://docs.google.com/presentation/d/1vh_IrsHOMkrAUxKSyfDurK6e4pAyKn_M) are some practice problems that should help you prepare:
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT47MBdPnyxSDdVdDzI06qej4fmjebKzcPGisenwt4E7NcxtoQtSbbPft5uJpUtBg/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+***
+
+### Project Proposals Due 3/21
+
+Project proposals are now due 3/21 after the holiday. Please organize your team and review the [proposal site](../../project-proposal).

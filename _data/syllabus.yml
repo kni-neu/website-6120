@@ -151,7 +151,7 @@
       
       
     - title: <a href="">Foundations of Machine Learning</a>
-      institution: March 22
+      institution: March 21
       year: Week 11
       description:
         - title: Topics
@@ -168,11 +168,11 @@
             - Logistic Regression (<a href="https://web.stanford.edu/~jurafsky/slp3/5.pdf">[1]</a>, <a href="https://www.math.snu.ac.kr/~hichoi/machinelearning/lecturenotes/LogisticRegression.pdf">[2]</a>)
         - title: <a href="../submissions">Submissions</a>
           contents:
-            - <a href="/cs6220/data-mining/homework-6">Assignment 6 is assigned</a> - <i>Evaluation Metrics</i>
+            - <a href="../project-proposal/">Project Proposals are Due</a> - <i>Initial Thoughts and Feedback</i>
 
 
     - title: <a href="">Mining Images with Deep Learning</a>
-      institution: March 29
+      institution: March 28
       year: Week 12
       description:
         - title: Topics
