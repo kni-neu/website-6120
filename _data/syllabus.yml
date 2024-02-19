@@ -84,7 +84,7 @@
           - <a href="/cs6220/data-mining/homework-4">Assignment 4 is assigned</a> - <i>Parameter Estimation & Clustering</i>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1cjg838wvH8WKzsWsQEuvbItx2Y5LNWou">Mining Small-ish to Medium-sized Data  - Statistical Learning</a>
+    - title: <a href="https://docs.google.com/presentation/d/1cjg838wvH8WKzsWsQEuvbItx2Y5LNWou">Mining with Bayes Classifiers</a>
       institution: February 15
       year: Week 6
       description:
@@ -103,13 +103,13 @@
           - <a href="../homework-5">Assignment 5 is assigned</a> - <i>Bayesian Framework & ML Libraries</i>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1vh_IrsHOMkrAUxKSyfDurK6e4pAyKn_M">Course Review, Midterm Preparation</a>
+    - title: <a href="https://docs.google.com/presentation/d/1DSwQrXf06ksWLmC7gHZBPcos4ERCP9fM">Mining with Small Data and Course Review</a>
       institution: February 22
-      year: Week 6
+      year: Week 7
       description:
         - title: Topics
           contents:
-            - Statistical and Decision Tree Classification
+            - Decision Tree Classification
             - Course Review and Midterm Preparation
         - title: Suggested Reading
           contents:
@@ -122,7 +122,7 @@
 
     - title: Midterm Exam
       institution: February 29
-      year: Week 7
+      year: Week 8
       description:
         - title: Topics
           contents:
@@ -138,21 +138,21 @@
 
     - title: No Instruction This Week - Spring Break
       institution: March 7
-      year: Week 8
+      year: Week 9
       description:
         - Have a nice break!
 
 
     - title: No Instruction This Week - Instructor Absence 
       institution: March 14
-      year: Week 9
+      year: Week 10 
       description:
         - Office hours held instead
       
       
     - title: <a href="">Foundations of Machine Learning</a>
       institution: March 22
-      year: Week 10
+      year: Week 11
       description:
         - title: Topics
           contents:
@@ -173,7 +173,7 @@
 
     - title: <a href="">Mining Images with Deep Learning</a>
       institution: March 29
-      year: Week 11
+      year: Week 12
       description:
         - title: Topics
           contents:
@@ -189,7 +189,7 @@
 
     - title: <a href="">Mining Text with Self Supervision</a>
       institution: April 4
-      year: Week 11
+      year: Week 13
       description:
         - title: Topics
           contents:
@@ -208,7 +208,7 @@
 
     - title: Industry Day
       institution: April 11
-      year: Week 12
+      year: Week 14
       description:
         - title: Data Mining in Industry and in Practice
           contents:
@@ -218,7 +218,7 @@
 
     - title: Project Presentations and Final Review
       institution: April 18
-      year: Week 13
+      year: Week 15
       description:
         - title: Project Presentations and Outbriefs
           contents:
@@ -231,7 +231,7 @@
 
     - title: Final Exam
       institution: April 25
-      year: Week 14
+      year: Week 16
       description:
         - title: Topics
           contents:
