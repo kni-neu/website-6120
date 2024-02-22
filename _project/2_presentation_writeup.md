@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 hw_pdf: project-description.pdf
 assigned: january 11, 2024
-due_date: TBD
+due_date: april 18, 2024
 horizontal: false
 ---
 
@@ -36,7 +36,7 @@ There are two submissions to your project: your writeup and your code. Combined,
 
 |---|---|---|
 |---|---|---|
-| 25% | : | __Clarity and presentation__ : Relates to both written and oral delivery, (e.g., presentations on December 5) |
+| 25% | : | __Clarity and presentation__ : Relates to both written and oral delivery, (e.g., presentations on April 18) |
 | 5% | : |  __Motivation and impact__ : Problem is carefully chosen, important, and interesting |
 | 5% | : |  __Background and related work__: Background, literature survey: applications and technical |
 | 30% | : | __Data specifics__: The amount of data should be enough to provide sufficient statistics (10%) |
