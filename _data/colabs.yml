@@ -42,7 +42,7 @@
       year: In-Class
       colab_link: https://colab.research.google.com/drive/16jeUZhERNq4DaVU0g9m7S0Zd4HRQMfO6
 
-- title: week 5 colabs
+- title: week 6 colabs
   type: time_table
   contents:
     - title: Anomaly Detection
@@ -50,15 +50,15 @@
       year: In-Class
       colab_link: https://colab.research.google.com/drive/1UxD6csLyEBT7A2rHIwuYcmZNUc82OG1D
 
-- title: week 10 colabs
+- title: week 11 colabs
   type: time_table
   contents:
     - title: Mining Structured Data and Images
       institution: Manually coding logistic regression optimization
       year: In-Class
-      colab_link: https://colab.research.google.com/drive/19MfDLK9bG_RQcnSlekgHvr8cHZU4OSYW
+      colab_link: https://colab.research.google.com/drive/1qjENMQA1E0rYrB6dT75DwvFbn8cRb0sT
 
-- title: week 11 colabs
+- title: week 12 colabs
   type: time_table
   contents:
     - title: Using Keras and Traditional Text Mining
