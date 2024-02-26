@@ -17,3 +17,18 @@ In Class, there was a request to solve the PySpark k-Means problem. I would enco
 ### Guest Speakers
 
 Looking forward to confirmed speakers [Pat Callier](https://www.linkedin.com/in/pcallier)  and [Jamie Wilcox](https://www.linkedin.com/in/jamianne-wilcox). Their biographies are located on the [staffing page](../staff). Please come with questions; you can earn extra credit.
+
+---
+
+### Open AI's SORA can now create videos
+
+**Prompt:**
+
+A stylish woman walks down a Tokyo street filled with warm glowing neon and animated city signage. She wears a black leather jacket, a long red dress, and black boots, and carries a black purse. She wears sunglasses and red lipstick. She walks confidently and casually. The street is damp and reflective, creating a mirror effect of the colorful lights. Many pedestrians walk about.
+
+<br>
+**Resulting Video:**
+
+<center>
+<iframe width="700" height="380" src="https://www.youtube.com/embed/tRSdt5kmeW0?si=QDsSSS0Wkh0GN_F3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>

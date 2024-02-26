@@ -5,8 +5,8 @@ permalink: /homework-6/
 description: classifier evaluation metrics
 nav: true
 hw_pdf: assignment-6.pdf
-assigned: February 22
-due_date: March 28
+assigned: february 22
+due_date: march 28
 horizontal: false
 ---
 
