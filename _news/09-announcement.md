@@ -28,7 +28,30 @@ STDEV = 0.25).
 
 Insights per question:
 
-* Most common error was taking the argmin of a similarity metric in k-Means
+* Most common error was the application of the similarity metric in k-Means
 * Itemset questions had the highest average scoring and lowest standard deviations
 * The most difficult question was the final probability question
+
+<br>
+<br>
+
+---
+
+The rubric was based on the following:
+
+1. MapReduce E-Commerce
+  * (3pts) Filter OK
+  * (1pts) Map takes an appropriate tuple
+  * (1pts) Final solution is the correct format
+  * (4pts) Dates compared correctly with reduceByKey
+  * (1pts) Map applied correctly
+2. MapReduce Vendor/Price
+  a. Best vendor
+    * (1pts) Vendor used as key
+    * (1pts) Sum taken with map/reduceByKey
+    * (2pts) Reduces to a _single_ value
+  b. Standard deviation
+    * (3pts) Map squared values (and all elements)
+    * (2pts) Reduce is appropriately taken
+    * (1pts) Final format and square root
 
