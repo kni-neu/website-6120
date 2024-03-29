@@ -185,6 +185,7 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
+            - <a href="../homework-7">Assignment 7 is <b>assigned</b></a>
 
 
     - title: <a href="">Mining Text with Self Supervision</a>
@@ -201,9 +202,6 @@
         - title: Suggested Reading
           contents:
             - <a href="https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf">Information Retrieval, Chapter 13</a>
-        - title: <a href="../submissions">Submissions</a>
-          contents:
-            - <a href="/cs6220/data-mining/project-proposal">Project proposals</a> are <a href="http://gradescope.com"><b>due</b></a>
 
 
     - title: Industry Day
@@ -215,6 +213,9 @@
             - <a href="/cs6220/data-mining/projects/4_project/">Mining for Anomalous Behavior</a>
             - <a href="/cs6220/data-mining/projects/5_project/">Mining in Operational Logistics</a>
             - <a href="/cs6220/data-mining/projects/6_project/">Mining to Notify and Alert</a>
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+            - <a href="http://gradescope.com">Assignment 7 is <b>due</b></a>
 
     - title: Project Presentations and Final Review
       institution: April 18
