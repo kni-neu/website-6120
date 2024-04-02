@@ -1,18 +1,23 @@
 ---
 layout: page
-title: barry chen
-description: research lead of staff
-img: /assets/img/chen52.png
+title: kyle zaragoza
+description: sr. software engineer, google
+img: /assets/img/kyle-edit.jpg
 importance: 2
 category: guest lecturers
 ---
 
-Livermore’s Barry Chen came directly to the Laboratory after receiving his Ph.D. in electrical engineering and computer science from the University of California, Berkeley in 2005. There he worked with automatic speech recognition, which depends on ML and AI technologies. “I wanted to find new ways to use these tools in the world,” he says. “Applying them to science and national security applications is very attractive and personally gratifying.”
+Kyle Zaragoza is a Senior Software Engineer at Google Search, working on notifications for your Android phone, proactive search results in the Search Bar, and leads an effort that works on infrastructure and the quality of search recommendations. Previously, Kyle worked with the United States Government on computational problems for the Department of Defense.
 
-Right away, Chen experienced the wide variety of work at Livermore, and the cross-disciplinary teamwork required to solve the complex challenges the Laboratory takes on. His first project was developing Computer Vision software to help find defects in each of the hundreds of laser optics used at the National Ignition Facility. He designed algorithms to detect distinctive bullseye patterns in images of NIF optics that are indicative of defect sites in upstream laser optics. He worked with other engineers and physicists to help keep NIF’s laser shots running without disruption.
 
-Since then, he has spent a considerable amount of time applying ML to security applications, where the complexity and heterogeneity of data types pose problems to traditional ML approaches. He led the development of SparkPlug, a software toolkit for statistical density estimation of large sets of complex data. His team applied SparkPlug to model normal computer network behaviors for detecting anomalies in computer security applications.
-
-Lately, Chen has been focusing on developing neural networks to model multimodal data—teaching them to map images, text, and video of similar concepts to proximal locations in a common vector space. With this capability, a nonproliferation analyst could specify a search for anything related to, for example, “centrifuge,” and the system can then scan massive collections of data, looking for technologies relevant to nuclear centrifuge development. Chen explains: “The challenges posed by these application areas are different from those faced by commercial interests. We are making a difference to both basic science and national security.”
-
+<style>
+.responsive-wrap iframe{ max-width: 100%;}
+</style>
+<div class="responsive-wrap">
+<!-- this is the embed code provided by Google -->
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT0Tgt5rwzoJucD6cwmj7y1tR5lpceueAr1aVTsK0qn19z1H-C4hffZ4DVcpB11Pn6xDgTOXvG4szBw/embed?st
+art=false&loop=false&delayms=3000&slide=id.g216694f168a_0_32" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="tru
+e" webkitallowfullscreen="true"></iframe>
+<!-- Google embed ends -->
+</div>
 
