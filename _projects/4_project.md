@@ -1,7 +1,7 @@
 ---
 layout: page
 title: barry chen
-description: research lead of staff
+description: research staff lead, llnl
 img: /assets/img/chen52.png
 importance: 2
 category: guest lecturers
