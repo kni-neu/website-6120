@@ -8,7 +8,7 @@ related_posts: false
 
 Homework submissions for [assignment 7](../../homework-7) are due on April 11 at 4:30pm via [Gradescope](https://www.gradescope.com/courses/690988/assignments/4312085).
 
-[Project final presentations and writeups](../../presentation-and-project/) are due on April 18 at 4:30pm, and the [submission site is now live](https://www.gradescope.com/courses/690988/assignments/4312087). Please include a slide deck, your code, and final writeup.
+[Project final presentations and writeups](../../presentation-and-project/) are due on April 18 at 4:30pm. For your presentation, **please link them** to the [Week 15 slide deck](https://docs.google.com/presentation/d/1Hob7JSEPMioPAP6rHdxFbJR-QAB5hGZi/edit#slide=id.p3). [Submission site is now live](https://www.gradescope.com/courses/690988/assignments/4312087). Please include a slide deck, your code, and final writeup.
 
 <br>
 <br>
