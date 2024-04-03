@@ -51,7 +51,7 @@ There are two submissions to your project: your writeup and your code. Combined,
 #### submission instructions
 -----
 
-Add the link to your project to [the final lecture slide deck](https://docs.google.com/presentation/d/1T8E2ul2sH5b380N1LFXxJ2sn47nMqbGaJkph4jcIvDo/edit#slide=id.g2a04ebc454c_0_0). (This is slide 3.) Commit all your code to your repository, and submit via [Gradescope](https://www.gradescope.com/courses/583114). There, you will upload your PDF and provide the link to your repository, which should have all the code that you used to generate your solutions. Please submit only __once__ per team by including all persons on Gradescope.
+Add the link to your project to [the final lecture slide deck](https://docs.google.com/presentation/d/1Hob7JSEPMioPAP6rHdxFbJR-QAB5hGZi/edit#slide=id.p3). (This is slide 3.) Commit all your code to your repository, and submit via [Gradescope](https://www.gradescope.com/). There, you will upload your PDF and provide the link to your repository, which should have all the code that you used to generate your solutions. Please submit only __once__ per team by including all persons on Gradescope.
 
 <!--
 <br><br><br>
