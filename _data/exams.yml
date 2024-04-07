@@ -1,0 +1,16 @@
+- title: midterm exam
+  type: time_table
+  contents:
+    - title: february 29, 2024
+      institution: february 29, 2024
+      year: In-Class
+      colab_link: https://colab.research.google.com/drive/1xcRZiCQUszD2WhIbvQP0E2dP5i7WiFcY?usp=sharing
+
+
+- title: final exam
+  type: time_table
+  contents:
+    - title: march 21, 2024
+      institution: april 25, 2024
+      year: In-Class
+      colab_link: https://colab.research.google.com/drive/1xcRZiCQUszD2WhIbvQP0E2dP5i7WiFcY?usp=sharing
