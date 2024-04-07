@@ -1,10 +1,10 @@
 ---
 layout: post
-title: final exam instructions
+title: final exam setup
 date: 2024-04-01 11:12:00-0400
 description: the instructions and setup for obtaining exam files and data
 tags: formatting math
-categories: sample-posts
+categories: exams
 related_posts: false
 ---
 
