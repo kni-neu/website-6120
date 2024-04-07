@@ -8,14 +8,14 @@ categories: sample-posts
 related_posts: false
 ---
 
-The exam code `exam_class.py` should now be shared with you.
+The exam code `exam_class.py` should now be shared with your Northeastern University account. (Ensure that you are logged into Colab with your University account.) 
 
-* Find the `exam_class.py` in Google Drive, "Shared with me". We have used your Northeastern University e-mail address.
+* Find the `exam_class.py` in Google Drive, "Shared with me". 
 <p align="center">
 <img src="http://course.ccs.neu.edu/cs6220/spring2024/final/shared-file.png" width="600"/>
 </p>
 
-* Create a **shortcut** to the shared file. Do _not_ copy the file.
+* Create a **shortcut** to the shared file. Do _not_ copy the file. Only edit this file.
 <p align="center">
 <img src="http://course.ccs.neu.edu/cs6220/spring2024/final/shortcut-to-exam.png" width="600"/>
 </p>
