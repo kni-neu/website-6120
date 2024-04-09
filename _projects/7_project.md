@@ -1,23 +1,13 @@
 ---
 layout: page
-title: kyle zaragoza
-description: sr. software engineer, google
-img: /assets/img/kyle-edit.jpg
+title: alex kamil
+description: sr. ml software engineer, etsy
+img: /assets/img/alex-bike-tall.jpg
 importance: 2
 category: guest lecturers
 ---
 
-Kyle Zaragoza is a Senior Software Engineer at Google Search, working on notifications for your Android phone, proactive search results in the Search Bar, and leads an effort that works on infrastructure and the quality of search recommendations. Previously, Kyle worked with the United States Government on computational problems for the Department of Defense.
+Alex Kamil is a Senior Machine Learning Engineer at Etsy, working on recommendation modules, and leads an effort that works on infrastructure and the quality of recommendations. Previously, Alex worked as macro trading engineer at Balyasny Asset Management, building software for real time portfolio analytics and options pricing. Before that, he worked at Guggenheim Partners as quant/developer, and as a software engineer at FXall/Reuters, a high frequency trading exchange. He received a BA in Computer Science from Columbia.
 
-
-<style>
-.responsive-wrap iframe{ max-width: 100%;}
-</style>
-<div class="responsive-wrap">
-<!-- this is the embed code provided by Google -->
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT0Tgt5rwzoJucD6cwmj7y1tR5lpceueAr1aVTsK0qn19z1H-C4hffZ4DVcpB11Pn6xDgTOXvG4szBw/embed?st
-art=false&loop=false&delayms=3000&slide=id.g216694f168a_0_32" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="tru
-e" webkitallowfullscreen="true"></iframe>
-<!-- Google embed ends -->
-</div>
+Alex will be speaking during Lecture 11 / Week 14 - CS6220, during the class, which will be in Room 301. He will be virtual.
 
