@@ -1,6 +1,6 @@
 ---
 layout: page
-title: amogha sekhar
+title: amogha s.
 description: sr. software engineer, etsy
 img: /assets/img/amogha.jpeg
 importance: 2
