@@ -11,3 +11,4 @@ Alex Kamil is a Senior Machine Learning Engineer at Etsy, working on recommendat
 
 Alex will be speaking during Lecture 11 / Week 14 - CS6220, during the class, which will be in Room 301. He will be virtual.
 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSnlYyJu8tAnLsDdAvPZXAQ90_W_gud1OLm11qK6NzekwRGop9gvvrjd6C3iThFdyWfkBcjDMhLpwe1/embed?start=false&loop=false&delayms=3000" frameborder="0" width="760" height="469" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
