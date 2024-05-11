@@ -12,5 +12,8 @@ children:
       permalink: https://course.ccs.neu.edu/cs6220/fall2023/website
     - title: divider
     - title: spring 2024
+      permalink: https://course.ccs.neu.edu/cs6220/spring2024/website
+    - title: divider
+    - title: fall 2024
       permalink: /
 ---
