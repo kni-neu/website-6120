@@ -1,8 +1,8 @@
 - title: schedule
   type: time_table
   contents:
-    - title: <a href="https://docs.google.com/presentation/d/1ZrrVmpDQwfz5KI7QtrRks9YXgoyvRep2/edit?usp=sharing&ouid=117230435864186314036&rtpof=true&sd=true">Introduction and Applications</a>
-      institution: January 11
+    - title: <a href="">Introduction and Applications</a>
+      institution: September 9
       year: Week 1
       description:
         - title: Topics
@@ -13,8 +13,8 @@
         - <a href="/cs6220/data-mining/homework-1">Assignment 1 is assigned</a> - <i>Review & Exploring Data</i>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/12DNum5DdpnZV8NYnpzc6pQUUcRVM6jz0">Mining for Association Rules</a>
-      institution: January 18
+    - title: <a href="">Mining for Association Rules</a>
+      institution: September 16
       year: Week 2
       description:
         - title: Topics
@@ -30,8 +30,8 @@
             - <a href="../homework-2">Assignment 2 is assigned</a> - <i>Association Rules</i>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1CvBT11AOrbFPYuCaNeYGA-TpTLu-Fzf-">Accessing, Storing, and Computing with "Big" Data</a>
-      institution: January 25
+    - title: <a href="">Accessing, Storing, and Computing with "Big" Data</a>
+      institution: September 23
       year: Week 3
       description:
         - title: Topics
@@ -48,8 +48,8 @@
             - <a href="../homework-3">Assignment 3 is assigned</a> - <i>Map Reduce Problem</i>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1bRGmQdy1LqrotcOWELdRn3jyxb23VeQz">Large Scale Data (Pre)-Processing</a>
-      institution: February 1
+    - title: <a href="">Large Scale Data (Pre)-Processing</a>
+      institution: September 30
       year: Week 4
       description:
         - title: Topics
@@ -65,8 +65,8 @@
             - <a href="http://infolab.stanford.edu/~ullman/mmds/ch2.pdf">Map Reduce, Sections 2.5-2.7</a>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1M5pNplh4LlcHoiSAG0oSt5gQcaXX5cGx">Mining Data without Labels</a>
-      institution: February 8
+    - title: <a href="">Mining Data without Labels</a>
+      institution: October 7
       year: Week 5
       description:
         - title: Topics
@@ -84,8 +84,8 @@
           - <a href="/cs6220/data-mining/homework-4">Assignment 4 is assigned</a> - <i>Parameter Estimation & Clustering</i>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1cjg838wvH8WKzsWsQEuvbItx2Y5LNWou">Mining with Bayes Classifiers</a>
-      institution: February 15
+    - title: <a href="">NO CLASSES - Mining with Bayes Classifiers</a>
+      institution: October 14
       year: Week 6
       description:
         - title: Topics
@@ -103,8 +103,8 @@
           - <a href="../homework-5">Assignment 5 is assigned</a> - <i>Bayesian Framework & ML Libraries</i>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1DSwQrXf06ksWLmC7gHZBPcos4ERCP9fM">Mining with Small Data and Course Review</a>
-      institution: February 22
+    - title: <a href="">Mining with Small Data and Course Review</a>
+      institution: October 21
       year: Week 7
       description:
         - title: Topics
@@ -121,7 +121,7 @@
 
 
     - title: Midterm Exam
-      institution: February 29
+      institution: October 28
       year: Week 8
       description:
         - title: Topics
@@ -136,22 +136,22 @@
 
 
 
-    - title: No Instruction This Week - Spring Break
-      institution: March 7
+    - title: Topic
+      institution: November 4
       year: Week 9
       description:
         - Have a nice break!
 
 
-    - title: No Instruction This Week - Instructor Absence 
-      institution: March 14
+    - title: No Instruction This Week - Veteran's Day
+      institution: November 11
       year: Week 10 
       description:
-        - Office hours held instead
+        - Have a nice holiday!
       
       
-    - title: <a href="https://docs.google.com/presentation/d/1CRDKKMZ_RPFjAW0Nfy68nfxQmIvzhjsF">Foundations of Machine Learning</a>
-      institution: March 21
+    - title: <a href="">Foundations of Machine Learning</a>
+      institution: November 18
       year: Week 11
       description:
         - title: Topics
@@ -171,8 +171,8 @@
             - <a href="../project-proposal/">Project Proposals are Due</a> - <i>Initial Thoughts and Feedback</i>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/18TTftReT5XXKhP0wMPi9Pyz6_aL34Ubj">Mining Images with Deep Learning</a>
-      institution: March 28
+    - title: <a href="">Mining Images with Deep Learning</a>
+      institution: November 25
       year: Week 12
       description:
         - title: Topics
@@ -188,8 +188,8 @@
             - <a href="../homework-7">Assignment 7 is <b>assigned</b></a>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1pSADtQ8BWXB21dihd6eGuuvW6ODhrM3F">Mining Text with Self Supervision</a>
-      institution: April 4
+    - title: <a href="">Mining Text with Self Supervision</a>
+      institution: December 2
       year: Week 13
       description:
         - title: Topics
@@ -204,8 +204,8 @@
             - <a href="https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf">Information Retrieval, Chapter 13</a>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1E8UEfoqhm-b6hzfTFa1jDBPLMIBTXoSL8LtQkf6If1c">Industry Day</a>
-      institution: April 11
+    - title: <a href="">Industry Day</a>
+      institution: December 9
       year: Week 14
       description:
         - title: Data Mining in Industry and in Practice
@@ -217,7 +217,7 @@
           contents:
             - <a href="http://gradescope.com">Assignment 7 is <b>due</b></a>
 
-    - title: <a href="https://docs.google.com/presentation/d/1Hob7JSEPMioPAP6rHdxFbJR-QAB5hGZi">Project Presentations and Final Review</a>
+    - title: <a href="">Project Presentations and Final Review</a>
       institution: April 18
       year: Week 15
       description:

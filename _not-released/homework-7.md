@@ -5,8 +5,8 @@ permalink: /homework-7/
 description: deep learning and the keras toolbox
 nav: true
 hw_pdf: assignment-7.pdf
-assigned: november 7
-due_date: november 21
+assigned: march 28
+due_date: april 11 (optional)
 horizontal: false
 ---
 
