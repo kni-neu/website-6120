@@ -84,9 +84,16 @@
           - <a href="/cs6220/data-mining/homework-4">Assignment 4 is assigned</a> - <i>Parameter Estimation & Clustering</i>
 
 
-    - title: <a href="">NO CLASSES - Mining with Bayes Classifiers</a>
+    - title: No Instruction - Indigenous People's Day
       institution: October 14
       year: Week 6
+      description:
+        - Have a nice break!
+
+
+    - title: <a href="">Mining with Bayes Classifiers</a>
+      institution: October 21
+      year: Week 7
       description:
         - title: Topics
           contents:
@@ -104,8 +111,8 @@
 
 
     - title: <a href="">Mining with Small Data and Course Review</a>
-      institution: October 21
-      year: Week 7
+      institution: October 28
+      year: Week 8
       description:
         - title: Topics
           contents:
@@ -121,8 +128,8 @@
 
 
     - title: Midterm Exam
-      institution: October 28
-      year: Week 8
+      institution: November 4
+      year: Week 9
       description:
         - title: Topics
           contents:
@@ -135,15 +142,7 @@
         - <a href="../news/07-announcement">Suggested Preparation</a>
 
 
-
-    - title: Topic
-      institution: November 4
-      year: Week 9
-      description:
-        - Have a nice break!
-
-
-    - title: No Instruction This Week - Veteran's Day
+    - title: No Instruction - Veteran's Day
       institution: November 11
       year: Week 10 
       description:
@@ -156,11 +155,8 @@
       description:
         - title: Topics
           contents:
-            - Algorithmic Evaluation with Confusion Matrices, Thresholds, ROC Curves
+            - Algorithmic Evaluation with Confusion Matrices and ROC Curves
             - The Objective Function, Regularization, and Constraints
-            - Logistic Regression - Precursor to Modern Data Mining
-            - Batch Data Processing - Gradient Descent
-            - The Bias and Variance Tradeoff
         - '<b>In-Class Colabs</b>: Logistic Regression with MNIST'
         - title: Suggested Reading
           contents:
@@ -179,8 +175,6 @@
           contents:
             - Working with Tensors - Reviewing Multivariate Calculus
             - Deep Learning - A Historical Perspective
-            - The Backpropation Algorithm
-            - Convolutional Neural Networks
         - <a href="https://www.deeplearningbook.org/contents/mlp.html">Suggested Reading</a>
         - title: <a href="../submissions">Submissions</a>
           contents:
@@ -196,7 +190,6 @@
           contents:
             - Some Basic Approaches
             - Semi-Supervised Learning
-            - The Concept of an Embedding Space
             - The Attention Mechanism
             - Large Language Models - From BERT to ChatGPT
         - title: Suggested Reading
@@ -204,35 +197,9 @@
             - <a href="https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf">Information Retrieval, Chapter 13</a>
 
 
-    - title: <a href="">Industry Day</a>
+    - title: Final Exam
       institution: December 9
       year: Week 14
-      description:
-        - title: Data Mining in Industry and in Practice
-          contents:
-            - <a href="/cs6220/data-mining/projects/4_project/">Mining for Anomalous Behavior</a>
-            - <a href="/cs6220/data-mining/projects/5_project/">Mining in Operational Logistics</a>
-            - <a href="/cs6220/data-mining/projects/6_project/">Mining to Notify and Alert</a>
-        - title: <a href="../submissions">Submissions</a>
-          contents:
-            - <a href="http://gradescope.com">Assignment 7 is <b>due</b></a>
-
-    - title: <a href="">Project Presentations and Final Review</a>
-      institution: April 18
-      year: Week 15
-      description:
-        - title: Project Presentations and Outbriefs
-          contents:
-            - Please add your presentations to this slide deck.
-            - Feel free to use templates for <a href="https://docs.google.com/presentation/d/1cH9TaR2MHpiYLMkeZjyZ7e78E00jE66zNv6xxu6M72E">slides</a> and <a href="../presentation-and-project/">writeup</a>
-        - title: <a href="../submissions">Submissions</a>
-          contents:
-            - <a href="/cs6220/data-mining/presentation-and-project">Final projects</a> are <a href="http://gradescope.com"><b>due</b></a>, including <a href="https://docs.google.com/presentation/d/1cH9TaR2MHpiYLMkeZjyZ7e78E00jE66zNv6xxu6M72E">presentation slides</a> and <a href="https://www.overleaf.com/project/64e2ee609dd6f4b743ea664e">writeup</a> 
-            
-
-    - title: Final Exam
-      institution: April 25
-      year: Week 16
       description:
         - title: Topics
           contents:
