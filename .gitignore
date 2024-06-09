@@ -4,8 +4,8 @@
 .jekyll-metadata
 .DS_store
 .ruby-version
+.swp
 .tweet-cache
 Gemfile.lock
 vendor
 _site
-
