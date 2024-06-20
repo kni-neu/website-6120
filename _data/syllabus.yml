@@ -2,7 +2,7 @@
   type: time_table
   contents:
     - title: <a href="">Introduction and Applications</a>
-      institution: September 9
+      institution: January 6
       year: Week 1
       description:
         - title: Topics
@@ -14,7 +14,7 @@
 
 
     - title: <a href="">Mining for Association Rules</a>
-      institution: September 16
+      institution: January 13
       year: Week 2
       description:
         - title: Topics
@@ -31,7 +31,7 @@
 
 
     - title: <a href="">Accessing, Storing, and Computing with "Big" Data</a>
-      institution: September 23
+      institution: January 20
       year: Week 3
       description:
         - title: Topics
@@ -49,7 +49,7 @@
 
 
     - title: <a href="">Large Scale Data (Pre)-Processing</a>
-      institution: September 30
+      institution: January 27
       year: Week 4
       description:
         - title: Topics
@@ -66,7 +66,7 @@
 
 
     - title: <a href="">Mining Data without Labels</a>
-      institution: October 7
+      institution: February 3
       year: Week 5
       description:
         - title: Topics
@@ -85,14 +85,14 @@
 
 
     - title: No Instruction - Indigenous People's Day
-      institution: October 14
+      institution: February 10
       year: Week 6
       description:
         - Have a nice break!
 
 
     - title: <a href="">Mining with Bayes Classifiers</a>
-      institution: October 21
+      institution: February 17
       year: Week 7
       description:
         - title: Topics
@@ -111,7 +111,7 @@
 
 
     - title: <a href="">Mining with Small Data and Course Review</a>
-      institution: October 28
+      institution: February 24
       year: Week 8
       description:
         - title: Topics
@@ -128,7 +128,7 @@
 
 
     - title: Midterm Exam
-      institution: November 4
+      institution: March 3
       year: Week 9
       description:
         - title: Topics
@@ -143,14 +143,14 @@
 
 
     - title: No Instruction - Veteran's Day
-      institution: November 11
+      institution: March 10
       year: Week 10 
       description:
         - Have a nice holiday!
       
       
     - title: <a href="">Foundations of Machine Learning</a>
-      institution: November 18
+      institution: March 17
       year: Week 11
       description:
         - title: Topics
@@ -168,7 +168,7 @@
 
 
     - title: <a href="">Mining Images with Deep Learning</a>
-      institution: November 25
+      institution: March 24
       year: Week 12
       description:
         - title: Topics
@@ -183,7 +183,7 @@
 
 
     - title: <a href="">Mining Text with Self Supervision</a>
-      institution: December 2
+      institution: March 31
       year: Week 13
       description:
         - title: Topics
@@ -197,9 +197,39 @@
             - <a href="https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf">Information Retrieval, Chapter 13</a>
 
 
-    - title: Final Exam
-      institution: December 9
+    - title: <a href="">Mining Text with Self Supervision</a>
+      institution: April 7
       year: Week 14
+      description:
+        - title: Topics
+          contents:
+            - Some Basic Approaches
+            - Semi-Supervised Learning
+            - The Attention Mechanism
+            - Large Language Models - From BERT to ChatGPT
+        - title: Suggested Reading
+          contents:
+            - <a href="https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf">Information Retrieval, Chapter 13</a>
+
+
+    - title: <a href="">Mining Text with Self Supervision</a>
+      institution: April 14
+      year: Week 15
+      description:
+        - title: Topics
+          contents:
+            - Some Basic Approaches
+            - Semi-Supervised Learning
+            - The Attention Mechanism
+            - Large Language Models - From BERT to ChatGPT
+        - title: Suggested Reading
+          contents:
+            - <a href="https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf">Information Retrieval, Chapter 13</a>
+
+
+    - title: Final Exam
+      institution: April 21
+      year: Week 16
       description:
         - title: Topics
           contents:
