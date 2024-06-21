@@ -7,22 +7,21 @@
       description:
         - title: Topics
           contents:
-            - A Course Overview
-            - Data Vocabulary
-        - <a href="http://infolab.stanford.edu/~ullman/mmds/ch1n.pdf">Suggested Reading</a>
-        - <a href="/cs6220/data-mining/homework-1">Assignment 1 is assigned</a> - <i>Review & Exploring Data</i>
+            - A Brief Introduction to NLP
+            - Administrative and Logistics
+            - NLP Problems and Applications
+        - <a href="">Required Reading</a>
+        - <a href="../homework-1">Assignment 1 is assigned</a> - <i>Review & Exploring Data</i>
 
 
-    - title: <a href="">Mining for Association Rules</a>
+    - title: <a href="">Foundations and Software Engineering</a>
       institution: January 13
       year: Week 2
       description:
         - title: Topics
           contents:
-            - Definitions of Frequent Itemsets
-            - Determining Frequent Itemsets
-            - Creating Association Rules
-            - Working with Docker
+            - Foundations of Machine Learning
+            - Software Engineering Principles and Tooling
         - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch5_association_analysis.pdf">Suggested Reading</a>
         - title: <a href="../submissions">Submissions</a>
           contents:
@@ -30,17 +29,19 @@
             - <a href="../homework-2">Assignment 2 is assigned</a> - <i>Association Rules</i>
 
 
-    - title: <a href="">Accessing, Storing, and Computing with "Big" Data</a>
+    - title: <a href="">Introduction to Language Modeling</a>
       institution: January 20
       year: Week 3
       description:
         - title: Topics
           contents:
-            - Distributed Filesystems and Storage
-            - Structured Data Analysis (SQL)
-            - Introducing the MapReduce Paradigm
-            - Distributed Computation
-        - <a href="http://infolab.stanford.edu/~ullman/mmds/ch2.pdf">Suggested Reading - Chapter 2, Sections 2.1-2.4</a>
+            - What is a model, and what does it mean to model language?
+            - An Overview of Language Models
+            - Evaluating NLP Tasks and Models
+        - title: <a href=""https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf">Required Keynote Paper</a>
+          contents:
+            - Starting blogs
+            - Some YouTube videos
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href="../news/05-announcement">Recitation video is available</a>
@@ -48,16 +49,14 @@
             - <a href="../homework-3">Assignment 3 is assigned</a> - <i>Map Reduce Problem</i>
 
 
-    - title: <a href="">Large Scale Data (Pre)-Processing</a>
+    - title: <a href="">Bayesian Approaches to Topic Modeling</a>
       institution: January 27
       year: Week 4
       description:
         - title: Topics
           contents:
-            - Basics of Linear Algebra and Probability Theory
-            - The Multiple Places Where Data Lives & Multi-source Joins
-            - Covariance, Correlation, and Cosine Similarity
-            - Dimensionality Reduction and Feature Selection
+            - Sparse Representations of Language
+            - Bayesian Modeling (LSA / LDA)
         - title: Suggested Reading
           contents:
             - <a href="https://cs229.stanford.edu/section/cs229-linalg.pdf">Linear Algebra Review</a>
@@ -127,19 +126,11 @@
           - <a href="../homework-6">Assignment 6 is assigned</a> - <i>Evaluation Metrics</i>
 
 
-    - title: Midterm Exam
+    - title: Spring Break, No Class
       institution: March 3
       year: Week 9
       description:
-        - title: Topics
-          contents:
-            - Linear Algebra Review
-            - MapReduce Problems
-            - Principle Component Analysis
-            - Parameter Estimation
-            - Unsupervised Clustering
-            - Bayesian Framework
-        - <a href="../news/07-announcement">Suggested Preparation</a>
+        - Have a nice holiday!
 
 
     - title: No Instruction - Veteran's Day
@@ -197,22 +188,19 @@
             - <a href="https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf">Information Retrieval, Chapter 13</a>
 
 
-    - title: <a href="">Mining Text with Self Supervision</a>
+    - title: <a href="">Industry Day</a>
       institution: April 7
       year: Week 14
       description:
         - title: Topics
           contents:
-            - Some Basic Approaches
-            - Semi-Supervised Learning
-            - The Attention Mechanism
-            - Large Language Models - From BERT to ChatGPT
-        - title: Suggested Reading
-          contents:
-            - <a href="https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf">Information Retrieval, Chapter 13</a>
+            - NLP in Recommendation Systems
+            - LLMs in Health Care
+            - Text Processing in Government Sciences
+            - The Logistics of Serving LLMs
 
 
-    - title: <a href="">Mining Text with Self Supervision</a>
+    - title: <a href="">Oral Presentations and Poster Session</a>
       institution: April 14
       year: Week 15
       description:
