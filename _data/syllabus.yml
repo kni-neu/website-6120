@@ -64,9 +64,24 @@
             - <a href="https://towardsdatascience.com/latent-dirichlet-allocation-lda-9d1cd064ffa2">Introductory Blog</a>
 
 
-    - title: <a href="">Distributed Representations of Words</a>
+    - title: <a href="">Bayesian Approaches to Topic Modeling</a>
       institution: February 3
       year: Week 5
+      description:
+        - title: Topics
+          contents:
+            - Sparse Representations of Language
+            - Latent Semantic Analysis and Matrix Factorization
+            - Probabilistic Bayesian Modeling (pLSA / LDA)
+        - title: <a href="https://proceedings.neurips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf">Required Keynote Paper</a> (read by next week)
+          contents:
+            - <a href="https://www.youtube.com/watch?v=FkckgwMHP2s">David Blei's Lecture</a>
+            - <a href="https://towardsdatascience.com/latent-dirichlet-allocation-lda-9d1cd064ffa2">Introductory Blog</a>
+
+
+    - title: <a href="">Distributed Representations of Words</a>
+      institution: February 10
+      year: Week 6
       description:
         - title: Topics
           contents:
@@ -84,19 +99,18 @@
 
 
     - title: <a href="">Sequential Modeling</a>
-      institution: February 10
-      year: Week 6
+      institution: February 17
+      year: Week 7
       description:
         - Have a nice break!
         - title: <a href="">Required Keynote Paper</a>
           contents:
             - <a href="https://karpathy.github.io/2015/05/21/rnn-effectiveness/"> Karpathy's Blog on Recurrent Networks</a>
-            - <a 
 
 
     - title: <a href="">Non-Recursive Sequence Models</a>
-      institution: February 17
-      year: Week 7
+      institution: February 24
+      year: Week 8
       description:
         - title: Topics
           contents:
@@ -112,8 +126,8 @@
 
 
     - title: <a href="">The Attention Mechanism</a>
-      institution: February 24
-      year: Week 8
+      institution: March 3
+      year: Week 9
       description:
         - title: Topics
           contents:
@@ -129,22 +143,22 @@
 
 
     - title: No Instruction - Spring Break
-      institution: March 3
-      year: Week 9
-      description:
-        - Have a nice holiday!
-
-
-    - title: <a href="">Applications of Deep Natural Language Processing</a>
       institution: March 10
       year: Week 10 
       description:
         - Have a nice holiday!
-      
-      
+
+
     - title: <a href="">Applications of Deep Natural Language Processing</a>
       institution: March 17
       year: Week 11
+      description:
+        - Have a nice holiday!
+      
+      
+    - title: <a href="">Applications of Deep Natural Language Processing</a>
+      institution: March 24
+      year: Week 12
       description:
         - title: Topics
           contents:
@@ -160,8 +174,8 @@
 
 
     - title: <a href="">Introduction to Large Language Modeling (LLMs)</a>
-      institution: March 24
-      year: Week 12
+      institution: March 31
+      year: Week 13
       description:
         - title: Topics
           contents:
@@ -176,8 +190,8 @@
 
 
     - title: <a href="">Practically Leveraging Large Language Models</a>
-      institution: March 31
-      year: Week 13
+      institution: April 7
+      year: Week 14
       description:
         - title: Topics
           contents:
@@ -190,8 +204,8 @@
 
 
     - title: <a href="">Industry Day - Modern Use Cases of NLP</a>
-      institution: April 7
-      year: Week 14
+      institution: April 14
+      year: Week 15
       description:
         - title: Topics
           contents:
@@ -202,8 +216,8 @@
 
 
     - title: <a href="">Oral Presentations and Poster Session</a>
-      institution: April 14
-      year: Week 15
+      institution: April 21
+      year: Week 16
       description:
         - title: Topics
           contents:
@@ -216,9 +230,10 @@
             - <a href="https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf">Information Retrieval, Chapter 13</a>
 
 
+
     - title: Final Exam
-      institution: April 21
-      year: Week 16
+      institution: December 9
+      year: Week 14
       description:
         - title: Topics
           contents:
