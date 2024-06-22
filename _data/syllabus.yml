@@ -38,7 +38,7 @@
             - What is a model, and what does it mean to model language?
             - An Overview of Language Models
             - Evaluating NLP Tasks and Models
-        - title: <a href=""https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf">Required Keynote Paper</a>
+        - title: <a href=""https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf">Required Keynote Paper</a> (read by next week)
           contents:
             - Starting blogs
             - Some YouTube videos
@@ -56,21 +56,21 @@
         - title: Topics
           contents:
             - Sparse Representations of Language
-            - Bayesian Modeling (LSA / LDA)
-        - title: Suggested Reading
+            - Latent Semantic Analysis and Matrix Factorization
+            - Probabilistic Bayesian Modeling (pLSA / LDA)
+        - title: <a href="https://proceedings.neurips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf">Required Keynote Paper</a> (read by next week)
           contents:
-            - <a href="https://cs229.stanford.edu/section/cs229-linalg.pdf">Linear Algebra Review</a>
-            - <a href="http://infolab.stanford.edu/~ullman/mmds/ch11.pdf">Dimensionality Reduction</a>
-            - <a href="http://infolab.stanford.edu/~ullman/mmds/ch2.pdf">Map Reduce, Sections 2.5-2.7</a>
+            - <a href="https://www.youtube.com/watch?v=FkckgwMHP2s">David Blei's Lecture</a>
+            - <a href="https://towardsdatascience.com/latent-dirichlet-allocation-lda-9d1cd064ffa2">Introductory Blog</a>
 
 
-    - title: <a href="">Mining Data without Labels</a>
+    - title: <a href="">Distributed Representations of Words</a>
       institution: February 3
       year: Week 5
       description:
         - title: Topics
           contents:
-            - Introducing the Gaussian Distribution
+            - Self-Supervision in Machine Learning
             - Parameter Estimation of a Distribution
             - Unsupervised Modeling with k-Means and Clustering
         - title: Suggested Reading
@@ -83,33 +83,35 @@
           - <a href="/cs6220/data-mining/homework-4">Assignment 4 is assigned</a> - <i>Parameter Estimation & Clustering</i>
 
 
-    - title: No Instruction - Indigenous People's Day
+    - title: <a href="">Sequential Modeling</a>
       institution: February 10
       year: Week 6
       description:
         - Have a nice break!
+        - title: <a href="">Required Keynote Paper</a>
+          contents:
+            - <a href="https://karpathy.github.io/2015/05/21/rnn-effectiveness/"> Karpathy's Blog on Recurrent Networks</a>
+            - <a 
 
 
-    - title: <a href="">Mining with Bayes Classifiers</a>
+    - title: <a href="">Non-Recursive Sequence Models</a>
       institution: February 17
       year: Week 7
       description:
         - title: Topics
           contents:
-            - Anomaly and Outlier Detection
-            - The Bayesian Framework
-            - Naive Bayes Classification
-        - title: Suggested Reading
+            - Convolutional Neural Networks
+            - Basic Attention Modeling in Neural Network
+        - title: <a href="https://arxiv.org/abs/1706.03762">Required Keynote Reading</a>
           contents:
-            - <a href="https://faculty.washington.edu/tamre/BayesTheorem.pdf">Bayes Theorem</a>
-            - <a href="http://guidetodatamining.com/assets/guideChapters/DataMining-ch6.pdf">Naïve Bayes</a>
+            - <a href="https://www.youtube.com/watch?v=XowwKOAWYoQ&themeRefresh=1">Attention Paper Explained</a>
         - title: <a href="../submissions">Submissions</a>
           contents:
           - <a href="http://gradescope.com">Assignment 4 is <b>due</b></a>
           - <a href="../homework-5">Assignment 5 is assigned</a> - <i>Bayesian Framework & ML Libraries</i>
 
 
-    - title: <a href="">Mining with Small Data and Course Review</a>
+    - title: <a href="">The Attention Mechanism</a>
       institution: February 24
       year: Week 8
       description:
@@ -126,30 +128,29 @@
           - <a href="../homework-6">Assignment 6 is assigned</a> - <i>Evaluation Metrics</i>
 
 
-    - title: Spring Break, No Class
+    - title: No Instruction - Spring Break
       institution: March 3
       year: Week 9
       description:
         - Have a nice holiday!
 
 
-    - title: No Instruction - Veteran's Day
+    - title: <a href="">Applications of Deep Natural Language Processing</a>
       institution: March 10
       year: Week 10 
       description:
         - Have a nice holiday!
       
       
-    - title: <a href="">Foundations of Machine Learning</a>
+    - title: <a href="">Applications of Deep Natural Language Processing</a>
       institution: March 17
       year: Week 11
       description:
         - title: Topics
           contents:
-            - Algorithmic Evaluation with Confusion Matrices and ROC Curves
-            - The Objective Function, Regularization, and Constraints
-        - '<b>In-Class Colabs</b>: Logistic Regression with MNIST'
-        - title: Suggested Reading
+            - Machine Translation
+            - Sentiment Analysis
+        - title: <a href="https://arxiv.org/abs/2310.12321">Required Keynote Paper</a>
           contents:
             - <a href="https://ia800702.us.archive.org/7/items/datamining_201811/DS-book%20u5.pdf">Evaluation Metrics</a>, Chapter 8.5
             - Logistic Regression (<a href="https://web.stanford.edu/~jurafsky/slp3/5.pdf">[1]</a>, <a href="https://www.math.snu.ac.kr/~hichoi/machinelearning/lecturenotes/LogisticRegression.pdf">[2]</a>)
@@ -158,14 +159,15 @@
             - <a href="../project-proposal/">Project Proposals are Due</a> - <i>Initial Thoughts and Feedback</i>
 
 
-    - title: <a href="">Mining Images with Deep Learning</a>
+    - title: <a href="">Introduction to Large Language Modeling (LLMs)</a>
       institution: March 24
       year: Week 12
       description:
         - title: Topics
           contents:
-            - Working with Tensors - Reviewing Multivariate Calculus
-            - Deep Learning - A Historical Perspective
+            - Transformers in Large Language Modeling
+            - Deep Reinforcement Learning from Human Feedback
+            - Direct Preference Optimization
         - <a href="https://www.deeplearningbook.org/contents/mlp.html">Suggested Reading</a>
         - title: <a href="../submissions">Submissions</a>
           contents:
@@ -173,22 +175,21 @@
             - <a href="../homework-7">Assignment 7 is <b>assigned</b></a>
 
 
-    - title: <a href="">Mining Text with Self Supervision</a>
+    - title: <a href="">Practically Leveraging Large Language Models</a>
       institution: March 31
       year: Week 13
       description:
         - title: Topics
           contents:
-            - Some Basic Approaches
-            - Semi-Supervised Learning
-            - The Attention Mechanism
-            - Large Language Models - From BERT to ChatGPT
+            - Prompt Engineering - Query and Context
+            - Retrieval Augmented Generation (RAG)
+            - Tuning with Low Resources - LoRA and Quantization
         - title: Suggested Reading
           contents:
             - <a href="https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf">Information Retrieval, Chapter 13</a>
 
 
-    - title: <a href="">Industry Day</a>
+    - title: <a href="">Industry Day - Modern Use Cases of NLP</a>
       institution: April 7
       year: Week 14
       description:
