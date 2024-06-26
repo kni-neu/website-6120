@@ -11,7 +11,7 @@
             - Administrative and Logistics
             - NLP Problems and Applications
         - <a href="">Required Reading</a>
-        - <a href="../homework-1">Assignment 1 is assigned</a> - <i></i>
+        - <a href="../homework-1">Assignment 1 is assigned</a> - <i>A First Look at Processing Words</i>
 
 
     - title: <a href="">Foundations and Software Engineering</a>
@@ -26,7 +26,7 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href="http://gradescope.com">Assignment 1 is <b>due</b></a>
-            - <a href="../homework-2">Assignment 2 is assigned</a> - <i>Association Rules</i>
+            - <a href="../homework-2">Assignment 2 is assigned</a> - <i>Coding a Neural Network</i>
 
 
     - title: <a href="">Introduction to Language Modeling</a>
@@ -62,6 +62,9 @@
           contents:
             - <a href="https://www.youtube.com/watch?v=FkckgwMHP2s">David Blei's Lecture</a>
             - <a href="https://towardsdatascience.com/latent-dirichlet-allocation-lda-9d1cd064ffa2">Introductory Blog</a>
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+            - <a href="">Assigment 3 is assigned</a> -<i>Word Vectors</i>
 
 
     - title: <a href="">Bayesian Approaches to Topic Modeling</a>
@@ -73,10 +76,9 @@
             - Sparse Representations of Language
             - Latent Semantic Analysis and Matrix Factorization
             - Probabilistic Bayesian Modeling (pLSA / LDA)
-        - title: <a href="https://proceedings.neurips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf">Required Keynote Paper</a> (read by next week)
+        - title: <a href="https://arxiv.org/abs/1310.4546">Required Keynote Paper</a> (read by next week)
           contents:
-            - <a href="https://www.youtube.com/watch?v=FkckgwMHP2s">David Blei's Lecture</a>
-            - <a href="https://towardsdatascience.com/latent-dirichlet-allocation-lda-9d1cd064ffa2">Introductory Blog</a>
+            - <a href="https://www.baeldung.com/cs/nlps-word2vec-negative-sampling">Negative Sampling</a>
 
 
     - title: <a href="">Distributed Representations of Words</a>
@@ -88,14 +90,7 @@
             - Self-Supervision in Machine Learning
             - Parameter Estimation of a Distribution
             - Unsupervised Modeling with k-Means and Clustering
-        - title: Suggested Reading
-          contents:
-            - <a href="https://web.stanford.edu/class/archive/cs/cs109/cs109.1204/lectureNotes/LN21_parameters_mle.pdf">Maximum Likelihood</a>
-            - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch7_clustering.pdf">Unsupervised Clustering, Chapter 7 - 7.2</a>
-        - title: <a href="../submissions">Submissions</a>
-          contents:
-          - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
-          - <a href="/cs6220/data-mining/homework-4">Assignment 4 is assigned</a> - <i>Parameter Estimation & Clustering</i>
+        - <a href="../submissions">Submissions</a> - <a href="http://gradescope.com">Assignment 3 is <b>assigned</b></a> - <i>Word Vectors</i>
 
 
     - title: <a href="">Sequential Modeling</a>
