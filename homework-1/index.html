@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>hui hu | Natural Language Processing  CS 6120</title>
+    <title>homework 1 | Natural Language Processing  CS 6120</title>
     <meta name="author" content="Natural Language Processing  CS 6120">
-    <meta name="description" content="teaching assistant">
+    <meta name="description" content="a first look at processing language">
     <meta name="keywords" content="nlp, ai, ml, natural-language, Northeastern, Computer Science, CS6120">
 
 
@@ -33,7 +33,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/cs6120/nlp/assets/css/main.css">
-    <link rel="canonical" href="https://course.ccs.neu.edu//cs6120/nlp/projects/2_project/">
+    <link rel="canonical" href="https://course.ccs.neu.edu//cs6120/nlp/homework-1/">
     
     <!-- Dark Mode -->
     
@@ -122,57 +122,74 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">hui hu
+            <h1 class="post-title">homework 1
 		<!-- Added a PDF to the header -->
 		
+		   <a href="/cs6120/nlp/assets/pdf/assignment-1.pdf" target="_blank" rel="noopener noreferrer" class="float-right">
+			   <i class="fas fa-file-pdf"></i></a>
 	    </h1>
-            <p class="post-description">teaching assistant</p>
+            <p class="post-description">a first look at processing language</p>
           </header>
 
           <article>
-            <p>Hello, I’m Haoping Lin, and I’m thrilled to be your CS6220 Teaching Assistant for this semester. I graduated from Pennsylvania State University and continue my way being a software engineer. Piano and guitar are my two of my interests. Please don’t hesitate to contact me if you need any assists. I’m ready to help!</p>
+            <hr style="border:2px solid gray">
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
+<h3 id="getting-started-with-data">getting started with data</h3>
+<hr>
 
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/cs6120/nlp/assets/img/drive_path-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/cs6120/nlp/assets/img/drive_path-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/cs6120/nlp/assets/img/drive_path-1400.webp"></source>
-    
+<p>Please review the homework in this <a href="/cs6120/nlp/assets/pdf/assignment-1.pdf">pdf file</a>. Remember that reading resources can be found in the <a href="/cs6120/nlp/syllabus">syllabus</a>.</p>
 
-    <!-- Fallback to the original file -->
-    <img src="/cs6120/nlp/assets/img/drive_path.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Path Map" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+<hr>
+<h3 id="data-and-starter-kit">data and starter kit</h3>
+<hr>
 
-  </picture>
+<p>You will need <a href="https://course.ccs.neu.edu/cs6220/fall2023/homework-1/">the data</a> for the review portion and <a href="https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data" rel="external nofollow noopener" target="_blank">netflix data</a> for the exploration portion.</p>
 
-</figure>
+<center>
+<img src="https://assets3.thrillist.com/v1/image/2677184/792x528/scale;webp=auto;jpeg_quality=60.jpg" width="500" height="auto">
+</center>
+<p><br>
+<br></p>
 
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <figure>
+<p>Here are the starter kits that you might find useful.</p>
 
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/cs6120/nlp/assets/img/guitar-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/cs6120/nlp/assets/img/guitar-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/cs6120/nlp/assets/img/guitar-1400.webp"></source>
-    
+<ul>
+  <li>
+    <p>Document templates can be either <a href="https://www.overleaf.com/read/gbwryydmdjhv" rel="external nofollow noopener" target="_blank">LaTeX File</a> or <a href="https://docs.google.com/document/d/1Q8fpJo-gF_L0_TwUdw5E7x7faOAStK4n" rel="external nofollow noopener" target="_blank">DOCX File</a>. When you’ve compiled/finished writing, <strong>download the PDF</strong> from Overleaf/Google and upload it to the submission link.</p>
+  </li>
+  <li>
+    <p>You may find <a href="https://colab.research.google.com/drive/1sg2CqHhX707YT3IcvCub4PUbCsaOZ6C2" rel="external nofollow noopener" target="_blank">Colaboratory</a> useful, which you can subsequently download the file as a <code class="language-plaintext highlighter-rouge">*.ipynb</code> file (Under <strong>File</strong> → <strong>Download</strong> → <strong>Download .ipynb</strong>.) In Colab, you can download the data with</p>
 
-    <!-- Fallback to the original file -->
-    <img src="/cs6120/nlp/assets/img/guitar.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="My Interest" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <div class="language-plaintext highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>!wget https://course.ccs.neu.edu/cs6220/fall2023/homework-1/netflix-data/movie_titles.csv
+!wget https://course.ccs.neu.edu/cs6220/fall2023/homework-1/netflix-data/combined_data_1.txt
+!wget https://course.ccs.neu.edu/cs6220/fall2023/homework-1/netflix-data/combined_data_2.txt
+!wget https://course.ccs.neu.edu/cs6220/fall2023/homework-1/netflix-data/combined_data_3.txt
+!wget https://course.ccs.neu.edu/cs6220/fall2023/homework-1/netflix-data/combined_data_4.txt
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>You can use any repository system to submit code as long as there is an online link to it. The standard way is to use Github, but you can have a sharepoint folder too as long as it’s clear what each individual file is.</p>
+  </li>
+</ul>
 
-  </picture>
+<hr>
+<h4 id="submission-instructions">submission instructions</h4>
+<hr>
 
-</figure>
+<p>Commit all your code and materials to your repository, and submit via <a href="https://www.gradescope.com/courses/802710" rel="external nofollow noopener" target="_blank">Gradescope</a>. There, you will upload your PDF and code.</p>
 
-    </div>
-</div>
-<div class="caption">
-    Used to drive from east to west.
-</div>
+<!--
+<br><br><br>
+<hr style="border:2px solid gray">
+#### project checkpoint
+-----
+
+Each week, there will be a checkpoint for you project so that you are on track to turn in the project at the end of the semester. In your homework this week, you will
+
+* start surveying the available data (preferably *outside* of Kaggle). List three interesting datasets here.
+* start introducing yourself to your classmates and seeing whether or not you'd like to form a team. List the names of three classmates that you've met.
+-->
 
           </article>
 
