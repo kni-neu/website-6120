@@ -5,22 +5,24 @@
       institution: January 6
       year: Week 1
       description:
-        - title: Topics
+        - title: Lecturing Topics
           contents:
             - A Brief Introduction to NLP
             - Administrative and Logistics
             - NLP Problems and Applications
-        - <a href="">Required Reading</a>
-        - <a href="../homework-1">Assignment 1 is assigned</a> - <i>A First Look at Processing Words</i>
+        - <a href="">Suggested Reading</a>
+        - <a href="../submissions">Submissions</a> - <a href="../homework-1">Assignment 1 is assigned</a> - <i>A First Look at NLP</i>
 
 
-    - title: <a href="">Foundations and Software Engineering</a>
+    - title: <a href="">ML Foundations and Software Engineering</a>
       institution: January 13
       year: Week 2
       description:
-        - title: Topics
+        - title: Lecturing Topics
           contents:
             - Foundations of Machine Learning
+            - Docker - Consistent Processing Environments
+            - Cloud Principles (AWD / GCP / Azure)
             - Software Engineering Principles and Tooling
         - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch5_association_analysis.pdf">Suggested Reading</a>
         - title: <a href="../submissions">Submissions</a>
@@ -33,7 +35,7 @@
       institution: January 20
       year: Week 3
       description:
-        - title: Topics
+        - title: Lecturing Topics
           contents:
             - What is a model, and what does it mean to model language?
             - An Overview of Language Models
