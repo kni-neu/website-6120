@@ -10,13 +10,12 @@
             - A Brief Introduction to NLP
             - Administrative and Logistics
             - NLP Problems and Applications
-        - <a href="">Suggested Reading</a>
-        - <a href="../submissions">Submissions</a> - <a href="../homework-1">Assignment 1 is assigned</a> - <i>A First Look at NLP</i>
+        - <a href="../homework-1">Assignment 1 is assigned</a> - <i>A First Look at Processing Language</i>
 
 
     - title: <a href="">ML Foundations and Software Engineering</a>
       institution: January 13
-      year: Week 2
+      year: Week 3
       description:
         - title: Lecturing Topics
           contents:
@@ -24,63 +23,54 @@
             - Docker - Consistent Processing Environments
             - Cloud Principles (AWD / GCP / Azure)
             - Software Engineering Principles and Tooling
-        - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch5_association_analysis.pdf">Suggested Reading</a>
-        - title: <a href="../submissions">Submissions</a>
-          contents:
-            - <a href="http://gradescope.com">Assignment 1 is <b>due</b></a>
-            - <a href="../homework-2">Assignment 2 is assigned</a> - <i>Coding a Neural Network</i>
+        - <a href="http://gradescope.com">Assignment 1 is <b>due</b></a>
+        - <a href="../homework-2">Assignment 2 is assigned</a> - <i>Coding a Neural Network</i>
 
 
-    - title: <a href="">Introduction to Language Modeling</a>
+    - title: <a href="">Text Processing and Classification</a>
       institution: January 20
-      year: Week 3
+      year: Week 4
       description:
         - title: Lecturing Topics
           contents:
-            - What is a model, and what does it mean to model language?
-            - An Overview of Language Models
-            - Evaluating NLP Tasks and Models
-        - title: <a href=""https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf">Required Keynote Paper</a> (read by next week)
-          contents:
-            - Starting blogs
-            - Some YouTube videos
-        - title: <a href="../submissions">Submissions</a>
-          contents:
-            - <a href="../news/05-announcement">Recitation video is available</a>
-            - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
-            - <a href="../homework-3">Assignment 3 is assigned</a> - <i>Map Reduce Problem</i>
-
-
-    - title: <a href="">Language and Statistical Learning</a>
-      institution: January 27
-      year: Week 4
-      description:
-        - title: Topics
-          contents:
-            - Sparse Representations of Language
-            - Latent Semantic Analysis and Matrix Factorization
-            - Probabilistic Bayesian Modeling (pLSA / LDA)
+            - Preprocessing and Tokenization
+            - Parts of Speech Tagging
+            - Text Classification and Sentiment Analysis
+            - Sparse Representations of Text
         - title: <a href="https://proceedings.neurips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf">Required Keynote Paper</a> (read by next week)
           contents:
             - <a href="https://www.youtube.com/watch?v=FkckgwMHP2s">David Blei's Lecture</a>
             - <a href="https://towardsdatascience.com/latent-dirichlet-allocation-lda-9d1cd064ffa2">Introductory Blog</a>
-        - title: <a href="../submissions">Submissions</a>
-          contents:
-            - <a href="">Assigment 3 is assigned</a> -<i>Word Vectors</i>
 
 
-    - title: <a href="">Bayesian Approaches to Topic Modeling</a>
-      institution: February 3
+    - title: <a href="">Introduction to Modeling Language</a>
+      institution: January 27
       year: Week 5
       description:
         - title: Topics
           contents:
+            - What does it mean to model language?
+            - Probabilistic Topic Modeling
             - Sparse Representations of Language
-            - Latent Semantic Analysis and Matrix Factorization
-            - Probabilistic Bayesian Modeling (pLSA / LDA)
+            - Evaluation and tooling
+        - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
+        - <a href="../homework-3">Assignment 3 is assigned</a> - <i>Processing and Topic Modeling</i>
+
+
+    - title: <a href="">Introduction to Language Modeling</a>
+      institution: February 3
+      year: Week 6
+      description:
+        - title: Lecturing Topics
+          contents:
+            - What is a model, and what does it mean to model language?
+            - A brief overview of topic modeling
+            - Evaluation and tooling
         - title: <a href="https://arxiv.org/abs/1310.4546">Required Keynote Paper</a> (read by next week)
           contents:
             - <a href="https://www.baeldung.com/cs/nlps-word2vec-negative-sampling">Negative Sampling</a>
+        - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
+        - <a href="../homework-3">Assignment 3 is assigned</a> - <i>Processing and Topic Modeling</i>
 
 
     - title: <a href="">Distributed Representations of Words</a>
@@ -92,7 +82,8 @@
             - Self-Supervision in Machine Learning
             - Parameter Estimation of a Distribution
             - Unsupervised Modeling with k-Means and Clustering
-        - <a href="../submissions">Submissions</a> - <a href="http://gradescope.com">Assignment 3 is <b>assigned</b></a> - <i>Word Vectors</i>
+        - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
+        - <a href="http://gradescope.com">Assignment 4 is <b>assigned</b></a> - <i>Word Vectors</i>
 
 
     - title: <a href="">Sequential Modeling</a>
