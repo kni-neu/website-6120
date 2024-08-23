@@ -1,7 +1,7 @@
 ---
 layout: page
 title: rosie
-description: a dog who loves data and treats
+description: a dog who loves processing language
 office_hours: non-napping hours
 img: assets/img/rosie-cropped.jpg
 importance: 2
@@ -23,7 +23,7 @@ Hi, I'm Rosie! Here is my Haiku:
     please won't you feed me?
     ---
 
-If you're reading this, I like eating, taking long drives, and seeing some amazing sites. Give me some treats; I'll be your pal. I'm a rescue dog from the [Friends of Oakland Animal Shelter](https://friendsofoas.org/).
+I like eating, taking long drives, and seeing new and interesting sights. Give me some treats; I'll be your pal. I'm a rescue dog from the [Friends of Oakland Animal Shelter](https://friendsofoas.org/).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
