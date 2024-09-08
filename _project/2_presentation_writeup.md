@@ -6,8 +6,8 @@ description: final presentation and writeup
 nav: true
 nav_order: 2
 hw_pdf: project-description.pdf
-assigned: january 11, 2024
-due_date: april 18, 2024
+assigned: january 11, 2025
+due_date: april 18, 2025
 horizontal: false
 ---
 
