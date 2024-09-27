@@ -1,7 +1,7 @@
 - title: schedule
   type: time_table
   contents:
-    - title: <a href="https://docs.google.com/presentation/d/1eBrC_240_8mZiZzLAFR7zuizs75GnS7F">Introduction and Applications</a>
+    - title: <a href="">Introduction and Applications</a>
       institution: January 6
       year: Week 1
       description:
@@ -9,13 +9,11 @@
           contents:
             - A Brief Introduction to NLP
             - Administrative and Logistics
-            - Expectations and Overviews
-            - NLP Industry Applications
+            - NLP Problems and Applications
         - <a href="../homework-1">Assignment 1 is assigned</a> - <i>A First Look at Processing Language</i>
-        - <a href="../assets/pdf/lab-1.pdf>Lab 1 - Getting Started with Google Cloud</a>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1PPcKkjG44GnkpF20HgVCyWCWeXgmpcXW">ML Foundations and Software Engineering</a>
+    - title: <a href="">ML Foundations and Software Engineering</a>
       institution: January 13
       year: Week 3
       description:

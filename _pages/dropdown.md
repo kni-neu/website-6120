@@ -15,5 +15,5 @@ children:
       permalink: https://course.ccs.neu.edu/cs6220/spring2024/website
     - title: divider
     - title: fall 2024
-      permalink: /
+      permalink: https://course.ccs.neu.edu/cs6220/data-mining
 ---
