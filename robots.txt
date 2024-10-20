@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://course.ccs.neu.edu//cs6120s25/sitemap.xml
+Sitemap: https://course.ccs.neu.edu//cs6120s25/nlp/sitemap.xml
