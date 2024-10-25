@@ -17,7 +17,7 @@
 
     - title: <a href="https://docs.google.com/presentation/d/1PPcKkjG44GnkpF20HgVCyWCWeXgmpcXW">ML Foundations and Software Engineering</a>
       institution: January 16
-      year: Week 3
+      year: Week 2
       description:
         - title: Lecturing Topics
           contents:
@@ -31,7 +31,7 @@
 
     - title: <a href="">Text Processing and Classification</a>
       institution: January 23
-      year: Week 4
+      year: Week 3
       description:
         - title: Lecturing Topics
           contents:
@@ -47,7 +47,7 @@
 
     - title: <a href="">Introduction to Modeling Language</a>
       institution: January 30
-      year: Week 5
+      year: Week 4
       description:
         - title: Topics
           contents:
@@ -61,7 +61,7 @@
 
     - title: <a href="">Introduction to Language Modeling</a>
       institution: February 6
-      year: Week 6
+      year: Week 5
       description:
         - title: Lecturing Topics
           contents:
