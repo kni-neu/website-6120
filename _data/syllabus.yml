@@ -2,7 +2,7 @@
   type: time_table
   contents:
     - title: <a href="https://docs.google.com/presentation/d/1eBrC_240_8mZiZzLAFR7zuizs75GnS7F">Introduction and Applications</a>
-      institution: January 6
+      institution: January 9
       year: Week 1
       description:
         - title: Lecturing Topics
@@ -16,7 +16,7 @@
 
 
     - title: <a href="https://docs.google.com/presentation/d/1PPcKkjG44GnkpF20HgVCyWCWeXgmpcXW">ML Foundations and Software Engineering</a>
-      institution: January 13
+      institution: January 16
       year: Week 3
       description:
         - title: Lecturing Topics
@@ -30,7 +30,7 @@
 
 
     - title: <a href="">Text Processing and Classification</a>
-      institution: January 20
+      institution: January 23
       year: Week 4
       description:
         - title: Lecturing Topics
@@ -46,7 +46,7 @@
 
 
     - title: <a href="">Introduction to Modeling Language</a>
-      institution: January 27
+      institution: January 30
       year: Week 5
       description:
         - title: Topics
@@ -60,7 +60,7 @@
 
 
     - title: <a href="">Introduction to Language Modeling</a>
-      institution: February 3
+      institution: February 6
       year: Week 6
       description:
         - title: Lecturing Topics
@@ -76,7 +76,7 @@
 
 
     - title: <a href="">Distributed Representations of Words</a>
-      institution: February 10
+      institution: February 13
       year: Week 6
       description:
         - title: Topics
@@ -89,7 +89,7 @@
 
 
     - title: <a href="">Sequential Modeling</a>
-      institution: February 17
+      institution: February 20
       year: Week 7
       description:
         - Have a nice break!
@@ -99,7 +99,7 @@
 
 
     - title: <a href="">Non-Recursive Sequence Models</a>
-      institution: February 24
+      institution: February 27
       year: Week 8
       description:
         - title: Topics
@@ -116,7 +116,7 @@
 
 
     - title: <a href="">The Attention Mechanism</a>
-      institution: March 3
+      institution: March 6
       year: Week 9
       description:
         - title: Topics
@@ -133,21 +133,21 @@
 
 
     - title: No Instruction - Spring Break
-      institution: March 10
+      institution: March 13
       year: Week 10 
       description:
         - Have a nice holiday!
 
 
     - title: <a href="">Applications of Deep Natural Language Processing</a>
-      institution: March 17
+      institution: March 20
       year: Week 11
       description:
         - Have a nice holiday!
       
       
     - title: <a href="">Applications of Deep Natural Language Processing</a>
-      institution: March 24
+      institution: March 27
       year: Week 12
       description:
         - title: Topics
@@ -164,7 +164,7 @@
 
 
     - title: <a href="">Introduction to Large Language Modeling (LLMs)</a>
-      institution: March 31
+      institution: April 3
       year: Week 13
       description:
         - title: Topics
@@ -180,7 +180,7 @@
 
 
     - title: <a href="">Practically Leveraging Large Language Models</a>
-      institution: April 7
+      institution: April 10
       year: Week 14
       description:
         - title: Topics
@@ -194,7 +194,7 @@
 
 
     - title: <a href="">Industry Day - Modern Use Cases of NLP</a>
-      institution: April 14
+      institution: April 17
       year: Week 15
       description:
         - title: Topics
@@ -206,7 +206,7 @@
 
 
     - title: <a href="">Oral Presentations and Poster Session</a>
-      institution: April 21
+      institution: April 24
       year: Week 16
       description:
         - title: Topics
@@ -219,20 +219,6 @@
           contents:
             - <a href="https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf">Information Retrieval, Chapter 13</a>
 
-
-
-    - title: Final Exam
-      institution: December 9
-      year: Week 14
-      description:
-        - title: Topics
-          contents:
-            - Objective Functions
-            - Logistic Regression
-            - Association Rule Mining
-            - Evaluation Metrics
-            - Backpropagation
-            - Convolutions and Recurrence
 
 
 - title: grading criterion
