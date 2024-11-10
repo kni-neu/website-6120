@@ -5,12 +5,14 @@
       institution: January 9
       year: Week 1
       description:
-        - title: Lecturing Topics
+        - <b>Language</b> - the most efficient and compact way to transfer knowledge is through words, where the window to AGI is through NLP. This lecture is an introduction that takes us through history of how we got to LLMs. We'll also review some applications of NLP, current industry standards, and some of the most impactful approaches and where they are being implemented. Finally, we'll preview what we'll be learning, the logistics of how we'll be doing so, and the expectations for your participation in this class.
+        - title: <b><i>Applications Overview</i></b>
           contents:
-            - A Brief Introduction to NLP
-            - Administrative and Logistics
-            - Expectations and Overviews
-            - NLP Industry Applications
+            - Machine Translation (Baidu's Word-Word)
+            - Summarization (Dialogues, Newspaper Articles, etc.)
+            - Text Classification and Clustering (News Article Groupings, etc.)
+            - Question and Answering (LLMs and Chatbots)
+        - Laboratory - Google Cloud Platform and Your Credits
         - <a href="../homework-1">Assignment 1 is assigned</a> - <i>A First Look at Processing Language</i>
         - <a href="../assets/pdf/lab-1.pdf">Lab 1 - Getting Started with Google Cloud</a>
 
@@ -22,41 +24,42 @@
         - title: Lecturing Topics
           contents:
             - Foundations of Machine Learning
+            - Software Engineering Practices
+        - title: Laboratory - Containerization
+          contents:
             - Docker - Consistent Processing Environments
             - Cloud Principles (AWD / GCP / Azure)
             - Python, PyTorch, Tensorflow, Colab, and Keras
         - <a href="http://gradescope.com">Assignment 1 is <b>due</b></a>
-        - <a href="../homework-2">Assignment 2 is assigned</a> - <i>Coding a Neural Network</i>
+        - <a href="../homework-2">Assignment 2 is assigned</a> - <i>Neural Network Toolboxes</i>
 
 
-    - title: <a href="">Text Processing and Classification</a>
+    - title: <a href="">Text Processing Algorithms</a>
       institution: January 23
       year: Week 3
       description:
         - title: Lecturing Topics
           contents:
-            - Preprocessing and Tokenization
-            - Parts of Speech Tagging
-            - Text Classification and Sentiment Analysis
-            - Sparse Representations of Text
-        - title: <a href="https://proceedings.neurips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf">Required Keynote Paper</a> (read by next week)
-          contents:
-            - <a href="https://www.youtube.com/watch?v=FkckgwMHP2s">David Blei's Lecture</a>
-            - <a href="https://towardsdatascience.com/latent-dirichlet-allocation-lda-9d1cd064ffa2">Introductory Blog</a>
+            - Representations of Language
+            - Comparisons / Differences in Language
+            - Minimum Edit Distance Algorithms
+        - <b><i>Application</i></b> - Autocorrect in Practice
+        - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
+        - <a href="../homework-3">Assignment 3 is assigned</a> - <i>The Minimum Edit Distance Algorithm</i>
 
 
-    - title: <a href="">Introduction to Modeling Language</a>
+    - title: <a href="">Language Classification</a>
       institution: January 30
       year: Week 4
       description:
-        - title: Topics
+        - title: Lecturing Topics
           contents:
-            - What does it mean to model language?
-            - Probabilistic Topic Modeling
-            - Sparse Representations of Language
-            - Evaluation and tooling
-        - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
-        - <a href="../homework-3">Assignment 3 is assigned</a> - <i>Processing and Topic Modeling</i>
+            - Building Vocabulary with Stopwords and Stemming
+            - Preprocessing - Tokenization and Lemmatization
+            - Logistic Regression Classifier
+            - Naïve Bayes Classifiers
+        - <b><i>Application</i></b> - Sentiment Analysis
+
 
 
     - title: <a href="">Introduction to Language Modeling</a>
@@ -65,47 +68,62 @@
       description:
         - title: Lecturing Topics
           contents:
-            - What is a model, and what does it mean to model language?
-            - A brief overview of topic modeling
-            - Evaluation and tooling
-        - title: <a href="https://arxiv.org/abs/1310.4546">Required Keynote Paper</a> (read by next week)
+            - What is a language model? (Abstractive vs extractive approaches)
+            - Overview of Basic Modeling Approaches
+            - The N-Gram Model
+        - <b><i>Application</i></b> - Autocompleting words and sentences
+        - title: <a href="https://proceedings.neurips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf">Required Keynote Paper</a> (read by next week)
           contents:
-            - <a href="https://www.baeldung.com/cs/nlps-word2vec-negative-sampling">Negative Sampling</a>
-        - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
-        - <a href="../homework-3">Assignment 3 is assigned</a> - <i>Processing and Topic Modeling</i>
+            - <a href="https://www.youtube.com/watch?v=FkckgwMHP2s">David Blei's Lecture</a>
+            - <a href="https://towardsdatascience.com/latent-dirichlet-allocation-lda-9d1cd064ffa2">Introductory Blog</a>
+        - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
+        - <a href="../homework-3">Assignment 4 is assigned</a> - <i>Processing and Topic Modeling</i>
 
 
-    - title: <a href="">Distributed Representations of Words</a>
+    - title: <a href="">Unsupervised NLP - Topic Modeling</a>
       institution: February 13
       year: Week 6
       description:
-        - title: Topics
+        - title: Lecturing Topics
           contents:
             - Self-Supervision in Machine Learning
             - Parameter Estimation of a Distribution
             - Unsupervised Modeling with k-Means and Clustering
+        - title: <a href="https://proceedings.neurips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf">Required Keynote Paper</a> (read by next week)
+          contents:
+            - <a href="https://www.youtube.com/watch?v=FkckgwMHP2s">David Blei's Lecture</a>
+            - <a href="https://towardsdatascience.com/latent-dirichlet-allocation-lda-9d1cd064ffa2">Introductory Blog</a>
         - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
-        - <a href="http://gradescope.com">Assignment 4 is <b>assigned</b></a> - <i>Word Vectors</i>
+        - <a href="../homework-3">Assignment 4 is assigned</a> - <i>Processing and Topic Modeling</i>
 
 
-    - title: <a href="">Sequential Modeling</a>
+    - title: <a href="">Word Modeling with Self-Supervision</a>
       institution: February 20
       year: Week 7
       description:
-        - Have a nice break!
+        - title: Lecturing Topics
+          contents: 
+            - Embeddings with Continuous Bag of Words
+            - Intrinsic and Extrinsice Evaluation of Word Models
+
         - title: <a href="">Required Keynote Paper</a>
           contents:
             - <a href="https://karpathy.github.io/2015/05/21/rnn-effectiveness/"> Karpathy's Blog on Recurrent Networks</a>
 
 
-    - title: <a href="">Non-Recursive Sequence Models</a>
+    - title: <a href="">Leveraging Word Models</a>
       institution: February 27
       year: Week 8
       description:
         - title: Topics
           contents:
-            - Convolutional Neural Networks
-            - Basic Attention Modeling in Neural Network
+            - Word Modeling in Practice
+            - The Skip-gram and Negative Sampling
+            - From Words to Sentences
+        - title: <a href="https://arxiv.org/abs/1310.4546">Required Keynote Paper</a>
+          contents:
+            - <a href="https://www.baeldung.com/cs/nlps-word2vec-negative-sampling">Negative Sampling</a>
+
         - title: <a href="https://arxiv.org/abs/1706.03762">Required Keynote Reading</a>
           contents:
             - <a href="https://www.youtube.com/watch?v=XowwKOAWYoQ&themeRefresh=1">Attention Paper Explained</a>
@@ -115,14 +133,14 @@
           - <a href="../homework-5">Assignment 5 is assigned</a> - <i>Bayesian Framework & ML Libraries</i>
 
 
-    - title: <a href="">The Attention Mechanism</a>
+    - title: <a href="">Non-Recursive Sequential Modeling</a>
       institution: March 6
       year: Week 9
       description:
         - title: Topics
           contents:
-            - Decision Tree Classification
-            - Course Review and Midterm Preparation
+            - Modeling with Hidden Markov Models
+            - The Viterbi Algorithm - Initialization, Forward, and Backward Passes
         - title: Suggested Reading
           contents:
              - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch3_classification.pdf">Tree Algorithms - Chapters 3.1 - 3.3 </a>
@@ -139,14 +157,21 @@
         - Have a nice holiday!
 
 
-    - title: <a href="">Applications of Deep Natural Language Processing</a>
+    - title: <a href="">Recurrence and Neural Networks</a>
       institution: March 20
       year: Week 11
       description:
-        - Have a nice holiday!
+        - title: Lecturing Topics
+          contents:
+            - Traditional Language Models vs Recurrent Models
+            - The Recurrent Neural Network
+            - Vanishing and Exploding Gradients
+            - Memory Gating - GRUs and LSTMs
+            - Accuracy and Evaluation
+        - <b><i>Applications</i></b> - Named Entity Recognition and Machine Translation
       
       
-    - title: <a href="">Applications of Deep Natural Language Processing</a>
+    - title: <a href="">Document Search</a>
       institution: March 27
       year: Week 12
       description:
@@ -163,8 +188,20 @@
             - <a href="../project-proposal/">Project Proposals are Due</a> - <i>Initial Thoughts and Feedback</i>
 
 
-    - title: <a href="">Introduction to Large Language Modeling (LLMs)</a>
+    - title: <a href="">Attention and the Transformer Model</a>
       institution: April 3
+      year: Week 15
+      description:
+        - title: Topics
+          contents:
+            - NLP in Recommendation Systems
+            - LLMs in Health Care
+            - Text Processing in Government Sciences
+            - The Logistics of Serving LLMs
+
+
+    - title: <a href="">Introduction to Large Language Modeling (LLMs)</a>
+      institution: April 10
       year: Week 13
       description:
         - title: Topics
@@ -180,7 +217,7 @@
 
 
     - title: <a href="">Practically Leveraging Large Language Models</a>
-      institution: April 10
+      institution: April 17
       year: Week 14
       description:
         - title: Topics
@@ -193,19 +230,7 @@
             - <a href="https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf">Information Retrieval, Chapter 13</a>
 
 
-    - title: <a href="">Industry Day - Modern Use Cases of NLP</a>
-      institution: April 17
-      year: Week 15
-      description:
-        - title: Topics
-          contents:
-            - NLP in Recommendation Systems
-            - LLMs in Health Care
-            - Text Processing in Government Sciences
-            - The Logistics of Serving LLMs
-
-
-    - title: <a href="">Oral Presentations and Poster Session</a>
+    - title: <a href="">Demonstrations and Poster Sessions</a>
       institution: April 24
       year: Week 16
       description:
