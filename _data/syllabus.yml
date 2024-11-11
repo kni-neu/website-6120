@@ -6,32 +6,32 @@
       year: Week 1
       description:
         - <b>Language</b> - the most efficient and compact way to transfer knowledge is through words, where the window to AGI is through NLP. This lecture is an introduction that takes us through history of how we got to LLMs. We'll also review some applications of NLP, current industry standards, and some of the most impactful approaches and where they are being implemented. Finally, we'll preview what we'll be learning, the logistics of how we'll be doing so, and the expectations for your participation in this class.
-        - title: <b><i>Applications Overview</i></b>
+        - title: Applications Overview
           contents:
             - Machine Translation (Baidu's Word-Word)
             - Summarization (Dialogues, Newspaper Articles, etc.)
             - Text Classification and Clustering (News Article Groupings, etc.)
             - Question and Answering (LLMs and Chatbots)
-        - Laboratory - Google Cloud Platform and Your Credits
-        - <a href="../homework-1">Assignment 1 is assigned</a> - <i>A First Look at Processing Language</i>
-        - <a href="../assets/pdf/lab-1.pdf">Lab 1 - Getting Started with Google Cloud</a>
+        - title: Submissions
+          contents:
+            - Laboratory - Google Cloud Platform and Your Credits
+            - <a href="../assets/pdf/lab-1.pdf">Lab 1 - Getting Started with Google Cloud</a>
+            - <a href="../homework-1">Assignment 1 is assigned</a> - <i>A First Look at Processing Language</i>
 
 
     - title: <a href="https://docs.google.com/presentation/d/1PPcKkjG44GnkpF20HgVCyWCWeXgmpcXW">ML Foundations and Software Engineering</a>
       institution: January 16
       year: Week 2
       description:
-        - title: Lecturing Topics
+        - title: <b>Lecturing Topics</b> - As NLP is a specific branch of machine learning, we will review some foundational knowledge that we'll utilize through the course of this class. We'll look at both machine learning and software engineering best practices that will help you build and scale NLP systems later in the course.
           contents:
             - Foundations of Machine Learning
             - Software Engineering Practices
-        - title: Laboratory - Containerization
+        - title: Submissions
           contents:
-            - Docker - Consistent Processing Environments
-            - Cloud Principles (AWD / GCP / Azure)
-            - Python, PyTorch, Tensorflow, Colab, and Keras
-        - <a href="http://gradescope.com">Assignment 1 is <b>due</b></a>
-        - <a href="../homework-2">Assignment 2 is assigned</a> - <i>Neural Network Toolboxes</i>
+            - Laboratory - Containerization in the Cloud
+            - <a href="http://gradescope.com">Assignment 1 is <b>due</b></a>
+            - <a href="../homework-2">Assignment 2 is assigned</a> - <i>The Minimum Edit Distance Algorithm</i>
 
 
     - title: <a href="">Text Processing Algorithms</a>
@@ -43,9 +43,8 @@
             - Representations of Language
             - Comparisons / Differences in Language
             - Minimum Edit Distance Algorithms
-        - <b><i>Application</i></b> - Autocorrect in Practice
-        - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
-        - <a href="../homework-3">Assignment 3 is assigned</a> - <i>The Minimum Edit Distance Algorithm</i>
+        - <b>Application</b> - Autocorrect in Practice
+            
 
 
     - title: <a href="">Language Classification</a>
@@ -58,7 +57,12 @@
             - Preprocessing - Tokenization and Lemmatization
             - Logistic Regression Classifier
             - Naïve Bayes Classifiers
-        - <b><i>Application</i></b> - Sentiment Analysis
+        - <b>Application</b> - Sentiment Analysis
+        - title: Submissions
+          contents:
+            - Laboratory - Python, PyTorch, Tensorflow, Colab, and Keras
+            - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
+            - <a href="../homework-3">Assignment 3 is assigned</a> - <i>Text Classification</i>
 
 
 
@@ -71,13 +75,10 @@
             - What is a language model? (Abstractive vs extractive approaches)
             - Overview of Basic Modeling Approaches
             - The N-Gram Model
-        - <b><i>Application</i></b> - Autocompleting words and sentences
-        - title: <a href="https://proceedings.neurips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf">Required Keynote Paper</a> (read by next week)
-          contents:
-            - <a href="https://www.youtube.com/watch?v=FkckgwMHP2s">David Blei's Lecture</a>
-            - <a href="https://towardsdatascience.com/latent-dirichlet-allocation-lda-9d1cd064ffa2">Introductory Blog</a>
-        - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
-        - <a href="../homework-3">Assignment 4 is assigned</a> - <i>Processing and Topic Modeling</i>
+            - Out of Vocabulary Words and Smoothing
+            - Language Model Evaluation
+        - <b>Application</b> - Autocompleting words and sentences
+        - Laboratory - Colab N-Gram Systems
 
 
     - title: <a href="">Unsupervised NLP - Topic Modeling</a>
@@ -105,32 +106,24 @@
           contents: 
             - Embeddings with Continuous Bag of Words
             - Intrinsic and Extrinsice Evaluation of Word Models
+            - Word Modeling in Practice
+            - The Skip-gram and Negative Sampling
+            - From Words to Sentences
 
-        - title: <a href="">Required Keynote Paper</a>
+        - title: <a href="https://arxiv.org/abs/1310.4546">Required Keynote Paper</a>
           contents:
-            - <a href="https://karpathy.github.io/2015/05/21/rnn-effectiveness/"> Karpathy's Blog on Recurrent Networks</a>
+            - <a href="https://www.baeldung.com/cs/nlps-word2vec-negative-sampling">Blog - Gentle Introduction to Negative Sampling</a>
 
 
-    - title: <a href="">Leveraging Word Models</a>
+    - title: <a href="">Introduction to Sequential Modeling</a>
       institution: February 27
       year: Week 8
       description:
         - title: Topics
           contents:
-            - Word Modeling in Practice
-            - The Skip-gram and Negative Sampling
-            - From Words to Sentences
-        - title: <a href="https://arxiv.org/abs/1310.4546">Required Keynote Paper</a>
-          contents:
-            - <a href="https://www.baeldung.com/cs/nlps-word2vec-negative-sampling">Negative Sampling</a>
-
-        - title: <a href="https://arxiv.org/abs/1706.03762">Required Keynote Reading</a>
-          contents:
-            - <a href="https://www.youtube.com/watch?v=XowwKOAWYoQ&themeRefresh=1">Attention Paper Explained</a>
-        - title: <a href="../submissions">Submissions</a>
-          contents:
-          - <a href="http://gradescope.com">Assignment 4 is <b>due</b></a>
-          - <a href="../homework-5">Assignment 5 is assigned</a> - <i>Bayesian Framework & ML Libraries</i>
+            - Modeling with Hidden Markov Models
+            - The Viterbi Algorithm - Initialization, Forward, and Backward Passes
+        - <b>Application</b> - Parts of Speech Tagging
 
 
     - title: <a href="">Non-Recursive Sequential Modeling</a>
@@ -167,18 +160,23 @@
             - The Recurrent Neural Network
             - Vanishing and Exploding Gradients
             - Memory Gating - GRUs and LSTMs
-            - Accuracy and Evaluation
+            - Accuracy and Evaluation - Perplexity
         - <b><i>Applications</i></b> - Named Entity Recognition and Machine Translation
+        - title: <a href="">Required Keynote Paper</a>
+          contents:
+            - <a href="https://karpathy.github.io/2015/05/21/rnn-effectiveness/"> Karpathy's Blog on Recurrent Networks</a>
+
       
       
-    - title: <a href="">Document Search</a>
+    - title: <a href="">Siamese Networks and Embedding Hashing</a>
       institution: March 27
       year: Week 12
       description:
-        - title: Topics
+        - title: Lecturing Topics
           contents:
-            - Machine Translation
-            - Sentiment Analysis
+            - Siamese Architectures and Shared Parameter Networks
+            - The Triplet Data Objective
+        - <b><i>Applications</i></b> - Sentence Duplication and Document Retrieval
         - title: <a href="https://arxiv.org/abs/2310.12321">Required Keynote Paper</a>
           contents:
             - <a href="https://ia800702.us.archive.org/7/items/datamining_201811/DS-book%20u5.pdf">Evaluation Metrics</a>, Chapter 8.5
@@ -198,6 +196,15 @@
             - LLMs in Health Care
             - Text Processing in Government Sciences
             - The Logistics of Serving LLMs
+        - title: <a href="https://arxiv.org/abs/1706.03762">Required Keynote Reading</a> - Attention is All You Need
+          contents:
+            - <a href="https://www.youtube.com/watch?v=XowwKOAWYoQ&themeRefresh=1">Attention Paper Explained</a>
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+          - <a href="http://gradescope.com">Assignment 4 is <b>due</b></a>
+          - <a href="../homework-5">Assignment 5 is assigned</a> - <i>Bayesian Framework & ML Libraries</i>
+
+
 
 
     - title: <a href="">Introduction to Large Language Modeling (LLMs)</a>
@@ -209,11 +216,9 @@
             - Transformers in Large Language Modeling
             - Deep Reinforcement Learning from Human Feedback
             - Direct Preference Optimization
-        - <a href="https://www.deeplearningbook.org/contents/mlp.html">Suggested Reading</a>
-        - title: <a href="../submissions">Submissions</a>
+        - title: <a href="https://arxiv.org/abs/2203.02155">Required Keynote Reading</a> - Training Language Models to Follow Instructions with Human Feedback
           contents:
-            - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
-            - <a href="../homework-7">Assignment 7 is <b>assigned</b></a>
+            - <a href="https://www.youtube.com/watch?v=XowwKOAWYoQ&themeRefresh=1">Attention Paper Explained</a>
 
 
     - title: <a href="">Practically Leveraging Large Language Models</a>
