@@ -139,33 +139,10 @@
         - <b>Application</b> - Parts of Speech Tagging
 
 
-    - title: <a href="">Siamese Networks and Embedding Hashing</a>
-      institution: March 6
-      year: Week 9
-      description:
-        - title: Lecturing Topics
-          contents:
-            - Siamese Architectures and Shared Parameter Networks
-            - The Triplet Data Objective
-            - Transforming and Retrieving Vectors
-            - Locality Sensitive Hashing, Quantization, and Approximate Nearest Neighbors
-        - <b>Application</b> - Sentence Comparisons and Document Retrieval
-        - title: <a href="../submissions">Submissions</a>
-          contents:
-          - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
-          - <a href="../homework-6">Assignment 6 is assigned</a> - <i>Document Retrieval with Embeddings</i>
-
-
-    - title: No Instruction - Spring Break
-      institution: March 13
-      year: Week 10 
-      description:
-        - Have a nice holiday!
-
 
     - title: <a href="">Recurrence and Neural Networks</a>
-      institution: March 20
-      year: Week 11
+      institution: March 6
+      year: Week 9
       description:
         - title: Lecturing Topics
           contents:
@@ -182,6 +159,34 @@
           contents:
           - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
           - <a href="../homework-6">Assignment 7 is assigned</a> - <i>Implement RNNs and Transformer DNNs</i>
+
+
+
+    - title: No Instruction - Spring Break
+      institution: March 13
+      year: Week 10 
+      description:
+        - Have a nice holiday!
+
+
+    - title: <a href="">Siamese Networks and Embedding Hashing</a>
+      institution: March 20
+      year: Week 11
+      description:
+        - title: Lecturing Topics
+          contents:
+            - Siamese Architectures and Shared Parameter Networks
+            - The Triplet Data Objective
+            - Transforming and Retrieving Vectors
+            - Locality Sensitive Hashing, Quantization, and Approximate Nearest Neighbors
+        - <b>Application</b> - Sentence Comparisons and Document Retrieval
+        - title: <a href="https://aclanthology.org/W16-1617.pdf">Required Keynote Paper</a>
+          contents:
+            - <a href="https://www.youtube.com/watch?v=6jfw8MuKwpI">Video - Andrew Ng's Siamese Networks (for Images)</a>
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+          - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
+          - <a href="../homework-6">Assignment 6 is assigned</a> - <i>Document Retrieval with Embeddings</i>
           
 
     - title: <a href="">Attention and the Transformer Model</a>
