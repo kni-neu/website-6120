@@ -30,8 +30,6 @@
         - title: Submissions
           contents:
             - Laboratory - Containerization in the Cloud
-            - <a href="http://gradescope.com">Assignment 1 is <b>due</b></a>
-            - <a href="../homework-2">Assignment 2 is assigned</a> - <i>The Minimum Edit Distance Algorithm</i>
 
 
     - title: <a href="">Text Processing Algorithms</a>
@@ -44,6 +42,11 @@
             - Comparisons / Differences in Language
             - Minimum Edit Distance Algorithms
         - <b>Application</b> - Autocorrect in Practice
+        - title: Submissions
+          contents:
+            - <a href="http://gradescope.com">Assignment 1 is <b>due</b></a>
+            - <a href="../homework-2">Assignment 2 is assigned</a> - <i>The Minimum Edit Distance Algorithm</i>
+
             
 
 
@@ -61,8 +64,6 @@
         - title: Submissions
           contents:
             - Laboratory - Python, PyTorch, Tensorflow, Colab, and Keras
-            - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
-            - <a href="../homework-3">Assignment 3 is assigned</a> - <i>Text Classification</i>
 
 
 
@@ -78,7 +79,11 @@
             - Out of Vocabulary Words and Smoothing
             - Language Model Evaluation
         - <b>Application</b> - Autocompleting words and sentences
-        - Laboratory - Colab N-Gram Systems
+        - title: Submissions
+          contents:
+            - Laboratory - Colab N-Gram Systems
+            - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
+            - <a href="../homework-3">Assignment 3 is assigned</a> - <i>Text Classification</i>
 
 
     - title: <a href="">Unsupervised NLP - Topic Modeling</a>
@@ -94,8 +99,6 @@
           contents:
             - <a href="https://www.youtube.com/watch?v=FkckgwMHP2s">David Blei's Lecture</a>
             - <a href="https://towardsdatascience.com/latent-dirichlet-allocation-lda-9d1cd064ffa2">Introductory Blog</a>
-        - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
-        - <a href="../homework-3">Assignment 4 is assigned</a> - <i>Processing and Topic Modeling</i>
 
 
     - title: <a href="">Word Modeling with Self-Supervision</a>
@@ -113,7 +116,10 @@
         - title: <a href="https://arxiv.org/abs/1310.4546">Required Keynote Paper</a>
           contents:
             - <a href="https://www.baeldung.com/cs/nlps-word2vec-negative-sampling">Blog - Gentle Introduction to Negative Sampling</a>
-
+        - title: Submissions
+          contents:
+            - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
+            - <a href="../homework-3">Assignment 4 is assigned</a> - <i>Word2Vec - Skipgram Implementation</i>
 
     - title: <a href="">Introduction to Sequential Modeling</a>
       institution: February 27
@@ -126,21 +132,21 @@
         - <b>Application</b> - Parts of Speech Tagging
 
 
-    - title: <a href="">Non-Recursive Sequential Modeling</a>
+    - title: <a href="">Siamese Networks and Embedding Hashing</a>
       institution: March 6
       year: Week 9
       description:
-        - title: Topics
+        - title: Lecturing Topics
           contents:
-            - Modeling with Hidden Markov Models
-            - The Viterbi Algorithm - Initialization, Forward, and Backward Passes
-        - title: Suggested Reading
-          contents:
-             - <a href="https://www-users.cse.umn.edu/~kumar001/dmbook/ch3_classification.pdf">Tree Algorithms - Chapters 3.1 - 3.3 </a>
+            - Siamese Architectures and Shared Parameter Networks
+            - The Triplet Data Objective
+            - Transforming and Retrieving Vectors
+            - Locality Sensitive Hashing, Quantization, and Approximate Nearest Neighbors
+        - <b>Application</b> - Sentence Comparisons and Document Retrieval
         - title: <a href="../submissions">Submissions</a>
           contents:
-          - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
-          - <a href="../homework-6">Assignment 6 is assigned</a> - <i>Evaluation Metrics</i>
+          - <a href="http://gradescope.com">Assignment 4 is <b>due</b></a>
+          - <a href="../homework-6">Assignment 5 is assigned</a> - <i>Document Retrieval with Embeddings</i>
 
 
     - title: No Instruction - Spring Break
@@ -161,36 +167,21 @@
             - Vanishing and Exploding Gradients
             - Memory Gating - GRUs and LSTMs
             - Accuracy and Evaluation - Perplexity
-        - <b><i>Applications</i></b> - Named Entity Recognition and Machine Translation
-        - title: <a href="">Required Keynote Paper</a>
+        - <b>Applications</b> - Named Entity Recognition and Machine Translation
+        - title: <a href="https://arxiv.org/abs/1211.5063">Required Keynote Paper</a> On the Difficulty of Training RNNs
           contents:
             - <a href="https://karpathy.github.io/2015/05/21/rnn-effectiveness/"> Karpathy's Blog on Recurrent Networks</a>
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+          - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
+          - <a href="../homework-6">Assignment 6 is assigned</a> - <i>Implement RNNs and Transformer DNNs</i>
+          
 
-      
-      
-    - title: <a href="">Siamese Networks and Embedding Hashing</a>
+    - title: <a href="">Attention and the Transformer Model</a>
       institution: March 27
       year: Week 12
       description:
         - title: Lecturing Topics
-          contents:
-            - Siamese Architectures and Shared Parameter Networks
-            - The Triplet Data Objective
-        - <b><i>Applications</i></b> - Sentence Duplication and Document Retrieval
-        - title: <a href="https://arxiv.org/abs/2310.12321">Required Keynote Paper</a>
-          contents:
-            - <a href="https://ia800702.us.archive.org/7/items/datamining_201811/DS-book%20u5.pdf">Evaluation Metrics</a>, Chapter 8.5
-            - Logistic Regression (<a href="https://web.stanford.edu/~jurafsky/slp3/5.pdf">[1]</a>, <a href="https://www.math.snu.ac.kr/~hichoi/machinelearning/lecturenotes/LogisticRegression.pdf">[2]</a>)
-        - title: <a href="../submissions">Submissions</a>
-          contents:
-            - <a href="../project-proposal/">Project Proposals are Due</a> - <i>Initial Thoughts and Feedback</i>
-
-
-    - title: <a href="">Attention and the Transformer Model</a>
-      institution: April 3
-      year: Week 15
-      description:
-        - title: Topics
           contents:
             - NLP in Recommendation Systems
             - LLMs in Health Care
@@ -199,67 +190,77 @@
         - title: <a href="https://arxiv.org/abs/1706.03762">Required Keynote Reading</a> - Attention is All You Need
           contents:
             - <a href="https://www.youtube.com/watch?v=XowwKOAWYoQ&themeRefresh=1">Attention Paper Explained</a>
-        - title: <a href="../submissions">Submissions</a>
+        - title: <a href="https://arxiv.org/abs/1810.04805">Required Keynote Reading</a> - BERT - Pre-training Bidirectional Transformers
           contents:
-          - <a href="http://gradescope.com">Assignment 4 is <b>due</b></a>
-          - <a href="../homework-5">Assignment 5 is assigned</a> - <i>Bayesian Framework & ML Libraries</i>
-
-
+            - <a href="https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270">BERT Explained - State of the art in NLP, Blog</a>
 
 
     - title: <a href="">Introduction to Large Language Modeling (LLMs)</a>
-      institution: April 10
+      institution: April 3
       year: Week 13
       description:
-        - title: Topics
+        - title: Lecturing Topics
           contents:
             - Transformers in Large Language Modeling
             - Deep Reinforcement Learning from Human Feedback
             - Direct Preference Optimization
-        - title: <a href="https://arxiv.org/abs/2203.02155">Required Keynote Reading</a> - Training Language Models to Follow Instructions with Human Feedback
+        - <a href="https://arxiv.org/abs/2203.02155">Required Keynote Reading</a> - Training to Instruct with Human Feedback
+        - <a href="https://arxiv.org/abs/2303.08774">Required Keynote Reading</a> - GPT-4 Technical Report from OpenAI
+        - title: <a href="../submissions">Submissions</a>
           contents:
-            - <a href="https://www.youtube.com/watch?v=XowwKOAWYoQ&themeRefresh=1">Attention Paper Explained</a>
-
+          - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
+          - <a href="../homework-6">Assignment 7 is assigned</a> - <i>Implementing Your RAG System</i>
 
     - title: <a href="">Practically Leveraging Large Language Models</a>
-      institution: April 17
+      institution: April 10
       year: Week 14
       description:
-        - title: Topics
+        - title: Lecturing Topics
           contents:
             - Prompt Engineering - Query and Context
             - Retrieval Augmented Generation (RAG)
             - Tuning with Low Resources - LoRA and Quantization
-        - title: Suggested Reading
+            - Intelligent Agents with Program-Aided LLMs
+        - <a href="https://arxiv.org/abs/2005.11401">Required Keynote Reading</a> - Retrieval Augmented Generation
+        - <a href="https://arxiv.org/abs/2310.12321">Required Keynote Reading</a> - A Survey of LLMs Including ChatGPT and GPT-4
+
+
+    - title: <a href="">Language Modeling Systems Lifecycle</a>
+      institution: April 17
+      year: Week 15
+      description:
+        - title: Lecturing Topics
           contents:
-            - <a href="https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf">Information Retrieval, Chapter 13</a>
+            - Guidelines and NLP Systems Engineering Diagrams
+            - From Prompting to Fine Tuning to PEFT
+        - <b>Applications</b> - Creating Your Own GenAI Smart Agents
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+          - <a href="http://gradescope.com">Assignment 7 is <b>due</b></a>
+
 
 
     - title: <a href="">Demonstrations and Poster Sessions</a>
       institution: April 24
       year: Week 16
       description:
-        - title: Topics
-          contents:
-            - Some Basic Approaches
-            - Semi-Supervised Learning
-            - The Attention Mechanism
-            - Large Language Models - From BERT to ChatGPT
-        - title: Suggested Reading
-          contents:
-            - <a href="https://nlp.stanford.edu/IR-book/pdf/irbookonlinereading.pdf">Information Retrieval, Chapter 13</a>
+        - Deploy and show off your domain-specific LLM and pitch your startup idea!
 
 
 
 - title: grading criterion
   type: map
   contents:
-    - name: Labs & Participation
+    - name: Online Quizzes
       value: 10%
+    - name: Reading and Discussion
+      value: 15%
+    - name: Labs
+      value: 25%
     - name: LLM Deployment Project
-      value: 10%
+      value: 25%
     - name: Assignments
-      value: 20%
+      value: 25%
 
 
 - title: course meeting times
