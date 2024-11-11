@@ -23,37 +23,24 @@
       institution: January 16
       year: Week 2
       description:
-        - title: <b>Lecturing Topics</b> - As NLP is a specific branch of machine learning, we will review some foundational knowledge that we'll utilize through the course of this class. We'll look at both machine learning and software engineering best practices that will help you build and scale NLP systems later in the course.
+        - As NLP is a specific branch of machine learning, we will review some foundational knowledge that we'll utilize through the course of this class. We'll look at both machine learning and software engineering best practices that will help you build and scale NLP systems later in the course. Because most NLP algorithms today rely heavily on computing resources, we'll dive into distributed compution approaches and cloud-based operations.
+        - title: Lecturing Topics
           contents:
             - Foundations of Machine Learning
             - Software Engineering Practices
         - title: Submissions
           contents:
             - Laboratory - Containerization in the Cloud
-
-
-    - title: <a href="">Text Processing Algorithms</a>
-      institution: January 23
-      year: Week 3
-      description:
-        - title: Lecturing Topics
-          contents:
-            - Representations of Language
-            - Comparisons / Differences in Language
-            - Minimum Edit Distance Algorithms
-        - <b>Application</b> - Autocorrect in Practice
-        - title: Submissions
-          contents:
             - <a href="http://gradescope.com">Assignment 1 is <b>due</b></a>
-            - <a href="../homework-2">Assignment 2 is assigned</a> - <i>The Minimum Edit Distance Algorithm</i>
+            - <a href="../homework-3">Assignment 2 is assigned</a> - <i>Text Classification</i>
 
             
 
-
     - title: <a href="">Language Classification</a>
-      institution: January 30
-      year: Week 4
+      institution: January 23
+      year: Week 3
       description:
+        - Building upon our review of machine learning, we discuss strategies in feature extraction and generation. Particularly as creating a vocabulary can explode required memory space, our featurization includes NLP-specific techniques (e.g., tokenization, lemmatization, etc.).
         - title: Lecturing Topics
           contents:
             - Building Vocabulary with Stopwords and Stemming
@@ -64,6 +51,24 @@
         - title: Submissions
           contents:
             - Laboratory - Python, PyTorch, Tensorflow, Colab, and Keras
+
+
+
+    - title: <a href="">Text Processing Algorithms</a>
+      institution: January 30
+      year: Week 4
+      description:
+        - One of the most widely used algorithms in practice today are autocorrecting algorithms that typically have on-device requirements. In this lecture, we'll review elements of dynamic programming, particularly with respect to the minimum edit distance algorithm, and how we can apply these concepts to the autocorrect and subsequently the autocomplete problem.
+        - title: Lecturing Topics
+          contents:
+            - Representations of Language
+            - Comparisons / Differences in Language
+            - Minimum Edit Distance Algorithms
+        - <b>Application</b> - Autocorrect in Practice
+        - title: Submissions
+          contents:
+            - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
+            - <a href="../homework-2">Assignment 3 is assigned</a> - <i>The Minimum Edit Distance Algorithm</i>
 
 
 
@@ -82,8 +87,9 @@
         - title: Submissions
           contents:
             - Laboratory - Colab N-Gram Systems
-            - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
-            - <a href="../homework-3">Assignment 3 is assigned</a> - <i>Text Classification</i>
+            - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
+            - <a href="../homework-2">Assignment 4 is assigned</a> - <i>Autocomplete with Topical Information</i>
+
 
 
     - title: <a href="">Unsupervised NLP - Topic Modeling</a>
@@ -95,10 +101,11 @@
             - Self-Supervision in Machine Learning
             - Parameter Estimation of a Distribution
             - Unsupervised Modeling with k-Means and Clustering
-        - title: <a href="https://proceedings.neurips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf">Required Keynote Paper</a> (read by next week)
+        - title: <a href="https://proceedings.neurips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf">Required Keynote Paper</a>
           contents:
             - <a href="https://www.youtube.com/watch?v=FkckgwMHP2s">David Blei's Lecture</a>
             - <a href="https://towardsdatascience.com/latent-dirichlet-allocation-lda-9d1cd064ffa2">Introductory Blog</a>
+
 
 
     - title: <a href="">Word Modeling with Self-Supervision</a>
@@ -118,8 +125,8 @@
             - <a href="https://www.baeldung.com/cs/nlps-word2vec-negative-sampling">Blog - Gentle Introduction to Negative Sampling</a>
         - title: Submissions
           contents:
-            - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
-            - <a href="../homework-3">Assignment 4 is assigned</a> - <i>Word2Vec - Skipgram Implementation</i>
+            - <a href="http://gradescope.com">Assignment 4 is <b>due</b></a>
+            - <a href="../homework-3">Assignment 5 is assigned</a> - <i>Word2Vec - Skipgram Implementation</i>
 
     - title: <a href="">Introduction to Sequential Modeling</a>
       institution: February 27
@@ -145,8 +152,8 @@
         - <b>Application</b> - Sentence Comparisons and Document Retrieval
         - title: <a href="../submissions">Submissions</a>
           contents:
-          - <a href="http://gradescope.com">Assignment 4 is <b>due</b></a>
-          - <a href="../homework-6">Assignment 5 is assigned</a> - <i>Document Retrieval with Embeddings</i>
+          - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
+          - <a href="../homework-6">Assignment 6 is assigned</a> - <i>Document Retrieval with Embeddings</i>
 
 
     - title: No Instruction - Spring Break
@@ -173,8 +180,8 @@
             - <a href="https://karpathy.github.io/2015/05/21/rnn-effectiveness/"> Karpathy's Blog on Recurrent Networks</a>
         - title: <a href="../submissions">Submissions</a>
           contents:
-          - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
-          - <a href="../homework-6">Assignment 6 is assigned</a> - <i>Implement RNNs and Transformer DNNs</i>
+          - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
+          - <a href="../homework-6">Assignment 7 is assigned</a> - <i>Implement RNNs and Transformer DNNs</i>
           
 
     - title: <a href="">Attention and the Transformer Model</a>
@@ -208,8 +215,8 @@
         - <a href="https://arxiv.org/abs/2303.08774">Required Keynote Reading</a> - GPT-4 Technical Report from OpenAI
         - title: <a href="../submissions">Submissions</a>
           contents:
-          - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
-          - <a href="../homework-6">Assignment 7 is assigned</a> - <i>Implementing Your RAG System</i>
+          - <a href="http://gradescope.com">Assignment 7 is <b>due</b></a>
+          - <a href="../homework-6">Assignment 8 is assigned</a> - <i>Implementing Your RAG System</i>
 
     - title: <a href="">Practically Leveraging Large Language Models</a>
       institution: April 10
@@ -236,7 +243,7 @@
         - <b>Applications</b> - Creating Your Own GenAI Smart Agents
         - title: <a href="../submissions">Submissions</a>
           contents:
-          - <a href="http://gradescope.com">Assignment 7 is <b>due</b></a>
+          - <a href="http://gradescope.com">Assignment 8 is <b>due</b></a>
 
 
 
