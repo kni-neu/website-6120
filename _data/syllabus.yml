@@ -98,13 +98,17 @@
       description:
         - title: Lecturing Topics
           contents:
-            - Self-Supervision in Machine Learning
             - Parameter Estimation of a Distribution
-            - Unsupervised Modeling with k-Means and Clustering
-        - title: <a href="https://proceedings.neurips.cc/paper_files/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf">Required Keynote Paper</a>
+            - The Dirichlet Distribution and its Attributes
+            - Infinite Bayesian in Topic Models
+            - Latent Semantic Indexing and Latent Dirichlet Allocation
+        - title: <a href="https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf">Required Keynote Paper</a> - Latent Dirichlet Allocation
           contents:
             - <a href="https://www.youtube.com/watch?v=FkckgwMHP2s">David Blei's Lecture</a>
-            - <a href="https://towardsdatascience.com/latent-dirichlet-allocation-lda-9d1cd064ffa2">Introductory Blog</a>
+            - <a href="https://towardsdatascience.com/latent-dirichlet-allocation-lda-9d1cd064ffa2">Introductory Blog to Topic Modeling</a>
+        - title: Submissions
+          contents:
+            - <a href="https://colab.research.google.com/github/littlecolumns/ds4j-notebooks/blob/master/text-analysis/notebooks/Introduction%20to%20topic%20modeling.ipynb">Laboratory</a> - Topic Modeling
 
 
 
@@ -120,13 +124,15 @@
             - The Skip-gram and Negative Sampling
             - From Words to Sentences
 
-        - title: <a href="https://arxiv.org/abs/1310.4546">Required Keynote Paper</a>
+        - title: <a href="https://arxiv.org/abs/1310.4546">Required Keynote Paper</a> - Distributed Representations of Words
           contents:
             - <a href="https://www.baeldung.com/cs/nlps-word2vec-negative-sampling">Blog - Gentle Introduction to Negative Sampling</a>
         - title: Submissions
           contents:
             - <a href="http://gradescope.com">Assignment 4 is <b>due</b></a>
             - <a href="../homework-3">Assignment 5 is assigned</a> - <i>Word2Vec - Skipgram Implementation</i>
+
+
 
     - title: <a href="">Introduction to Sequential Modeling</a>
       institution: February 27
@@ -152,13 +158,14 @@
             - Memory Gating - GRUs and LSTMs
             - Accuracy and Evaluation - Perplexity
         - <b>Applications</b> - Named Entity Recognition and Machine Translation
-        - title: <a href="https://arxiv.org/abs/1211.5063">Required Keynote Paper</a> On the Difficulty of Training RNNs
+        - <a href="https://deeplearning.cs.cmu.edu/F23/document/readings/LSTM.pdf"> Required Keynote Paper </a> Long Short Term Memory Networks
+        - title: <a href="https://arxiv.org/abs/1211.5063"> Required Keynote Paper </a> - On the Difficulty of Training RNNs
           contents:
             - <a href="https://karpathy.github.io/2015/05/21/rnn-effectiveness/"> Karpathy's Blog on Recurrent Networks</a>
         - title: <a href="../submissions">Submissions</a>
           contents:
           - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
-          - <a href="../homework-6">Assignment 7 is assigned</a> - <i>Implement RNNs and Transformer DNNs</i>
+          - <a href="../homework-6">Assignment 7 is assigned</a> - <i>Implement Your Own Recurrent Network</i>
 
 
 
@@ -180,13 +187,13 @@
             - Transforming and Retrieving Vectors
             - Locality Sensitive Hashing, Quantization, and Approximate Nearest Neighbors
         - <b>Application</b> - Sentence Comparisons and Document Retrieval
-        - title: <a href="https://aclanthology.org/W16-1617.pdf">Required Keynote Paper</a>
+        - title: <a href="https://aclanthology.org/W16-1617.pdf">Required Keynote Paper</a> - Text Similarity with Siamese RNNs
           contents:
             - <a href="https://www.youtube.com/watch?v=6jfw8MuKwpI">Video - Andrew Ng's Siamese Networks (for Images)</a>
         - title: <a href="../submissions">Submissions</a>
           contents:
           - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
-          - <a href="../homework-6">Assignment 6 is assigned</a> - <i>Document Retrieval with Embeddings</i>
+          - <a href="../homework-6">Assignment 6 is assigned</a> - <i>Coding Up Attention Networks</i>
           
 
     - title: <a href="">Attention and the Transformer Model</a>
@@ -199,12 +206,11 @@
             - LLMs in Health Care
             - Text Processing in Government Sciences
             - The Logistics of Serving LLMs
-        - title: <a href="https://arxiv.org/abs/1706.03762">Required Keynote Reading</a> - Attention is All You Need
-          contents:
-            - <a href="https://www.youtube.com/watch?v=XowwKOAWYoQ&themeRefresh=1">Attention Paper Explained</a>
+        - <a href="https://arxiv.org/abs/1706.03762">Required Keynote Reading</a> - Attention is All You Need
         - title: <a href="https://arxiv.org/abs/1810.04805">Required Keynote Reading</a> - BERT - Pre-training Bidirectional Transformers
           contents:
             - <a href="https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270">BERT Explained - State of the art in NLP, Blog</a>
+            - <a href="https://www.youtube.com/watch?v=XowwKOAWYoQ&themeRefresh=1">Attention Paper Explained</a>
 
 
     - title: <a href="">Introduction to Large Language Modeling (LLMs)</a>
