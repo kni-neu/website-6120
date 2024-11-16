@@ -116,6 +116,7 @@
       institution: February 20
       year: Week 7
       description:
+        - Perhaps the most influential paper to have come out of the natural language community is the <a href="https://arxiv.org/abs/1310.4546"><i>word2vec</i> paper</a> that now influences general machine learning practioners. You'll find elements of its practice in communities from the information retrieval sciences to modern cyber applications to general ML problems. As it pertains to language models, they are often the first stage in any system pipeline that you may design. This week's lecture reviews the word models and the embeddings / representations that they create.
         - title: Lecturing Topics
           contents: 
             - Embeddings with Continuous Bag of Words
@@ -218,7 +219,7 @@
       institution: April 3
       year: Week 13
       description:
-        - The next three weeks are devoted to the state of the art in industry, and LLMs in practice, which may have changed in the time that you have started this course! This week's lecture is devoted to the introduction of large language models using the fundamentals that you have learned, from perplexity in system design to transformer neural network layers for pre-training. This week, we'll focus on techniques that large companies (or well-funded ones, at least) use to create _foundational_ LLM models, taking training methods from OpenAI, Anthropic, and Perplexity.
+        - The next three weeks are devoted to the state of the art in industry, and LLMs in practice, which may have changed in the time that you have started this course! This week, we introduce large language models using the fundamentals that you have learned, from perplexity in system design to transformer neural network layers for pre-training. We'll focus on techniques that large companies (or well-funded ones, at least) use to create <i>foundational</i> LLM models, taking training methods from OpenAI, Anthropic, and Perplexity.
         - title: Lecturing Topics
           contents:
             - Large Language Modeling (LLM) in Code
@@ -237,6 +238,7 @@
       institution: April 10
       year: Week 14
       description:
+        - Last week, we discussed how large companies might train LLMs. In contrast, this week's lecture is most useful for those interested in entering the industry at the mid- to startup levels, where we explore common approaches to optimally <i>leverage</i> large language models for your particular applications once the LLM has been created. These techniques additionally attack limitations in LLMs, such as knowledge gaps, hallucinations, and logical reasoning problems.
         - title: Lecturing Topics
           contents:
             - Prompt Engineering - Query and Context
