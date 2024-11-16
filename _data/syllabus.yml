@@ -200,12 +200,13 @@
       institution: March 27
       year: Week 12
       description:
+        - Attention models have been the leap forward that are the fundamental building blocks to modern machine learning today, including the essential ingredients for Large Language Models. We'll go deep into attention layers in neural networks, building our own from scratch.
         - title: Lecturing Topics
           contents:
-            - NLP in Recommendation Systems
-            - LLMs in Health Care
-            - Text Processing in Government Sciences
-            - The Logistics of Serving LLMs
+            - Introduction to the Attention Modeling
+            - The Self-Attention Mechanism
+            - The Transformer Modeling Layer
+            - Large Scale Attention Modeling
         - <a href="https://arxiv.org/abs/1706.03762">Required Keynote Reading</a> - Attention is All You Need
         - title: <a href="https://arxiv.org/abs/1810.04805">Required Keynote Reading</a> - BERT - Pre-training Bidirectional Transformers
           contents:
@@ -217,11 +218,14 @@
       institution: April 3
       year: Week 13
       description:
+        - The next three weeks are devoted to the state of the art in industry, and LLMs in practice, which may have changed in the time that you have started this course! This week's lecture is devoted to the introduction of large language models using the fundamentals that you have learned, from perplexity in system design to transformer neural network layers for pre-training. This week, we'll focus on techniques that large companies (or well-funded ones, at least) use to create _foundational_ LLM models, taking training methods from OpenAI, Anthropic, and Perplexity.
         - title: Lecturing Topics
           contents:
-            - Transformers in Large Language Modeling
+            - Large Language Modeling (LLM) in Code
             - Deep Reinforcement Learning from Human Feedback
-            - Direct Preference Optimization
+            - Alternatives to RLHF - Partial Policy Optimization
+            - Aligning LLMs in the Instruction Following Framework
+            - Multimodal Large Language Models
         - <a href="https://arxiv.org/abs/2203.02155">Required Keynote Reading</a> - Training to Instruct with Human Feedback
         - <a href="https://arxiv.org/abs/2303.08774">Required Keynote Reading</a> - GPT-4 Technical Report from OpenAI
         - title: <a href="../submissions">Submissions</a>
@@ -247,6 +251,7 @@
       institution: April 17
       year: Week 15
       description:
+        - You've learned about the inner workings of the LLM, the mechanisms that power it, how and when to tune it, the data collection processes that govern it, how it can be used practically, and the agents that can run on it. In this lecture, we explore the practical aspects of GenAI engineers when product managers ask them to design a system for them. More than the theory, we'll learn about the system itself, devoting time for *when* to focus on certain components of your LLM, and the life cycle of your system design. 
         - title: Lecturing Topics
           contents:
             - Guidelines and NLP Systems Engineering Diagrams
