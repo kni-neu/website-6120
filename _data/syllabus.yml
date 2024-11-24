@@ -96,6 +96,7 @@
       institution: February 13
       year: Week 6
       description:
+        - This week, we will explore David Blei's contributions to the field, a set of concepts that indirectly attack the age-old question of <b>"what is <i>k</i> in the k-means clustering algorithm</b>. We will review the hierarchical nature of how to model natural language using Bayesian concepts, where our corpora is processed without preserving the order of words. This week also marks the first week of <a href="../readings/"><b>required keynote paper</b></a> reading, where we will begin the tour of seminal papers that have revolutionized not only language processing but also machine learning and artificial intelligence writ large. This reading is perhaps the most difficult one that you'll read in this class, since it involves a heavy component of probability and statistics. 
         - title: Lecturing Topics
           contents:
             - Parameter Estimation of a Distribution
@@ -116,7 +117,7 @@
       institution: February 20
       year: Week 7
       description:
-        - Perhaps the most influential paper to have come out of the natural language community is the <a href="https://arxiv.org/abs/1310.4546"><i>word2vec</i> paper</a> that now influences general machine learning practioners. You'll find elements of its practice in communities from the information retrieval sciences to modern cyber applications to general ML problems. As it pertains to language models, they are often the first stage in any system pipeline that you may design. This week's lecture reviews the word models and the embeddings / representations that they create.
+        - Perhaps the most influential paper to have come out of the natural language community is the <a href="https://arxiv.org/abs/1310.4546"><i>word2vec</i> paper</a> that most general machine learning practioners recognize. You'll find elements of its practice in communities from the information retrieval sciences to modern cyber applications to general ML problems. As it pertains to language models, they are often the first stage in any system pipeline that you may design. This week's lecture reviews the word models and the embeddings / representations that they create.
         - title: Lecturing Topics
           contents: 
             - Embeddings with Continuous Bag of Words
