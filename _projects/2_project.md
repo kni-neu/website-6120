@@ -1,9 +1,9 @@
 ---
 layout: page
-title: hui hu 
+title: bella chen
 description: teaching assistant
 office_hours: Monday 2 p.m.-4 p.m.
-img: assets/img/hui.jpeg
+img: assets/img/bella.jpeg
 importance: 2
 category: staffing
 ---

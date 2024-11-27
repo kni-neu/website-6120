@@ -8,7 +8,7 @@ importance: 1
 category: staffing
 ---
 
-Welcome to CS6220! It's nice to meet you. You can find my academic and commerical background on my [LinkedIn profile](https://www.linkedin.com/in/karl-ni/), but beyond that, some of my interests include ragtime piano, rock climbing and painting. 
+Welcome to CS6120! It's nice to meet you. You can find my academic and commerical background on my [LinkedIn profile](https://www.linkedin.com/in/karl-ni/), but beyond that, some of my interests include ragtime piano, rock climbing and painting. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -30,7 +30,7 @@ Welcome to CS6220! It's nice to meet you. You can find my academic and commerica
 I'm looking forward to getting to know everyone this semester. Please feel free to stop by during office hours.
 
 <center>
-{% include figure.html path="assets/img/karl-interests.png" title="example image" class="img-fluid rounded z-depth-1" %}
+<img src="../../assets/img/karl-interests.png" width="750">
 </center>
 
 
