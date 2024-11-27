@@ -103,6 +103,7 @@
             - The Dirichlet Distribution and its Attributes
             - Infinite Bayesian in Topic Models
             - Latent Semantic Indexing and Latent Dirichlet Allocation
+            - (Collapsed) Gibbs Sampling, and Optimization
         - title: <a href="https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf">Required Keynote Paper</a> - Latent Dirichlet Allocation
           contents:
             - <a href="https://www.youtube.com/watch?v=FkckgwMHP2s">David Blei's Lecture</a>
@@ -117,7 +118,7 @@
       institution: February 20
       year: Week 7
       description:
-        - Perhaps the most influential paper to have come out of the natural language community is the <a href="https://arxiv.org/abs/1310.4546"><i>word2vec</i> paper</a> that most general machine learning practioners recognize. You'll find elements of its practice in communities from the information retrieval sciences to modern cyber applications to general ML problems. As it pertains to language models, they are often the first stage in any system pipeline that you may design. This week's lecture reviews the word models and the embeddings / representations that they create.
+        - Perhaps the most influential paper to have come out of the natural language community is the <a href="https://arxiv.org/abs/1310.4546"><i>word2vec</i> paper</a> that most general machine learning practioners recognize. You'll find elements of its practice in communities from the information retrieval sciences to modern cyber applications to general ML problems. As it pertains to language models, modeling words is often the first stage in any system pipeline that you may design. This week's lecture reviews word models (including word2vec as well as continuous bags of words) and the embeddings / representations that they create.
         - title: Lecturing Topics
           contents: 
             - Embeddings with Continuous Bag of Words
