@@ -1,7 +1,7 @@
 ---
 layout: page
 title: bella chen
-description: teaching assistant
+description: head teaching assistant
 office_hours: Monday 2 p.m.-4 p.m.
 img: assets/img/bella.jpeg
 importance: 2

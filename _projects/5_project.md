@@ -1,19 +1,23 @@
 ---
 layout: page
-title: patrick callier
-description: sr. applied scientist, etsy
-img: https://64.media.tumblr.com/83bf8fe84a8c78ea10c6f7135276b736/tumblr_nrwimroRAF1stmou2o1_500.jpg
+title: tbd
+description: teaching assistant
+office_hours: day and time
+img: assets/img/data-from-star-trek-cropped.png
 importance: 2
-category: guest lecturers
+category: staffing
 ---
 
-Patrick Callier is a Senior Applied Scientist at Etsy using computer vision to improve the shopping experience for Etsy buyers. Prior to Etsy, Patrick worked at Square tackling problems ranging from account takeover to credit risk modeling. Before that, he received a Ph.D. in Linguistics from Georgetown University in 2013. Patrick lives in San Francisco and is a fan of good tea, fresh bread, and video games.
+Hello, I'm Haoping Lin, and I'm thrilled to be your CS6220 Teaching Assistant for this semester. I graduated from Pennsylvania State University and continue my way being a software engineer. Piano and guitar are my two of my interests. Please don't hesitate to contact me if you need any assists. I'm ready to help!
 
-<style>
-.responsive-wrap iframe{ max-width: 100%;}
-</style>
-<div class="responsive-wrap">
-<!-- this is the embed code provided by Google -->
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT0Tgt5rwzoJucD6cwmj7y1tR5lpceueAr1aVTsK0qn19z1H-C4hffZ4DVcpB11Pn6xDgTOXvG4szBw/embed?start=false&loop=false&delayms=3000&slide=id.g216694f168a_0_19" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-<!-- Google embed ends -->
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/drive_path.jpg" title="Path Map" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/guitar.jpg" title="My Interest" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Used to drive from east to west.
 </div>
