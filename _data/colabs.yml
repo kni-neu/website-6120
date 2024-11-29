@@ -50,18 +50,18 @@
       year: In-Class
       colab_link: https://colab.research.google.com/drive/1UxD6csLyEBT7A2rHIwuYcmZNUc82OG1D
 
-- title: week 11 colabs
+- title: week 13 colabs
   type: time_table
   contents:
-    - title: Mining Structured Data and Images
-      institution: Manually coding logistic regression optimization
+    - title: Fine Tuning Large Language Models
+      institution: Fine tune an LLM for dialogue summarization using FLAN-T5
       year: In-Class
-      colab_link: https://colab.research.google.com/drive/1qjENMQA1E0rYrB6dT75DwvFbn8cRb0sT
+      colab_link: https://colab.research.google.com/drive/1u8DDFEiCC2yJgQIfbCOY4_aN06MJeUfv
 
-- title: week 12 colabs
+- title: week 14 colabs
   type: time_table
   contents:
-    - title: Using Keras and Traditional Text Mining
-      institution: Fun diffusion models, the MNIST convolutional network, and TF/IDF practice
+    - title: Detoxifying LLMs using RLHF
+      institution: Fine tune FLAN-T5 with reinforcement learning (PPO) to generate less toxic summaries
       year: In-Class
-      colab_link: https://colab.research.google.com/drive/1Q43dERyuWGhWp7ceEFO08BR8F52XCD21
+      colab_link: https://colab.research.google.com/drive/1ogy2_MEcMEFrJGiS7XwtEElwnV7bY_p5

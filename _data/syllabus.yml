@@ -28,7 +28,7 @@
           contents:
             - Foundations of Machine Learning
             - Software Engineering Practices
-        - title: Submissions
+        - title: <a href="../submissions">Submissions</a>
           contents:
             - Laboratory - Containerization in the Cloud
             - <a href="http://gradescope.com">Assignment 1 is <b>due</b></a>
@@ -233,6 +233,7 @@
         - <a href="https://arxiv.org/abs/2303.08774">Required Keynote Reading</a> - GPT-4 Technical Report from OpenAI
         - title: <a href="../submissions">Submissions</a>
           contents:
+          - <a href="https://colab.research.google.com/drive/1u8DDFEiCC2yJgQIfbCOY4_aN06MJeUfv">Laboratory - Tuning LLMs</a>
           - <a href="http://gradescope.com">Assignment 7 is <b>due</b></a>
           - <a href="../homework-6">Assignment 8 is assigned</a> - <i>Implementing Your RAG System</i>
 
@@ -249,6 +250,9 @@
             - Intelligent Agents with Program-Aided LLMs
         - <a href="https://arxiv.org/abs/2005.11401">Required Keynote Reading</a> - Retrieval Augmented Generation
         - <a href="https://arxiv.org/abs/2310.12321">Required Keynote Reading</a> - A Survey of LLMs Including ChatGPT and GPT-4
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+          - <a href="https://colab.research.google.com/drive/1ogy2_MEcMEFrJGiS7XwtEElwnV7bY_p5">Laboratory - Instruction Following Tuning</a>
 
 
     - title: <a href="">Language Modeling Systems Lifecycle</a>
