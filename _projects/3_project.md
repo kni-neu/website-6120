@@ -1,6 +1,6 @@
 ---
 layout: page
-title: tbd
+title: joy guo
 description: teaching assistant
 office_hours: day and time
 img: assets/img/data-from-star-trek-cropped.png
