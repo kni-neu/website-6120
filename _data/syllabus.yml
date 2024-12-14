@@ -14,8 +14,7 @@
             - Question and Answering (LLMs and Chatbots)
         - title: Submissions
           contents:
-            - Laboratory - Google Cloud Platform and Your Credits
-            - <a href="../assets/pdf/lab-1.pdf">Lab 1 - Getting Started with Google Cloud</a>
+            - <a href="../assets/pdf/lab-1.pdf">Laboratory - Getting Started on Google Cloud with Your Credits</a>
             - <a href="../homework-1">Assignment 1 is assigned</a> - <i>A First Look at Processing Language</i>
 
 
@@ -30,7 +29,7 @@
             - Software Engineering Practices
         - title: <a href="../submissions">Submissions</a>
           contents:
-            - Laboratory - Containerization in the Cloud
+            - <a href="../assets/pdf/lab-2.pdf">Laboratory - Containerization in the Cloud</a>
             - <a href="http://gradescope.com">Assignment 1 is <b>due</b></a>
             - <a href="../homework-3">Assignment 2 is assigned</a> - <i>Text Classification</i>
 
@@ -50,7 +49,8 @@
         - <b>Application</b> - Sentiment Analysis
         - title: Submissions
           contents:
-            - Laboratory - Python, PyTorch, Tensorflow, Colab, and Keras
+            - <a href="https://colab.research.google.com/drive/1JjgGfdbdjfVQ9uin35698sTn97xTeHeI">Laboratory - The NLTK Library</a>
+            - <a href="https://keras.io/examples/nlp/text_classification_from_scratch/">Laboratory - Python, PyTorch, Tensorflow, Colab, and Keras</a>
 
 
 
