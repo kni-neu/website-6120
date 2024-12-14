@@ -3,7 +3,7 @@ layout: page
 title: joy guo
 description: teaching assistant
 office_hours: day and time
-img: assets/img/data-from-star-trek-cropped.png
+img: assets/img/joy.jpeg
 importance: 2
 category: staffing
 ---
