@@ -1,12 +1,12 @@
 ---
 layout: page
-title: homework 3
-permalink: /homework-3/
-description: mastering map reduce
+title: homework 5
+permalink: /homework-5/
+description: word embeddings
 nav: true
-hw_pdf: assignment-3.pdf
-assigned: september 26
-due_date: october 10
+hw_pdf: assignment-5.pdf
+assigned: february 20
+due_date: march 6
 horizontal: false
 ---
 
@@ -16,9 +16,22 @@ horizontal: false
 
 Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-3.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
 
+Word Vectors are often used as a fundamental component for downstream NLP tasks, e.g. question answering, text generation, translation, etc., so it is important to build some intuitions as to their strengths and weaknesses. Here, you will explore two types of word vectors: those derived from co-occurrence matrices, and those derived via GloVe.
+
+**Note on Terminology**: The terms "word vectors" and "word embeddings" are often used interchangeably. The term "embedding" refers to the fact that we are encoding aspects of a word's meaning in a lower dimensional space. As Wikipedia states, "conceptually it involves a mathematical embedding from a space with one dimension per word to a continuous vector space with a much lower dimension".
+
+
+
 -----
 #### data and starter kit
 -----
+
+We will be using the IMBD dataset today.
+
+```python
+from datasets import load_dataset
+imdb_dataset = load_dataset("stanfordnlp/imdb")
+```
 
 You will need [the data](https://course.ccs.neu.edu/cs6220/fall2023/homework-3/). If you are using Colabs (not a requirement), you would need a Google account.
 

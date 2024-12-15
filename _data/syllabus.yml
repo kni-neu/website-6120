@@ -167,8 +167,8 @@
             - <a href="https://karpathy.github.io/2015/05/21/rnn-effectiveness/"> Karpathy's Blog on Recurrent Networks</a>
         - title: <a href="../submissions">Submissions</a>
           contents:
-          - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
-          - <a href="../homework-6">Assignment 7 is assigned</a> - <i>Implement Your Own Recurrent Network</i>
+          - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
+          - <a href="../homework-6">Assignment 6 is assigned</a> - <i>Implement Your Own Recurrent Network</i>
 
 
 
@@ -195,8 +195,8 @@
             - <a href="https://www.youtube.com/watch?v=6jfw8MuKwpI">Video - Andrew Ng's Siamese Networks (for Images)</a>
         - title: <a href="../submissions">Submissions</a>
           contents:
-          - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
-          - <a href="../homework-6">Assignment 6 is assigned</a> - <i>Coding Up Attention Networks</i>
+          - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
+          - <a href="../homework-6">Assignment 7 is assigned</a> - <i>Coding Up Attention Networks</i>
           
 
     - title: <a href="">Attention and the Transformer Model</a>
