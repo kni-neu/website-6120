@@ -8,39 +8,55 @@ importance: 2
 category: staffing
 ---
 
-Hi! I'm Bella (Yao) Chen, and I'm thrilled to be your CS6120 Teaching Assistant for the semester.
+<img src="../../assets/img/bella.jpeg" alt="Bella Chen" style="float: left; margin-right: 20px;" width="200">
+<p>Hi! I'm Bella (Yao) Chen, and I'm thrilled to be your CS6120 Teaching Assistant for the semester. Here, you can write your biography. For example, I am a X year graduate student in Y college. My advisor is F and I'm focusing on E applied to G. Previously, I studied at Z as an undergraduate at the University of L at M, located in N, majoring in A. I've held internships and roles at company B and C, and my research interests are D. My objectives in my career are to be the most awesome natural language processing scientist in the world, and I know that I will get the Nobel prize for it.
+</p>
 
-<style>
-  .hover-image img {
-    transition: all 0.3s ease;
-  }
-  .hover-image img:hover {
-    content: url('../../assets/img/hui-avatar-2.jpeg');
-  }
-</style>
+<br>
+<hr>
 
-<div style="text-align: center;" class="hover-image">
-  <a href="https://hui-hwoo.github.io/odyssey/">
-    <img src="../../assets/img/hui-avatar.png" alt="hui hu" style="border-radius: 50%; width: 160px">
-  </a>
-</div>
+### A Little More About Myself
 
-### From the Unknown to Discovery
+Tell use a bit more about yourself! What's your interests? If you need more images, you can add them to the folder:
 
-My academic path has been unconventional, taking me through Physics, Electrical Engineering, Finance, and Math before I made a shift to Computer Science. Along the way, I’ve embraced the uncertainty of the future, trusting that the connections between these experiences will reveal themselves in time. Each step has been part of a broader process of **mining and self-discovery**, where meaning is forged through reflection and exploration.
+```
+assets/img/<IMAGE.png>
+```
 
-[Visit my website](https://hui-hwoo.github.io/odyssey/)
+You will need to refer to it in this markdown code with relative links, in this case you would say:
 
-<div style="text-align: center;">
-    <img src="../../assets/img/hui-education.png" alt="hui hu" style="border-radius: 10px; height: 360px">
-</div>
+```
+[Your Image](../../assets/img/<IMAGE.png>)
+```
+
+There's an example above with the relative link.
 
 <br>
 <br>
+<hr>
+<br>
 
-### Links to Office Hours
+### Office Hours and Logistics
 
-* Mondays 2pm-4pm [Zoom Link](https://northeastern.zoom.us/j/96646199043)
-* Fridays 2pm-3pm [Zoom Link](https://northeastern.zoom.us/j/95027922120)
-* OR - [Schedule a one on one meeting](https://calendly.com/hu-hui1-husky/30min)
-* E-mail Address: chen.yao2@northeastern.edu
+* Mondays 2pm-4pm [Zoom Link](https://northeastern.zoom.us/j/96646199043) (Edit here please)
+* Fridays 2pm-3pm [Zoom Link](https://northeastern.zoom.us/j/95027922120) (Edit here please)
+* OR - [Schedule a one on one meeting](https://calendly.com/hu-hui1-husky/30min) (Edit here / delete, please)
+
+### Contact Information
+
+Please fill out the below information with the appropriate data. I've added e-mail, but the other links are incorrect. There are other icons that you can use if this list is incomplete. You can find them [here](https://github.com/kni-neu/website-6120/blob/master/_includes/social.html). Just copy the code for the social media that you want to add.
+
+You can contact me through the following media:
+
+<div class="social">
+  <div class="contact-icons">
+     <a href="mailto:chen.yao2@northeastern.edu" title="email"><i class="fas fa-envelope"></i></a>
+     <a href="https://scholar.google.com/citations?user=" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+     <a href="https://github.com" title="GitHub"><i class="fab fa-github"></i></a>
+     <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+  </div>
+  <div class="contact-note">
+    {{ site.contact_note }}
+  </div>
+</div>
+
