@@ -8,6 +8,9 @@ This repository is created from a Jekyll template, originally forked from [alshe
 
 * **`_data/`**. This folder has syllabus information and lab information. They're stored in `*.yml` files.
 * **`_projects/`**. Somewhat of a misnomer. It's staff information. This folder houses profiles about each person, including their office hours, a picture, and contact information. At the beginning of each semester, we will need to update this with relevant teaching staff.
+  * `1_project.md` - will always be mine
+  * `2_project.md` - will be the head TA
+  * `3_project.md` and `4_project.md` - will be TAs
 
 
 ### Building this website locally
@@ -35,11 +38,11 @@ At the beginning of each semester, we will need to create a public-facing websit
 1. E-mail khoury-systems@northeastern.edu for a website
   - They'll create `/net/course/cs6120s25 (or whatever URL is agreed upon)
   - This folder will also have `/net/course/cs6120-spXX/.www`
-1. Clone into local folder and create Docker environment with ./start-docker.sh
+2. Clone into local folder and create Docker environment with ./start-docker.sh
   - Edit `baseurl: /cs6120s25` in `_config.yml`
   - Run `./start-server.sh`
   - Commit to repository and let auto-hooks run
-1. Login to: `login.khoury.northeastern.edu`
+3. Login to: `login.khoury.northeastern.edu`
   - Goto `/net/course/cs6120-spXX/.www`, which will appear as http://course.ccs.neu.edu/cs6120s25.
   - Clone https://github.com/kni-neu/website-6120.git
   - Branch and checkout `gh-pages`
