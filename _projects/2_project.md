@@ -8,6 +8,8 @@ importance: 2
 category: staffing
 ---
 
+Hi! I'm Bella (Yao) Chen, and I'm thrilled to be your CS6120 Teaching Assistant for the semester.
+
 <style>
   .hover-image img {
     transition: all 0.3s ease;
