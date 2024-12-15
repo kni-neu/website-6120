@@ -15,16 +15,16 @@ This repository is created from a Jekyll template, originally forked from [alshe
 This repository builds into [`_website`](./_website), translating Markdown into HTML. It will automatically build (if you set up the Git hooks) when you push to Git. To view your website locally, then follow these steps.
 
 1. Fork [kni-neu/website-6120](`https://github.com/kni-neu/website-6120`) and clone into local folder
-1. Run `./start-docker.sh`
+2. Run `./start-docker.sh`
   * This starts the docker environment, and calls it `neu-cs6120`.
   * To detach without killing your container, type `Ctrl+P` and then `Ctrl-Q`
   * To access this container, `docker exec -it neu-cs6120 /bin/bash`
-1. Inside the container, go to the repo folder (e.g., `cd /home/`
-1. Install the packages with `bundle install`
-1. Make any changes to markdown files (see the repository structure above).
-1. Start the server `./start-server.sh`.
+3. Inside the container, go to the repo folder (e.g., `cd /home/`
+4. Install the packages with `bundle install`
+5. Make any changes to markdown files (see the repository structure above).
+6. Start the server `./start-server.sh`.
   * Any additional changes should automatically update the server.
-1. On a browser, go to http://localhost:8080.
+7. On a browser, go to http://localhost:8080.
   * The port 8080 is whatever you chose to expose
 
 
