@@ -2,7 +2,7 @@
 
 This is the repository for the Natural Language Processing course, taught Spring 2025. 
 
-### Repository structure
+## Repository structure
 
 This repository is created from a Jekyll template, originally forked from [alshedivat/al-folio](https://github.com/alshedivat/al-folio). 
 
@@ -13,7 +13,7 @@ This repository is created from a Jekyll template, originally forked from [alshe
   * `3_project.md` and `4_project.md` - will be TAs
 
 
-### Building this website locally
+## Building this website locally
 
 This repository builds into [`_website`](./_website), translating Markdown into HTML. It will automatically build (if you set up the Git hooks) when you push to Git. To view your website locally, then follow these steps.
 
@@ -31,7 +31,7 @@ This repository builds into [`_website`](./_website), translating Markdown into 
   * The port 8080 is whatever you chose to expose
 
 
-### Creating a website externally on CCS
+## Creating a website externally on CCS
 
 At the beginning of each semester, we will need to create a public-facing website. 
 
