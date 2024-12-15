@@ -43,3 +43,4 @@ My academic path has been unconventional, taking me through Physics, Electrical 
 * Mondays 2pm-4pm [Zoom Link](https://northeastern.zoom.us/j/96646199043)
 * Fridays 2pm-3pm [Zoom Link](https://northeastern.zoom.us/j/95027922120)
 * OR - [Schedule a one on one meeting](https://calendly.com/hu-hui1-husky/30min)
+* E-mail Address: chen.yao2@northeastern.edu
