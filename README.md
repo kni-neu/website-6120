@@ -6,13 +6,8 @@ This is the repository for the Natural Language Processing course, taught Spring
 
 This repository is created from a Jekyll template, originally forked from [alshedivat/al-folio](https://github.com/alshedivat/al-folio). 
 
-##### `_data/`
-
-This folder has syllabus information and lab information. They're stored in `*.yml` files.
-
-##### `_projects/`
-
-Somewhat of a misnomer. It's staff information. This folder houses profiles about each person, including their office hours, a picture, and contact information. At the beginning of each semester, we will need to update this with relevant teaching staff.
+* **`_data/`**. This folder has syllabus information and lab information. They're stored in `*.yml` files.
+* **`_projects/`**. Somewhat of a misnomer. It's staff information. This folder houses profiles about each person, including their office hours, a picture, and contact information. At the beginning of each semester, we will need to update this with relevant teaching staff.
 
 
 ### Building this website locally
