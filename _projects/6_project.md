@@ -1,7 +1,7 @@
 ---
 layout: page
 title: rosie
-description: a dog who loves nlp and treats
+description: a dog who loves nlp and naps
 office_hours: non-napping hours
 img: assets/img/rosie-cropped.jpg
 importance: 2

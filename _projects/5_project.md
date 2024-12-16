@@ -1,8 +1,8 @@
 ---
 layout: page
-title: dog who loves naps
+title: newton
 description: your friendly neighborhood pup
-office_hours: day and time
+office_hours: treats and i'll come
 img: assets/img/newton.jpg
 importance: 2
 category: staffing
