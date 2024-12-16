@@ -1,23 +1,63 @@
 ---
 layout: page
-title: tbd
+title: rama chahar
 description: teaching assistant
 office_hours: day and time
-img: assets/img/data-from-star-trek-cropped.png
+img: assets/img/raman.jpeg
 importance: 2
 category: staffing
 ---
 
-Hello, I'm Haoping Lin, and I'm thrilled to be your CS6220 Teaching Assistant for this semester. I graduated from Pennsylvania State University and continue my way being a software engineer. Piano and guitar are my two of my interests. Please don't hesitate to contact me if you need any assists. I'm ready to help!
+<img src="../../assets/img/raman.jpeg" alt="Raman" style="float: left; margin-right: 20px;" width="200">
+<p>Hi! I'm Raman Chahar, and I'm thrilled to be your CS6120 Teaching Assistant for the semester. Here, you can write your biography. For example, I am a X year graduate student in Y college. My advisor is F and I'm focusing on E applied to G. Previously, I studied at Z as an undergraduate at the University of L at M, located in N, majoring in A. I've held internships and roles at company B and C, and my research interests are D. My objectives in my career are to be the most awesome natural language processing scientist in the world, and I know that I will get the Nobel prize for it.
+</p>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/drive_path.jpg" title="Path Map" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/guitar.jpg" title="My Interest" class="img-fluid rounded z-depth-1" %}
-    </div>
+<br>
+<hr>
+
+### A Little More About Myself
+
+Tell use a bit more about yourself! What's your interests? If you need more images, you can add them to the folder:
+
+```
+assets/img/<IMAGE.png>
+```
+
+You will need to refer to it in this markdown code with relative links, in this case you would say:
+
+```
+![Your Image](../../assets/img/<IMAGE.png>)
+```
+
+There's an example above with the relative link.
+
+<br>
+<br>
+<hr>
+<br>
+
+### Office Hours and Logistics
+
+* Mondays 2pm-4pm, 9th Floor (Edit here please)
+* Fridays 2pm-3pm, 10th Floor (Edit here please)
+* OR - [Schedule a one on one meeting](https://calendly.com/hu-hui1-husky/30min) (Edit here / delete, please)
+
+### Contact Information
+
+
+Please fill out the below information with the appropriate data. I've added e-mail, but the other links are incorrect. There are other icons that you can use if this list is incomplete. You can find them [here](https://github.com/kni-neu/website-6120/blob/master/_includes/social.html). Just copy the code for the social media that you want to add.
+
+You can contact me through the following media:
+
+<div class="social">
+  <div class="contact-icons">
+     <a href="mailto:guo.hs@northeastern.edu" title="email"><i class="fas fa-envelope"></i></a>
+     <a href="https://scholar.google.com/citations?user=" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+     <a href="https://github.com" title="GitHub"><i class="fab fa-github"></i></a>
+     <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+  </div>
+  <div class="contact-note">
+    {{ site.contact_note }}
+  </div>
 </div>
-<div class="caption">
-    Used to drive from east to west.
-</div>
+
