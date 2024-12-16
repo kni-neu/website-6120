@@ -51,7 +51,7 @@ You can contact me through the following media:
 
 <div class="social">
   <div class="contact-icons">
-     <a href="mailto:guo.hs@northeastern.edu" title="email"><i class="fas fa-envelope"></i></a>
+     <a href="mailto:lnu.raman@northeastern.edu" title="email"><i class="fas fa-envelope"></i></a>
      <a href="https://scholar.google.com/citations?user=" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
      <a href="https://github.com" title="GitHub"><i class="fab fa-github"></i></a>
      <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
