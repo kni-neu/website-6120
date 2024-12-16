@@ -42,7 +42,7 @@ You can contact me through email:
      <a href="mailto:chen.yao2@northeastern.edu" title="email"><i class="fas fa-envelope"></i></a>
   </div>
   <div class="contact-note">
-    {{ site.contact_note }}
+    Click the above to e-mail!
   </div>
 </div>
 
