@@ -9,7 +9,10 @@ category: staffing
 ---
 
 <img src="../../assets/img/bella.jpeg" alt="Bella Chen" style="float: left; margin-right: 20px;" width="200">
-<p>Hi! I'm Bella (Yao) Chen, and I'm thrilled to be your CS6120 Teaching Assistant for the semester. Here, you can write your biography. For example, I am a X year graduate student in Y college. My advisor is F and I'm focusing on E applied to G. Previously, I studied at Z as an undergraduate at the University of L at M, located in N, majoring in A. I've held internships and roles at company B and C, and my research interests are D. My objectives in my career are to be the most awesome natural language processing scientist in the world, and I know that I will get the Nobel prize for it.
+<p>Hi! I'm Bella, and I'm thrilled to be your CS6120 Teaching Assistant for the semester. I am a third-year graduate student in the Khoury College of Computer Sciences at Northeastern University, focusing on the intersection of AI/ML and software engineering. 
+My industry experience includes Amazon and EY. My career aspiration is to make impactful contributions to the field of NLP, and I am especially fascinated by how NLP can shape the future of intelligent systems. 
+I’m here to support you throughout this course and am excited to help you dive into the fascinating world of NLP. Don’t hesitate to reach out with any questions or challenges—I’m happy to help!
+
 </p>
 
 <br>
@@ -17,19 +20,7 @@ category: staffing
 
 ### A Little More About Myself
 
-Tell use a bit more about yourself! What's your interests? If you need more images, you can add them to the folder:
-
-```
-assets/img/<IMAGE.png>
-```
-
-You will need to refer to it in this markdown code with relative links, in this case you would say:
-
-```
-![Your Image](../../assets/img/<IMAGE.png>)
-```
-
-There's an example above with the relative link.
+Outside the classroom, I enjoy dancing, playing piano, and exercising (tennis, figure skating, skiing, aerial dance, etc.) I love traveling too.
 
 <br>
 <br>
@@ -44,16 +35,11 @@ There's an example above with the relative link.
 
 ### Contact Information
 
-Please fill out the below information with the appropriate data. I've added e-mail, but the other links are incorrect. There are other icons that you can use if this list is incomplete. You can find them [here](https://github.com/kni-neu/website-6120/blob/master/_includes/social.html). Just copy the code for the social media that you want to add.
-
-You can contact me through the following media:
+You can contact me through email:
 
 <div class="social">
   <div class="contact-icons">
      <a href="mailto:chen.yao2@northeastern.edu" title="email"><i class="fas fa-envelope"></i></a>
-     <a href="https://scholar.google.com/citations?user=" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-     <a href="https://github.com" title="GitHub"><i class="fab fa-github"></i></a>
-     <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
   </div>
   <div class="contact-note">
     {{ site.contact_note }}
