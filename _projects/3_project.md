@@ -26,7 +26,7 @@ assets/img/<IMAGE.png>
 You will need to refer to it in this markdown code with relative links, in this case you would say:
 
 ```
-[Your Image](../../assets/img/<IMAGE.png>)
+![Your Image](../../assets/img/<IMAGE.png>)
 ```
 
 There's an example above with the relative link.
