@@ -1,6 +1,6 @@
 ---
 layout: page
-title: final demo and writeup
+title: final llm demo 
 permalink: /presentation-and-project/
 description: final submission- demo and writeup
 nav: true
@@ -15,13 +15,16 @@ horizontal: false
 
 <br>
 
-Create a finished, deployable solution with a front end that leverages a model project with user interface, served on GCP. The following are some ideas of example projects:
+This project
 
-* **Summarization** - Summarize documents or set of documents in a corpus
-* **Anomaly Detection** - Enter in a new document. What is the probability that his document belong? 
-* **Domain-Specific Chatbot** - Use information retrieval approaches and LLM RAG to provide responses in real-time
-* **Topic Modeling** - In set of documents (maybe of multiple languages), enable exploration via topic.
-* **Sentiment Analysis** - Enter in a new tweet or movie review. Is it positive or negative? How confident?
+## Project Objectives
+
+Build a complete Retrieval Augmented Generation RAG system with your very own LLM. Create a finished, deployable solution with a front end that leverages a model project with user interface, served on GCP. The following are some ideas of example projects:
+
+## Create PLA Agent
+
+Build a complete PLA Agent that will be able to take actions based on your interactions with it. Use templated interactions / engagements actions based on interactions with an LLM.
+
 
 Feel free to pick any topic that you have data for. You can form groups of up to four; in your writeup, have a contributions sections denoting what each member worked on. There are two components to your project: your writeup and your code. 
 
