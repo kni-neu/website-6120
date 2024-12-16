@@ -8,7 +8,7 @@ importance: 2
 category: staffing
 ---
 
-<img src="../../assets/img/bella.jpeg" alt="Bella Chen" style="float: left; margin-right: 20px;" width="200">
+<img src="../../assets/img/bella-2.jpeg" alt="Bella Chen" style="float: left; margin-right: 20px;" width="200">
 <p>Hi! I'm Bella, and I'm thrilled to be your CS6120 Teaching Assistant for the semester. I am a third-year graduate student in the Khoury College of Computer Sciences at Northeastern University, focusing on the intersection of AI/ML and software engineering. 
 My industry experience includes Amazon and EY. My career aspiration is to make impactful contributions to the field of NLP, and I am especially fascinated by how NLP can shape the future of intelligent systems. 
 I’m here to support you throughout this course and am excited to help you dive into the fascinating world of NLP. Don’t hesitate to reach out with any questions or challenges—I’m happy to help!
