@@ -3,7 +3,7 @@ layout: page
 title: bella chen
 description: head teaching assistant
 office_hours: Monday 2 p.m.-4 p.m.
-img: assets/img/bella.jpeg
+img: assets/img/bella-2.jpeg
 importance: 2
 category: staffing
 ---
