@@ -29,8 +29,8 @@ Outside the classroom, I enjoy dancing, playing piano, and exercising (tennis, f
 
 ### Office Hours and Logistics
 
-* Mondays 2pm-4pm [Zoom Link](https://northeastern.zoom.us/j/96646199043) (Edit here please)
-* Fridays 2pm-3pm [Zoom Link](https://northeastern.zoom.us/j/95027922120) (Edit here please)
+* Mondays 2pm-4pm, 9th Floor Desks (Edit here please. I can reserve rooms.)
+* Fridays 2pm-3pm, 10th Floor Desks (Edit here, please. I can reserve rooms.)
 * OR - [Schedule a one on one meeting](https://calendly.com/hu-hui1-husky/30min) (Edit here / delete, please)
 
 ### Contact Information
