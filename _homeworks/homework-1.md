@@ -2,7 +2,7 @@
 layout: page
 title: homework 1
 permalink: /homework-1/
-description: a first look at processing language
+description: the logistic regression
 nav: true
 hw_pdf: assignment-1.pdf
 assigned: january 6
