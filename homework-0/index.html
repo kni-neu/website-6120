@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>homework 1 | Natural Language Processing  CS 6120</title>
+    <title>homework 0 | Natural Language Processing  CS 6120</title>
     <meta name="author" content="Natural Language Processing  CS 6120">
-    <meta name="description" content="the logistic regression">
+    <meta name="description" content="a first look at language processing">
     <meta name="keywords" content="nlp, ai, ml, natural-language, Northeastern, Computer Science, CS6120">
 
 
@@ -33,7 +33,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/cs6120s25/assets/css/main.css">
-    <link rel="canonical" href="https://course.ccs.neu.edu//cs6120s25/homework-1/">
+    <link rel="canonical" href="https://course.ccs.neu.edu//cs6120s25/homework-0/">
     
     <!-- Dark Mode -->
     
@@ -125,13 +125,13 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">homework 1
+            <h1 class="post-title">homework 0
 		<!-- Added a PDF to the header -->
 		
-		   <a href="/cs6120s25/assets/pdf/assignment-1.pdf" target="_blank" rel="noopener noreferrer" class="float-right">
+		   <a href="/cs6120s25/assets/pdf/assignment-0.pdf" target="_blank" rel="noopener noreferrer" class="float-right">
 			   <i class="fas fa-file-pdf"></i></a>
 	    </h1>
-            <p class="post-description">the logistic regression</p>
+            <p class="post-description">a first look at language processing</p>
           </header>
 
           <article>
@@ -140,16 +140,16 @@
 <h3 id="getting-started-with-data">getting started with data</h3>
 <hr>
 
-<p>Please review the homework in this <a href="/cs6120s25/assets/pdf/assignment-1.pdf">pdf file</a>. Remember that reading resources can be found in the <a href="/cs6120s25/syllabus">syllabus</a>.</p>
+<p>Please review the homework in this <a href="/cs6120s25/assets/pdf/assignment-0.pdf">pdf file</a>. Remember that reading resources can be found in the <a href="/cs6120s25/syllabus">syllabus</a>.</p>
 
 <hr>
 <h3 id="data-and-starter-kit">data and starter kit</h3>
 <hr>
 
-<p>You will need <a href="https://course.ccs.neu.edu/cs6220/fall2023/homework-1/">the data</a> for the review portion and <a href="https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data" rel="external nofollow noopener" target="_blank">netflix data</a> for the exploration portion.</p>
+<p>You will need <a href="https://course.ccs.neu.edu/cs6120s25/data/shakespeare/">the data</a>, which we’ll be using throughout the semester.</p>
 
 <center>
-<img src="https://assets3.thrillist.com/v1/image/2677184/792x528/scale;webp=auto;jpeg_quality=60.jpg" width="500" height="auto">
+<img src="https://imageio.forbes.com/specials-images/imageserve/66abc4cf8c5342c38fdb1e00/0x0.jpg" width="500" height="auto">
 </center>
 <p><br>
 <br></p>
@@ -161,18 +161,11 @@
     <p>Document templates can be either <a href="https://www.overleaf.com/read/gbwryydmdjhv" rel="external nofollow noopener" target="_blank">LaTeX File</a> or <a href="https://docs.google.com/document/d/1Q8fpJo-gF_L0_TwUdw5E7x7faOAStK4n" rel="external nofollow noopener" target="_blank">DOCX File</a>. When you’ve compiled/finished writing, <strong>download the PDF</strong> from Overleaf/Google and upload it to the submission link.</p>
   </li>
   <li>
-    <p>You may find <a href="https://colab.research.google.com/drive/1sg2CqHhX707YT3IcvCub4PUbCsaOZ6C2" rel="external nofollow noopener" target="_blank">Colaboratory</a> useful, which you can subsequently download the file as a <code class="language-plaintext highlighter-rouge">*.ipynb</code> file (Under <strong>File</strong> → <strong>Download</strong> → <strong>Download .ipynb</strong>.) In Colab, you can download the data with</p>
+    <p>You may find <a href="https://colab.research.google.com" rel="external nofollow noopener" target="_blank">Colaboratory</a> useful, which you can subsequently download the file as a <code class="language-plaintext highlighter-rouge">*.ipynb</code> file (Under <strong>File</strong> → <strong>Download</strong> → <strong>Download .ipynb</strong>.) In Colab, you can download the data with</p>
 
     <div class="language-plaintext highlighter-rouge">
-<div class="highlight"><pre class="highlight"><code>!wget https://course.ccs.neu.edu/cs6220/fall2023/homework-1/netflix-data/movie_titles.csv
-!wget https://course.ccs.neu.edu/cs6220/fall2023/homework-1/netflix-data/combined_data_1.txt
-!wget https://course.ccs.neu.edu/cs6220/fall2023/homework-1/netflix-data/combined_data_2.txt
-!wget https://course.ccs.neu.edu/cs6220/fall2023/homework-1/netflix-data/combined_data_3.txt
-!wget https://course.ccs.neu.edu/cs6220/fall2023/homework-1/netflix-data/combined_data_4.txt
+<div class="highlight"><pre class="highlight"><code>!wget --no-check-certificate https://course.ccs.neu.edu/cs6120s25/data/shakespeare/shakespeare-edit.txt
 </code></pre></div>    </div>
-  </li>
-  <li>
-    <p>You can use any repository system to submit code as long as there is an online link to it. The standard way is to use Github, but you can have a sharepoint folder too as long as it’s clear what each individual file is.</p>
   </li>
 </ul>
 
@@ -180,7 +173,7 @@
 <h4 id="submission-instructions">submission instructions</h4>
 <hr>
 
-<p>Commit all your code and materials to your repository, and submit via <a href="https://www.gradescope.com/courses/802710" rel="external nofollow noopener" target="_blank">Gradescope</a>. There, you will upload your PDF and code.</p>
+<p>Submit via <a href="https://www.gradescope.com/courses/930780" rel="external nofollow noopener" target="_blank">Gradescope</a>. There, you will upload your PDF and code.</p>
 
 <!--
 <br><br><br>
