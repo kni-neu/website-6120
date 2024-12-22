@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>homework 1 | Natural Language Processing  CS 6120</title>
+    <title>homework 8 | Natural Language Processing  CS 6120</title>
     <meta name="author" content="Natural Language Processing  CS 6120">
-    <meta name="description" content="a first look at language processing">
+    <meta name="description" content="large language modeling">
     <meta name="keywords" content="nlp, ai, ml, natural-language, Northeastern, Computer Science, CS6120">
 
 
@@ -33,7 +33,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/cs6120s25/assets/css/main.css">
-    <link rel="canonical" href="https://course.ccs.neu.edu//cs6120s25/homework-1/">
+    <link rel="canonical" href="https://course.ccs.neu.edu//cs6120s25/homework-8/">
     
     <!-- Dark Mode -->
     
@@ -125,67 +125,99 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">homework 1
+            <h1 class="post-title">homework 8
 		<!-- Added a PDF to the header -->
 		
-		   <a href="/cs6120s25/assets/pdf/assignment-0.pdf" target="_blank" rel="noopener noreferrer" class="float-right">
+		   <a href="/cs6120s25/assets/pdf/assignment-7.pdf" target="_blank" rel="noopener noreferrer" class="float-right">
 			   <i class="fas fa-file-pdf"></i></a>
 	    </h1>
-            <p class="post-description">a first look at language processing</p>
+            <p class="post-description">large language modeling</p>
           </header>
 
           <article>
             <hr style="border:2px solid gray">
 
-<h3 id="getting-started-with-data">getting started with data</h3>
+<h4 id="building-a-rag-system-with-a-peft-model">building a RAG system with a PEFT model</h4>
 <hr>
 
-<p>Please review the homework in this <a href="/cs6120s25/assets/pdf/assignment-0.pdf">pdf file</a>. Remember that reading resources can be found in the <a href="/cs6120s25/syllabus">syllabus</a>.</p>
+<p>In this homework, we will be working on tuning and leveraging large language models in a RAG system. Accept the <a href="https://classroom.github.com/a/Kog9MCRN" rel="external nofollow noopener" target="_blank">classroom homework invitation</a>. Review the homework in this <a href="/cs6120s25/assets/pdf/assignment-7.pdf">pdf file</a>. Remember that reading resources can be found in the <a href="/cs6120s25/syllabus">syllabus</a>.</p>
 
 <hr>
-<h3 id="data-and-starter-kit">data and starter kit</h3>
+<h4 id="data-and-starter-kit">data and starter kit</h4>
 <hr>
 
-<p>You will need <a href="https://course.ccs.neu.edu/cs6120s25/data/shakespeare/">the data</a>, which we’ll be using throughout the semester.</p>
+<p>This week, we’ll be <a href="https://towardsdatascience.com/fine-tune-your-own-llama-2-model-in-a-colab-notebook-df9823a04a32" rel="external nofollow noopener" target="_blank">fine-tuning Llama2</a> in <a href="https://colab.research.google.com/drive/1PEQyJO1-f6j0S_XJ8DV50NkpzasXkrzd" rel="external nofollow noopener" target="_blank">this notebook</a>. You will need <a href="https://course.ccs.neu.edu/cs6220/fall2023/homework-7/">the data</a>. If you are using Colabs (not a requirement), you would need a Google account.</p>
 
+<!--
 <center>
-<img src="https://imageio.forbes.com/specials-images/imageserve/66abc4cf8c5342c38fdb1e00/0x0.jpg" width="500" height="auto">
+<img 
+  src="https://images.immediate.co.uk/production/volatile/sites/7/2018/01/TIT011DJ_0-345b632.jpg"
+  width="500" height="auto">
 </center>
-<p><br>
-<br></p>
+-->
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="n">langchain.document_loaders</span> <span class="kn">import</span> <span class="n">TextLoader</span>
+<span class="kn">from</span> <span class="n">langchain.text_splitter</span> <span class="kn">import</span> <span class="n">CharacterTextSplitter</span>
+<span class="kn">from</span> <span class="n">langchain.embeddings</span> <span class="kn">import</span> <span class="n">OpenAIEmbeddings</span>
+<span class="kn">from</span> <span class="n">langchain.vectorstores</span> <span class="kn">import</span> <span class="n">FAISS</span>
+<span class="kn">from</span> <span class="n">langchain.chains</span> <span class="kn">import</span> <span class="n">RetrievalQA</span>
+<span class="kn">from</span> <span class="n">langchain.llms</span> <span class="kn">import</span> <span class="n">OpenAI</span>
+
+<span class="c1"># Load documents
+</span><span class="n">loader</span> <span class="o">=</span> <span class="nc">TextLoader</span><span class="p">(</span><span class="sh">"</span><span class="s">your_document.txt</span><span class="sh">"</span><span class="p">)</span> 
+<span class="n">documents</span> <span class="o">=</span> <span class="n">loader</span><span class="p">.</span><span class="nf">load</span><span class="p">()</span>
+
+<span class="c1"># Split documents into chunks
+</span><span class="n">text_splitter</span> <span class="o">=</span> <span class="nc">CharacterTextSplitter</span><span class="p">(</span><span class="n">chunk_size</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span> <span class="n">chunk_overlap</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">texts</span> <span class="o">=</span> <span class="n">text_splitter</span><span class="p">.</span><span class="nf">split_documents</span><span class="p">(</span><span class="n">documents</span><span class="p">)</span>
+
+<span class="c1"># Create embeddings and store in a vector database
+</span><span class="n">embeddings</span> <span class="o">=</span> <span class="nc">OpenAIEmbeddings</span><span class="p">()</span>
+<span class="n">db</span> <span class="o">=</span> <span class="n">FAISS</span><span class="p">.</span><span class="nf">from_documents</span><span class="p">(</span><span class="n">texts</span><span class="p">,</span> <span class="n">embeddings</span><span class="p">)</span>
+
+<span class="c1"># Create a RetrievalQA chain
+</span><span class="n">qa</span> <span class="o">=</span> <span class="n">RetrievalQA</span><span class="p">.</span><span class="nf">from_chain_type</span><span class="p">(</span><span class="n">llm</span><span class="o">=</span><span class="nc">OpenAI</span><span class="p">(),</span> <span class="n">chain_type</span><span class="o">=</span><span class="sh">"</span><span class="s">stuff</span><span class="sh">"</span><span class="p">,</span> <span class="n">retriever</span><span class="o">=</span><span class="n">db</span><span class="p">.</span><span class="nf">as_retriever</span><span class="p">())</span>
+
+<span class="c1"># Query the RAG system
+</span><span class="n">query</span> <span class="o">=</span> <span class="sh">"</span><span class="s">What is the main topic of the document?</span><span class="sh">"</span>
+<span class="n">result</span> <span class="o">=</span> <span class="n">qa</span><span class="p">.</span><span class="nf">run</span><span class="p">(</span><span class="n">query</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><br></p>
 
 <p>Here are the starter kits that you might find useful.</p>
 
 <ul>
   <li>
-    <p>Document templates can be either <a href="https://www.overleaf.com/read/gbwryydmdjhv" rel="external nofollow noopener" target="_blank">LaTeX File</a> or <a href="https://docs.google.com/document/d/1Q8fpJo-gF_L0_TwUdw5E7x7faOAStK4n" rel="external nofollow noopener" target="_blank">DOCX File</a>. When you’ve compiled/finished writing, <strong>download the PDF</strong> from Overleaf/Google and upload it to the submission link.</p>
+    <p><a href="https://docs.google.com/presentation/d/1zy2veJEjDT-0acPbGsrEC93EP0MOZIx54jL-gA7wPqE" rel="external nofollow noopener" target="_blank">Here are some mathematical properties</a> that will help you in derivations.</p>
   </li>
   <li>
-    <p>You may find <a href="https://colab.research.google.com" rel="external nofollow noopener" target="_blank">Colaboratory</a> useful, which you can subsequently download the file as a <code class="language-plaintext highlighter-rouge">*.ipynb</code> file (Under <strong>File</strong> → <strong>Download</strong> → <strong>Download .ipynb</strong>.) In Colab, you can download the data with</p>
-
-    <div class="language-plaintext highlighter-rouge">
-<div class="highlight"><pre class="highlight"><code>!wget --no-check-certificate https://course.ccs.neu.edu/cs6120s25/data/shakespeare/shakespeare-edit.txt
-</code></pre></div>    </div>
+    <p>Document templates can be either <a href="https://www.overleaf.com/read/zfwcfsbbgtxj" rel="external nofollow noopener" target="_blank">Overleaf TeX File</a> or <a href="https://docs.google.com/%0Adocument/d/1qXipr5Ko2Xpf71GbLzEZXa9khB5w4O2B/edit?usp=sharing&amp;ouid=117230435864186314036&amp;rtpof=true&amp;sd=true" rel="external nofollow noopener" target="_blank">DOCX File</a>. When you’ve compiled/finishe
+d writing, <strong>download the PDF</strong> from Overleaf/Google and upload it to the submission link.</p>
+  </li>
+  <li>
+    <p>To help you get started, you may find that this <a href="https://colab.research.google.com/drive/1dAqxrOEqrvlqhCJ2jwKX4UrDlNNACWC7?usp=sharing" rel="external nofollow noopener" target="_blank">Colaboratory Link</a> is useful. In order to submit, you’ll need to Download the file as a <code class="language-plaintext highlighter-rouge">*.ipynb</code> file (Under <strong>File</strong> → <strong>Download</strong> → <strong>Download .ipynb</strong>.)</p>
   </li>
 </ul>
 
-<hr>
 <h4 id="submission-instructions">submission instructions</h4>
+
+<p>Commit your <code class="language-plaintext highlighter-rouge">*.py</code> or <code class="language-plaintext highlighter-rouge">*.ipynb</code> (either is fine as long as they are commented appropriately), <code class="language-plaintext highlighter-rouge">output.txt</code>, and <code class="language-plaintext highlighter-rouge">assignment2.pdf</code> to that 
+repository and provide the URL via <a href="https://www.gradescope.com/courses/583114" rel="external nofollow noopener" target="_blank">Gradescope</a>.</p>
+
+<p><br><br><br></p>
+<hr style="border:2px solid gray">
+
+<h4 id="project-checkpoint">project checkpoint</h4>
 <hr>
 
-<p>Submit via <a href="https://www.gradescope.com/courses/930780" rel="external nofollow noopener" target="_blank">Gradescope</a>. There, you will upload your PDF and code.</p>
+<p>Each week, there will be a checkpoint for you project so that you are on track to turn in the project at the end of the semester. This week</p>
 
-<!--
-<br><br><br>
-<hr style="border:2px solid gray">
-#### project checkpoint
------
+<ul>
+  <li>Discuss with your peers, form a team that you can work with, and arrive on a topic that you think you could be passionate about. Your team should not be more than four people.</li>
+</ul>
 
-Each week, there will be a checkpoint for you project so that you are on track to turn in the project at the end of the semester. In your homework this week, you will
-
-* start surveying the available data (preferably *outside* of Kaggle). List three interesting datasets here.
-* start introducing yourself to your classmates and seeing whether or not you'd like to form a team. List the names of three classmates that you've met.
--->
 
           </article>
 

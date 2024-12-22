@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>homework 1 | Natural Language Processing  CS 6120</title>
+    <title>homework 4 | Natural Language Processing  CS 6120</title>
     <meta name="author" content="Natural Language Processing  CS 6120">
-    <meta name="description" content="a first look at language processing">
+    <meta name="description" content="autocomplete with topical information">
     <meta name="keywords" content="nlp, ai, ml, natural-language, Northeastern, Computer Science, CS6120">
 
 
@@ -33,7 +33,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/cs6120s25/assets/css/main.css">
-    <link rel="canonical" href="https://course.ccs.neu.edu//cs6120s25/homework-1/">
+    <link rel="canonical" href="https://course.ccs.neu.edu//cs6120s25/homework-4/">
     
     <!-- Dark Mode -->
     
@@ -125,67 +125,59 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">homework 1
+            <h1 class="post-title">homework 4
 		<!-- Added a PDF to the header -->
 		
-		   <a href="/cs6120s25/assets/pdf/assignment-0.pdf" target="_blank" rel="noopener noreferrer" class="float-right">
+		   <a href="/cs6120s25/assets/pdf/assignment-4.pdf" target="_blank" rel="noopener noreferrer" class="float-right">
 			   <i class="fas fa-file-pdf"></i></a>
 	    </h1>
-            <p class="post-description">a first look at language processing</p>
+            <p class="post-description">autocomplete with topical information</p>
           </header>
 
           <article>
             <hr style="border:2px solid gray">
 
-<h3 id="getting-started-with-data">getting started with data</h3>
+<h4 id="modeling-short-sequences-of-words">modeling short sequences of words</h4>
 <hr>
 
-<p>Please review the homework in this <a href="/cs6120s25/assets/pdf/assignment-0.pdf">pdf file</a>. Remember that reading resources can be found in the <a href="/cs6120s25/syllabus">syllabus</a>.</p>
+<p>Review the homework in this <a href="/cs6120s25/assets/pdf/assignment-4.pdf">pdf file</a>. Remember that reading resources can be found in the <a href="/cs6120s25/syllabus">syllabus</a>.</p>
 
 <hr>
-<h3 id="data-and-starter-kit">data and starter kit</h3>
+<h4 id="data-and-starter-kit">data and starter kit</h4>
 <hr>
 
-<p>You will need <a href="https://course.ccs.neu.edu/cs6120s25/data/shakespeare/">the data</a>, which we’ll be using throughout the semester.</p>
+<p>You will need <a href="https://course.ccs.neu.edu/cs6220/fall2023/homework-4/">the data</a>. If you are using Colabs (not a requirement), you would need a Google account.</p>
 
 <center>
-<img src="https://imageio.forbes.com/specials-images/imageserve/66abc4cf8c5342c38fdb1e00/0x0.jpg" width="500" height="auto">
+<img src="../assets/img/berkeley.png" width="500" height="auto">
 </center>
-<p><br>
-<br></p>
+<p><br></p>
 
-<p>Here are the starter kits that you might find useful.</p>
+<p>Here are the starter kits and materials that you might find useful.</p>
 
 <ul>
   <li>
-    <p>Document templates can be either <a href="https://www.overleaf.com/read/gbwryydmdjhv" rel="external nofollow noopener" target="_blank">LaTeX File</a> or <a href="https://docs.google.com/document/d/1Q8fpJo-gF_L0_TwUdw5E7x7faOAStK4n" rel="external nofollow noopener" target="_blank">DOCX File</a>. When you’ve compiled/finished writing, <strong>download the PDF</strong> from Overleaf/Google and upload it to the submission link.</p>
+    <p><a href="https://docs.google.com/presentation/d/1zy2veJEjDT-0acPbGsrEC93EP0MOZIx54jL-gA7wPqE" rel="external nofollow noopener" target="_blank">Here are some mathematical properties</a> that will help you in derivations.</p>
   </li>
   <li>
-    <p>You may find <a href="https://colab.research.google.com" rel="external nofollow noopener" target="_blank">Colaboratory</a> useful, which you can subsequently download the file as a <code class="language-plaintext highlighter-rouge">*.ipynb</code> file (Under <strong>File</strong> → <strong>Download</strong> → <strong>Download .ipynb</strong>.) In Colab, you can download the data with</p>
-
-    <div class="language-plaintext highlighter-rouge">
-<div class="highlight"><pre class="highlight"><code>!wget --no-check-certificate https://course.ccs.neu.edu/cs6120s25/data/shakespeare/shakespeare-edit.txt
-</code></pre></div>    </div>
+    <p>Document templates can be either <a href="https://www.overleaf.com/read/zfwcfsbbgtxj" rel="external nofollow noopener" target="_blank">Overleaf TeX File</a> or <a href="https://docs.google.com/%0Adocument/d/1qXipr5Ko2Xpf71GbLzEZXa9khB5w4O2B/edit?usp=sharing&amp;ouid=117230435864186314036&amp;rtpof=true&amp;sd=true" rel="external nofollow noopener" target="_blank">DOCX File</a>. When you’ve compiled/finishe
+d writing, <strong>download the PDF</strong> from Overleaf/Google and upload it to the submission link.</p>
+  </li>
+  <li>
+    <p>As derived in class, there are some mathematical properties that are useful in deriving the gradients. Please take advantage of them <a href="https://docs.google.com/presentation/d/1zy2veJEjDT-0acPbGsrEC93EP0MOZIx54jL-gA7wPqE" rel="external nofollow noopener" target="_blank">here</a>.</p>
+  </li>
+  <li>
+    <p>To help you get started, you may find that this <a href="https://colab.research.google.com/drive/1s3_CEVGqApVVMhjhmsnPzllvtYNfiXiA" rel="external nofollow noopener" target="_blank">Colaboratory Link</a> is useful. In order to submit, you’ll need to Download the file as a <code class="language-plaintext highlighter-rouge">*.ipynb</code> file (Under **
+File** → <strong>Download</strong> → <strong>Download .ipynb</strong>.)</p>
   </li>
 </ul>
 
-<hr>
+<p><br></p>
+
 <h4 id="submission-instructions">submission instructions</h4>
-<hr>
 
-<p>Submit via <a href="https://www.gradescope.com/courses/930780" rel="external nofollow noopener" target="_blank">Gradescope</a>. There, you will upload your PDF and code.</p>
+<p>Submit your homework on <a href="https://www.gradescope.com/" rel="external nofollow noopener" target="_blank">Gradescope, Assignment 4</a>. You will need to upload a PDF and your Python code (either as a notebook or as a Python file.)</p>
 
-<!--
-<br><br><br>
-<hr style="border:2px solid gray">
-#### project checkpoint
------
-
-Each week, there will be a checkpoint for you project so that you are on track to turn in the project at the end of the semester. In your homework this week, you will
-
-* start surveying the available data (preferably *outside* of Kaggle). List three interesting datasets here.
-* start introducing yourself to your classmates and seeing whether or not you'd like to form a team. List the names of three classmates that you've met.
--->
 
           </article>
 

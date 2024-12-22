@@ -137,29 +137,32 @@
           <article>
             <hr style="border:2px solid gray">
 
-<h4 id="mastering-map-reduce">mastering map reduce</h4>
+<h4 id="creating-word-embeddings">creating word embeddings</h4>
 <hr>
 
-<p>Review the homework in this <a href="/cs6120s25/assets/pdf/assignment-3.pdf">pdf file</a>. Remember that reading resources can be found in the <a href="/cs6120s25/syllabus">syllabus</a>.</p>
-
-<p>Word Vectors are often used as a fundamental component for downstream NLP tasks, e.g. question answering, text generation, translation, etc., so it is important to build some intuitions as to their strengths and weaknesses. Here, you will explore two types of word vectors: those derived from co-occurrence matrices, and those derived via GloVe.</p>
+<p>In this homework, you will be creating word embeddings from scratch by sampling. These embeddings derive from scientific papers and there are an example of specialized embeddings that we can later use for a variety of applications: including efficient searches of relevant papers (that don’t necessarily use the exact same sets of words.). In later lectures, we will see that word vectors are often used as a fundamental component for downstream NLP tasks, e.g. question answering, text generation, translation, etc.. We will explore three types of word vectors: those derived from co-occurrence matrices, those derived from vanilla networks, and those derived from the famous algorithm <em>word2vec</em>.</p>
 
 <p><strong>Note on Terminology</strong>: The terms “word vectors” and “word embeddings” are often used interchangeably. The term “embedding” refers to the fact that we are encoding aspects of a word’s meaning in a lower dimensional space. As Wikipedia states, “conceptually it involves a mathematical embedding from a space with one dimension per word to a continuous vector space with a much lower dimension”.</p>
+
+<p>Review the homework in this <a href="/cs6120s25/assets/pdf/assignment-5.pdf">pdf file</a>. Remember that reading resources can be found in the <a href="/cs6120s25/syllabus">syllabus</a>.</p>
 
 <hr>
 <h4 id="data-and-starter-kit">data and starter kit</h4>
 <hr>
 
-<p>We will be using the IMBD dataset today.</p>
+<p>We will be using data from <a href="http://arxiv.org" rel="external nofollow noopener" target="_blank">ArXiv</a> today, containing the titles of over 3M academic and scientific papers. Per usual, you can find the datasets via the <a href="https://course.ccs.neu.edu/cs6120s25/data/">course data site</a>, where the dataset you can download is in the arxiv folder, titled <a href="https://course.ccs.neu.edu/cs6120s25/data/arxiv/arxiv_titles.txt">arxiv_titles.txt</a>. The data is formatted where each line is the title of a paper:</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="n">datasets</span> <span class="kn">import</span> <span class="n">load_dataset</span>
-<span class="n">imdb_dataset</span> <span class="o">=</span> <span class="nf">load_dataset</span><span class="p">(</span><span class="sh">"</span><span class="s">stanfordnlp/imdb</span><span class="sh">"</span><span class="p">)</span>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>title-1
+title-2
+...
+...
+title-N
 </code></pre></div></div>
 
-<p>You will need <a href="https://course.ccs.neu.edu/cs6220/fall2023/homework-3/">the data</a>. If you are using Colabs (not a requirement), you would need a Google account.</p>
+<p>It is important to note that the papers are in sorted order.</p>
 
 <center>
-<img src="https://thehubbackend.com/media/49573-0_QxsWlMTDGmTebavF.jpg" width="500" height="auto">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/ArXiv-org_screenshot_20140706.png" width="700" height="auto">
 </center>
 <p><br></p>
 
