@@ -2,11 +2,11 @@
 layout: page
 title: homework 6
 permalink: /homework-6/
-description: classifier evaluation metrics
+description: designing recurrent networks 
 nav: true
 hw_pdf: assignment-6.pdf
-assigned: february 22
-due_date: march 28
+assigned: march 6
+due_date: march 20
 horizontal: false
 ---
 

@@ -2,16 +2,16 @@
 layout: page
 title: homework 4
 permalink: /homework-4/
-description: clustering and parameter estimation
+description: autocomplete with topical information
 nav: true
 hw_pdf: assignment-4.pdf
-assigned: february 8
-due_date: february 15
+assigned: february 6
+due_date: february 20
 horizontal: false
 ---
 
 <hr style="border:2px solid gray">
-#### clustering and parameter estimation
+#### modeling short sequences of words
 -----
 
 Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-4.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
@@ -24,7 +24,7 @@ You will need [the data](https://course.ccs.neu.edu/cs6220/fall2023/homework-4/)
 
 <center>
 <img 
-  src="https://www.drivingline.com/s3/drivingline.prd/media/2328747/1996-ford-f-150-pickup-truck-neg-cn320025-005.jpg"
+  src="../assets/img/berkeley.png"
   width="500" height="auto">
 </center>
 <br>

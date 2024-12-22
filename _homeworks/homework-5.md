@@ -11,14 +11,15 @@ horizontal: false
 ---
 
 <hr style="border:2px solid gray">
-#### mastering map reduce
+#### creating word embeddings
 -----
 
-Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-3.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
-
-Word Vectors are often used as a fundamental component for downstream NLP tasks, e.g. question answering, text generation, translation, etc., so it is important to build some intuitions as to their strengths and weaknesses. Here, you will explore two types of word vectors: those derived from co-occurrence matrices, and those derived via GloVe.
+In this homework, you will be creating word embeddings from scratch by sampling. These embeddings derive from scientific papers and there are an example of specialized embeddings that we can later use for a variety of applications: including efficient searches of relevant papers (that don't necessarily use the exact same sets of words.). In later lectures, we will see that word vectors are often used as a fundamental component for downstream NLP tasks, e.g. question answering, text generation, translation, etc.. We will explore three types of word vectors: those derived from co-occurrence matrices, those derived from vanilla networks, and those derived from the famous algorithm *word2vec*.
 
 **Note on Terminology**: The terms "word vectors" and "word embeddings" are often used interchangeably. The term "embedding" refers to the fact that we are encoding aspects of a word's meaning in a lower dimensional space. As Wikipedia states, "conceptually it involves a mathematical embedding from a space with one dimension per word to a continuous vector space with a much lower dimension".
+
+Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-5.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
+
 
 
 
@@ -26,19 +27,22 @@ Word Vectors are often used as a fundamental component for downstream NLP tasks,
 #### data and starter kit
 -----
 
-We will be using the IMBD dataset today.
+We will be using data from [ArXiv](http://arxiv.org) today, containing the titles of over 3M academic and scientific papers. Per usual, you can find the datasets via the [course data site](https://course.ccs.neu.edu/cs6120s25/data/), where the dataset you can download is in the arxiv folder, titled [arxiv_titles.txt](https://course.ccs.neu.edu/cs6120s25/data/arxiv/arxiv_titles.txt). The data is formatted where each line is the title of a paper:
 
-```python
-from datasets import load_dataset
-imdb_dataset = load_dataset("stanfordnlp/imdb")
+```
+title-1
+title-2
+...
+...
+title-N
 ```
 
-You will need [the data](https://course.ccs.neu.edu/cs6220/fall2023/homework-3/). If you are using Colabs (not a requirement), you would need a Google account.
+It is important to note that the papers are in sorted order.
 
 <center>
 <img 
-  src="https://thehubbackend.com/media/49573-0_QxsWlMTDGmTebavF.jpg"
-  width="500" height="auto">
+  src="https://upload.wikimedia.org/wikipedia/commons/6/6a/ArXiv-org_screenshot_20140706.png"
+  width="700" height="auto">
 </center>
 <br>
 

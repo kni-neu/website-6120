@@ -2,11 +2,11 @@
 layout: page
 title: homework 7
 permalink: /homework-7/
-description: deep learning and the keras toolbox
+description: attention neural networks
 nav: true
 hw_pdf: assignment-7.pdf
-assigned: march 28
-due_date: april 11 (optional)
+assigned: march 20
+due_date: april 3
 horizontal: false
 ---
 

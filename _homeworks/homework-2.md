@@ -2,28 +2,32 @@
 layout: page
 title: homework 2
 permalink: /homework-2/
-description: market basket analysis and association rules
+description: neural network fundamentals
 nav: true
 hw_pdf: assignment-2.pdf
-assigned: january 18
-due_date: january 25
+assigned: january 16
+due_date: january 30
 horizontal: false
 ---
 
 <hr style="border:2px solid gray">
-#### market basket analysis and association rules
+#### neural newtork fundamentals
 -----
-Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-2.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
+In this homework, we will gain the fundamentals of neural networks, implementing a two layer neural network by hand. Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-2.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
 
 -----
 #### data and starter kit
 -----
 
-If you are using Colabs (not a requirement), you would need a Google account.
+You will need the [code](https://course.ccs.neu.edu/cs6120s25/data/twitter/utils.py) and [twitter data](https://course.ccs.neu.edu/cs6120s25/data/twitter/twitter_data.pkl) at our [website](https://course.ccs.neu.edu/cs6120s25/data/twitter/). You will need to develop in Python. If you are more comfortable with notebooks, there are several options:
+
+* [Locally on Your Laptop](https://jupyter.org/install)
+* [Google Cloud Vertex Work](https://console.cloud.google.com/vertex-ai/workbench) with your Google Cloud credits. 
+* [Google Colabs](https://colab.research.google.com/) with your Google Account
 
 <center>
 <img 
-  src="https://nedevelopment.com/sites/default/files/Westgate-Market_Basket_hero.png"
+  src="https://imageio.forbes.com/specials-images/imageserve/64f8e481ed69b0d89df9e2c7/Twitter-rebrands-to-X/960x0.png"
   width="500" height="auto">
 </center>
 <br>
