@@ -14,33 +14,29 @@ horizontal: false
 #### modeling short sequences of words
 -----
 
-Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-4.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
+Language models provide the capability to predict the most likely set of texts to follow any preceding text. We will be building our first language model in this homeowrk. Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-4.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
+
+<center>
+<img 
+  src="https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fblog_post_page%2F4085338%2Fcover_image%2Fregular_1708x683%2Fcover-0304-c32f070e8f972b73bb5c0c5404016669.png"
+  width="500" height="auto">
+</center>
+<br>
 
 -----
 #### data and starter kit
 -----
 
-You will need [the data](https://course.ccs.neu.edu/cs6220/fall2023/homework-4/). If you are using Colabs (not a requirement), you would need a Google account.
+You will need [the data](https://course.ccs.neu.edu/cs6120s25/data/twitter/): the [`en_US.twitter.txt`](https://course.ccs.neu.edu/cs6120s25/data/twitter/en_US.twitter.txt) file. You can read more about this data [here](https://github.com/bquast/Data-Science-Capstone/blob/master/Online-Text-Exploration.md). If you are more comfortable with notebooks, there are several options:
 
-<center>
-<img 
-  src="../assets/img/berkeley.png"
-  width="500" height="auto">
-</center>
+* [Locally on Your Laptop](https://jupyter.org/install)
+* [Google Cloud Vertex Work](https://console.cloud.google.com/vertex-ai/workbench) with your Google Cloud credits. 
+* [Google Colabs](https://colab.research.google.com/) with your Google Account
+
 <br>
 
-Here are the starter kits and materials that you might find useful.
-
-* [Here are some mathematical properties](https://docs.google.com/presentation/d/1zy2veJEjDT-0acPbGsrEC93EP0MOZIx54jL-gA7wPqE) that will help you in derivations.
-
-* Document templates can be either [Overleaf TeX File](https://www.overleaf.com/read/zfwcfsbbgtxj) or [DOCX File](https://docs.google.com/
-document/d/1qXipr5Ko2Xpf71GbLzEZXa9khB5w4O2B/edit?usp=sharing&ouid=117230435864186314036&rtpof=true&sd=true). When you've compiled/finishe
-d writing, **download the PDF** from Overleaf/Google and upload it to the submission link. 
-
-* As derived in class, there are some mathematical properties that are useful in deriving the gradients. Please take advantage of them [here](https://docs.google.com/presentation/d/1zy2veJEjDT-0acPbGsrEC93EP0MOZIx54jL-gA7wPqE).
-
-* To help you get started, you may find that this [Colaboratory Link](https://colab.research.google.com/drive/1s3_CEVGqApVVMhjhmsnPzllvtYNfiXiA) is useful. In order to submit, you'll need to Download the file as a `*.ipynb` file (Under **
-File** &rarr; **Download** &rarr; **Download .ipynb**.)
+Document templates can be either [Overleaf TeX File](https://www.overleaf.com/read/zfwcfsbbgtxj) or [DOCX File](https://docs.google.com/
+document/d/1qXipr5Ko2Xpf71GbLzEZXa9khB5w4O2B/edit?usp=sharing&ouid=117230435864186314036&rtpof=true&sd=true). When you've compiled/finished writing, **download the PDF** from Overleaf/Google and upload it to the submission link. 
 
 <br>
 

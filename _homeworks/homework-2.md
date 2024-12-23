@@ -13,17 +13,7 @@ horizontal: false
 <hr style="border:2px solid gray">
 #### neural newtork fundamentals
 -----
-In this homework, we will gain the fundamentals of neural networks, implementing a two layer neural network by hand. Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-2.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
-
------
-#### data and starter kit
------
-
-You will need the [code](https://course.ccs.neu.edu/cs6120s25/data/twitter/utils.py) and [twitter data](https://course.ccs.neu.edu/cs6120s25/data/twitter/twitter_data.pkl) at our [website](https://course.ccs.neu.edu/cs6120s25/data/twitter/). You will need to develop in Python. If you are more comfortable with notebooks, there are several options:
-
-* [Locally on Your Laptop](https://jupyter.org/install)
-* [Google Cloud Vertex Work](https://console.cloud.google.com/vertex-ai/workbench) with your Google Cloud credits. 
-* [Google Colabs](https://colab.research.google.com/) with your Google Account
+In this homework, we will gain the fundamentals of neural networks, implementing a two layer neural network by hand. An outsized portion of this homework (more than others) is rooted in linear algebra fundamentals, [Here are some mathematical properties](https://docs.google.com/presentation/d/1zy2veJEjDT-0acPbGsrEC93EP0MOZIx54jL-gA7wPqE) that will help you in derivations.  Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-2.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
 
 <center>
 <img 
@@ -31,6 +21,16 @@ You will need the [code](https://course.ccs.neu.edu/cs6120s25/data/twitter/utils
   width="500" height="auto">
 </center>
 <br>
+
+-----
+#### data and starter kit
+-----
+
+Along with some [helpful properties](https://docs.google.com/presentation/d/1zy2veJEjDT-0acPbGsrEC93EP0MOZIx54jL-gA7wPqE), you will need the [code](https://course.ccs.neu.edu/cs6120s25/data/twitter/utils.py) and [twitter data](https://course.ccs.neu.edu/cs6120s25/data/twitter/twitter_data.pkl) at our [website](https://course.ccs.neu.edu/cs6120s25/data/twitter/). Please develop in Python **without** the aid of libraries (e.g., tensorflow, keras, pytorch, jax, etc.) besides `numpy`, as our autograders will be grading accordingly. If you are more comfortable with notebooks, there are several options:
+
+* [Locally on Your Laptop](https://jupyter.org/install)
+* [Google Cloud Vertex Work](https://console.cloud.google.com/vertex-ai/workbench) with your Google Cloud credits. 
+* [Google Colabs](https://colab.research.google.com/) with your Google Account
 
 Here are the starter kits that you might find useful.
 

@@ -20,8 +20,11 @@ In this homework, you will be creating word embeddings from scratch by sampling.
 
 Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-5.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
 
-
-
+<center>
+<img 
+  src="https://upload.wikimedia.org/wikipedia/commons/6/6a/ArXiv-org_screenshot_20140706.png"
+  width="700" height="auto">
+</center>
 
 -----
 #### data and starter kit
@@ -37,23 +40,11 @@ title-2
 title-N
 ```
 
-It is important to note that the papers are in sorted order.
+It is important to note that the papers are in sorted order (according to topic), and are not randomized in any way.
 
-<center>
-<img 
-  src="https://upload.wikimedia.org/wikipedia/commons/6/6a/ArXiv-org_screenshot_20140706.png"
-  width="700" height="auto">
-</center>
-<br>
-
-Here are the starter kits that you might find useful.
-
-* Document templates can be either [Overleaf TeX File](https://www.overleaf.com/read/gbwryydmdjhv) or [DOCX File](https://docs.google.com/document/d/1Q8fpJo-gF_L0_TwUdw5E7x7faOAStK4n). When you've compiled/finishe
+Document templates can be either [Overleaf TeX File](https://www.overleaf.com/read/gbwryydmdjhv) or [DOCX File](https://docs.google.com/document/d/1Q8fpJo-gF_L0_TwUdw5E7x7faOAStK4n). When you've compiled/finishe
 d writing, **download the PDF** from Overleaf/Google and upload it to the submission link. 
 
-* Upload your processed `output.txt` file in the specified format in the [homework questions]({{ site.baseurl }}/assets/pdf/assignment-3.pdf)
-
-* To help you get started, you may find that this [Colaboratory Link](https://colab.research.google.com/drive/1dAqxrOEqrvlqhCJ2jwKX4UrDlNNACWC7?usp=sharing) is useful. In order to submit, you'll need to Download the file as a `*.ipynb` file (Under **File** &rarr; **Download** &rarr; **Download .ipynb**.)
 
 <br>
 #### submission instructions
@@ -63,9 +54,7 @@ repository and provide the URL via [Gradescope](https://www.gradescope.com/cours
 
 * Make sure that you have documented your code with comments so that the TA can have an easier time understanding your logic. This will, in some cases, result in at least partial credit.
 
-* Include a diagram of your pipeline description in your writeup.
-
-* Include in your writeup the recommendations for the users with following user IDs: 924, 8941, 8942, 9019, 9020, 9021, 9022, 9990, 9992, 9993.
+* For all three approaches, include in your writeup the nearest words for the following strings: "neural", "dark", "recurrent", "learning", "monaural", "recognition", "disparity", "expression", "retrieval", "genetic".
 
 * We will be checking for plagiarism, comparing code that is too similar to classmate or past class alumni homework. This will automatically result in zero credit.
 
