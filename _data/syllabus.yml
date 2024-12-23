@@ -31,11 +31,11 @@
           contents:
             - <a href="../assets/pdf/lab-2.pdf">Laboratory - Containerization in the Cloud</a>
             - <a href="http://gradescope.com">Assignment 1 is <b>due</b></a>
-            - <a href="../homework-3">Assignment 2 is assigned</a> - <i>Text Classification</i>
+            - <a href="../homework-2">Assignment 2 is assigned</a> - <i>Text Classification</i>
 
             
 
-    - title: <a href="">Language Classification</a>
+    - title: <a href="https://docs.google.com/presentation/d/15xw5pKPLVPJYA5MnWtFvX0ljpmZ9vO8O">Language Classification</a>
       institution: January 23
       year: Week 3
       description:
@@ -68,7 +68,7 @@
         - title: Submissions
           contents:
             - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
-            - <a href="../homework-2">Assignment 3 is assigned</a> - <i>The Minimum Edit Distance Algorithm</i>
+            - <a href="../homework-3">Assignment 3 is assigned</a> - <i>Autocorrect and Minimum Edit Distances</i>
 
 
 
@@ -88,7 +88,7 @@
           contents:
             - Laboratory - Colab N-Gram Systems
             - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
-            - <a href="../homework-2">Assignment 4 is assigned</a> - <i>Autocomplete with Topical Information</i>
+            - <a href="../homework-4">Assignment 4 is assigned</a> - <i>Autocomplete with Topical Information</i>
 
 
 
@@ -133,7 +133,7 @@
         - title: Submissions
           contents:
             - <a href="http://gradescope.com">Assignment 4 is <b>due</b></a>
-            - <a href="../homework-3">Assignment 5 is assigned</a> - <i>Word2Vec - Skipgram Implementation</i>
+            - <a href="../homework-5">Assignment 5 is assigned</a> - <i>Word2Vec - Skipgram Implementation</i>
 
 
 
@@ -196,7 +196,7 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
           - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
-          - <a href="../homework-6">Assignment 7 is assigned</a> - <i>Coding Up Attention Networks</i>
+          - <a href="../homework-7">Assignment 7 is assigned</a> - <i>Coding Up Attention Networks</i>
           
 
     - title: <a href="">Attention and the Transformer Model</a>
@@ -235,7 +235,7 @@
           contents:
           - <a href="https://colab.research.google.com/drive/1u8DDFEiCC2yJgQIfbCOY4_aN06MJeUfv">Laboratory - Tuning LLMs</a>
           - <a href="http://gradescope.com">Assignment 7 is <b>due</b></a>
-          - <a href="../homework-6">Assignment 8 is assigned</a> - <i>Implementing Your RAG System</i>
+          - <a href="../homework-8">Assignment 8 is assigned</a> - <i>Implementing Your RAG System</i>
 
     - title: <a href="">Practically Leveraging Large Language Models</a>
       institution: April 10
