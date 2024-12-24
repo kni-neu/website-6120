@@ -16,18 +16,16 @@ horizontal: false
 
 Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-6.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
 
------
-#### data and starter kit
------
-
-For those of you who have not completed Q3 from homework 5, you will need [the data from the last assignment](https://course.ccs.neu.edu/cs6220/fall2023/homework-5/) as well as the [starter Colab kit](https://colab.research.google.com/drive/1cPJ5eDwVU_F7H3XDRG1Y7Mfd12kwa7Iw?usp=sharing). For this assignment, you will need [the data](https://course.ccs.neu.edu/cs6220/fall2023/homework-6/). If you are using Colabs (not a requirement), you would need a Google account.
-
 <center>
 <img 
   src="https://www.llnl.gov/sites/www/files/2022-12/targetChamber.jpg"
   width="500" height="auto">
 </center>
 <br>
+
+-----
+#### data and starter kit
+-----
 
 Here are the starter kits that you might find useful.
 
