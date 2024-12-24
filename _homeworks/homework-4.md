@@ -14,7 +14,7 @@ horizontal: false
 #### modeling short sequences of words
 -----
 
-Language models provide the capability to predict the most likely set of texts to follow any preceding text. We will be building our first language model in this homeowrk. Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-4.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
+Language models provide the capability to predict the most likely set of texts to follow any preceding text, of which the simplest model is the *n*-gram model. We will be building our first language model in this homework trained on Twitter data. Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-4.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
 
 <center>
 <img 
@@ -35,13 +35,9 @@ You will need [the data](https://course.ccs.neu.edu/cs6120s25/data/twitter/): th
 
 <br>
 
-Document templates can be either [Overleaf TeX File](https://www.overleaf.com/read/zfwcfsbbgtxj) or [DOCX File](https://docs.google.com/
-document/d/1qXipr5Ko2Xpf71GbLzEZXa9khB5w4O2B/edit?usp=sharing&ouid=117230435864186314036&rtpof=true&sd=true). When you've compiled/finished writing, **download the PDF** from Overleaf/Google and upload it to the submission link. 
-
-<br>
-
 #### submission instructions
 
-Submit your homework on [Gradescope, Assignment 4](https://www.gradescope.com/). You will need to upload a PDF and your Python code (either as a notebook or as a Python file.)
+* Submit your homework on [Gradescope, Assignment 4](https://www.gradescope.com/). You will need to upload a PDF and your Python code (either as a notebook or as a Python file.)
 
-
+* Document templates can be either [Overleaf TeX File](https://www.overleaf.com/read/zfwcfsbbgtxj) or [DOCX File](https://docs.google.com/
+document/d/1qXipr5Ko2Xpf71GbLzEZXa9khB5w4O2B/edit?usp=sharing&ouid=117230435864186314036&rtpof=true&sd=true). When you've compiled/finished writing, **download the PDF** from Overleaf/Google and upload it to the submission link. 

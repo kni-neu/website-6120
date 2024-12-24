@@ -42,19 +42,17 @@ title-N
 
 It is important to note that the papers are in sorted order (according to topic), and are not randomized in any way.
 
-Document templates can be either [Overleaf TeX File](https://www.overleaf.com/read/gbwryydmdjhv) or [DOCX File](https://docs.google.com/document/d/1Q8fpJo-gF_L0_TwUdw5E7x7faOAStK4n). When you've compiled/finishe
-d writing, **download the PDF** from Overleaf/Google and upload it to the submission link. 
-
 
 <br>
 #### submission instructions
 
-* Commit your `*.py` or `*.ipynb` (either is fine as long as they are commented appropriately), `output.txt`, and `name-submission-3.pdf` to that 
-repository and provide the URL via [Gradescope](https://www.gradescope.com/courses/690988/assignments/4010650) before 5pm, Thursday, February 8.
-
-* Make sure that you have documented your code with comments so that the TA can have an easier time understanding your logic. This will, in some cases, result in at least partial credit.
+* Prepare your `*.py` and PDF file with the requested functions, artifacts, and ensure that both are well-commented. Submission via [Gradescope](https://www.gradescope.com/courses/690988/assignments/4010650) is before 5pm, Thursday, March 6.
 
 * For all three approaches, include in your writeup the nearest words for the following strings: "neural", "dark", "recurrent", "learning", "monaural", "recognition", "disparity", "expression", "retrieval", "genetic".
+
+* Document templates can be either [Overleaf TeX File](https://www.overleaf.com/read/gbwryydmdjhv) or [DOCX File](https://docs.google.com/document/d/1Q8fpJo-gF_L0_TwUdw5E7x7faOAStK4n). When you've compiled/finished writing, **download the PDF** from Overleaf/Google and upload it to the submission link. 
+
+* Make sure that you have documented your code with comments so that the TA can have an easier time understanding your logic. This will, in some cases, result in at least partial credit.
 
 * We will be checking for plagiarism, comparing code that is too similar to classmate or past class alumni homework. This will automatically result in zero credit.
 
