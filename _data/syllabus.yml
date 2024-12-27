@@ -27,6 +27,7 @@
           contents:
             - Foundations of Machine Learning
             - Software Engineering Practices
+        - <a href="https://web.stanford.edu/class/cs224n/readings/gradient-notes.pdf">Required Keynote Reading</a>
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href="../assets/pdf/lab-2.pdf">Laboratory - Containerization in the Cloud</a>
