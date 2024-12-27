@@ -140,10 +140,10 @@
 <h4 id="evaluating-classifier-performance">evaluating classifier performance</h4>
 <hr>
 
-<p>Review the homework in this <a href="/cs6120s25/assets/pdf/assignment-6.pdf">pdf file</a>. Remember that reading resources can be found in the <a href="/cs6120s25/syllabus">syllabus</a>.</p>
+<p>Named entity recognition is the process of identifying and classifying entities in unstructured text. Review the homework in this <a href="/cs6120s25/assets/pdf/assignment-6.pdf">pdf file</a>. We will be borrowing the codebase from <a href="http://deeplearning.ai" rel="external nofollow noopener" target="_blank">DeepLearning.AI</a>. Remember that reading resources can be found in the <a href="/cs6120s25/syllabus">syllabus</a>.</p>
 
 <center>
-<img src="https://www.llnl.gov/sites/www/files/2022-12/targetChamber.jpg" width="500" height="auto">
+<img src="/cs6120s25/assets/img/ner-hw6.png" width="750" height="auto">
 </center>
 <p><br></p>
 
@@ -151,12 +151,45 @@
 <h4 id="data-and-starter-kit">data and starter kit</h4>
 <hr>
 
-<p>Here are the starter kits that you might find useful.</p>
-
 <ul>
-  <li>Document templates can be either <a href="https://www.overleaf.com/read/zfwcfsbbgtxj" rel="external nofollow noopener" target="_blank">Overleaf TeX File</a> or <a href="https://docs.google.com/%0Adocument/d/1qXipr5Ko2Xpf71GbLzEZXa9khB5w4O2B/edit?usp=sharing&amp;ouid=117230435864186314036&amp;rtpof=true&amp;sd=true" rel="external nofollow noopener" target="_blank">DOCX File</a>. When you’ve compiled/finishe
-d writing, <strong>download the PDF</strong> from Overleaf/Google and upload it to the submission link.</li>
+  <li>
+    <p>The python code you will need to modify and turn in is located <a href="/cs6120s25/assets/python/assignment6.py">here</a>. There are several functions that you will be modifying. They will be of the form</p>
+
+    <div class="language-python highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">some_function</span><span class="p">(</span><span class="n">argument</span><span class="p">):</span>
+  <span class="sh">'''</span><span class="s">Description of arguments and return values
+  </span><span class="sh">'''</span>
+  <span class="c1">### START CODE HERE ###
+</span>
+  <span class="n">return_values</span> <span class="o">=</span> <span class="sh">"</span><span class="s">This is where you will add or edit the code</span><span class="sh">"</span>
+
+  <span class="c1">### END CODE HERE ###
+</span>  <span class="k">return</span> <span class="n">return_values</span>
+</code></pre></div>    </div>
+
+    <p>You will need to edit between <code class="language-plaintext highlighter-rouge">START CODE HERE</code> and <code class="language-plaintext highlighter-rouge">END CODE HERE</code>.</p>
+  </li>
+  <li>
+    <p>The dataset has several different sizes for prototyping, evaluation, and training, and can be found <a href="https://course.ccs.neu.edu/cs6120s25/data//named-entities">here</a>. If you’re on a GCP VM, you can download with the bash command <code class="language-plaintext highlighter-rouge">wget</code>. If you wish to download inside of a notebook, you can type in a shell commnad with a <code class="language-plaintext highlighter-rouge">!</code>.</p>
+  </li>
+  <li>
+    <p>Document templates can be either <a href="https://www.overleaf.com/read/zfwcfsbbgtxj" rel="external nofollow noopener" target="_blank">Overleaf TeX File</a> or <a href="https://docs.google.com/%0Adocument/d/1qXipr5Ko2Xpf71GbLzEZXa9khB5w4O2B/edit?usp=sharing&amp;ouid=117230435864186314036&amp;rtpof=true&amp;sd=true" rel="external nofollow noopener" target="_blank">DOCX File</a>. When you’ve compiled/finishe
+d writing, <strong>download the PDF</strong> from Overleaf/Google and upload it to the submission link.</p>
+  </li>
+  <li>
+    <p>You will be turning in Python files, but feel free to develop in notebooks. To set one up, you can use, there are several options:</p>
+    <ul>
+      <li><a href="https://jupyter.org/install" rel="external nofollow noopener" target="_blank">Locally on Your Laptop</a></li>
+      <li>
+<a href="https://console.cloud.google.com/vertex-ai/workbench" rel="external nofollow noopener" target="_blank">Google Cloud Vertex Work</a> with your Google Cloud credits.</li>
+      <li>
+<a href="https://colab.research.google.com/" rel="external nofollow noopener" target="_blank">Google Colabs</a> with your Google Account</li>
+    </ul>
+  </li>
 </ul>
+
+<p><br>
+<br></p>
 
 <h4 id="submission-instructions">submission instructions</h4>
 
