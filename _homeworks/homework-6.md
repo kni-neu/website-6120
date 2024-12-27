@@ -60,5 +60,8 @@ d writing, **download the PDF** from Overleaf/Google and upload it to the submis
 
 #### submission instructions
 
-Submit your work to [Gradescope](http://gradescope.com). There, you will need to upload a PDF file with the written answers (including the plots) to all the questions above. As well, there will be a link to upload your Python code. Make sure that the signature matches the above signature as we will check it against other types of data.
+Submit your work to [Gradescope](http://gradescope.com). You will need to submit the files:
+
+* **assignment6.py** - your solutions to the questions
+* **assignment6.h5** - parameters to your model
 
