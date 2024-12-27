@@ -10,8 +10,8 @@ from data.load_data import load_data
 
 #@title Question 1
 
-# GRADED FUNCTION: get_sentence_vectorizer
-def get_sentence_vectorizer(sentences):
+# GRADED FUNCTION: sentence_vectorizer
+def sentence_vectorizer(sentences):
     tf.keras.utils.set_random_seed(33) ## Do not change this line.
     """
     Create a TextVectorization layer for sentence tokenization and adapt it to the provided sentences.
@@ -38,6 +38,7 @@ def get_sentence_vectorizer(sentences):
 
 #@title Question 2
 
+# GRADED FUNCTION: label_vectorizer
 def label_vectorizer(labels, tag_map):
     """
     Convert list of label strings to padded label IDs using a tag mapping.
@@ -76,6 +77,7 @@ def label_vectorizer(labels, tag_map):
 
 #@title Question 3.1
 
+# GRADED FUNCTION: NER
 def NER(len_tags, vocab_size, embedding_dim = 50):
     """
     Create a Named Entity Recognition (NER) model.
@@ -107,6 +109,7 @@ def NER(len_tags, vocab_size, embedding_dim = 50):
 
 #@title Question 3.2
 
+# GRADED FUNCTION: masked_loss
 def masked_loss(y_true, y_pred):
     """
     Calculate the masked sparse categorical cross-entropy loss.
@@ -228,7 +231,7 @@ test_labels = load_data('data/large/test/labels.txt')
 tags = get_tags(train_labels)
 tag_map = make_tag_map(tags)
 print(tag_map)
-sentence_vectorizer, vocab = get_sentence_vectorizer(train_sentences)
+sentence_vectorizer, vocab = sentence_vectorizer(train_sentences)
 
 def generate_dataset(sentences, labels, sentence_vectorizer, tag_map, tfdata=True):
     sentences_ids = sentence_vectorizer(sentences)
