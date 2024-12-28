@@ -15,7 +15,7 @@ horizontal: false
 
 <br>
 
-This project
+This project. We will be conducting [a project laboratory](https://docs.google.com/presentation/d/1HcLInp203By38I5YYN5cABtHHh-p62zt) during class.
 
 ## Project Objectives
 
