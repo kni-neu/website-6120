@@ -27,7 +27,7 @@ In this homework, we will gain the fundamentals of neural networks, implementing
 #### data and starter kit
 -----
 
-Along with some [helpful properties](https://docs.google.com/presentation/d/1zy2veJEjDT-0acPbGsrEC93EP0MOZIx54jL-gA7wPqE), you will need the [code](https://course.ccs.neu.edu/cs6120s25/data/twitter/utils.py) and [twitter data](https://course.ccs.neu.edu/cs6120s25/data/twitter/twitter_data.pkl) at our [website](https://course.ccs.neu.edu/cs6120s25/data/twitter/). Please develop in Python **without** the aid of libraries (e.g., tensorflow, keras, pytorch, jax, etc.) besides `numpy`, as our autograders will be grading accordingly. If you are more comfortable with notebooks, there are several options:
+Along with some [helpful properties](https://docs.google.com/presentation/d/1zy2veJEjDT-0acPbGsrEC93EP0MOZIx54jL-gA7wPqE), you will need the [code](https://course.ccs.neu.edu/cs6120s25/data/twitter/utils.py), [utility functions](https://course.ccs.neu.edu/cs6120s25/data/twitter/utils.py) and [twitter data](https://course.ccs.neu.edu/cs6120s25/data/twitter/twitter_data.pkl) at our [website](https://course.ccs.neu.edu/cs6120s25/data/twitter/). You can also feel free to use the homework template [assignment2.py]({{ site.baseurl }}/assets/python/assignment2.py). Please develop in Python **without** the aid of libraries (e.g., tensorflow, keras, pytorch, jax, etc.) besides `numpy`, as our autograders will be grading accordingly. If you are more comfortable with notebooks, there are several options:
 
 * [Locally on Your Laptop](https://jupyter.org/install)
 * [Google Cloud Vertex Work](https://console.cloud.google.com/vertex-ai/workbench) with your Google Cloud credits. 
