@@ -15,49 +15,49 @@
       colab_link: ../assets/pdf/lab-2.pdf
 
 - title: week 3 colabs
-  type: time_table
+  type: pdf_table
   contents:
     - title: JupyterLabs with a GPU
       institution: Using Google's Vertex AI Workbench
       year: In-Class
       colab_link: ../assets/pdf/lab-3.pdf
 
-- title: week 4 colabs
-  type: time_table
-  contents:
-    - title: Multi-source Joins
-      institution: Joining from multiple data sources with text
-      year: In-Class
-      colab_link: https://colab.research.google.com/drive/1YrrA98bk-TImoaM7H7vjjybXISNMUXK2
+# - title: week 4 colabs
+#   type: time_table
+#   contents:
+#     - title: Multi-source Joins
+#       institution: Joining from multiple data sources with text
+#       year: In-Class
+#       colab_link: https://colab.research.google.com/drive/1YrrA98bk-TImoaM7H7vjjybXISNMUXK2
 
-- title: week 5 colabs
-  type: time_table
-  contents:
-    - title: Principle component analysis
-      institution: Practice with power iterations to identify principle components
-      year: In-Class
-      colab_link: https://colab.research.google.com/drive/16jeUZhERNq4DaVU0g9m7S0Zd4HRQMfO6
+# - title: week 5 colabs
+#   type: time_table
+#   contents:
+#     - title: Principle component analysis
+#       institution: Practice with power iterations to identify principle components
+#       year: In-Class
+#       colab_link: https://colab.research.google.com/drive/16jeUZhERNq4DaVU0g9m7S0Zd4HRQMfO6
 
-- title: week 6 colabs
-  type: time_table
-  contents:
-    - title: Anomaly Detection
-      institution: Colab using Naïve Bayes to predict outliers
-      year: In-Class
-      colab_link: https://colab.research.google.com/drive/1UxD6csLyEBT7A2rHIwuYcmZNUc82OG1D
+# - title: week 6 colabs
+#   type: time_table
+#   contents:
+#     - title: Anomaly Detection
+#       institution: Colab using Naïve Bayes to predict outliers
+#       year: In-Class
+#       colab_link: https://colab.research.google.com/drive/1UxD6csLyEBT7A2rHIwuYcmZNUc82OG1D
 
-- title: week 13 colabs
-  type: time_table
-  contents:
-    - title: Fine Tuning Large Language Models
-      institution: Fine tune an LLM for dialogue summarization using FLAN-T5
-      year: In-Class
-      colab_link: https://colab.research.google.com/drive/1u8DDFEiCC2yJgQIfbCOY4_aN06MJeUfv
+# - title: week 13 colabs
+#   type: time_table
+#   contents:
+#     - title: Fine Tuning Large Language Models
+#       institution: Fine tune an LLM for dialogue summarization using FLAN-T5
+#       year: In-Class
+#       colab_link: https://colab.research.google.com/drive/1u8DDFEiCC2yJgQIfbCOY4_aN06MJeUfv
 
-- title: week 14 colabs
-  type: time_table
-  contents:
-    - title: Detoxifying LLMs using RLHF
-      institution: Fine tune FLAN-T5 with reinforcement learning (PPO) to generate less toxic summaries
-      year: In-Class
-      colab_link: https://colab.research.google.com/drive/1ogy2_MEcMEFrJGiS7XwtEElwnV7bY_p5
+# - title: week 14 colabs
+#   type: time_table
+#   contents:
+#     - title: Detoxifying LLMs using RLHF
+#       institution: Fine tune FLAN-T5 with reinforcement learning (PPO) to generate less toxic summaries
+#       year: In-Class
+#       colab_link: https://colab.research.google.com/drive/1ogy2_MEcMEFrJGiS7XwtEElwnV7bY_p5
