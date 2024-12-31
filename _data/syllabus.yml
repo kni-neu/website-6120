@@ -69,6 +69,7 @@
         - <b>Application</b> - Autocorrect in Practice
         - title: Submissions
           contents:
+            - <a href="https://colab.research.google.com/drive/1M8i7DuIuUMKDHO3Kuu98ZE3xv60zupAV">Laboratory - Autocorrect Vocabulary Candidates</a>
             - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
             - <a href="../homework-3">Assignment 3 is assigned</a> - <i>Autocorrect and Minimum Edit Distances</i>
 

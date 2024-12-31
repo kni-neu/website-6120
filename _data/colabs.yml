@@ -22,13 +22,13 @@
       year: In-Class
       colab_link: ../assets/pdf/lab-3.pdf
 
-# - title: week 4 colabs
-#   type: time_table
-#   contents:
-#     - title: Multi-source Joins
-#       institution: Joining from multiple data sources with text
-#       year: In-Class
-#       colab_link: https://colab.research.google.com/drive/1YrrA98bk-TImoaM7H7vjjybXISNMUXK2
+- title: week 4 colabs
+  type: time_table
+  contents:
+    - title: Autocorrect - Vocabulary and Candidates
+      institution: Processing Text for Autocorrect Candidates
+      year: In-Class
+      colab_link: https://colab.research.google.com/drive/1YrrA98bk-TImoaM7H7vjjybXISNMUXK2
 
 # - title: week 5 colabs
 #   type: time_table
