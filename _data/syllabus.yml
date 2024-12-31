@@ -56,7 +56,7 @@
 
 
 
-    - title: <a href="">Text Processing Algorithms</a>
+    - title: <a href="https://docs.google.com/presentation/d/1Hshg9q3zPhPXZoUTGbJXNnImx5XQJbnP">Text Processing Algorithms</a>
       institution: January 30
       year: Week 4
       description:
@@ -74,7 +74,7 @@
 
 
 
-    - title: <a href="">Introduction to Language Modeling</a>
+    - title: <a href="https://docs.google.com/presentation/d/1csrZOD846CFWIHUkTiclrN2z2143_DSU">Introduction to Language Modeling</a>
       institution: February 6
       year: Week 5
       description:
@@ -94,7 +94,7 @@
 
 
 
-    - title: <a href="">Unsupervised NLP - Topic Modeling</a>
+    - title: <a href="https://docs.google.com/presentation/d/1WYYE4ShD1TE9KvT4ETJW_KMnhxXYZ5GS">Unsupervised NLP - Topic Modeling</a>
       institution: February 13
       year: Week 6
       description:
@@ -116,7 +116,7 @@
 
 
 
-    - title: <a href="">Word Modeling with Self-Supervision</a>
+    - title: <a href="https://docs.google.com/presentation/d/1rYrFIvU3UvYzJUNQwBYX6ZS_W1OtGM7L">Word Modeling with Self-Supervision</a>
       institution: February 20
       year: Week 7
       description:
@@ -139,7 +139,7 @@
 
 
 
-    - title: <a href="">Introduction to Sequential Modeling</a>
+    - title: <a href="https://docs.google.com/presentation/d/1GdtnBqL5T2yHoj203MWOERBLUDM0hKiQ">Introduction to Sequential Modeling</a>
       institution: February 27
       year: Week 8
       description:
@@ -151,7 +151,7 @@
 
 
 
-    - title: <a href="">Recurrence and Neural Networks</a>
+    - title: <a href="https://docs.google.com/presentation/d/1GdtnBqL5T2yHoj203MWOERBLUDM0hKiQ">Recurrence and Neural Networks</a>
       institution: March 6
       year: Week 9
       description:
@@ -181,7 +181,7 @@
         - Have a nice holiday!
 
 
-    - title: <a href="">Siamese Networks and Embedding Hashing</a>
+    - title: <a href="https://docs.google.com/presentation/d/1xuEopbmKPls3tePdSf6VlHUMrGh-BAsc">Siamese Networks and Embedding Hashing</a>
       institution: March 20
       year: Week 11
       description:
@@ -201,7 +201,7 @@
           - <a href="../homework-7">Assignment 7 is assigned</a> - <i>Coding Up Attention Networks</i>
           
 
-    - title: <a href="">Attention and the Transformer Model</a>
+    - title: <a href="https://docs.google.com/presentation/d/1v9Z5e0pqL2uIr2VdQ9rSN9_ff_OPYL_5">Attention and the Transformer Model</a>
       institution: March 27
       year: Week 12
       description:
@@ -219,7 +219,7 @@
             - <a href="https://www.youtube.com/watch?v=XowwKOAWYoQ&themeRefresh=1">Attention Paper Explained</a>
 
 
-    - title: <a href="">Introduction to Large Language Modeling (LLMs)</a>
+    - title: <a href="https://docs.google.com/presentation/d/1s-jVE_cQJ5fyEyPCIzHRu34sGrH4D9Mcrn0QGsOOmKA">Introduction to Large Language Modeling (LLMs)</a>
       institution: April 3
       year: Week 13
       description:
@@ -239,7 +239,7 @@
           - <a href="http://gradescope.com">Assignment 7 is <b>due</b></a>
           - <a href="../homework-8">Assignment 8 is assigned</a> - <i>Implementing Your RAG System</i>
 
-    - title: <a href="">Practically Leveraging Large Language Models</a>
+    - title: <a href="https://docs.google.com/presentation/d/1s-jVE_cQJ5fyEyPCIzHRu34sGrH4D9Mcrn0QGsOOmKA">Practically Leveraging Large Language Models</a>
       institution: April 10
       year: Week 14
       description:
@@ -257,7 +257,7 @@
           - <a href="https://colab.research.google.com/drive/1ogy2_MEcMEFrJGiS7XwtEElwnV7bY_p5">Laboratory - Instruction Following Tuning</a>
 
 
-    - title: <a href="">Language Modeling Systems Lifecycle</a>
+    - title: <a href="https://docs.google.com/presentation/d/1s-jVE_cQJ5fyEyPCIzHRu34sGrH4D9Mcrn0QGsOOmKA">Language Modeling Systems Lifecycle</a>
       institution: April 17
       year: Week 15
       description:
