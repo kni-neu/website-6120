@@ -17,14 +17,10 @@
 - title: week 3 colabs
   type: time_table
   contents:
-    - title: Counting Shakespeare's Words
-      institution: Basic Spark and RDD's
+    - title: JupyterLabs with a GPU
+      institution: Using Google's Vertex AI Workbench
       year: In-Class
-      colab_link: https://colab.research.google.com/drive/1tXmlcGWm0SXmOn9AJEIVRfXj4yULjoZl
-    - title: Setup for Homework 3 - PySpark
-      institution: Spark Data Ingestion
-      year: Setup
-      colab_link: https://colab.research.google.com/drive/1dAqxrOEqrvlqhCJ2jwKX4UrDlNNACWC7
+      colab_link: ../assets/pdf/lab-3.pdf
 
 - title: week 4 colabs
   type: time_table
