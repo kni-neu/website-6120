@@ -2,7 +2,7 @@
 layout: page
 title: joy guo
 description: teaching assistant
-office_hours: day and time
+office_hours: wed 10-12pm, 9th floor
 img: assets/img/joy_ta-personnel.jpg
 importance: 2
 category: staffing
