@@ -8,56 +8,41 @@ importance: 2
 category: staffing
 ---
 
-<img src="../../assets/img/joy.jpeg" alt="Joy Guo" style="float: left; margin-right: 20px;" width="200">
-<p>Hi! I'm Joy (Hsin Yu) Guo, and I'm thrilled to be your CS6120 Teaching Assistant for the semester. Here, you can write your biography. For example, I am a X year graduate student in Y college. My advisor is F and I'm focusing on E applied to G. Previously, I studied at Z as an undergraduate at the University of L at M, located in N, majoring in A. I've held internships and roles at company B and C, and my research interests are D. My objectives in my career are to be the most awesome natural language processing scientist in the world, and I know that I will get the Nobel prize for it.
-</p>
+<table>
+  <thead>
+  <td style="width: 50%"><img src="../assets/img/joy_ta.jpg" alt="Joy Guo" style="float: left; margin-right: 20px;" width="100%"></td>
+  <td>
+    <p>Hi! I'm Joy (Hsin Yu) Guo, and I'm happy to be one of your CS6120 Teaching Assistants for the semester. I'm a 3rd year CS Align student here at Northeastern University. Prior to this, I studied Bioinformatics at UC San Diego, where I discovered my love for finding patterns in complex data. My experience ranges from research to internships - I've worked in environmental sciences where I genetically engineered crops, and published papers on disease detection using CNNs, and analyzing medical bias using NLP. Most recently, I interned as an ML engineer at a startup where I got the chance to build and deploy a production ML pipeline which was exciting! </p>
+
+  <p>I'm particularly excited about NLP's power to bridge human communication with computational analysis, and I look forward to exploring this with you all this semester!
+    </p>
+  </td>
+</thead>
+</table>
 
 <br>
 <hr>
 
 ### A Little More About Myself
-
-Tell use a bit more about yourself! What's your interests? If you need more images, you can add them to the folder:
-
-```
-assets/img/<IMAGE.png>
-```
-
-You will need to refer to it in this markdown code with relative links, in this case you would say:
-
-```
-![Your Image](../../assets/img/<IMAGE.png>)
-```
-
-There's an example above with the relative link.
-
-<br>
-<br>
+Outside of academics, I enjoy bouldering, board games/poker, reading, learning new skills, playing piano, and exploring good food and new destinations.
 <hr>
-<br>
 
 ### Office Hours and Logistics
-
-* Mondays 2pm-4pm, 9th Floor (Edit here please)
-* Fridays 2pm-3pm, 10th Floor (Edit here please)
-* OR - [Schedule a one on one meeting](https://calendly.com/hu-hui1-husky/30min) (Edit here / delete, please)
+* Wednesday 10pm - 12pm, 9th Floor
+* OR - [Schedule a one on one meeting](https://calendly.com/hu-hui1-husky/30min) 
 
 ### Contact Information
-
-
-Please fill out the below information with the appropriate data. I've added e-mail, but the other links are incorrect. There are other icons that you can use if this list is incomplete. You can find them [here](https://github.com/kni-neu/website-6120/blob/master/_includes/social.html). Just copy the code for the social media that you want to add.
 
 You can contact me through the following media:
 
 <div class="social">
   <div class="contact-icons">
      <a href="mailto:guo.hs@northeastern.edu" title="email"><i class="fas fa-envelope"></i></a>
-     <a href="https://scholar.google.com/citations?user=" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-     <a href="https://github.com" title="GitHub"><i class="fab fa-github"></i></a>
-     <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+     <a href="https://github.khoury.northeastern.edu/jgooey?tab=repositories" title="GitHub"><i class="fab fa-github"></i></a>
+     <a href="https://www.linkedin.com/in/joy-gooey" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
   </div>
   <div class="contact-note">
-    {{ site.contact_note }}
+    Contact me through email with any questions - and feel free to add me on LinkedIn :)
   </div>
 </div>
 
