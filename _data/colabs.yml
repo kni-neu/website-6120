@@ -15,12 +15,12 @@
       colab_link: ../assets/pdf/lab-2.pdf
 
 - title: week 3 colabs
-  type: pdf_table
+  type: time_table
   contents:
-    - title: JupyterLabs with a GPU
-      institution: Using Google's Vertex AI Workbench
+    - title: The Complete Naïve Bayes Algorithm
+      institution: Predicting Sentiment in Tweets with Naïve Bayes
       year: In-Class
-      colab_link: ../assets/pdf/lab-3.pdf
+      colab_link: https://colab.research.google.com/drive/14wNBIyAOMTyh5Hnuv8tOBXdyV39H0QYW#
 
 - title: week 4 colabs
   type: time_table
@@ -29,6 +29,14 @@
       institution: Processing Text for Autocorrect Candidates
       year: In-Class
       colab_link: https://colab.research.google.com/drive/1M8i7DuIuUMKDHO3Kuu98ZE3xv60zupAV
+
+- title: week 5 colabs
+  type: pdf_table
+  contents:
+    - title: JupyterLabs with a GPU
+      institution: Using Google's Vertex AI Workbench
+      year: In-Class
+      colab_link: ../assets/pdf/lab-3.pdf
 
 # - title: week 5 colabs
 #   type: time_table

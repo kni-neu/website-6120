@@ -50,7 +50,7 @@
         - <b>Application</b> - Sentiment Analysis
         - title: Submissions
           contents:
-            - <a href="../assets/pdf/lab-3.pdf">Laboratory - Jupyter Notebooks with GPUs</a>
+            - <a href="https://colab.research.google.com/drive/14wNBIyAOMTyh5Hnuv8tOBXdyV39H0QYW#">Laboratory - Naïve Bayes</a>
             # - <a href="https://colab.research.google.com/drive/1JjgGfdbdjfVQ9uin35698sTn97xTeHeI">Laboratory - The NLTK Library</a>
             # - <a href="https://keras.io/examples/nlp/text_classification_from_scratch/">Laboratory - Python, PyTorch, Tensorflow, Colab, and Keras</a>
 
@@ -89,7 +89,7 @@
         - <b>Application</b> - Autocompleting words and sentences
         - title: Submissions
           contents:
-            - Laboratory - Colab N-Gram Systems
+            - <a href="../assets/pdf/lab-3.pdf">Laboratory - Jupyter Notebooks with GPUs</a>
             - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
             - <a href="../homework-4">Assignment 4 is assigned</a> - <i>Autocomplete with Topical Information</i>
 
