@@ -5,8 +5,8 @@ permalink: /homework-1/
 description: a first look at language processing
 nav: true
 hw_pdf: assignment-0.pdf
-assigned: january 6
-due_date: january 13
+assigned: january 9
+due_date: january 16
 horizontal: false
 ---
 
