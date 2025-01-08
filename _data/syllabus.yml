@@ -149,7 +149,8 @@
             - Modeling with Hidden Markov Models
             - The Viterbi Algorithm - Initialization, Forward, and Backward Passes
         - <b>Application</b> - Parts of Speech Tagging
-
+        - <a href="https://arxiv.org/abs/2310.12321">Required Keynote Reading</a> - A Survey of LLMs Including ChatGPT and GPT-4        
+        
 
 
     - title: <a href="https://docs.google.com/presentation/d/1GdtnBqL5T2yHoj203MWOERBLUDM0hKiQ">Recurrence and Neural Networks</a>
@@ -252,7 +253,7 @@
             - Tuning with Low Resources - LoRA and Quantization
             - Intelligent Agents with Program-Aided LLMs
         - <a href="https://arxiv.org/abs/2005.11401">Required Keynote Reading</a> - Retrieval Augmented Generation
-        - <a href="https://arxiv.org/abs/2310.12321">Required Keynote Reading</a> - A Survey of LLMs Including ChatGPT and GPT-4
+        - <a href="https://arxiv.org/abs/1706.03762">Required Keynote Reading</a> - Parameter Efficient Fine-Tuning        
         - title: <a href="../submissions">Submissions</a>
           contents:
           - <a href="https://colab.research.google.com/drive/1ogy2_MEcMEFrJGiS7XwtEElwnV7bY_p5">Laboratory - Instruction Following Tuning</a>

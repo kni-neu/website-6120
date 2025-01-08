@@ -11,7 +11,7 @@ horizontal: false
 
 ## Keynote Reading Schedule
 
-Keynote papers are required reading that underly the fundamentals of modern natural language processing theory and practice. Each week, students should sign up for a paper. The current schedule is located here:
+Keynote papers are required reading that underly the fundamentals of modern natural language processing theory and practice. Each week, students should sign up for a paper. [Please do so here](https://docs.google.com/spreadsheets/d/1xVrHl8MgkrXhJnYbW5QJP4wEPROlPaSz8xGR1JDtIfY). Updates (it might take a few minutes) on the current schedule can be viewed here:
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSV7dL4--pViZpZC-AlSxKvRqKJsoErWLOQ1N2KYIEZ7ydhwImn7g6mbdwioAMKVdU6AAz3m-7wTV4S/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="710" height="350"></iframe>
 
@@ -19,11 +19,12 @@ Keynote papers are required reading that underly the fundamentals of modern natu
 
 ### Reading Group Schedule
 
-For each of the papers, during the following week, there will be a reading group _discussion_, which the lead will facilitate. Even though there are leads or co-leads, everyone is expected to contribute in the conversation. Additionally, as there are no lecture notes for the discussion, a scribe will record salient points from the discussion; where these can be posted weekly.
+For each of the papers, during the following week, there will be a reading group _discussion_, which the lead will facilitate. Even though there are leads and co-leads, everyone is expected to contribute in the conversation. Additionally, as there are no lecture notes for the discussion, a scribe will record salient points from the discussion; where these can be posted weekly.
 
 
 * **Lead**: Facilitator and discussion generator
 * **Discussion**: Everyone should have read the paper for an interesting discussion
+* **Paper Summary** An summary of the paper (one-pager), providing an overview of the work
 * **Scribe**: Notes taking on interesting topics to share out to other students
 
 <br>
