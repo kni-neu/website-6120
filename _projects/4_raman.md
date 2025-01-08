@@ -2,7 +2,7 @@
 layout: page
 title: rama chahar
 description: teaching assistant
-office_hours: day and time
+office_hours: mon 1-3pm, 9th floor
 img: assets/img/raman.jpeg
 importance: 2
 category: staffing
