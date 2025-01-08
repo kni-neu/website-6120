@@ -4,7 +4,7 @@ title: homework 1
 permalink: /homework-1/
 description: a first look at language processing
 nav: true
-hw_pdf: assignment-0.pdf
+hw_pdf: assignment-1.pdf
 assigned: january 9
 due_date: january 16
 horizontal: false
@@ -14,7 +14,7 @@ horizontal: false
 ### getting started with data
 -----
 
-Please review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-0.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
+Please review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-1.pdf). Remember that reading resources can be found in the [syllabus]({{ site.baseurl }}/syllabus).
 
 <center>
 <img src="https://imageio.forbes.com/specials-images/imageserve/66abc4cf8c5342c38fdb1e00/0x0.jpg" width="500" height="auto">
