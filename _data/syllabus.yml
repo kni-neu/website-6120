@@ -307,8 +307,10 @@
         - Room TBD
     - title: Office Hours
       items:
-        - "Professor, Thurs, 8:30-9:30pm"
-        - "TA, Date/Time TBD"
+        - "Professor, Tues 8:30-9:30pm"
+        - "TA OH1, Mon 1-3pm, 9th Floor"
+        - "TA OH2, Tues 12-2pm, 9th Floor"
+        - "TA OH3, Wed 1-3pm, 9th Floor", 
 
 - title: suggested textbooks
   type: list
