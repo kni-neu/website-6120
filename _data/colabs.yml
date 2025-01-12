@@ -30,21 +30,37 @@
       year: In-Class
       colab_link: https://colab.research.google.com/drive/1M8i7DuIuUMKDHO3Kuu98ZE3xv60zupAV
 
-- title: week 5 colabs
+- title: week 5, part 1 - colabs
+  type: time_table
+  contents:
+    - title: N-Grams - Processing Data
+      institution: 
+      year: In-Class
+      colab_link: https://colab.research.google.com/drive/16jeUZhERNq4DaVU0g9m7S0Zd4HRQMfO6
+
+- title: week 5, part 2 - colabs
+  type: time_table
+  contents:
+    - title: N-Grams - Out of Vocabulary Words
+      institution: Using the vocabulary to identify and represent out of vocabulary words
+      year: In-Class
+      colab_link: hhttps://colab.research.google.com/drive/1bSeH7jy3F8sgdPTDlYu8gdJW1IvuvucX
+
+- title: week 5, part 3 - colabs
+  type: time_table
+  contents:
+    - title: N-Grams - Building N-Grams Models
+      institution: Preparing the data for training and inference
+      year: In-Class
+      colab_link: https://colab.research.google.com/drive/16jeUZhERNq4DaVU0g9m7S0Zd4HRQMfO6
+
+- title: week 6 colabs
   type: pdf_table
   contents:
     - title: JupyterLabs with a GPU
       institution: Using Google's Vertex AI Workbench
       year: In-Class
       colab_link: ../assets/pdf/lab-3.pdf
-
-# - title: week 5 colabs
-#   type: time_table
-#   contents:
-#     - title: Principle component analysis
-#       institution: Practice with power iterations to identify principle components
-#       year: In-Class
-#       colab_link: https://colab.research.google.com/drive/16jeUZhERNq4DaVU0g9m7S0Zd4HRQMfO6
 
 # - title: week 6 colabs
 #   type: time_table
