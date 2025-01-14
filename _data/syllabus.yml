@@ -289,16 +289,16 @@
 - title: grading criterion
   type: map
   contents:
-    - name: Online Quizzes
-      value: 10%
-    - name: Reading and Discussion
+    - name: Participation
+      value: 5%
+    - name: Reading Group
       value: 15%
     - name: Labs
       value: 25%
     - name: LLM Deployment Project
       value: 25%
     - name: Assignments
-      value: 25%
+      value: 30%
 
 
 - title: course meeting times
@@ -310,10 +310,10 @@
         - Room 1045
     - title: Office Hours
       items:
-        - "Professor, Tues 8:30-9:30pm"
-        - "TA OH1, Mon 1-3pm, 9th Floor"
-        - "TA OH2, Tues 12-2pm, 9th Floor"
-        - "TA OH3, Wed 1-3pm, 9th Floor" 
+        - "Karl, Tues 8:30-9:30pm"
+        - "Raman, Mon 1-3pm, 9th Floor"
+        - "Joy, Tues 12-2pm, 9th Floor"
+        - "Bella, Wed 1-3pm, 9th Floor" 
 
 - title: suggested textbooks
   type: list
