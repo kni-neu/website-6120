@@ -1,15 +1,18 @@
 ---
 layout: page
-title: rama chahar
-description: teaching assistant
-office_hours: mon 1-3pm, 9th floor
+title: Raman Chahar
+description: Teaching Assistant
+office_hours: Monday 1-3 pm, 10th floor
 img: assets/img/raman.jpeg
 importance: 2
 category: staffing
 ---
 
 <img src="../../assets/img/raman.jpeg" alt="Raman" style="float: left; margin-right: 20px;" width="200">
-<p>Hi! I'm Raman Chahar, and I'm thrilled to be your CS6120 Teaching Assistant for the semester. Here, you can write your biography. For example, I am a X year graduate student in Y college. My advisor is F and I'm focusing on E applied to G. Previously, I studied at Z as an undergraduate at the University of L at M, located in N, majoring in A. I've held internships and roles at company B and C, and my research interests are D. My objectives in my career are to be the most awesome natural language processing scientist in the world, and I know that I will get the Nobel prize for it.
+<p>Hi! I'm Raman, and I'm thrilled to be your CS6120 Teaching Assistant for the semester. I'm in my final semester MSCS general student. My research interests include Generative AI, Natural Language Processing, and Knowledge Graphs. I’m passionate about leveraging AI technologies to solve real-world problems.
+
+Previously, I earned my Bachelor's degree in Mathematics and Computing from Delhi Technological University and gained industry experience through internships at Experian and Amazon. I’ve also participated in hackathons, developing innovative solutions like a codebase query system that won an Experian internal competition. My ultimate goal is to contribute to cutting-edge AI research and its applications in software engineering.
+
 </p>
 
 <br>
@@ -17,47 +20,27 @@ category: staffing
 
 ### A Little More About Myself
 
-Tell use a bit more about yourself! What's your interests? If you need more images, you can add them to the folder:
+Outside of academics, I enjoy exploring tattoo art, road trips, and creating innovative tools with AI. Also anyone wanna hangout feel free to ping me anytime, i would never say no to good time.
 
-```
-assets/img/<IMAGE.png>
-```
-
-You will need to refer to it in this markdown code with relative links, in this case you would say:
-
-```
-![Your Image](../../assets/img/<IMAGE.png>)
-```
-
-There's an example above with the relative link.
-
-<br>
 <br>
 <hr>
 <br>
 
 ### Office Hours and Logistics
 
-* Mondays 2pm-4pm, 9th Floor (Edit here please)
-* Fridays 2pm-3pm, 10th Floor (Edit here please)
-* OR - [Schedule a one on one meeting](https://calendly.com/hu-hui1-husky/30min) (Edit here / delete, please)
+- Mondays 1-3 pm, 10th Floor
+- OR - Schedule a one-on-one meeting, Drop me an email or text on Teams.
 
 ### Contact Information
-
-
-Please fill out the below information with the appropriate data. I've added e-mail, but the other links are incorrect. There are other icons that you can use if this list is incomplete. You can find them [here](https://github.com/kni-neu/website-6120/blob/master/_includes/social.html). Just copy the code for the social media that you want to add.
 
 You can contact me through the following media:
 
 <div class="social">
   <div class="contact-icons">
-     <a href="mailto:lnu.raman@northeastern.edu" title="email"><i class="fas fa-envelope"></i></a>
-     <a href="https://scholar.google.com/citations?user=" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-     <a href="https://github.com" title="GitHub"><i class="fab fa-github"></i></a>
-     <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+     <a href="mailto:lnu.raman@northeastern.edu" title="Email"><i class="fas fa-envelope"></i></a>
+     <a href="https://www.linkedin.com/in/raman-chahar/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
   </div>
   <div class="contact-note">
-    {{ site.contact_note }}
+    Lets connect on LinkedIn and stay in touch!!
   </div>
 </div>
-
