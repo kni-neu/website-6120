@@ -109,6 +109,7 @@
             - Infinite Bayesian in Topic Models
             - Latent Semantic Indexing and Latent Dirichlet Allocation
             - (Collapsed) Gibbs Sampling, and Optimization
+        - <b>Application</b> - Grouping Documents
         - title: <a href="https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf">Required Keynote Paper</a> - Latent Dirichlet Allocation
           contents:
             - <a href="https://www.youtube.com/watch?v=FkckgwMHP2s">David Blei's Lecture</a>
@@ -153,8 +154,11 @@
             - The Viterbi Algorithm - Initialization, Forward, and Backward Passes
         - <b>Application</b> - Parts of Speech Tagging
         - <a href="https://arxiv.org/abs/2310.12321">Required Keynote Reading</a> - A Survey of LLMs Including ChatGPT and GPT-4        
+        - title: Submissions
+          contents:
+            - <a href="https://colab.research.google.com/drive/1fAmkPaSkecIVhgljO4vAwz5dilDmodUc">Laboratory - HMMs Text Processing</a>
+            - <a href="https://colab.research.google.com/drive/15TFAx6tERj2_K0BAhJ4_0nr2muBiyDUC">Laboratory - HMMs Numpy PoS Processing </a>
         
-
 
     - title: <a href="https://docs.google.com/presentation/d/1GdtnBqL5T2yHoj203MWOERBLUDM0hKiQ">Recurrence and Neural Networks</a>
       institution: March 6
