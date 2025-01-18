@@ -35,9 +35,14 @@ category: staffing
 Outside of academics, I enjoy bouldering, board games/poker, reading, learning new skills, playing piano, and exploring good food and new destinations.
 <hr>
 
-### Office Hours and Logistics
-* Wednesday 10pm - 12pm, 9th Floor
-* OR - [Schedule a one on one meeting](https://calendly.com/hu-hui1-husky/30min) 
+### Office Hours and Logistics  
+Feel free to drop by my office hours with any questions or just to chat! I’d appreciate a heads-up about your question or topic so I can prepare better :)
+
+* **Wednesday, 12:00 PM - 2:00 PM**, on campus.  
+  Message me on [Teams](https://teams.microsoft.com/l/chat/0/0?users=guo.hs@northeastern.edu) or [email](mailto:guo.hs@northeastern.edu) for the exact location.  
+
+* OR - [Join via Zoom](https://northeastern.zoom.us/my/jgooey).  
+
 
 ### Contact Information
 
