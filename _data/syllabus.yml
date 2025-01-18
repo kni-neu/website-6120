@@ -160,7 +160,7 @@
             - <a href="https://colab.research.google.com/drive/15TFAx6tERj2_K0BAhJ4_0nr2muBiyDUC">Laboratory - HMMs Numpy PoS Processing </a>
         
 
-    - title: <a href="https://docs.google.com/presentation/d/1GdtnBqL5T2yHoj203MWOERBLUDM0hKiQ">Recurrence and Neural Networks</a>
+    - title: <a href="https://docs.google.com/presentation/d/14AEBfimE6MUv85VRf9nNkWpcuQBqcurj">Recurrence and Neural Networks</a>
       institution: March 6
       year: Week 9
       description:
@@ -180,7 +180,6 @@
           contents:
           - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
           - <a href="../homework-6">Assignment 6 is assigned</a> - <i>Implement Your Own Recurrent Network</i>
-
 
 
     - title: No Instruction - Spring Break
