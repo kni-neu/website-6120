@@ -34,7 +34,7 @@ def inference_layer(X, W, b):
     b: Bias, a scalar.
 
   Returns:
-    y: The output of shape L or L x N
+    y: The output of shape l or l x N
   """
   return None
 
