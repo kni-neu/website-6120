@@ -189,11 +189,11 @@
         - Have a nice holiday!
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1xuEopbmKPls3tePdSf6VlHUMrGh-BAsc">Siamese Networks and Embedding Hashing</a>
+    - title: <a href="https://docs.google.com/presentation/d/1xuEopbmKPls3tePdSf6VlHUMrGh-BAsc">Siamese Networks and Embedding Hashing <b>(No Lecture)</b></a>
       institution: March 20
       year: Week 11
       description:
-        - title: Lecturing Topics
+        - title: <b>No Lecture</b> - Review these Topics
           contents:
             - Siamese Architectures and Shared Parameter Networks
             - The Triplet Data Objective
