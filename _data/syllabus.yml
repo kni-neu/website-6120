@@ -2,7 +2,7 @@
   type: time_table
   contents:
     - title: <a href="https://docs.google.com/presentation/d/1eBrC_240_8mZiZzLAFR7zuizs75GnS7F">Introduction and Applications</a>
-      institution: January 9
+      institution: January 9 <a href="https://northeastern-my.sharepoint.com/:v:/g/personal/k_ni_northeastern_edu/EQvIPBEkwhFBkgyAQn-u6OoBe-YN92zyDFnfEoG33clTyg?e=eFSIXp">(video - part 1)</a>, <a href="https://northeastern-my.sharepoint.com/:v:/g/personal/k_ni_northeastern_edu/EVHeNhOBBc9CmaZVVvqsNNcB1CZiBBP84d0xZZgcSITiDA?e=ahn2ag">(video - part 2)</a>
       year: Week 1
       description:
         - <b>Language</b> - the most efficient and compact way to transfer knowledge is through words, where the window to AGI is through NLP. This lecture is an introduction that takes us through history of how we got to LLMs. We'll also review some applications of NLP, current industry standards, and some of the most impactful approaches and where they are being implemented. Finally, we'll preview what we'll be learning, the logistics of how we'll be doing so, and the expectations for your participation in this class.
@@ -19,7 +19,7 @@
 
 
     - title: <a href="https://docs.google.com/presentation/d/1PPcKkjG44GnkpF20HgVCyWCWeXgmpcXW">ML Foundations and Software Engineering</a>
-      institution: January 16
+      institution: January 16 <a href="https://northeastern-my.sharepoint.com/:v:/g/personal/k_ni_northeastern_edu/EXUov4aUUYhGiIhhYLkrSU8BN8d6WDBACQkFO2UAvpUtqg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=buUiuA"> (video) </a>
       year: Week 2
       description:
         - As NLP is a specific branch of machine learning, we will review some foundational knowledge that we'll utilize through the course of this class. We'll look at both machine learning and software engineering best practices that will help you build and scale NLP systems later in the course. Because most NLP algorithms today rely heavily on computing resources, we'll dive into distributed compution approaches and cloud-based operations.
@@ -37,7 +37,7 @@
             
 
     - title: <a href="https://docs.google.com/presentation/d/15xw5pKPLVPJYA5MnWtFvX0ljpmZ9vO8O">Language Classification</a>
-      institution: January 23
+      institution: January 23 <a href="https://northeastern-my.sharepoint.com/:v:/g/personal/k_ni_northeastern_edu/EbzVgjjnwQJMlXOzfSt1uBYBikUZhJktFXIfcbBzuSv4xQ?e=5Udz4N">(video)</a>
       year: Week 3
       description:
         - Building upon our review of machine learning, we discuss strategies in feature extraction and generation. Particularly as creating a vocabulary can explode required memory space, our featurization includes NLP-specific techniques (e.g., tokenization, lemmatization, etc.).
