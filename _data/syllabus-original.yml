@@ -193,7 +193,7 @@
       institution: March 20
       year: Week 11
       description:
-        - title: <b>No Lecture</b> - Review these Topics
+        - title: Lecturing Topics
           contents:
             - Siamese Architectures and Shared Parameter Networks
             - The Triplet Data Objective
@@ -206,7 +206,7 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
           - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
-          - <a href="../homework-7">Assignment 7 is assigned</a> - <i>Coding Up Attention Networks</i>
+          - <a href="../homework-7">Assignment 7 is assigned</a> - <i>Attention and Transformer Networks</i>
           
 
     - title: <a href="https://docs.google.com/presentation/d/1v9Z5e0pqL2uIr2VdQ9rSN9_ff_OPYL_5">Attention and the Transformer Model</a>
