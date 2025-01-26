@@ -189,29 +189,29 @@
         - Have a nice holiday!
 
 
-    # - title: <a href="https://docs.google.com/presentation/d/1xuEopbmKPls3tePdSf6VlHUMrGh-BAsc">Siamese Networks and Embedding Hashing <b>(No Lecture)</b></a>
-    #   institution: March 20
-    #   year: Week 11
-    #   description:
-    #     - title: <b>No Lecture</b> - Review these Topics
-    #       contents:
-    #         - Siamese Architectures and Shared Parameter Networks
-    #         - The Triplet Data Objective
-    #         - Transforming and Retrieving Vectors
-    #         - Locality Sensitive Hashing, Quantization, and Approximate Nearest Neighbors
-    #     - <b>Application</b> - Sentence Comparisons and Document Retrieval
-    #     - title: <a href="https://aclanthology.org/W16-1617.pdf">Required Keynote Paper</a> - Text Similarity with Siamese RNNs
-    #       contents:
-    #         - <a href="https://www.youtube.com/watch?v=6jfw8MuKwpI">Video - Andrew Ng's Siamese Networks (for Images)</a>
-    #     - title: <a href="../submissions">Submissions</a>
-    #       contents:
-    #       - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
-    #       - <a href="../homework-7">Assignment 7 is assigned</a> - <i>Coding Up Attention Networks</i>
+    - title: <a href="https://docs.google.com/presentation/d/1xuEopbmKPls3tePdSf6VlHUMrGh-BAsc">Siamese Networks and Embedding Hashing <b>(No Lecture)</b></a>
+      institution: March 20
+      year: Week 11
+      description:
+        - title: <b>No Lecture</b> - Review these Topics
+          contents:
+            - Siamese Architectures and Shared Parameter Networks
+            - The Triplet Data Objective
+            - Transforming and Retrieving Vectors
+            - Locality Sensitive Hashing, Quantization, and Approximate Nearest Neighbors
+        - <b>Application</b> - Sentence Comparisons and Document Retrieval
+        - title: <a href="https://aclanthology.org/W16-1617.pdf">Required Keynote Paper</a> - Text Similarity with Siamese RNNs
+          contents:
+            - <a href="https://www.youtube.com/watch?v=6jfw8MuKwpI">Video - Andrew Ng's Siamese Networks (for Images)</a>
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+          - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
+          - <a href="../homework-7">Assignment 7 is assigned</a> - <i>Coding Up Attention Networks</i>
           
 
     - title: <a href="https://docs.google.com/presentation/d/1v9Z5e0pqL2uIr2VdQ9rSN9_ff_OPYL_5">Attention and the Transformer Model</a>
-      institution: March 20
-      year: Week 11
+      institution: March 27
+      year: Week 12
       description:
         - Attention models have been the leap forward that are the fundamental building blocks to modern machine learning today, including the essential ingredients for Large Language Models. We'll go deep into attention layers in neural networks, building our own from scratch.
         - title: Lecturing Topics
@@ -225,16 +225,11 @@
           contents:
             - <a href="https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270">BERT Explained - State of the art in NLP, Blog</a>
             - <a href="https://www.youtube.com/watch?v=XowwKOAWYoQ&themeRefresh=1">Attention Paper Explained</a>
-        - title: <a href="../submissions">Submissions</a>
-          contents:
-          - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
-          - <a href="../homework-6">Assignment 7 is assigned</a> - <i>Transformer Neural Networks</i>
-
 
 
     - title: <a href="https://docs.google.com/presentation/d/1s-jVE_cQJ5fyEyPCIzHRu34sGrH4D9Mcrn0QGsOOmKA">Introduction to Large Language Modeling (LLMs)</a>
-      institution: March 27
-      year: Week 12
+      institution: April 3
+      year: Week 13
       description:
         - The next three weeks are devoted to the state of the art in industry, and LLMs in practice, which may have changed in the time that you have started this course! This week, we introduce large language models using the fundamentals that you have learned, from perplexity in system design to transformer neural network layers for pre-training. We'll focus on techniques that large companies (or well-funded ones, at least) use to create <i>foundation</i> LLM models, taking training methods from OpenAI, Anthropic, Amazon, and Google.
         - title: Lecturing Topics
@@ -249,11 +244,12 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
           - <a href="https://colab.research.google.com/drive/1u8DDFEiCC2yJgQIfbCOY4_aN06MJeUfv">Laboratory - Tuning LLMs</a>
-
+          - <a href="http://gradescope.com">Assignment 7 is <b>due</b></a>
+          - <a href="../homework-8">Assignment 8 is assigned</a> - <i>Implementing Your RAG System</i>
 
     - title: <a href="https://docs.google.com/presentation/d/1s-jVE_cQJ5fyEyPCIzHRu34sGrH4D9Mcrn0QGsOOmKA">Practically Leveraging Large Language Models</a>
-      institution: April 3
-      year: Week 13
+      institution: April 10
+      year: Week 14
       description:
         - Last week, we discussed how large companies might train LLMs. In contrast, this week's lecture is most useful for those interested in entering the industry at the mid- to startup levels, where we explore common approaches to optimally <i>leverage</i> large language models for your particular applications once the LLM has been created. These techniques additionally attack limitations in LLMs, such as knowledge gaps, hallucinations, and logical reasoning problems.
         - title: Lecturing Topics
@@ -267,13 +263,6 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
           - <a href="https://colab.research.google.com/drive/1ogy2_MEcMEFrJGiS7XwtEElwnV7bY_p5">Laboratory - Instruction Following Tuning</a>
-          - <a href="http://gradescope.com">Assignment 7 is <b>due</b></a>
-          - <a href="../homework-8">Assignment 8 is assigned</a> - <i>Implementing Your RAG System</i>
-
-
-    - title: Lecturer on Travel (No Lecture)
-      institution: April 10
-      year: Week 14
 
 
     - title: <a href="https://docs.google.com/presentation/d/1s-jVE_cQJ5fyEyPCIzHRu34sGrH4D9Mcrn0QGsOOmKA">Language Modeling Systems Lifecycle</a>
