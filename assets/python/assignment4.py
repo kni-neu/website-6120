@@ -106,7 +106,7 @@ def estimate_probabilities(context_tokens, ngram_model):
 
 def predict_next_word(sentence_beginning, model):
   '''
-  Argument:
+  Args:
     sentence_beginning: a string
     model: an NGramModel object
 
