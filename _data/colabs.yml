@@ -44,7 +44,7 @@
     - title: N-Grams - Out of Vocabulary Words
       institution: Using the vocabulary to identify and represent out of vocabulary words
       year: In-Class
-      colab_link: hhttps://colab.research.google.com/drive/1bSeH7jy3F8sgdPTDlYu8gdJW1IvuvucX
+      colab_link: https://colab.research.google.com/drive/1bSeH7jy3F8sgdPTDlYu8gdJW1IvuvucX
 
 - title: week 5, part 3 - colabs
   type: time_table
@@ -61,6 +61,22 @@
       institution: Using Google's Vertex AI Workbench
       year: In-Class
       colab_link: ../assets/pdf/lab-3.pdf
+
+- title: week 7, part 1 - colabs
+  type: time_table
+  contents:
+    - title: Training a CBOW Word Embedding Model
+      institution: Preparing the data for training and inference
+      year: In-Class
+      colab_link: https://colab.research.google.com/drive/1lknBFuNeVr7-AvQx4vKvCQfVkL_za65Z
+
+- title: week 7, part 2 - colabs
+  type: pdf_table
+  contents:
+    - title: <i>word2vec</i> in C
+      institution: Trying Mikolov's Original Code
+      year: In-Class
+      colab_link: ../assets/pdf/lab-7.pdf
 
 - title: week 8, part 1 - colabs
   type: time_table
