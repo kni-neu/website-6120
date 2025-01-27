@@ -153,7 +153,8 @@
             - Modeling with Hidden Markov Models
             - The Viterbi Algorithm - Initialization, Forward, and Backward Passes
         - <b>Application</b> - Parts of Speech Tagging
-        - <a href="https://arxiv.org/abs/2310.12321">Required Keynote Reading</a> - A Survey of LLMs Including ChatGPT and GPT-4        
+        - <a href="https://arxiv.org/abs/2310.12321">Required Keynote Reading</a> - A Survey of LLMs Including ChatGPT and GPT-4
+        - <a href="https://arxiv.org/abs/2310.12321">Required Keynote Reading</a> - Learning Text Similarity with Siamese Recurrent Networks
         - title: Submissions
           contents:
             - <a href="https://colab.research.google.com/drive/1fAmkPaSkecIVhgljO4vAwz5dilDmodUc">Laboratory - HMMs Text Processing</a>
