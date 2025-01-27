@@ -38,6 +38,16 @@ def process_data(file_name):
 
 def probable_substitutes(word, probs, maxret = 10):
     """
+    Determine the most probable words for a misspelled string that are TWO edits
+    away. The edits that are possible are:
+
+        * delete_letter: removing a character
+        * switch_letters: switching two adjacent characters
+        * replace_letter: replacing one character by another different one
+        * insert_letter: inserting a character
+
+    There may be fewer but no more than maxret words.
+
     Input:
         word - The misspelled word
         probs - A dictionary of word --> prob
@@ -46,7 +56,15 @@ def probable_substitutes(word, probs, maxret = 10):
         Tuples of the words and their probabilities, ordered by highest frequency.
         [(word1, prob1), ... ]
     """
-    return [("hello", 0.5), ("world", )]
+
+    def example_function(word):
+        """
+        To make your code modular, feel free to add sub-functions (e.g., like the 
+        one we've templated below).
+        """
+        return None
+
+    return [("hello", 0.5), ("world", 0.3)]
 
 
 #@title Q3: The Minimum Edit Distnance
