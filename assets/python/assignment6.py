@@ -10,7 +10,6 @@ from data.load_data import load_data
 
 #@title Question 1
 
-# GRADED FUNCTION: sentence_vectorizer
 def sentence_vectorizer(sentences):
     tf.keras.utils.set_random_seed(33) ## Do not change this line.
     """
@@ -38,7 +37,6 @@ def sentence_vectorizer(sentences):
 
 #@title Question 2
 
-# GRADED FUNCTION: label_vectorizer
 def label_vectorizer(labels, tag_map):
     """
     Convert list of label strings to padded label IDs using a tag mapping.
@@ -77,7 +75,6 @@ def label_vectorizer(labels, tag_map):
 
 #@title Question 3.1
 
-# GRADED FUNCTION: NER
 def NER(len_tags, vocab_size, embedding_dim = 50):
     """
     Create a Named Entity Recognition (NER) model.
@@ -109,7 +106,6 @@ def NER(len_tags, vocab_size, embedding_dim = 50):
 
 #@title Question 3.2
 
-# GRADED FUNCTION: masked_loss
 def masked_loss(y_true, y_pred):
     """
     Calculate the masked sparse categorical cross-entropy loss.
@@ -133,7 +129,6 @@ def masked_loss(y_true, y_pred):
 
 #@title Question 3.3
 
-# GRADED FUNCTION: masked_accuracy
 def masked_accuracy(y_true, y_pred):
     """
     Calculate masked accuracy for predicted labels.
@@ -172,7 +167,6 @@ def masked_accuracy(y_true, y_pred):
 
 #@title Question 4
 
-# GRADED FUNCTION: predict
 def predict(sentence, model, sentence_vectorizer, tag_map):
     """
     Predict NER labels for a given sentence using a trained model.
@@ -213,25 +207,9 @@ def predict(sentence, model, sentence_vectorizer, tag_map):
     
     return pred
 
-
-SEED = 33
-BATCH_SIZE = 64
-tf.keras.utils.set_random_seed(33) ## Setting again a random seed to ensure reproducibility
-
-# Read Data In
-train_sentences = load_data('data/large/train/sentences.txt')
-train_labels = load_data('data/large/train/labels.txt')
-
-val_sentences = load_data('data/large/val/sentences.txt')
-val_labels = load_data('data/large/val/labels.txt')
-
-test_sentences = load_data('data/large/test/sentences.txt')
-test_labels = load_data('data/large/test/labels.txt')
-
-tags = get_tags(train_labels)
-tag_map = make_tag_map(tags)
-print(tag_map)
-sentence_vectorizer, vocab = sentence_vectorizer(train_sentences)
+######################################################################################
+##  Provided Functions
+######################################################################################
 
 def generate_dataset(sentences, labels, sentence_vectorizer, tag_map, tfdata=True):
     sentences_ids = sentence_vectorizer(sentences)
@@ -242,27 +220,51 @@ def generate_dataset(sentences, labels, sentence_vectorizer, tag_map, tfdata=Tru
     else:
       return sentences_ids, labels_ids
 
-train_dataset = generate_dataset(train_sentences,train_labels, sentence_vectorizer, tag_map)
-val_dataset = generate_dataset(val_sentences,val_labels,  sentence_vectorizer, tag_map)
-test_sentences_id, test_labels_id = generate_dataset(test_sentences, test_labels, sentence_vectorizer, tag_map, tfdata = False)
+if __name__ == '__main__':
 
-model = NER(len(tag_map), len(vocab))
-model.summary()
-model.compile(optimizer=tf.keras.optimizers.Adam(0.01),
-              loss = masked_loss,
-               metrics = [masked_accuracy])
+    SEED = 33
+    BATCH_SIZE = 64
+    tf.keras.utils.set_random_seed(33) ## Setting again a random seed to ensure reproducibility
 
-model.summary()
+    # Read Data In
+    train_sentences = load_data('data/large/train/sentences.txt')
+    train_labels = load_data('data/large/train/labels.txt')
 
-model.fit(train_dataset.batch(BATCH_SIZE),
-          validation_data = val_dataset.batch(BATCH_SIZE),
-          shuffle=True,
-          epochs = 1, steps_per_epoch=100)
+    val_sentences = load_data('data/large/val/sentences.txt')
+    val_labels = load_data('data/large/val/labels.txt')
 
-# Convert the sentences into ids
-test_predictions = model.predict(test_sentences_id)
- = masked_accuracy(test_labels_id,test_predictions).numpy()
-print(f"The model's accuracy in test set is: ", test_accuracy)
+    test_sentences = load_data('data/large/test/sentences.txt')
+    test_labels = load_data('data/large/test/labels.txt')
+
+    # Get the tag and tag map
+    tags = get_tags(train_labels)
+    tag_map = make_tag_map(tags)
+    print(tag_map)
+    sentence_vectorizer, vocab = sentence_vectorizer(train_sentences)
+
+    # Generate tf.Dataset training sets (provided function)
+    train_dataset = generate_dataset(train_sentences,train_labels, sentence_vectorizer, tag_map)
+    val_dataset = generate_dataset(val_sentences,val_labels,  sentence_vectorizer, tag_map)
+    test_sentences_id, test_labels_id = generate_dataset(test_sentences, test_labels, sentence_vectorizer, tag_map, tfdata = False)
+
+    model = NER(len(tag_map), len(vocab))
+    model.summary()
+    model.compile(optimizer=tf.keras.optimizers.Adam(0.01),
+                  loss = masked_loss,
+                   metrics = [masked_accuracy])
+
+    model.summary()
+
+    model.fit(train_dataset.batch(BATCH_SIZE),
+              validation_data = val_dataset.batch(BATCH_SIZE),
+              shuffle=True,
+              epochs = 1, steps_per_epoch=100)
+
+    # Convert the sentences into ids
+    test_sentences_id, test_labels_id = generate_dataset(test_sentences, test_labels, sentence_vectorizer, tag_map, tfdata = False)
+    test_predictions = model.predict(test_sentences_id)
+    print(f"The model's accuracy in test set is: ",
+          masked_accuracy(test_labels_id,test_predictions).numpy())
 
 
 
