@@ -28,6 +28,12 @@ Named entity recognition is the process of identifying and classifying entities 
 -----
 
 
+* You will need the data and loading scripts, which are found in [this zipfile](https://course.ccs.neu.edu/cs6120s25/data/named-entities/ner-data.zip). You can easily download it with the `wget` command. Inside of this zip file, there is a script called `load_data`. To make the Python code work, you will put load_data.py where you can import it. Line 12 in `assignment6.py` appears as follows:
+
+  ```python
+  from load_data import load_data
+  ```
+
 * The python code you will need to modify and turn in is located [here]({{ site.baseurl }}/assets/python/assignment6.py). There are several functions that you will be modifying. They will be of the form
 
   ```python
