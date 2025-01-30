@@ -1,16 +1,19 @@
 # In a shell, download the data and extract to the base folder:
 # !wget -nc https://course.ccs.neu.edu/cs6120s25/data/named-entities/ner-data.zip
 # !unzip -n ner-data.zip
+# Copy data/load_data into your source directory from ner-data.zip. If you do not, load_data will not import.
 
-# Imports. You will *not* need any libraries beyond these.
+# Imports. You will not need any libraries beyond these.
+import sys
 import numpy as np
 import pandas as pd
 import tensorflow as tf
-from data.load_data import load_data
+
+from load_data import load_data
 
 #@title Question 1
 
-def sentence_vectorizer(sentences):
+def get_sentence_vectorizer(sentences):
     tf.keras.utils.set_random_seed(33) ## Do not change this line.
     """
     Create a TextVectorization layer for sentence tokenization and adapt it to the provided sentences.
@@ -199,7 +202,7 @@ def predict(sentence, model, sentence_vectorizer, tag_map):
     labels = list(tag_map.keys()) 
     pred = [] 
     # Iterating over every predicted token in outputs list
-    for tag_idx in None
+    for tag_idx in None:
         pred_label = None
         pred.append(None)
     
@@ -220,27 +223,43 @@ def generate_dataset(sentences, labels, sentence_vectorizer, tag_map, tfdata=Tru
     else:
       return sentences_ids, labels_ids
 
-if __name__ == '__main__':
+def get_tags(labels):
+    tag_set = set() # Define an empty set
+    for el in labels:
+        for tag in el.split(" "):
+            tag_set.add(tag)
+    tag_list = list(tag_set)
+    tag_list.sort()
+    return tag_list
+
+def make_tag_map(tags):
+    tag_map = {}
+    for i,tag in enumerate(tags):
+        tag_map[tag] = i
+    return tag_map
+
+def main(train_sentences, val_sentences, test_sentences,
+         train_labels, val_labels, test_labels):
 
     SEED = 33
     BATCH_SIZE = 64
     tf.keras.utils.set_random_seed(33) ## Setting again a random seed to ensure reproducibility
 
     # Read Data In
-    train_sentences = load_data('data/large/train/sentences.txt')
-    train_labels = load_data('data/large/train/labels.txt')
+    train_sentences = load_data(train_sentences)
+    train_labels = load_data(train_labels)
 
-    val_sentences = load_data('data/large/val/sentences.txt')
-    val_labels = load_data('data/large/val/labels.txt')
+    val_sentences = load_data(val_sentences)
+    val_labels = load_data(val_labels)
 
-    test_sentences = load_data('data/large/test/sentences.txt')
-    test_labels = load_data('data/large/test/labels.txt')
+    test_sentences = load_data(test_sentences)
+    test_labels = load_data(test_labels)
 
     # Get the tag and tag map
     tags = get_tags(train_labels)
     tag_map = make_tag_map(tags)
     print(tag_map)
-    sentence_vectorizer, vocab = sentence_vectorizer(train_sentences)
+    sentence_vectorizer, vocab = get_sentence_vectorizer(train_sentences)
 
     # Generate tf.Dataset training sets (provided function)
     train_dataset = generate_dataset(train_sentences,train_labels, sentence_vectorizer, tag_map)
@@ -260,11 +279,35 @@ if __name__ == '__main__':
               shuffle=True,
               epochs = 1, steps_per_epoch=100)
 
+    model.save('saved_model.keras')  # Saves the model in Keras v3 format
+
+
     # Convert the sentences into ids
     test_sentences_id, test_labels_id = generate_dataset(test_sentences, test_labels, sentence_vectorizer, tag_map, tfdata = False)
     test_predictions = model.predict(test_sentences_id)
     print(f"The model's accuracy in test set is: ",
           masked_accuracy(test_labels_id,test_predictions).numpy())
 
+    return
+
+def print_usage():
+    print("Exected six argmuents. Got ", len(sys.argv))
+    print("Usage: ")
+    print("$> python3 assignment6.py <train-sentences-path> <val-sentences-path> <test-sentences-path> \\")
+    print("                          <train-labels-path> <val-labels-path> <test-label-path")
+    print("")
+    print("")
+    print("Example: ")
+    print("$> python3 assignment6.py data/large/train/sentences.txt data/large/val/sentences.txt data/large/test/sentences.txt \\")
+    print("                          data/large/train/labels.txt data/large/val/labels.txt data/large/test/labels.txt")
+    return
+
+if __name__ == '__main__':
+
+    if len(sys.argv) != (6 + 1):
+        print_usage()
+    else:
+        print("Please provide two arguments.")
+        main(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5], sys.argv[6])
 
 
