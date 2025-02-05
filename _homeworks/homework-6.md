@@ -27,8 +27,9 @@ Named entity recognition is the process of identifying and classifying entities 
 #### data and starter kit
 -----
 
+* The dataset has several different sizes for prototyping, evaluation, and training, and can be found [here](https://course.ccs.neu.edu/cs6120s25/data//named-entities). If you're on a GCP VM, you can download with the bash command `wget`. If you wish to download inside of a notebook, you can type in a shell commnad with a `!`.
 
-* You will need the data and loading scripts, which are found in [this zipfile](https://course.ccs.neu.edu/cs6120s25/data/named-entities/ner-data.zip). You can easily download it with the `wget` command. Inside of this zip file, there is a script called `load_data`. To make the Python code work, you will put load_data.py where you can import it. Line 12 in `assignment6.py` appears as follows:
+* You will need the data and loading scripts, which are found in [this zipfile](https://course.ccs.neu.edu/cs6120s25/data/named-entities/ner-data.zip). The dataset has several different sizes for prototyping, evaluation, and training. You can download it with the `wget` command. Inside of this zip file, there is a script called `load_data`. To make the Python code work, you will put load_data.py where you can import it. Line 12 in `assignment6.py` appears as follows:
 
   ```python
   from load_data import load_data
@@ -49,8 +50,6 @@ Named entity recognition is the process of identifying and classifying entities 
   ```
 
   You will need to edit between `START CODE HERE` and `END CODE HERE`.
-
-* The dataset has several different sizes for prototyping, evaluation, and training, and can be found [here](https://course.ccs.neu.edu/cs6120s25/data//named-entities). If you're on a GCP VM, you can download with the bash command `wget`. If you wish to download inside of a notebook, you can type in a shell commnad with a `!`.
 
 * Document templates can be either [Overleaf TeX File](https://www.overleaf.com/read/zfwcfsbbgtxj) or [DOCX File](https://docs.google.com/
 document/d/1qXipr5Ko2Xpf71GbLzEZXa9khB5w4O2B/edit?usp=sharing&ouid=117230435864186314036&rtpof=true&sd=true). When you've compiled/finishe
