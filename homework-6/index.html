@@ -153,7 +153,10 @@
 
 <ul>
   <li>
-    <p>You will need the data and loading scripts, which are found in <a href="https://course.ccs.neu.edu/cs6120s25/data/named-entities/ner-data.zip">this zipfile</a>. You can easily download it with the <code class="language-plaintext highlighter-rouge">wget</code> command. Inside of this zip file, there is a script called <code class="language-plaintext highlighter-rouge">load_data</code>. To make the Python code work, you will put load_data.py where you can import it. Line 12 in <code class="language-plaintext highlighter-rouge">assignment6.py</code> appears as follows:</p>
+    <p>The dataset has several different sizes for prototyping, evaluation, and training, and can be found <a href="https://course.ccs.neu.edu/cs6120s25/data//named-entities">here</a>. If you’re on a GCP VM, you can download with the bash command <code class="language-plaintext highlighter-rouge">wget</code>. If you wish to download inside of a notebook, you can type in a shell commnad with a <code class="language-plaintext highlighter-rouge">!</code>.</p>
+  </li>
+  <li>
+    <p>You will need the data and loading scripts, which are found in <a href="https://course.ccs.neu.edu/cs6120s25/data/named-entities/ner-data.zip">this zipfile</a>. The dataset has several different sizes for prototyping, evaluation, and training. You can download it with the <code class="language-plaintext highlighter-rouge">wget</code> command. Inside of this zip file, there is a script called <code class="language-plaintext highlighter-rouge">load_data</code>. To make the Python code work, you will put load_data.py where you can import it. Line 12 in <code class="language-plaintext highlighter-rouge">assignment6.py</code> appears as follows:</p>
 
     <div class="language-python highlighter-rouge">
 <div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="n">load_data</span> <span class="kn">import</span> <span class="n">load_data</span>
@@ -175,9 +178,6 @@
 </code></pre></div>    </div>
 
     <p>You will need to edit between <code class="language-plaintext highlighter-rouge">START CODE HERE</code> and <code class="language-plaintext highlighter-rouge">END CODE HERE</code>.</p>
-  </li>
-  <li>
-    <p>The dataset has several different sizes for prototyping, evaluation, and training, and can be found <a href="https://course.ccs.neu.edu/cs6120s25/data//named-entities">here</a>. If you’re on a GCP VM, you can download with the bash command <code class="language-plaintext highlighter-rouge">wget</code>. If you wish to download inside of a notebook, you can type in a shell commnad with a <code class="language-plaintext highlighter-rouge">!</code>.</p>
   </li>
   <li>
     <p>Document templates can be either <a href="https://www.overleaf.com/read/zfwcfsbbgtxj" rel="external nofollow noopener" target="_blank">Overleaf TeX File</a> or <a href="https://docs.google.com/%0Adocument/d/1qXipr5Ko2Xpf71GbLzEZXa9khB5w4O2B/edit?usp=sharing&amp;ouid=117230435864186314036&amp;rtpof=true&amp;sd=true" rel="external nofollow noopener" target="_blank">DOCX File</a>. When you’ve compiled/finishe
