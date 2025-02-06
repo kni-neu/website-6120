@@ -139,6 +139,8 @@
             - <a href="https://www.baeldung.com/cs/nlps-word2vec-negative-sampling">Blog - Gentle Introduction to Negative Sampling</a>
         - title: Submissions
           contents:
+            - <a href="https://colab.research.google.com/drive/1lknBFuNeVr7-AvQx4vKvCQfVkL_za65Z">Laboratory - Word Embeddings with CBOW</a>
+            - <a href="../assets/pdf/lab-7.pdf">Laboratory - The Original Word2Vec Code in C</a>
             - <a href="http://gradescope.com">Assignment 4 is <b>due</b></a>
             - <a href="../homework-5">Assignment 5 is assigned</a> - <i>Word2Vec - Skipgram Implementation</i>
 

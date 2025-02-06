@@ -1,10 +1,13 @@
 
 
 class SpecialTokens:
-  def __init__(self, start_token = "<s>", end_token = "<e>", unknown_token = "<unk>"):
-    self.start_token = start_token
-    self.end_token = end_token
-    self.unknown_token = unknown_token
+    """ 
+    Class of special tokens
+    """
+    def __init__(self, start_token = "<s>", end_token = "<e>", unknown_token = "<unk>"):
+        self.start_token = start_token
+        self.end_token = end_token
+        self.unknown_token = unknown_token
 
 #@title Question 1
 
@@ -114,6 +117,7 @@ def predict_next_word(sentence_beginning, model):
     a string with the next word that his most likely to appear after the 
     sentence_beginning input using the define model
   '''
+  # <YOUR-CODE-HERE>
   return None
 
 #@title Q5 Extra Credit
@@ -126,24 +130,24 @@ class StyleGram:
         training should be done by the time this function retunrs.
         """
         self.style_files = style_files
-        <YOUR-CODE-HERE>
+        # <YOUR-CODE-HERE>
         return
 
     def write_in_style_ngram(self, passage):
-    """
-    Takes a passage in, matches it with a style, given a list of
-    filenames, and predicts the next word that will appear
-    using a bigram model. 
-        
-    Args:
-        passage: A string that contains a passage
-        style_file: a list of filenames to be used to determine the style
-        
-    Returns:
-         single word <string>
-         probability associated with the word <float>
-         index of "style" it originated from (e.g., 0 for 1st file) <int8>
-         probability associated with the style <float>
-    """
-      % <YOUR-CODE_HERE>
+        """
+        Takes a passage in, matches it with a style, given a list of
+        filenames, and predicts the next word that will appear
+        using a bigram model. 
+            
+        Args:
+            passage: A string that contains a passage
+            style_file: a list of filenames to be used to determine the style
+            
+        Returns:
+             single word <string>
+             probability associated with the word <float>
+             index of "style" it originated from (e.g., 0 for 1st file) <int8>
+             probability associated with the style <float>
+        """
+      # <YOUR-CODE_HERE>
       return word, probability_word, style_file, probability_style
