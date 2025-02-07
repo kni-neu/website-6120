@@ -26,7 +26,6 @@ You have the dataset saved in a .json file, which you can easily open with panda
 # Provided Functions
 ############################################################################################
 
-
 # Preprocess Data
 
 def preprocess_data(data_dir, encoder_maxlen = 150, decoder_maxlen = 50):
@@ -108,10 +107,7 @@ def positional_encoding(positions, d_model):
 
     return tf.cast(pos_encoding, dtype=tf.float32)
 
-"""<a name='4'></a>
-## 4 - Masking
-
-"""
+# Masking
 
 def create_padding_mask(decoder_token_ids):
     """
