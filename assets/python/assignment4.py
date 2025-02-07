@@ -1,4 +1,6 @@
-
+import nltk
+nltk.download('punkt')
+nltk.download('punkt_tab')
 
 class SpecialTokens:
     """ 
@@ -22,10 +24,20 @@ def preprocess_data(filename, count_threshold, special_tokens,
                       treated as unknown.
 
     Returns:
-        Tuple of (training_data, test_data, vocabulary)
+        training_data = list of lists denoting tokenized sentence. This looks like
+                        the following:
+ 
+                        [ ["this", "<unk>", "example"], 
+                          ["another", "sentence", "<unk>", "right"],
+                         ...
+                        ] 
+        test_data = Same format as above.
+        vocabulary = list of vocabulary words. This looks like the following:
+
+                        ["vocab-word-1", "vocab-word-2", etc.]
     """
 
-    # Create sentences and tokenize the data to create a list of strings
+    # Create sentences and tokenize the data to create a list of strings. 
     tokenized_data = read_and_tokenize_sentences(filename, sample_delimiter)
 
     # Create the training / test splits
@@ -49,6 +61,20 @@ def preprocess_data(filename, count_threshold, special_tokens,
 #@title Q1.1 Read / Tokenize Data from Sentences
 
 def read_and_tokenize_sentences(filename, sample_delimiter="\n"):
+    '''
+    Input is a filename (e.g., "en_US.twitter.txt"
+
+    Example usage: 
+       $ read_and_tokenize_sentences(sentences) 
+
+       [['sky', 'is', 'blue', '.'],
+        ['leaves', 'are', 'green'],
+        ['roses', 'are', 'red', '.']]A
+
+    You can use nltk's tokenize function here.
+
+       nltk.word_tokenize(sentence)
+    '''
     return None
 
 def get_words_with_nplus_frequency(train_data, count_threshold):
