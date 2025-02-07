@@ -171,11 +171,11 @@ def count_n_grams(data, n, special_tokens):
 def count_n_grams_test():
 
     tmp_data = "i like a cat\nthis dog is like a cat"
-    tmp_train_repl, tmp_test_repl, tmp_vocab = preprocess_data(
-        "tmp_data.txt", count_threshold, special_tokens, split_ratio = 1.0)
-
     with open('tmp_data.txt', 'w') as f:
-      f.write(str(tmp_train) + '\n')
+      f.write(tmp_data + '\n')
+
+    sentences, _, _ = preprocess_data(
+        "tmp_data.txt", 0, SpecialTokens(), split_ratio = 1.0)
 
     received = count_n_grams(sentences, 2, SpecialTokens())
     expected = { ('<s>', 'i'): 1,
