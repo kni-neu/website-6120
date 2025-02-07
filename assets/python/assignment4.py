@@ -1,6 +1,7 @@
 import nltk
 nltk.download('punkt')
 nltk.download('punkt_tab')
+nltk.data.path.append('.')
 
 class SpecialTokens:
     """ 
@@ -16,6 +17,8 @@ class SpecialTokens:
 def preprocess_data(filename, count_threshold, special_tokens,
                     sample_delimiter='\n', split_ratio=0.8):
     """
+    Ungraded: You do not need to change this function.
+
     Preprocess data, i.e.,
         - Find tokens that appear at least N times in the training data.
         - Replace tokens that appear less than N times by "<unk>" .
@@ -50,19 +53,74 @@ def preprocess_data(filename, count_threshold, special_tokens,
 
     # For the train data, replace less common words with "<unk>"
     train_data_replaced = replace_oov_words_by_unk(
-        train_data, vocabulary, unknown_token)
+        train_data, vocabulary, unknown_token = "<unk>")
 
     # For the test data, replace less common words with "<unk>"
     test_data_replaced = replace_oov_words_by_unk(
-        test_data, vocabulary, unknown_token)
+        test_data, vocabulary, unknown_token = "<unk>")
 
     return train_data_replaced, test_data_replaced, vocabulary
+
+def preprocess_data_test():
+    """
+    Ungraded: You can use this function to test out preprocess_data. 
+    """
+    tmp_train = "the sky is blue.\nleaves are green.\nsmell all the roses."
+    tmp_test = "roses are red."
+
+    with open('tmp_data.txt', 'w') as f:
+      f.write(str(tmp_train) + '\n')
+      f.write(str(tmp_test) + '\n')
+
+    special_tokens = SpecialTokens()
+    count_threshold = 1
+
+    tmp_train_repl, tmp_test_repl, tmp_vocab = preprocess_data(
+        "tmp_data.txt", count_threshold, special_tokens, split_ratio = 0.75)
+
+    assert tmp_test_repl == [['roses', 'are', '<unk>', '.']] or \
+      tmp_test_repl == [[special_tokens.start_token, 
+                         'roses', 'are', '<unk>', 
+                         special_tokens.end_token]] or \
+      tmp_test_repl == [[special_tokens.start_token, 
+                         'roses', 'are', '<unk>', '.',
+                         special_tokens.end_token]], \
+      print("tmp_test_repl is not correct")
+
+    assert tmp_train_repl == [['the', 'sky', 'is', 'blue', '.'],
+                              ['leaves', 'are', 'green', '.'],
+                              ['smell', 'all', 'the', 'roses', '.']] or \
+           tmp_train_repl == [[special_tokens.start_token, 
+                               'the', 'sky', 'is', 'blue', 
+                               special_tokens.end_token],
+                              [special_tokens.start_token, 
+                               'leaves', 'are', 'green', 
+                               special_tokens.end_token],
+                              [special_tokens.start_token, 
+                               'smell', 'all', 'the', 'roses', 
+                               special_tokens.end_token]] or \
+           tmp_train_repl == [[special_tokens.start_token, 
+                               'the', 'sky', 'is', 'blue', '.',
+                               special_tokens.end_token],
+                              [special_tokens.start_token, 
+                               'leaves', 'are', 'green', '.',
+                               special_tokens.end_token],
+                              [special_tokens.start_token, 
+                               'smell', 'all', 'the', 'roses', '.',
+                               special_tokens.end_token]], \
+      print("tmp_train_repl is not correct")
+
+    print("\033[92m Successful test")
+
+    return 
 
 #@title Q1.1 Read / Tokenize Data from Sentences
 
 def read_and_tokenize_sentences(filename, sample_delimiter="\n"):
     '''
-    Input is a filename (e.g., "en_US.twitter.txt"
+    Args:
+        - filename = (e.g., "en_US.twitter.txt")
+        - sample_delimiter = delimits each sample (i.e., each tweet)
 
     Example usage: 
        $ read_and_tokenize_sentences(sentences) 
@@ -78,11 +136,13 @@ def read_and_tokenize_sentences(filename, sample_delimiter="\n"):
     return None
 
 def get_words_with_nplus_frequency(train_data, count_threshold):
+    # <YOUR-CODE-HERE>
     return None
 
 #@title Q1.2 Replace OOV Words with Special Token
 
 def replace_oov_words_by_unk(data, vocabulary, unknown_token="<unk>"):
+    # <YOUR-CODE-HERE>
     return None
 
 #@title Q2 Count N-Grams
@@ -107,6 +167,29 @@ def count_n_grams(data, n, special_tokens):
     n_grams = {}
     # <YOUR-CODE-HERE>
     return n_grams
+
+def count_n_grams_test():
+
+    tmp_data = "i like a cat\nthis dog is like a cat"
+    with open('tmp_data.txt', 'w') as f:
+      f.write(tmp_data + '\n')
+
+    sentences, _, _ = preprocess_data(
+        "tmp_data.txt", 0, SpecialTokens(), split_ratio = 1.0)
+
+    received = count_n_grams(sentences, 2, SpecialTokens())
+    expected = { ('<s>', 'i'): 1,
+      ('i', 'like'): 1, ('like', 'a'): 2, ('a', 'cat'): 2, ('cat', '<e>'): 2,
+      ('<s>', 'this'): 1, ('this', 'dog'): 1, ('dog', 'is'): 1, ('is', 'like'): 1}
+
+    assert received == expected, print("Received: \n", received, 
+                                       "\n\nExpected: \n", expected)
+
+    print("\033[92m Successful test")
+
+    return
+
+count_n_grams_test()
 
 #@title Q3 Estimate the Probabilities
 
@@ -175,5 +258,6 @@ class StyleGram:
              index of "style" it originated from (e.g., 0 for 1st file) <int8>
              probability associated with the style <float>
         """
-      # <YOUR-CODE_HERE>
-      return word, probability_word, style_file, probability_style
+
+        # <YOUR-CODE_HERE>
+        return word, probability_word, style_file, probability_style
