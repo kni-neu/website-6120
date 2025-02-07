@@ -117,7 +117,7 @@ def preprocess_data_test():
 #@title Q1.1 Read / Tokenize Data from Sentences
 
 def read_and_tokenize_sentences(filename, sample_delimiter="\n"):
-    '''
+    """
     Args:
         - filename = (e.g., "en_US.twitter.txt")
         - sample_delimiter = delimits each sample (i.e., each tweet)
@@ -132,7 +132,8 @@ def read_and_tokenize_sentences(filename, sample_delimiter="\n"):
     You can use nltk's tokenize function here.
 
        nltk.word_tokenize(sentence)
-    '''
+    """
+    # <YOUR-CODE-HERE>
     return None
 
 def get_words_with_nplus_frequency(train_data, count_threshold):
@@ -217,17 +218,17 @@ def estimate_probabilities(context_tokens, ngram_model):
 #@title Q4 Inference
 
 def predict_next_word(sentence_beginning, model):
-  '''
-  Args:
-    sentence_beginning: a string
-    model: an NGramModel object
+    """
+    Args:
+        sentence_beginning: a string
+        model: an NGramModel object
 
-  Returns:
-    a string with the next word that his most likely to appear after the 
-    sentence_beginning input using the define model
-  '''
-  # <YOUR-CODE-HERE>
-  return None
+    Returns:
+        a string with the next word that his most likely to appear after the 
+        sentence_beginning input using the define model
+    """
+    # <YOUR-CODE-HERE>
+    return None
 
 #@title Q5 Extra Credit
 
