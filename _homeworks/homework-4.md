@@ -27,17 +27,17 @@ Language models provide the capability to predict the most likely set of texts t
 #### data and starter kit
 -----
 
-You will need [the data](https://course.ccs.neu.edu/cs6120s25/data/twitter/): the [`en_US.twitter.txt`](https://course.ccs.neu.edu/cs6120s25/data/twitter/en_US.twitter.txt) file. You can read more about this data [here](https://github.com/bquast/Data-Science-Capstone/blob/master/Online-Text-Exploration.md). If you are more comfortable with notebooks, there are several options:
+You will need [the data](https://course.ccs.neu.edu/cs6120s25/data/twitter/): the [`en_US.twitter.txt`](https://course.ccs.neu.edu/cs6120s25/data/twitter/en_US.twitter.txt) file and [the code]({{ site.baseurl }}/assets/python/assignment4.py). You will be filling out the portions that say "\<YOUR-CODE-HERE\>"You can read more about this data [here](https://github.com/bquast/Data-Science-Capstone/blob/master/Online-Text-Exploration.md). If you are more comfortable with notebooks, you can _test_ your code out with some following options:
 
 * [Locally on Your Laptop](https://jupyter.org/install)
 * [Google Cloud Vertex Work](https://console.cloud.google.com/vertex-ai/workbench) with your Google Cloud credits. 
 * [Google Colabs](https://colab.research.google.com/) with your Google Account
 
+You might find prototyping with Notebooks useful, but it is important that **you submit a Python file and not a Notebook**.
+
 <br>
 
 #### submission instructions
 
-* Submit your homework on [Gradescope, Assignment 4](https://www.gradescope.com/). You will need to upload a PDF and your Python code (either as a notebook or as a Python file.)
+* Submit your homework on [Gradescope, Assignment 4](https://www.gradescope.com/). You will need to upload your *well-commented* Python code (either as a notebook or as a Python file.)
 
-* Document templates can be either [Overleaf TeX File](https://www.overleaf.com/read/zfwcfsbbgtxj) or [DOCX File](https://docs.google.com/
-document/d/1qXipr5Ko2Xpf71GbLzEZXa9khB5w4O2B/edit?usp=sharing&ouid=117230435864186314036&rtpof=true&sd=true). When you've compiled/finished writing, **download the PDF** from Overleaf/Google and upload it to the submission link. 
