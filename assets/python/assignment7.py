@@ -107,7 +107,7 @@ def positional_encoding(positions, d_model):
 
     return tf.cast(pos_encoding, dtype=tf.float32)
 
-# Masking
+# Padding mask
 
 def create_padding_mask(decoder_token_ids):
     """
@@ -124,6 +124,8 @@ def create_padding_mask(decoder_token_ids):
     # add extra dimensions to add the padding to the attention logits.
     # this will allow for broadcasting later when comparing sequences
     return seq[:, tf.newaxis, :]
+
+# Mask
 
 def create_look_ahead_mask(sequence_length):
     """
