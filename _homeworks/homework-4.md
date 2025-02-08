@@ -27,11 +27,29 @@ Language models provide the capability to predict the most likely set of texts t
 #### data and starter kit
 -----
 
-You will need [the data](https://course.ccs.neu.edu/cs6120s25/data/twitter/): the [`en_US.twitter.txt`](https://course.ccs.neu.edu/cs6120s25/data/twitter/en_US.twitter.txt) file and [the code]({{ site.baseurl }}/assets/python/assignment4.py). You will be filling out the portions that say "\<YOUR-CODE-HERE\>"You can read more about this data [here](https://github.com/bquast/Data-Science-Capstone/blob/master/Online-Text-Exploration.md). If you are more comfortable with notebooks, you can _test_ your code out with some following options:
+You will need [the data](https://course.ccs.neu.edu/cs6120s25/data/twitter/): the [`en_US.twitter.txt`](https://course.ccs.neu.edu/cs6120s25/data/twitter/en_US.twitter.txt) file and [the code]({{ site.baseurl }}/assets/python/assignment4.py). You can read more about this data [here](https://github.com/bquast/Data-Science-Capstone/blob/master/Online-Text-Exploration.md). If you are more comfortable with notebooks, you can _test_ your code out with some following options:
 
 * [Locally on Your Laptop](https://jupyter.org/install)
 * [Google Cloud Vertex Work](https://console.cloud.google.com/vertex-ai/workbench) with your Google Cloud credits. 
 * [Google Colabs](https://colab.research.google.com/) with your Google Account
+
+You will be filling out the portions in [the code]({{ site.baseurl }}/assets/python/assignment4.py) that say `<YOUR-CODE-HERE>`. There is also helpful unit test code with the suffix `_test()`. For example, 
+
+  ```python
+  def estimate_probabilities():
+    """
+    The graded function that you will need to fill out
+    """
+    # <YOUR-CODE-HERE>
+    return None
+
+  def estimate_probabilities_test():
+    """
+    Ungraded: You can use this function to test out estimate_probabilities. 
+    """
+    # Run this function to test 
+    return
+  ```
 
 You might find prototyping with Notebooks useful, but it is important that **you submit a Python file and not a Notebook**.
 
