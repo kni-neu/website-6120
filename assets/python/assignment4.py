@@ -12,6 +12,22 @@ class SpecialTokens:
         self.end_token = end_token
         self.unknown_token = unknown_token
 
+class NGramModel():
+    """
+    This class holds your n-gram model and all its parameters, which include:
+
+      - previous_n_gram: the last n-gram that appeared prior to the current one
+      - n-gram_counts: a dictionary specifying the context words
+    """
+    def __init__(self, previous_n_gram, n_gram_counts,
+               n_plus1_gram_counts, vocabulary, special_tokens, k=1):
+        self.previous_n_gram = previous_n_gram
+        self.n_gram_counts = n_gram_counts
+        self.n_plus1_gram_counts = n_plus1_gram_counts
+        self.vocabulary = vocabulary
+        self.special_tokens = special_tokens
+        self.k = k
+
 #@title Question 1
 
 def preprocess_data(filename, count_threshold, special_tokens,
@@ -170,7 +186,9 @@ def count_n_grams(data, n, special_tokens):
     return n_grams
 
 def count_n_grams_test():
-
+    """
+    Ungraded: You can use this function to test out count_n_grams. 
+    """
     tmp_data = "i like a cat\nthis dog is like a cat"
     with open('tmp_data.txt', 'w') as f:
       f.write(tmp_data + '\n')
@@ -215,6 +233,36 @@ def estimate_probabilities(context_tokens, ngram_model):
     # <YOUR-CODE-HERE>
     return probabilities
 
+
+def estimate_probabilities_test():
+    """
+    Ungraded: You can use this function to test out estimate_probabilities. 
+    """
+    tmp_data = "i like a cat\nthis dog is like a cat"
+    with open('tmp_data.txt', 'w') as f:
+      f.write(tmp_data + '\n')
+
+    sentences, _, vocabulary = preprocess_data(
+        "tmp_data.txt", 0, SpecialTokens(), split_ratio = 1.0)
+
+    # unique_words = list(set(sentences[0] + sentences[1]))
+    unigram_counts = count_n_grams(sentences, 1, SpecialTokens())
+    bigram_counts = count_n_grams(sentences, 2, SpecialTokens())
+
+    ngram_model = NGramModel(unigram_counts, bigram_counts, vocabulary,
+                             SpecialTokens(), k=1)
+    
+    expected = {'i': 0.09090909090909091, 'like': 0.09090909090909091, 
+                'a': 0.09090909090909091, 'cat': 0.2727272727272727, 
+                'this': 0.09090909090909091, 'dog': 0.09090909090909091, 
+                'is': 0.09090909090909091, '<e>': 0.09090909090909091, 
+                '<unk>': 0.09090909090909091}
+
+    assert estimate_probabilities(["a"], ngram_model) == expected, \
+      print("estimate_probabilities is not correct")
+    
+    print("\033[92m Successful test")
+
 #@title Q4 Inference
 
 def predict_next_word(sentence_beginning, model):
@@ -224,8 +272,10 @@ def predict_next_word(sentence_beginning, model):
         model: an NGramModel object
 
     Returns:
-        a string with the next word that his most likely to appear after the 
-        sentence_beginning input using the define model
+        next_word = a string with the next word that his most likely to appear 
+        after the sentence_beginning input based ont he model. (You do not need to 
+        add in any top K or random sampling.)
+        probability = corresponding probability of that word
     """
     # <YOUR-CODE-HERE>
     return None
@@ -262,3 +312,24 @@ class StyleGram:
 
         # <YOUR-CODE_HERE>
         return word, probability_word, style_file, probability_style
+
+
+# Example Usage
+if __name__ == "__main__":
+    # Create an instance of your NGramModel here, using your training data
+    special_tokens = SpecialTokens()
+    count_threshold = 10
+    train_data_replaced, test_data_replaced, vocabulary = preprocess_data(
+        "data/en_US.twitter.txt", count_threshold, special_tokens
+    )
+
+    # n=2
+    unigram_counts = count_n_grams(train_data_replaced, 1, special_tokens)
+    bigram_counts = count_n_grams(train_data_replaced, 2, special_tokens)
+
+    ngram_model = NGramModel(unigram_counts, bigram_counts, vocabulary,
+                            special_tokens, k=1)
+
+    partial_sentence = "i love"  # Example partial sentence
+    predicted_word = predict_next_word(partial_sentence, ngram_model)
+    print(f"The predicted next word for '{partial_sentence}' is: {predicted_word}")
