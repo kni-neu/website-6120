@@ -94,6 +94,14 @@
       year: In-Class
       colab_link: https://colab.research.google.com/drive/15TFAx6tERj2_K0BAhJ4_0nr2muBiyDUC
 
+- title: week 9 - colabs
+  type: time_table
+  contents:
+    - title: Recurrent Neural Networks
+      institution: Implementing your first RNN with Numpy and Tensorflow
+      year: In-Class
+      colab_link: https://colab.research.google.com/drive/1N2In_T8J1evlZPduXoxqeOpR4RE86AHK
+
 - title: week 13 colabs
   type: time_table
   contents:
