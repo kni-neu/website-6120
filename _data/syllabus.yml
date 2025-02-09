@@ -182,8 +182,9 @@
             - <a href="https://karpathy.github.io/2015/05/21/rnn-effectiveness/"> Karpathy's Blog on Recurrent Networks</a>
         - title: <a href="../submissions">Submissions</a>
           contents:
-          - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
-          - <a href="../homework-6">Assignment 6 is assigned</a> - <i>Implement Your Own Recurrent Network</i>
+            - <a href = "https://colab.research.google.com/drive/1N2In_T8J1evlZPduXoxqeOpR4RE86AHK">Laboratory - Building Your First RNN</a>
+            - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
+            - <a href="../homework-6">Assignment 6 is assigned</a> - <i>Implement Your Own Recurrent Network</i>
 
 
     - title: No Instruction - Spring Break
