@@ -167,6 +167,7 @@
       institution: March 6
       year: Week 9
       description:
+        - While newer architectures like transformers now dominate the field of NLP, in its short tenure, Recurrent Neural Networks became workhorses that first demonstrated the power of deep learning for sequential data like text. Grasping the core concepts of RNNs allow us to fully appreciating how modeling language work, how attention and transformers originated, and subsequently the transition to truly deep architectures.  Learning about RNNs isn't just about studying history; it's about building a robust understanding of the fundamental principles that underpin modern NLP.  It's about equipping yourself with the knowledge to not just use these powerful tools, but to understand their inner workings, innovate upon them, and perhaps even build the next generation of language models. 
         - title: Lecturing Topics
           contents:
             - Traditional Language Models vs Recurrent Models
