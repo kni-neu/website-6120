@@ -2,7 +2,7 @@
 layout: page
 title: Raman Chahar
 description: Teaching Assistant
-office_hours: Monday 1-3 pm, 10th floor
+office_hours: mon 1-3 pm, 10th floor
 img: assets/img/raman.jpeg
 importance: 2
 category: staffing
