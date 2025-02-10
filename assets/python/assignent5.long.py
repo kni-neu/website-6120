@@ -71,6 +71,47 @@ def train_svd(adjacency_matrix, min_sv_index = 3, max_sv_index = 103):
 
 #@title Question 3.1
 
+def sample_bow(dataset, word2index, win=5):
+    '''
+    Randomly samples a title and a window within that title, returning
+    one-hot and multi-hot vectors.
+
+    Args:
+        - dataset: A list of preprocessed titles.
+        - word2index: A dictionary of words and their indices
+        - win: The size of the context window.
+
+    Returns:
+        - content_vector: the one-hot vector for the center word
+        - context_vector: multi-hot vector for window around center
+    '''
+    return None, None
+
+#@title Question 3.2
+
+def train_bow(dataset, word2index, iters,
+              win = 5, embedding_dim = 100, learning_rate=0.01):
+    """
+    Creates an embedding space using SVD on the adjacency matrix.
+
+    Args:
+        - dataset: A list of preprocessed titles.
+        - word2index: Dictinoary assigning word to index
+        - win: The size of the context window for sampling.
+        - iters: Number of iterations to run for
+        - embedding_dim: The desired dimensionality of the embedding space.
+        - learning_rate: Learning rate or any other DNN params with defaults.
+                         The autograder won't touch this.
+
+    Returns:
+        - V_bow: an array representing the embedding space (num_words x
+               embedding_dim)
+        - List of losses (to print out)
+    """
+    return None, None
+
+#@title Question 4.1
+
 def sample_w2v(data, word2index, neg_samples=5, win=10):
     '''
     Randomly samples a title and a window within that title, returning
@@ -89,7 +130,7 @@ def sample_w2v(data, word2index, neg_samples=5, win=10):
     '''
     return None, None, None
 
-#@title Question 3.3
+#@title Question 4.3
 
 def w2vgrads( vi, vo, Vns ):
   """
@@ -111,7 +152,7 @@ def w2vgrads( vi, vo, Vns ):
   # dvi, dvo, dVns = <YOUR-CODE-HERE>
   return None, None, None
 
-#@title Question 3.4
+#@title Question 4.4
 
 def train_w2v(dataset, word2index, iters = 1e6, negsamps = 5,
               win = 5, embedding_dim = 100, learning_rate=0.01):
