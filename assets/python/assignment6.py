@@ -11,6 +11,38 @@ import tensorflow as tf
 
 from load_data import load_data
 
+######################################################################################
+##  Provided Functions
+######################################################################################
+
+def generate_dataset(sentences, labels, sentence_vectorizer, tag_map, tfdata=True):
+    sentences_ids = sentence_vectorizer(sentences)
+    labels_ids = label_vectorizer(labels, tag_map = tag_map)
+    if tfdata:
+      dataset = tf.data.Dataset.from_tensor_slices((sentences_ids, labels_ids))
+      return dataset
+    else:
+      return sentences_ids, labels_ids
+
+def get_tags(labels):
+    tag_set = set() # Define an empty set
+    for el in labels:
+        for tag in el.split(" "):
+            tag_set.add(tag)
+    tag_list = list(tag_set)
+    tag_list.sort()
+    return tag_list
+
+def make_tag_map(tags):
+    tag_map = {}
+    for i,tag in enumerate(tags):
+        tag_map[tag] = i
+    return tag_map
+
+######################################################################################
+##  Homework Questions
+######################################################################################
+
 #@title Question 1
 
 def get_sentence_vectorizer(sentences):
@@ -211,32 +243,8 @@ def predict(sentence, model, sentence_vectorizer, tag_map):
     return pred
 
 ######################################################################################
-##  Provided Functions
+##  Main Function
 ######################################################################################
-
-def generate_dataset(sentences, labels, sentence_vectorizer, tag_map, tfdata=True):
-    sentences_ids = sentence_vectorizer(sentences)
-    labels_ids = label_vectorizer(labels, tag_map = tag_map)
-    if tfdata:
-      dataset = tf.data.Dataset.from_tensor_slices((sentences_ids, labels_ids))
-      return dataset
-    else:
-      return sentences_ids, labels_ids
-
-def get_tags(labels):
-    tag_set = set() # Define an empty set
-    for el in labels:
-        for tag in el.split(" "):
-            tag_set.add(tag)
-    tag_list = list(tag_set)
-    tag_list.sort()
-    return tag_list
-
-def make_tag_map(tags):
-    tag_map = {}
-    for i,tag in enumerate(tags):
-        tag_map[tag] = i
-    return tag_map
 
 def main(train_sentences, val_sentences, test_sentences,
          train_labels, val_labels, test_labels):
@@ -290,19 +298,19 @@ def main(train_sentences, val_sentences, test_sentences,
 
     return
 
-def print_usage():
-    print("Exected six argmuents. Got ", len(sys.argv))
-    print("Usage: ")
-    print("$> python3 assignment6.py <train-sentences-path> <val-sentences-path> <test-sentences-path> \\")
-    print("                          <train-labels-path> <val-labels-path> <test-label-path")
-    print("")
-    print("")
-    print("Example: ")
-    print("$> python3 assignment6.py data/large/train/sentences.txt data/large/val/sentences.txt data/large/test/sentences.txt \\")
-    print("                          data/large/train/labels.txt data/large/val/labels.txt data/large/test/labels.txt")
-    return
-
 if __name__ == '__main__':
+
+    def print_usage():
+        print("Exected six argmuents. Got ", len(sys.argv))
+        print("Usage: ")
+        print("$> python3 assignment6.py <train-sentences-path> <val-sentences-path> <test-sentences-path> \\")
+        print("                          <train-labels-path> <val-labels-path> <test-label-path")
+        print("")
+        print("")
+        print("Example: ")
+        print("$> python3 assignment6.py data/large/train/sentences.txt data/large/val/sentences.txt data/large/test/sentences.txt \\")
+        print("                          data/large/train/labels.txt data/large/val/labels.txt data/large/test/labels.txt")
+        return
 
     if len(sys.argv) != (6 + 1):
         print_usage()
