@@ -117,7 +117,7 @@
         - title: Submissions
           contents:
             - <a href="../assets/pdf/lab-6.pdf">Laboratory - Jupyter Notebooks with GPUs</a>
-            - <a href="https://colab.research.google.com/github/littlecolumns/ds4j-notebooks/blob/master/text-analysis/notebooks/Introduction%20to%20topic%20modeling.ipynb">Laboratory</a> - Topic Modeling
+            # - <a href="https://colab.research.google.com/github/littlecolumns/ds4j-notebooks/blob/master/text-analysis/notebooks/Introduction%20to%20topic%20modeling.ipynb">Laboratory</a> - Topic Modeling
 
 
 
