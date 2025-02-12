@@ -30,7 +30,7 @@ Review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assignment-
 #### data and starter kit
 -----
 
-We will be using data from [ArXiv](http://arxiv.org) today, containing the titles of over 3M academic and scientific papers. Per usual, you can find the datasets via the [course data site](https://course.ccs.neu.edu/cs6120s25/data/), where the dataset you can download is in the arxiv folder, titled [arxiv_titles.txt](https://course.ccs.neu.edu/cs6120s25/data/arxiv/arxiv_titles.txt). The data is formatted where each line is the title of a paper:
+Your code template is available [here]({{ site.baseurl }}/assets/python/assignment5.py). We will be using data from [ArXiv](http://arxiv.org) today, containing the titles of over 3M academic and scientific papers. Per usual, you can find the datasets via the [course data site](https://course.ccs.neu.edu/cs6120s25/data/), where the dataset you can download is in the arxiv folder, titled [arxiv_titles.txt](https://course.ccs.neu.edu/cs6120s25/data/arxiv/arxiv_titles.txt). The data is formatted where each line is the title of a paper:
 
 ```
 title-1
@@ -40,7 +40,7 @@ title-2
 title-N
 ```
 
-It is important to note that the papers are in sorted order (according to topic), and are not randomized in any way.
+It is important to note that the papers are in sorted order (according to topic), and are not randomized in any way. There will _not_ be any `*_test` functions as your sampling and modeling results may vary. You may wish to write your own unit test functions with mock data.
 
 
 <br>
