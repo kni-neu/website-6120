@@ -657,10 +657,10 @@ def test_transformer(target, create_look_ahead_mask, create_padding_mask):
         summary, weights = transformer(
             sentence_a,
             sentence__b,
-            False, # Training
-            enc_padding_mask,
-            look_ahead_mask,
-            dec_padding_mask)
+            training = False, # Training
+            enc_padding_mask = enc_padding_mask,
+            look_ahead_mask = look_ahead_mask,
+            dec_padding_mask = dec_padding_mask)
         
         summary_example_2 = [0.05015587, 0.02734077, 0.01308834, 0.04876801, 0.03092919, 0.02046618, 0.02923589, 0.03272967]
 
