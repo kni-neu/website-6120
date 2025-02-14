@@ -19,9 +19,8 @@ class NGramModel():
       - previous_n_gram: the last n-gram that appeared prior to the current one
       - n-gram_counts: a dictionary specifying the context words
     """
-    def __init__(self, previous_n_gram, n_gram_counts,
+    def __init__(self, n_gram_counts,
                n_plus1_gram_counts, vocabulary, special_tokens, k=1):
-        self.previous_n_gram = previous_n_gram
         self.n_gram_counts = n_gram_counts
         self.n_plus1_gram_counts = n_plus1_gram_counts
         self.vocabulary = vocabulary
