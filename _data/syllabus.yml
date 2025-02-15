@@ -163,9 +163,16 @@
             - <a href="https://colab.research.google.com/drive/15TFAx6tERj2_K0BAhJ4_0nr2muBiyDUC">Laboratory - HMMs Numpy PoS Processing </a>
         
 
-    - title: <a href="https://docs.google.com/presentation/d/14AEBfimE6MUv85VRf9nNkWpcuQBqcurj">Recurrence and Neural Networks</a>
+    - title: No Instruction - Spring Break
       institution: March 6
       year: Week 9
+      description:
+        - Have a nice holiday!
+
+
+    - title: <a href="https://docs.google.com/presentation/d/14AEBfimE6MUv85VRf9nNkWpcuQBqcurj">Recurrence and Neural Networks</a>
+      institution: March 13
+      year: Week 10
       description:
         - While newer architectures like transformers now dominate the field of NLP, in its short tenure, Recurrent Neural Networks became workhorses that first demonstrated the power of deep learning for sequential data like text. This lecture builds an appreciation of how modeling language works, how attention and transformers originated, and subsequently the transition to truly deep architectures.  Beyond studying the history; it's we'll review the fundamental principles in RNNs that underpin modern NLP. 
         - title: Lecturing Topics
@@ -185,13 +192,6 @@
             - <a href = "https://colab.research.google.com/drive/1N2In_T8J1evlZPduXoxqeOpR4RE86AHK">Laboratory - Building Your First RNN</a>
             - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
             - <a href="../homework-6">Assignment 6 is assigned</a> - <i>Implement Your Own Recurrent Network</i>
-
-
-    - title: No Instruction - Spring Break
-      institution: March 13
-      year: Week 10 
-      description:
-        - Have a nice holiday!
 
 
     # - title: <a href="https://docs.google.com/presentation/d/1xuEopbmKPls3tePdSf6VlHUMrGh-BAsc">Siamese Networks and Embedding Hashing <b>(No Lecture)</b></a>
