@@ -10,6 +10,18 @@ import w2_unittest
 tf.keras.utils.set_random_seed(10)
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
+'''
+This assignment requires some data files that you will need to download from the
+website. These include utility functions, assumed to be in the same folder as 
+where this file is being run.
+
+wget -nc https://course.ccs.neu.edu/cs6120s25/data/samsum/utils.py
+wget -nc https://course.ccs.neu.edu/cs6120s25/assets/python/assignment7_unittests.py -O w2_unittest.py
+wget -nc https://course.ccs.neu.edu/cs6120s25/data/samsum/corpus.tar
+tar -xvf corpus.tar
+pip install dlai_grader
+'''
+
 ################################################################################
 #@title Provided Functions: Part I
 ################################################################################
@@ -29,7 +41,6 @@ def preprocess_data(data_dir, encoder_maxlen = 150, decoder_maxlen = 50):
     '''
 
     train_data, test_data = utils.get_train_test_data(data_dir)
-
     document, summary = utils.preprocess(train_data)
     document_test, summary_test = utils.preprocess(test_data)
 
@@ -59,7 +70,7 @@ def preprocess_data(data_dir, encoder_maxlen = 150, decoder_maxlen = 50):
     BUFFER_SIZE = 10000
     BATCH_SIZE = 64
 
-    return tf.data.Dataset.from_tensor_slices((inputs, targets)).shuffle(BUFFER_SIZE).batch(BATCH_SIZE), tokenizer
+    return tf.data.Dataset.from_tensor_slices((inputs, targets)).shuffle(BUFFER_SIZE).batch(BATCH_SIZE), document, summary, document_test, summary_test, tokenizer
 
 # Positional Encoding
 
@@ -975,7 +986,7 @@ Now you can finally train the model. Below is a loop that will train your model 
 Note that after each epoch you perform the summarization on one of the sentences in the test set and print it out, so you can see how your model is improving.
 """
 
-def train_model(data_folder):
+def train_model(document, summary, document_test, summary_test, vocab_size):
 
     # Initialize the Model
     #
@@ -986,16 +997,7 @@ def train_model(data_folder):
     # original Transformer paper used `num_layers=6`, `embedding_dim=512`, and 
     # `fully_connected_dim=2048`.
 
-
-    encoder_maxlen = 150
-    decoder_maxlen = 50
-
-    dataset, tokenizer = preprocess_data(data_folder, encoder_maxlen = 150, decoder_maxlen = 50)
-
-    vocab_size = len(tokenizer.word_index) + 1
-    print(f"Vocab size: {vocab_size}")
-
-    # Define the model parameters
+     # Define the model parameters
     num_layers = 2
     embedding_dim = 128
     fully_connected_dim = 128
@@ -1019,19 +1021,12 @@ def train_model(data_folder):
     # The original transformer paper uses Adam optimizer with custom learning rate scheduling, 
     # which we define in the cell below. This was empirically shown to produce faster 
     # convergence.
-
-    learning_rate = CustomSchedule(embedding_dim)
+    learning_rate = CustomSchedule(transformer.encoder.embedding_dim)
     optimizer = tf.keras.optimizers.Adam(0.0002, beta_1=0.9, beta_2=0.98, epsilon=1e-9)
-
     train_loss = tf.keras.metrics.Mean(name='train_loss')
 
     # Here you will store the losses, so you can later plot them
     losses = []
-
-    train_data, test_data = utils.get_train_test_data('corpus')
-
-    document, summary = utils.preprocess(train_data)
-    document_test, summary_test = utils.preprocess(test_data)
 
     # Take an example from the test set, to monitor it during training
     test_example = 0
@@ -1068,14 +1063,17 @@ def train_model(data_folder):
     plt.ylabel('Loss')
     plt.xlabel('Epoch')
 
-    return transformer, document, summary, document_test
+    return transformer
 
 """<a name='13'></a>
 # 13 - Summarize some Sentences!
 
 Below you can see an example of summarization of a sentence from the training set and a sentence from the test set. See if you notice anything interesting about them!
 """
-def print_transformer_outputs(transformer, document, document_test, training_set_example = 0, test_set_example = 3):
+def print_transformer_outputs(
+    transformer, document, summary, document_test, summary_test, tokenizer, 
+    training_set_example = 0, test_set_example = 3,
+    encoder_maxlen = 150, decoder_maxlen = 50):
 
     # Check a summary of a document from the training set
     print('Training set example:')
@@ -1083,7 +1081,8 @@ def print_transformer_outputs(transformer, document, document_test, training_set
     print('\nHuman written summary:')
     print(summary[training_set_example])
     print('\nModel written summary:')
-    print(summarize(transformer, document[training_set_example]))
+    print(summarize(transformer, document[training_set_example], tokenizer, 
+        encoder_maxlen = encoder_maxlen, decoder_maxlen = decoder_maxlen))
 
     # Check a summary of a document from the test set
     print('Test set example:')
@@ -1091,7 +1090,8 @@ def print_transformer_outputs(transformer, document, document_test, training_set
     print('\nHuman written summary:')
     print(summary_test[test_set_example])
     print('\nModel written summary:')
-    print(summarize(transformer, document_test[test_set_example]))
+    print(summarize(transformer, document_test[test_set_example], tokenizer, 
+        encoder_maxlen = encoder_maxlen, decoder_maxlen = decoder_maxlen))
 
 """
 If you critically examine the output of the model, you can notice a few things:
@@ -1132,5 +1132,22 @@ if __name__ == '__main__':
     #     print("                          data/large/train/labels.txt data/large/val/labels.txt data/large/test/labels.txt")
     #     return
 
-    transformer, document, summary, document_test = train_model('corpus')
-    print_transformer_outputs(transformer, document, summary, document_test)
+    data_folder = 'corpus'
+
+    # Dataset processing
+    encoder_maxlen = 150
+    decoder_maxlen = 50
+    dataset, document, summary, document_test, summary_test, tokenizer = preprocess_data(
+        data_folder, encoder_maxlen = 150, decoder_maxlen = 50)
+
+    # Determine the vocabulary
+    vocab_size = len(tokenizer.word_index) + 1
+    print(f"Vocab size: {vocab_size}")
+
+    # Train the model
+    transformer = train_model(document, summary, document_test, summary_test, vocab_size)
+
+    # Print out some results
+    print_transformer_outputs(transformer, document, summary, document_test, 
+        summary_test, tokenizer, training_set_example = 0, test_set_example = 3, 
+        encoder_maxlen = 150, decoder_maxlen = 50)
