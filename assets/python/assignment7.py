@@ -893,7 +893,7 @@ def next_word(model, encoder_input, output):
 
 """Check if your function works."""
 
-def next_word_test():
+def next_word_test(tokenizer):
     # Take a random sentence as an input
     input_document = tokenizer.texts_to_sequences(["a random sentence"])
     input_document = tf.keras.preprocessing.sequence.pad_sequences(input_document, maxlen=encoder_maxlen, padding='post', truncating='post')
@@ -923,7 +923,7 @@ def next_word_test():
 #@title Provided Functions: Part IV
 ################################################################################
 
-def summarize(model, input_document):
+def summarize(model, input_document, tokenizer, encoder_maxlen = 150, decoder_maxlen = 50):
     """
     A function for summarization using the transformer model
     Arguments:
@@ -1061,7 +1061,8 @@ def train_model(data_folder):
         print('  True summarization:')
         print(f'    {true_summary}')
         print('  Predicted summarization:')
-        print(f'    {summarize(transformer, true_document)}\n')
+        print(f'    {summarize(transformer, true_document, tokenizer, 
+            encoder_maxlen = encoder_maxlen, decoder_maxlen = decoder_maxlen)}\n')
 
     """Plot the loss funtion."""
 
