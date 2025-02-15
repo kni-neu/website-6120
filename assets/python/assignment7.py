@@ -1,5 +1,6 @@
 import os
 import numpy as np
+import sys
 import pandas as pd
 import tensorflow as tf
 import matplotlib.pyplot as plt
@@ -296,24 +297,23 @@ class EncoderLayer(tf.keras.layers.Layer):
 
         return encoder_layer_out
 
+# Full Encoder
+
 class Encoder(tf.keras.layers.Layer):
     """
-    # Full Encoder
+    The full encoder will take an embedded input and positional encoding that you have
+    calculate. Your encoded embeddings will be fed to a stack of Encoder layers.
 
-    # The full encoder will take an embedded input and positional encoding that you have
-    # calculate. Your encoded embeddings will be fed to a stack of Encoder layers.
-
-    # The Encoder class is implemented for you. It performs the following steps:
-    # 1. Pass the input through the Embedding layer.
-    # 2. Scale the embedding by multiplying it by the square root of the embedding dimension.
-    # 3. Add the position encoding: self.pos_encoding `[:, :seq_len, :]` to the embedding.
-    # 4. Pass the encoded embedding through a dropout layer
-    # 5. Pass the output of the dropout layer through the stack of encoding layers using a for loop.
+    The Encoder class is implemented for you. It performs the following steps:
+    1. Pass the input through the Embedding layer.
+    2. Scale the embedding by multiplying it by the square root of the embedding dimension.
+    3. Add the position encoding: self.pos_encoding `[:, :seq_len, :]` to the embedding.
+    4. Pass the encoded embedding through a dropout layer
+    5. Pass the output of the dropout layer through the stack of encoding layers using a for loop.
 
     The entire Encoder starts by passing the input to an embedding layer
     and using positional encoding to then pass the output through a stack of
     encoder Layers
-
     """
     def __init__(self, num_layers, embedding_dim, num_heads, fully_connected_dim, input_vocab_size,
                maximum_position_encoding, dropout_rate=0.1, layernorm_eps=1e-6):
@@ -370,6 +370,8 @@ class Encoder(tf.keras.layers.Layer):
 ################################################################################
 #@title Question 2: The Decoder Layer
 ################################################################################
+
+# Decoder Layer
 
 class DecoderLayer(tf.keras.layers.Layer):
     """
@@ -490,6 +492,8 @@ def decoder_layer_test():
 ################################################################################
 #@title Question 3: Full Decoder
 ################################################################################
+
+# Full Decoder
 
 class Decoder(tf.keras.layers.Layer):
     """
@@ -635,9 +639,9 @@ class Transformer(tf.keras.Model):
     """
     Complete transformer with an Encoder and a Decoder
     """
-    def __init__(self, num_layers, embedding_dim, num_heads, fully_connected_dim, input_vocab_size,
-               target_vocab_size, max_positional_encoding_input,
-               max_positional_encoding_target, dropout_rate=0.1, layernorm_eps=1e-6):
+    def __init__(self, num_layers, embedding_dim, num_heads, fully_connected_dim, 
+                 input_vocab_size, target_vocab_size, max_positional_encoding_input,
+                 max_positional_encoding_target, dropout_rate=0.1, layernorm_eps=1e-6):
         super(Transformer, self).__init__()
 
         self.encoder = Encoder(num_layers=num_layers,
@@ -660,7 +664,8 @@ class Transformer(tf.keras.Model):
 
         self.final_layer = tf.keras.layers.Dense(target_vocab_size, activation='softmax')
 
-    def call(self, input_sentence, output_sentence, training, enc_padding_mask, look_ahead_mask, dec_padding_mask):
+    def call(self, input_sentence, output_sentence, training, enc_padding_mask, 
+             look_ahead_mask, dec_padding_mask):
         """
         Forward pass for the entire Transformer
         Arguments:
@@ -676,8 +681,9 @@ class Transformer(tf.keras.Model):
             dec_padding_mask (tf.Tensor): Boolean mask for the second multihead attention layer
         Returns:
             final_output (tf.Tensor): The final output of the model
-            attention_weights (dict[str: tf.Tensor]): Dictionary of tensors containing all the attention weights for the decoder
-                                each of shape Tensor of shape (batch_size, num_heads, target_seq_len, input_seq_len)
+            attention_weights (dict[str: tf.Tensor]): Dictionary of tensors containing 
+                                all the attention weights for the decoder each of shape 
+                                Tensor of shape (batch_size, num_heads, target_seq_len, input_seq_len)
 
         """
         ### START CODE HERE ###
@@ -799,7 +805,8 @@ def masked_loss(real, pred):
     # softmax activation:
 
     # Set loss to categorical crossentropy
-    loss_object = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=False, reduction='none')
+    loss_object = tf.keras.losses.SparseCategoricalCrossentropy(
+        from_logits=False, reduction='none')
 
     mask = tf.math.logical_not(tf.math.equal(real, 0))
     loss_ = loss_object(real, pred)
@@ -848,22 +855,30 @@ def train_step(model, inp, tar, train_loss, optimizer):
 
     train_loss(loss)
 
-"""Now you are ready for training the model. But before starting the training, you can also define one more set of functions to perform the inference. Because you are using a custom training loop, you can do whatever you want between the training steps. And wouldnt't it be fun to see after each epoch some examples of how the model performs?
-
-<a name='11'></a>
-## 11 - Summarization
-
-The last thing you will implement is inference. With this, you will be able to produce actual summaries of the documents. You will use a simple method called greedy decoding, which means you will predict one word at a time and append it to the output. You will start with an `[SOS]` token and repeat the word by word inference until the model returns you the `[EOS]` token or until you reach the maximum length of the sentence (you need to add this limit, otherwise a poorly trained model could give you infinite sentences without ever producing the `[EOS]` token.
-
-<a name='ex-5'></a>
-### Exercise 5 - next_word
-Write a helper function that predicts the next word, so you can use it to write the whole sentences. Hint: this is very similar to what happens in the train_step, but you have to set the training of the model to False.
-"""
 
 ################################################################################
 #@title Question 5: Next Word Inference
 ################################################################################
 
+'''
+Before starting the training, you can also define one more set of functions to 
+perform the inference. Because you are using a custom training loop, you can do 
+whatever you want between the training steps. And wouldnt't it be fun to see after 
+each epoch some examples of how the model performs?
+
+The last thing you will implement is inference. With this, you will be able to 
+produce actual summaries of the documents. You will use a simple method called 
+greedy decoding, which means you will predict one word at a time and append it to 
+the output. You will start with an `[SOS]` token and repeat the word by word 
+inference until the model returns you the `[EOS]` token or until you reach the 
+maximum length of the sentence (you need to add this limit, otherwise a poorly 
+trained model could give you infinite sentences without ever producing the 
+`[EOS]` token.
+'''
+
+# Write a helper function that predicts the next word, so you can use it to write 
+# the whole sentences. Hint: this is very similar to what happens in the train_step, 
+# but you have to set the training of the model to False.
 def next_word(model, encoder_input, output):
     """
     Helper function for summarization that uses the model to predict just the next word.
@@ -907,7 +922,8 @@ def next_word(model, encoder_input, output):
 def next_word_test(tokenizer):
     # Take a random sentence as an input
     input_document = tokenizer.texts_to_sequences(["a random sentence"])
-    input_document = tf.keras.preprocessing.sequence.pad_sequences(input_document, maxlen=encoder_maxlen, padding='post', truncating='post')
+    input_document = tf.keras.preprocessing.sequence.pad_sequences(
+        input_document, maxlen=encoder_maxlen, padding='post', truncating='post')
     encoder_input = tf.expand_dims(input_document[0], 0)
 
     # Take the start of sentence token as the only token in the output to predict the next word
@@ -943,7 +959,8 @@ def summarize(model, input_document, tokenizer, encoder_maxlen = 150, decoder_ma
         _ (str): The summary of the input_document
     """
     input_document = tokenizer.texts_to_sequences([input_document])
-    input_document = tf.keras.preprocessing.sequence.pad_sequences(input_document, maxlen=encoder_maxlen, padding='post', truncating='post')
+    input_document = tf.keras.preprocessing.sequence.pad_sequences(
+        input_document, maxlen=encoder_maxlen, padding='post', truncating='post')
     encoder_input = tf.expand_dims(input_document[0], 0)
 
     output = tf.expand_dims([tokenizer.word_index["[SOS]"]], 0)
@@ -957,34 +974,16 @@ def summarize(model, input_document, tokenizer, encoder_maxlen = 150, decoder_ma
 
     return tokenizer.sequences_to_texts(output.numpy())[0]  # since there is just one translated document
 
-"""Now you can already summarize a sentence! But beware, since the model was not yet trained at all, it will just produce nonsense."""
+'''
+Below is a loop that will train your model for 20 epochs. On a GPU, it should take 
+about 20 seconds per epoch (with the exception of the first epoch, which is slightly
+longer).
 
-# training_set_example = 0
+Note that after each epoch you perform the summarization on one of the sentences in 
+the test set and print it out, so you can see how your model is improving.
+'''
 
-# #### Need to edit this
-# train_data, test_data = utils.get_train_test_data('corpus')
-
-# document, summary = utils.preprocess(train_data)
-# document_test, summary_test = utils.preprocess(test_data)
-
-
-# # Check a summary of a document from the training set
-# print('Training set example:')
-# print(document[training_set_example])
-# print('\nHuman written summary:')
-# print(summary[training_set_example])
-# print('\nModel written summary:')
-# summarize(transformer, document[training_set_example])
-
-#@title Train the Model
-
-"""<a name='12'></a>
-# 12 - Train the model
-
-Now you can finally train the model. Below is a loop that will train your model for 20 epochs. note that it should take about 30 seconds per epoch (with the exception of the first few epochs which can take a few minutes each).
-
-Note that after each epoch you perform the summarization on one of the sentences in the test set and print it out, so you can see how your model is improving.
-"""
+# Training the Model
 
 def train_model(document, summary, document_test, summary_test, vocab_size):
 
@@ -1065,10 +1064,9 @@ def train_model(document, summary, document_test, summary_test, vocab_size):
 
     return transformer
 
-"""<a name='13'></a>
-# 13 - Summarize some Sentences!
-
-Below you can see an example of summarization of a sentence from the training set and a sentence from the test set. See if you notice anything interesting about them!
+"""
+Below you can see an example of summarization of a sentence from the training set 
+and a sentence from the test set. See if you notice anything interesting about them!
 """
 def print_transformer_outputs(
     transformer, document, summary, document_test, summary_test, tokenizer, 
@@ -1093,46 +1091,16 @@ def print_transformer_outputs(
     print(summarize(transformer, document_test[test_set_example], tokenizer, 
         encoder_maxlen = encoder_maxlen, decoder_maxlen = decoder_maxlen))
 
-"""
-If you critically examine the output of the model, you can notice a few things:
- - In the training set the model output is (almost) identical to the real output
-   (already after 20 epochs and even more so with more epochs). This might be
-   because the training set is relatively small and the model is relatively big
-   and has thus learned the sentences in the training set by heart (overfitting).
- - While the performance on the training set looks amazing, it is not so good on
-   the test set. The model overfits, but fails to generalize. Again an easy
-   candidate to blame is the small training set and a comparatively large model,
-   but there might be a variety of other factors.
- - Look at the test set example 3 and its summarization. Would you summarize it
-   the same way as it is written here? Sometimes the data may be ambiguous. And
-   the training of **your model can only be as good as your data**.
-
-Here you only use a small dataset, to show that something can be learned in a
-reasonable amount of time in a relatively small environment. Generally, large
-transformers are trained on more than one task and on very large quantities of
-data to achieve superb performance. You will learn more about this in the rest
-of this course.
-
-**Congratulations on finishing this week's assignment!** You did a lot of work and now you should have a better understanding of the Transformers and their building blocks (encoder and decoder) and how they can be used for text summarization. And remember: you dont need to change much to use the same model for a translator, just change the dataset and it should work!
-
-**Keep it up!**
-"""
 
 if __name__ == '__main__':
 
-    # def print_usage():
-    #     print("Exected six argmuents. Got ", len(sys.argv))
-    #     print("Usage: ")
-    #     print("$> python3 assignment6.py <train-sentences-path> <val-sentences-path> <test-sentences-path> \\")
-    #     print("                          <train-labels-path> <val-labels-path> <test-label-path")
-    #     print("")
-    #     print("")
-    #     print("Example: ")
-    #     print("$> python3 assignment6.py data/large/train/sentences.txt data/large/val/sentences.txt data/large/test/sentences.txt \\")
-    #     print("                          data/large/train/labels.txt data/large/val/labels.txt data/large/test/labels.txt")
-    #     return
-
-    data_folder = 'corpus'
+    if sys.argv != 2:
+        print("Expected one argmuent. Got ", len(sys.argv))
+        print("Usage: ")
+        print("$> python3 assignment7.py <data-path> \\")
+        print_usage()
+        return
+    data_folder = sys.argv[1]
 
     # Dataset processing
     encoder_maxlen = 150
@@ -1151,3 +1119,24 @@ if __name__ == '__main__':
     print_transformer_outputs(transformer, document, summary, document_test, 
         summary_test, tokenizer, training_set_example = 0, test_set_example = 3, 
         encoder_maxlen = 150, decoder_maxlen = 50)
+
+    """
+    If you critically examine the output of the model, you can notice a few things:
+     - In the training set the model output is (almost) identical to the real output
+       (already after 20 epochs and even more so with more epochs). This might be
+       because the training set is relatively small and the model is relatively big
+       and has thus learned the sentences in the training set by heart (overfitting).
+     - While the performance on the training set looks amazing, it is not so good on
+       the test set. The model overfits, but fails to generalize. Again an easy
+       candidate to blame is the small training set and a comparatively large model,
+       but there might be a variety of other factors.
+     - Look at the test set example 3 and its summarization. Would you summarize it
+       the same way as it is written here? Sometimes the data may be ambiguous. And
+       the training of **your model can only be as good as your data**.
+
+    Here you only use a small dataset, to show that something can be learned in a
+    reasonable amount of time in a relatively small environment. Generally, large
+    transformers are trained on more than one task and on very large quantities of
+    data to achieve superb performance. You will learn more about this in the rest
+    of this course.
+    """
