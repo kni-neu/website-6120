@@ -992,7 +992,6 @@ def train_model(data_folder):
 
     dataset, tokenizer = preprocess_data(data_folder, encoder_maxlen = 150, decoder_maxlen = 50)
 
-    vocab_size = tokenizer
     vocab_size = len(tokenizer.word_index) + 1
     print(f"Vocab size: {vocab_size}")
 
@@ -1061,8 +1060,7 @@ def train_model(data_folder):
         print('  True summarization:')
         print(f'    {true_summary}')
         print('  Predicted summarization:')
-        print(f'    {summarize(transformer, true_document, tokenizer, 
-            encoder_maxlen = encoder_maxlen, decoder_maxlen = decoder_maxlen)}\n')
+        print(f'    {summarize(transformer, true_document, tokenizer, encoder_maxlen = encoder_maxlen, decoder_maxlen = decoder_maxlen)}\n')
 
     """Plot the loss funtion."""
 
@@ -1070,15 +1068,14 @@ def train_model(data_folder):
     plt.ylabel('Loss')
     plt.xlabel('Epoch')
 
-    return transformer
+    return transformer, document, summary, document_test
 
 """<a name='13'></a>
 # 13 - Summarize some Sentences!
 
 Below you can see an example of summarization of a sentence from the training set and a sentence from the test set. See if you notice anything interesting about them!
 """
-def print_transformer_outputs(document):
-    training_set_example = 0
+def print_transformer_outputs(transformer, document, document_test, training_set_example = 0, test_set_example = 3):
 
     # Check a summary of a document from the training set
     print('Training set example:')
@@ -1087,8 +1084,6 @@ def print_transformer_outputs(document):
     print(summary[training_set_example])
     print('\nModel written summary:')
     print(summarize(transformer, document[training_set_example]))
-
-    test_set_example = 3
 
     # Check a summary of a document from the test set
     print('Test set example:')
@@ -1137,5 +1132,5 @@ if __name__ == '__main__':
     #     print("                          data/large/train/labels.txt data/large/val/labels.txt data/large/test/labels.txt")
     #     return
 
-    transformer = train_model('corpus')
-    print_transformer_outputs()
+    transformer, document, summary, document_test = train_model('corpus')
+    print_transformer_outputs(transformer, document, summary, document_test)
