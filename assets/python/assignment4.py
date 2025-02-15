@@ -66,13 +66,13 @@ def preprocess_data(filename, count_threshold, special_tokens,
     # Get the closed vocabulary using the train data
     vocabulary = get_words_with_nplus_frequency(train_data, count_threshold)
 
-    # For the train data, replace less common words with "<unk>"
+    # For the train data, replace less common words with unknown token
     train_data_replaced = replace_oov_words_by_unk(
-        train_data, vocabulary, unknown_token = "<unk>")
+        train_data, vocabulary, unknown_token = special_tokens.unknown_token)
 
     # For the test data, replace less common words with "<unk>"
     test_data_replaced = replace_oov_words_by_unk(
-        test_data, vocabulary, unknown_token = "<unk>")
+        test_data, vocabulary, unknown_token = special_tokens.unknown_token)
 
     return train_data_replaced, test_data_replaced, vocabulary
 
