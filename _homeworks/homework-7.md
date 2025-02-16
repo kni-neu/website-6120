@@ -38,7 +38,7 @@ This model is slightly different than the ones you have already implemented. Thi
 #### data and starter kits
 -----
 
-The python code you will need to modify and turn in is located [here]({{ site.baseurl }}/assets/python/error.py). There are several functions that you will be modifying. They will be of the form
+The python code you will need to modify and turn in is located [here]({{ site.baseurl }}/assets/python/assignment7.py). There are several functions that you will be modifying. They will be of the form
 
   ```python
   def some_function(argument):
