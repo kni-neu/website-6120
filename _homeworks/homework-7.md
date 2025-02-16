@@ -33,7 +33,6 @@ This model is slightly different than the ones you have already implemented. Thi
 </center>
 <br>
 
-
 -----
 #### data and starter kits
 -----
@@ -77,15 +76,17 @@ Beyond the homework specific files, you can use the following resources. It is i
 
 For any of the options above, you may find more luck in securing GPUs using the more expensive `NVIDIA L4` GPU Type. (Just remember to shut it off right after usage). In Colabs, your only available option is the `T4` GPU. If you hang on to the `T4` for too long, though, Google may shut you out of your account for a while so make sure you close your session. On GPU's, each iteration is around 20 seconds (except for the first iteration, which is 40 seconds). On CPU's, each iteration is around 20 minutes.
 
-* Document templates can be either [Overleaf TeX File](https://www.overleaf.com/read/zfwcfsbbgtxj) or [DOCX File](https://docs.google.com/document/d/1qXipr5Ko2Xpf71GbLzEZXa9khB5w4O2B/edit?usp=sharing&ouid=117230435864186314036&rtpof=true&sd=true). When you've compiled/finished writing, **download the PDF** from Overleaf/Google and upload it to the submission link. 
+Note: all the unit tests in the homework were conducted with `tensorflow version 2.18.0`. There are minor differences in the tensorflow versions. You can check your version with:
+
+```python
+import tensorflow as tf
+tf.__version__
+```
 
 <br>
 <br>
 
 #### submission instructions
 
-Submit your work to [Gradescope](http://gradescope.com). You will need to submit the files:
-
-* **assignment7.py** - your solutions to the questions
-* **assignment7.h5** - parameters to your model
+Submit your Python solution in [**assignment7.py**]({{ site.baseurl }}/assets/python/assignment7.py) to [Gradescope](http://gradescope.com).
 
