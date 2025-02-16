@@ -163,21 +163,21 @@ def scaled_dot_product_attention(q, k, v, mask):
     ### START CODE HERE ###
 
     # Multiply q and k transposed.
-    matmul_qk = tf.matmul(q, k, transpose_b=True)  # (..., seq_len_q, seq_len_k)
+    matmul_qk = None
 
     # scale matmul_qk with the square root of dk
-    dk = tf.cast(tf.shape(k)[-1], tf.float32)
-    scaled_attention_logits = matmul_qk / tf.math.sqrt(dk)
+    dk = tf.cast(None, tf.float32)
+    scaled_attention_logits = None
 
     # add the mask to the scaled tensor.
     if mask is not None:  # Don't replace this None
-        scaled_attention_logits += (1 - mask) * (-1e9)
+        scaled_attention_logits += None
 
     # softmax is normalized on the last axis (seq_len_k) so that the scores add up to 1.
-    attention_weights = tf.nn.softmax(scaled_attention_logits, axis=-1)
+    attention_weights = None
 
     # Multiply the attention weights by v
-    output = tf.matmul(attention_weights, v)
+    output = None
 
     ### END CODE HERE ###
 
@@ -429,37 +429,30 @@ class DecoderLayer(tf.keras.layers.Layer):
         # BLOCK 1
         # calculate self-attention and return attention scores as attn_weights_block1.
         # Dropout will be applied during training (~1 line).
-        mult_attn_out1, attn_weights_block1 = self.mha1(
-            x, x, x, attention_mask=look_ahead_mask, return_attention_scores=True)
+        mult_attn_out1, attn_weights_block1 = None
 
         # apply layer normalization (layernorm1) to the sum of the attention output and the input (~1 line)
-        Q1 = self.layernorm1(mult_attn_out1 + x)
+        Q1 = None
 
         # BLOCK 2
         # calculate self-attention using the Q from the first block and K and V from the encoder output.
         # Dropout will be applied during training
         # Return attention scores as attn_weights_block2 (~1 line)
-        if padding_mask is None:
-            mult_attn_out2, attn_weights_block2 = self.mha2(
-                Q1, enc_output, enc_output, return_attention_scores=True)
-        else:
-            mult_attn_out2, attn_weights_block2 = self.mha2(
-                Q1, enc_output, enc_output, attention_mask=padding_mask, return_attention_scores=True)
+        mult_attn_out2, attn_weights_block2 = None
 
-        # apply layer normalization (layernorm2) to the sum of the attention output and the Q from the first block (~1 line)
-        mult_attn_out2 = self.layernorm2(Q1 + mult_attn_out2)
+        # # apply layer normalization (layernorm2) to the sum of the attention output and the Q from the first block (~1 line)
+        mult_attn_out2 = None
 
         #BLOCK 3
         # pass the output of the second block through a ffn
-        ffn_output = self.ffn(mult_attn_out2)  # (batch_size, target_seq_len, fully_connected_dim)
+        ffn_output = None
 
         # apply a dropout layer to the ffn output
         # use `training=training`
-        ffn_output = self.dropout_ffn(ffn_output, training=training)
+        ffn_output = None
 
         # apply layer normalization (layernorm3) to the sum of the ffn output and the output of the second block
-        out3 = self.layernorm3(mult_attn_out2 + ffn_output)  # (batch_size, target_seq_len, fully_connected_dim)
-
+        out3 = None
         ### END CODE HERE ###
 
         return out3, attn_weights_block1, attn_weights_block2
@@ -543,29 +536,27 @@ class Decoder(tf.keras.layers.Layer):
 
         ### START CODE HERE ###
         # create word embeddings
-        x = self.embedding(x)  # (batch_size, target_seq_len, embedding_dim)
+        x = None
 
         # scale embeddings by multiplying by the square root of their dimension
         x *= tf.math.sqrt(tf.cast(self.embedding_dim, tf.float32))
 
         # add positional encodings to word embedding
-        x += self.pos_encoding[:, :seq_len, :]
+        x += None
 
         # apply a dropout layer to x
         # use `training=training`
-        x = self.dropout(x, training=training)
+        x = None
 
         # use a for loop to pass x through a stack of decoder layers and update attention_weights (~4 lines total)
         for i in range(self.num_layers):
             # pass x and the encoder output through a stack of decoder layers and save the attention weights
             # of block 1 and 2 (~1 line)
-            x, block1, block2 = self.dec_layers[i](
-                x, enc_output, training = training,
-                look_ahead_mask = look_ahead_mask, padding_mask = padding_mask)
+            x, block1, block2 = None
 
             #update attention_weights dictionary with the attention weights of block 1 and block 2
-            attention_weights['decoder_layer{}_block1_self_att'.format(i+1)] = block1
-            attention_weights['decoder_layer{}_block2_decenc_att'.format(i+1)] = block2
+            attention_weights['decoder_layer{}_block1_self_att'.format(i+1)] = None
+            attention_weights['decoder_layer{}_block2_decenc_att'.format(i+1)] = None
         ### END CODE HERE ###
 
         # x.shape == (batch_size, target_seq_len, fully_connected_dim)
@@ -688,17 +679,14 @@ class Transformer(tf.keras.Model):
         """
         ### START CODE HERE ###
         # call self.encoder with the appropriate arguments to get the encoder output
-        enc_output = self.encoder(input_sentence, training = training,
-                                  mask = enc_padding_mask)
+        enc_output = None
 
         # call self.decoder with the appropriate arguments to get the decoder output
         # dec_output.shape == (batch_size, tar_seq_len, fully_connected_dim)
-        dec_output, attention_weights = self.decoder(
-            output_sentence, enc_output, training = training,
-            look_ahead_mask = look_ahead_mask, padding_mask = dec_padding_mask)
+        dec_output, attention_weights = None
 
         # pass decoder output through a linear layer and softmax (~1 line)
-        final_output = self.final_layer(dec_output)
+        final_output = None
         ### END CODE HERE ###
 
         return final_output, attention_weights
@@ -890,26 +878,21 @@ def next_word(model, encoder_input, output):
     """
     ### START CODE HERE ###
     # Create a padding mask for the input (encoder)
-    enc_padding_mask = create_padding_mask(encoder_input)
+    enc_padding_mask = None
     # Create a look-ahead mask for the output
-    look_ahead_mask = create_look_ahead_mask(tf.shape(output)[1])
+    look_ahead_mask = None
     # Create a padding mask for the input (decoder)
-    dec_padding_mask = create_padding_mask(encoder_input)
+    dec_padding_mask = None
 
     # Run the prediction of the next word with the transformer model
-    predictions, attention_weights = model(
-        encoder_input,
-        output,
-        training = False,
-        enc_padding_mask = enc_padding_mask,
-        look_ahead_mask = look_ahead_mask,
-        dec_padding_mask = dec_padding_mask
+    predictions, attention_weights = None(
+        None,
+        None,
+        None,
+        None,
+        None,
+        None
     )
-    # Select the last word from the seq_len dimension
-    predictions = predictions[: ,-1:, :]
-    # Get the predicted id: you can choose the maximum score prediction
-    predicted_id = tf.cast(tf.argmax(predictions, axis=-1), tf.int32)
-
     ### END CODE HERE ###
 
     predictions = predictions[: ,-1:, :]
