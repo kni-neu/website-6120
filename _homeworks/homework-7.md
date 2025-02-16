@@ -56,6 +56,7 @@ You will need to edit between `START CODE HERE` and `END CODE HERE`.
 In addition, you will need the data. There are a variety of ways you can download them onto your workstations. On [GCP VMs](https://console.cloud.google.com/compute/instances), you can download with the bash command `wget`. If you wish to download inside of a notebook, you can type in a shell command by prepending each of the following commands with `!`. The full package can be downloaded with
 
   ```bash
+  wget -nc https://course.ccs.neu.edu/cs6120s25/assets/python/assignment7.py
   wget -nc https://course.ccs.neu.edu/cs6120s25/data/samsum/utils.py
   wget -nc https://course.ccs.neu.edu/cs6120s25/assets/python/assignment7_unittests.py
   wget -nc https://course.ccs.neu.edu/cs6120s25/data/samsum/corpus.tar
@@ -64,6 +65,8 @@ In addition, you will need the data. There are a variety of ways you can downloa
   ```
 
 This set of files contains:
+
+* **Your Code Template**: found in [`assignment7.py`](https://course.ccs.neu.edu/cs6120s25/assets/python/assignment7.py), which is as described above.
 
 * **The SAMsum dataset**: around 16k paired conversations with their human-generated summaries, and can be found [here](https://course.ccs.neu.edu/cs6120s25/data/samsum/). Both the samples and their annotations are created by linguists, reflecting real-life messenger conversations: varying style, formality, slang, emojis, and general language patterns. 
 
@@ -77,7 +80,7 @@ Beyond the homework specific files, you can use the following resources. It is i
   * [Google Cloud Workbench JupyterLab](https://console.cloud.google.com/vertex-ai/workbench): remember to shutdown / delete if using GPU's
   * [Google Colabs](https://colab.research.google.com/): remember to close your session if using the T4 GPU.
 
-For any of the options above, you may find more luck in securing GPUs using the more expensive `NVIDIA L4` GPU Type. (Just remember to shut it off right after usage). In Colabs, your only available option is the `T4` GPU. If you hang on to the `T4` for too long, though, Google may shut you out of your account for a while so make sure you close your session. On GPU's, each iteration is around 20 seconds (except for the first iteration, which is 40 seconds). On CPU's, each iteration is around 20 minutes.
+For any of the options above, you may find more luck in securing GPUs using the more expensive `NVIDIA L4` GPU Type. (Just remember to shut it off right after usage). You can check whether or not CUDA and Tensorflow are appropriately installed with `nvidia-smi` and `tf.config.list_physical_devices('GPU')`. In Colabs, your only available option is the `T4` GPU. If you hang on to the `T4` for too long, though, Google may shut you out of your account for a while so make sure you close your session. On GPU's, each iteration is around 20 seconds (except for the first iteration, which is 40 seconds). On CPU's, each iteration is around 20 minutes.
 
 Note: all the unit tests in the homework were conducted with `tensorflow version 2.18.0`. There are minor differences in the tensorflow versions. You can check your version with:
 
