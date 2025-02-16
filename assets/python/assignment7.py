@@ -6,7 +6,6 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 import time
 import utils
-import w2_unittest
 import assignment7_unittests
 
 tf.keras.utils.set_random_seed(10)
@@ -1014,12 +1013,13 @@ def print_transformer_outputs(
 
 if __name__ == '__main__':
 
-    if sys.argv != 2:
-        print("Expected one argmuent. Got ", len(sys.argv))
+    if len(sys.argv) != 2:
+        print("Expected one argmuent. Got ", len(sys.argv)-1)
+        print("")
         print("Usage: ")
-        print("$> python3 assignment7.py <data-path> \\")
-        print_usage()
-        return
+        print("$> python3 assignment7.py <data-path>")
+        sys.exit(1)
+
     data_folder = sys.argv[1]
 
     # Dataset processing
