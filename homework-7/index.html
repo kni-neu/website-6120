@@ -180,7 +180,8 @@
 
 <p>In addition, you will need the data. There are a variety of ways you can download them onto your workstations. On <a href="https://console.cloud.google.com/compute/instances" rel="external nofollow noopener" target="_blank">GCP VMs</a>, you can download with the bash command <code class="language-plaintext highlighter-rouge">wget</code>. If you wish to download inside of a notebook, you can type in a shell command by prepending each of the following commands with <code class="language-plaintext highlighter-rouge">!</code>. The full package can be downloaded with</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  wget <span class="nt">-nc</span> https://course.ccs.neu.edu/cs6120s25/data/samsum/utils.py
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  wget <span class="nt">-nc</span> https://course.ccs.neu.edu/cs6120s25/assets/python/assignment7.py
+  wget <span class="nt">-nc</span> https://course.ccs.neu.edu/cs6120s25/data/samsum/utils.py
   wget <span class="nt">-nc</span> https://course.ccs.neu.edu/cs6120s25/assets/python/assignment7_unittests.py
   wget <span class="nt">-nc</span> https://course.ccs.neu.edu/cs6120s25/data/samsum/corpus.tar
   <span class="nb">tar</span> <span class="nt">-xvf</span> corpus.tar
@@ -190,6 +191,9 @@
 <p>This set of files contains:</p>
 
 <ul>
+  <li>
+    <p><strong>Your Code Template</strong>: found in <a href="https://course.ccs.neu.edu/cs6120s25/assets/python/assignment7.py"><code class="language-plaintext highlighter-rouge">assignment7.py</code></a>, which is as described above.</p>
+  </li>
   <li>
     <p><strong>The SAMsum dataset</strong>: around 16k paired conversations with their human-generated summaries, and can be found <a href="https://course.ccs.neu.edu/cs6120s25/data/samsum/">here</a>. Both the samples and their annotations are created by linguists, reflecting real-life messenger conversations: varying style, formality, slang, emojis, and general language patterns.</p>
   </li>
@@ -212,7 +216,7 @@
 <a href="https://colab.research.google.com/" rel="external nofollow noopener" target="_blank">Google Colabs</a>: remember to close your session if using the T4 GPU.</li>
 </ul>
 
-<p>For any of the options above, you may find more luck in securing GPUs using the more expensive <code class="language-plaintext highlighter-rouge">NVIDIA L4</code> GPU Type. (Just remember to shut it off right after usage). In Colabs, your only available option is the <code class="language-plaintext highlighter-rouge">T4</code> GPU. If you hang on to the <code class="language-plaintext highlighter-rouge">T4</code> for too long, though, Google may shut you out of your account for a while so make sure you close your session. On GPU’s, each iteration is around 20 seconds (except for the first iteration, which is 40 seconds). On CPU’s, each iteration is around 20 minutes.</p>
+<p>For any of the options above, you may find more luck in securing GPUs using the more expensive <code class="language-plaintext highlighter-rouge">NVIDIA L4</code> GPU Type. (Just remember to shut it off right after usage). You can check whether or not CUDA and Tensorflow are appropriately installed with <code class="language-plaintext highlighter-rouge">nvidia-smi</code> and <code class="language-plaintext highlighter-rouge">tf.config.list_physical_devices('GPU')</code>. In Colabs, your only available option is the <code class="language-plaintext highlighter-rouge">T4</code> GPU. If you hang on to the <code class="language-plaintext highlighter-rouge">T4</code> for too long, though, Google may shut you out of your account for a while so make sure you close your session. On GPU’s, each iteration is around 20 seconds (except for the first iteration, which is 40 seconds). On CPU’s, each iteration is around 20 minutes.</p>
 
 <p>Note: all the unit tests in the homework were conducted with <code class="language-plaintext highlighter-rouge">tensorflow version 2.18.0</code>. There are minor differences in the tensorflow versions. You can check your version with:</p>
 
