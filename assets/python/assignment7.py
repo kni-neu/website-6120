@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import time
 import utils
 import w2_unittest
+import assignment7_unittests
 
 tf.keras.utils.set_random_seed(10)
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
@@ -17,7 +18,7 @@ website. These include utility functions, assumed to be in the same folder as
 where this file is being run.
 
 wget -nc https://course.ccs.neu.edu/cs6120s25/data/samsum/utils.py
-wget -nc https://course.ccs.neu.edu/cs6120s25/assets/python/assignment7_unittests.py -O w2_unittest.py
+wget -nc https://course.ccs.neu.edu/cs6120s25/assets/python/assignment7_unittests.py
 wget -nc https://course.ccs.neu.edu/cs6120s25/data/samsum/corpus.tar
 tar -xvf corpus.tar
 pip install dlai_grader
@@ -194,19 +195,12 @@ def scaled_dot_product_attention_test():
     ou, atw = scaled_dot_product_attention(q, k, v, mask)
     ou = np.around(ou, decimals=2)
     atw = np.around(atw, decimals=2)
+    
+    assert np.allclose(ou, np.array([[[1., 0.62], [0.62, 0.62], [0.74, 0.31]]]))
+    assert np.allclose(atw, np.array( [[[0., 0.38, 0., 0.23, 0.38], 
+     [0.38, 0., 0., 0.23, 0.38], [0.26, 0.43, 0., 0.16, 0.16]]]))
 
-    print(f"Output:\n {ou}")
-    print(f"\nAttention weigths:\n {atw}")
-
-    print("Expected Output: ")
-    print("[[[1.   0.62]\n",
-          "[0.62 0.62]\n",
-          "[0.74 0.31]]]\n")
-
-    print("Attention weigths:")
-    print("[[[0.   0.38 0.   0.23 0.38]\n",
-          "[0.38 0.   0.   0.23 0.38]\n",
-          "[0.26 0.43 0.   0.16 0.16]]]")
+    print("\033[92m scaled_dot_product_attention: All tests passed!")
 
 ################################################################################
 #@title Provided Functions: Part II
@@ -457,12 +451,11 @@ class DecoderLayer(tf.keras.layers.Layer):
 
         return out3, attn_weights_block1, attn_weights_block2
 
-# Test your function!
-
 def decoder_layer_test():
 
     key_dim = 12
     n_heads = 16
+    SEED = 100
 
     decoderLayer_test = DecoderLayer(embedding_dim=key_dim, num_heads=n_heads, fully_connected_dim=32)
 
@@ -473,13 +466,13 @@ def decoder_layer_test():
     out, attn_w_b1, attn_w_b2 = decoderLayer_test(
         q, encoder_test_output, training = False, look_ahead_mask = look_ahead_mask, padding_mask = None)
 
-    print(f"Using embedding_dim={key_dim} and num_heads={n_heads}:\n")
-    print(f"q has shape:{q.shape}")
-    print(f"Output of encoder has shape:{encoder_test_output.shape}\n")
+    assert out.shape == (1, 15, key_dim)
+    assert attn_w_b1.shape == (1, n_heads, 15, 15)
+    assert attn_w_b2.shape == (1, n_heads, 15, 7)
 
-    print(f"Output of decoder layer has shape:{out.shape}")
-    print(f"Att Weights Block 1 has shape:{attn_w_b1.shape}")
-    print(f"Att Weights Block 2 has shape:{attn_w_b2.shape}")
+    print("\033[92m decoder_layer_test: Preliminary shapes OK!")
+
+    assignment7_unittests.test_decoderlayer(DecoderLayer, create_look_ahead_mask)
 
 
 ################################################################################
@@ -562,8 +555,6 @@ class Decoder(tf.keras.layers.Layer):
         # x.shape == (batch_size, target_seq_len, fully_connected_dim)
         return x, attention_weights
 
-# Test your function!
-
 def decoder_test():
     n_layers = 5
     emb_d = 13
@@ -583,44 +574,26 @@ def decoder_test():
     outd, att_weights = decoder_test(
         x, encoder_test_output, training = False, look_ahead_mask = look_ahead_mask, padding_mask = None)
 
+    expected_output = {"decoder_layer1_block1_self_att": (3, 17, 4, 4),
+                       "decoder_layer1_block2_decenc_att": (3, 17, 4, 7),
+                       "decoder_layer2_block1_self_att": (3, 17, 4, 4),
+                       "decoder_layer2_block2_decenc_att": (3, 17, 4, 7),
+                       "decoder_layer3_block1_self_att": (3, 17, 4, 4),
+                       "decoder_layer3_block2_decenc_att": (3, 17, 4, 7),
+                       "decoder_layer4_block1_self_att": (3, 17, 4, 4),
+                       "decoder_layer4_block2_decenc_att": (3, 17, 4, 7),
+                       "decoder_layer5_block1_self_att": (3, 17, 4, 4),
+                       "decoder_layer5_block2_decenc_att": (3, 17, 4, 7)}
 
-    print("-----------------------------------------------")
-    print("Generated Output:")
-    print("")
-    print(f"Using num_layers={n_layers}, embedding_dim={emb_d} and num_heads={n_heads}:\n")
-    print(f"x has shape:{x.shape}")
-    print(f"Output of encoder has shape:{encoder_test_output.shape}\n")
-
-    print(f"Output of decoder has shape:{outd.shape}\n")
-    print("Attention weights:")
+    assert x.shape == (3, 4)
+    assert encoder_test_output.shape == (3, 7, 9)
+    assert outd.shape == (3, 4, 13)
     for name, tensor in att_weights.items():
-        print(f"{name} has shape:{tensor.shape}")
+        assert tensor.shape == expected_output[name]
 
-    print("")
-    print("-----------------------------------------------")
-    print("Expected Output:")
-    print("")
-    expected_output="""
-    Using num_layers=5, embedding_dim=13 and num_heads=17:
+    print("\033[92m decoder_test: Preliminary shapes OK!")
 
-    x has shape:(3, 4)
-    Output of encoder has shape:(3, 7, 9)
-
-    Output of decoder has shape:(3, 4, 13)
-
-    Attention weights:
-    decoder_layer1_block1_self_att has shape:(3, 17, 4, 4)
-    decoder_layer1_block2_decenc_att has shape:(3, 17, 4, 7)
-    decoder_layer2_block1_self_att has shape:(3, 17, 4, 4)
-    decoder_layer2_block2_decenc_att has shape:(3, 17, 4, 7)
-    decoder_layer3_block1_self_att has shape:(3, 17, 4, 4)
-    decoder_layer3_block2_decenc_att has shape:(3, 17, 4, 7)
-    decoder_layer4_block1_self_att has shape:(3, 17, 4, 4)
-    decoder_layer4_block2_decenc_att has shape:(3, 17, 4, 7)
-    decoder_layer5_block1_self_att has shape:(3, 17, 4, 4)
-    decoder_layer5_block2_decenc_att has shape:(3, 17, 4, 7)
-    """
-    print(expected_output)
+    assignment7_unittests.test_decoder(Decoder, create_look_ahead_mask, create_padding_mask)
 
 ################################################################################
 #@title Question 4: Transformer
@@ -691,7 +664,6 @@ class Transformer(tf.keras.Model):
 
         return final_output, attention_weights
 
-# Test your function!
 def transformer_test():
     n_layers = 3
     emb_d = 13
@@ -763,7 +735,6 @@ def transformer_test():
     decoder_layer3_block2_decenc_att has shape:(1, 17, 7, 7)
     """
     print(expected_output)
-
 
 ################################################################################
 #@title Provided Functions: Part III
@@ -843,30 +814,10 @@ def train_step(model, inp, tar, train_loss, optimizer):
 
     train_loss(loss)
 
-
 ################################################################################
 #@title Question 5: Next Word Inference
 ################################################################################
 
-'''
-Before starting the training, you can also define one more set of functions to 
-perform the inference. Because you are using a custom training loop, you can do 
-whatever you want between the training steps. And wouldnt't it be fun to see after 
-each epoch some examples of how the model performs?
-
-The last thing you will implement is inference. With this, you will be able to 
-produce actual summaries of the documents. You will use a simple method called 
-greedy decoding, which means you will predict one word at a time and append it to 
-the output. You will start with an `[SOS]` token and repeat the word by word 
-inference until the model returns you the `[EOS]` token or until you reach the 
-maximum length of the sentence (you need to add this limit, otherwise a poorly 
-trained model could give you infinite sentences without ever producing the 
-`[EOS]` token.
-'''
-
-# Write a helper function that predicts the next word, so you can use it to write 
-# the whole sentences. Hint: this is very similar to what happens in the train_step, 
-# but you have to set the training of the model to False.
 def next_word(model, encoder_input, output):
     """
     Helper function for summarization that uses the model to predict just the next word.
@@ -900,19 +851,39 @@ def next_word(model, encoder_input, output):
 
     return predicted_id
 
-"""Check if your function works."""
+def next_word_test():
 
-def next_word_test(tokenizer):
+    SEED = 72
+
+    # Make some dummy data
+    sample_data = ["[SOS] amanda: i baked  cookies. do you want some?  jerry: sure!  amanda: i'll bring you tomorrow :-) [EOS]",
+                  "[SOS] olivia: who are you voting for in this election?   oliver: liberals as always.  olivia: me too!!  oliver: great [EOS]",
+                  "[SOS] you will write random things. [EOS]",
+                  "[SOS] can a rabbit eat a duck? [EOS]",
+                  "[SOS] this is a random sentence in a series of sentences. [EOS]",
+                  "[SOS] are there interesting words that i can use? [EOS]",
+                  "[SOS] a sentence is a random assortment of words. [EOS]",
+                  "[SOS] a random sentence can take you by surprise? [EOS]"]
+
+    # Create a tokenizer based on dummy data
+    filters = '!"#$%&()*+,-./:;<=>?@\\^_`{|}~\t\n'
+    oov_token = '[UNK]'
+    tokenizer = tf.keras.preprocessing.text.Tokenizer(filters=filters, oov_token=oov_token, lower=False)
+    tokenizer.fit_on_texts(sample_data)
+    vocab_size = len(tokenizer.word_index) + 1
+
     # Take a random sentence as an input
     input_document = tokenizer.texts_to_sequences(["a random sentence"])
     input_document = tf.keras.preprocessing.sequence.pad_sequences(
-        input_document, maxlen=encoder_maxlen, padding='post', truncating='post')
+        input_document, maxlen=50, padding='post', truncating='post')
     encoder_input = tf.expand_dims(input_document[0], 0)
+
+    # Initialize the model
+    tf.keras.utils.set_random_seed(SEED)
+    transformer = Transformer(2, 128, 2, 128, vocab_size, vocab_size, 256, 256)
 
     # Take the start of sentence token as the only token in the output to predict the next word
     output = tf.expand_dims([tokenizer.word_index["[SOS]"]], 0)
-
-    print(transformer)
 
     # predict the next word with your function
     predicted_token = next_word(transformer, encoder_input, output)
@@ -921,17 +892,14 @@ def next_word_test(tokenizer):
     predicted_word = tokenizer.sequences_to_texts(predicted_token.numpy())[0]
     print(f"Predicted word: {predicted_word}")
 
-    """##### __Expected Output__
-
-    ```
-    Predicted token: [[14859]]
-    Predicted word: masses
-    ```
-    """
+    # assert predicted_token == [[14859]] and predicted_word == "masses"
+    assignment7_unittests.test_next_word(next_word, transformer, encoder_input, output)
 
 ################################################################################
 #@title Provided Functions: Part IV
 ################################################################################
+
+# Summarize an input document with a model
 
 def summarize(model, input_document, tokenizer, encoder_maxlen = 150, decoder_maxlen = 50):
     """
@@ -956,15 +924,6 @@ def summarize(model, input_document, tokenizer, encoder_maxlen = 150, decoder_ma
             break
 
     return tokenizer.sequences_to_texts(output.numpy())[0]  # since there is just one translated document
-
-'''
-Below is a loop that will train your model for 20 epochs. On a GPU, it should take 
-about 20 seconds per epoch (with the exception of the first epoch, which is slightly
-longer).
-
-Note that after each epoch you perform the summarization on one of the sentences in 
-the test set and print it out, so you can see how your model is improving.
-'''
 
 # Training the Model
 
@@ -1074,7 +1033,6 @@ def print_transformer_outputs(
     print(summarize(transformer, document_test[test_set_example], tokenizer, 
         encoder_maxlen = encoder_maxlen, decoder_maxlen = decoder_maxlen))
 
-
 if __name__ == '__main__':
 
     if sys.argv != 2:
@@ -1103,23 +1061,3 @@ if __name__ == '__main__':
         summary_test, tokenizer, training_set_example = 0, test_set_example = 3, 
         encoder_maxlen = 150, decoder_maxlen = 50)
 
-    """
-    If you critically examine the output of the model, you can notice a few things:
-     - In the training set the model output is (almost) identical to the real output
-       (already after 20 epochs and even more so with more epochs). This might be
-       because the training set is relatively small and the model is relatively big
-       and has thus learned the sentences in the training set by heart (overfitting).
-     - While the performance on the training set looks amazing, it is not so good on
-       the test set. The model overfits, but fails to generalize. Again an easy
-       candidate to blame is the small training set and a comparatively large model,
-       but there might be a variety of other factors.
-     - Look at the test set example 3 and its summarization. Would you summarize it
-       the same way as it is written here? Sometimes the data may be ambiguous. And
-       the training of **your model can only be as good as your data**.
-
-    Here you only use a small dataset, to show that something can be learned in a
-    reasonable amount of time in a relatively small environment. Generally, large
-    transformers are trained on more than one task and on very large quantities of
-    data to achieve superb performance. You will learn more about this in the rest
-    of this course.
-    """

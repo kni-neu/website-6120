@@ -141,7 +141,7 @@ def test_encoderlayer(target):
                                   [ 0.11547165,  0.8349443,  -1.6664022,   0.71598625,],
                                   [ 0.40035784,  0.8880369,  -1.6980288,   0.40963417,]]
         
-        encoded = encoder_layer1(q, True, np.array([[1, 0, 1]]))
+        encoded = encoder_layer1(q, training = True, mask = np.array([[1, 0, 1]]))
         
         cases = []
         
@@ -170,7 +170,7 @@ def test_encoderlayer(target):
             t.got = encoded.numpy()
         cases.append(t)            
 
-        encoded = encoder_layer1(q, True, np.array([[1, 0, 1]]))
+        encoded = encoder_layer1(q, training = True, mask = np.array([[1, 0, 1]]))
 
         t = test_case()
         if not np.allclose(encoded.numpy(), encoded_training_false):
@@ -369,18 +369,18 @@ def test_decoderlayer(target, create_look_ahead_mask):
         cases.append(t)   
     
         t = test_case()
-        if not np.allclose(attn_w_b2[0, 0, 1], [0.34003818, 0.32569194, 0.33426988]):
+        if not np.allclose(attn_w_b2[0, 0, 1], [0.25345072, 0.29631895, 0.4502304]):
             t.failed = True
             t.msg = "Wrong values in 'attn_w_b2'. Check the call to self.mha2"
-            t.want = [0.34003818, 0.32569194, 0.33426988]
+            t.want = [0.25345072, 0.29631895, 0.4502304]
             t.got = attn_w_b2[0, 0, 1]
         cases.append(t)      
     
         t = test_case()
-        if not np.allclose(out[0, 0], [1.1810006, -1.5600019, 0.41289005, -0.03388882]):
+        if not np.allclose(out[0, 0], [ 1.4810526, -1.0550661, -0.7618927, 0.33590612]):
             t.failed = True
             t.msg = "Wrong values in 'out'"
-            t.want = [1.1810006, -1.5600019, 0.41289005, -0.03388882]
+            t.want = [ 1.4810526, -1.0550661, -0.7618927, 0.33590612]
             t.got = out[0, 0]
         cases.append(t)  
         
@@ -390,10 +390,10 @@ def test_decoderlayer(target, create_look_ahead_mask):
             look_ahead_mask=look_ahead_mask, padding_mask=padding_mask)
 
         t = test_case()
-        if not np.allclose(out[0, 0], [1.1297308, -1.6106694, 0.32352272, 0.15741566]):
+        if not np.allclose(out[0, 0], [1.4630507, -0.90135306, -0.9476653, 0.3859676]):
             t.failed = True
             t.msg = "Wrong values in 'out' when we mask the last word. Are you passing the padding_mask to the inner functions?"
-            t.want = [1.1297308, -1.6106694, 0.32352272, 0.15741566]
+            t.want = [1.4630507, -0.90135306, -0.9476653, 0.3859676]
             t.got = out[0, 0]
         cases.append(t)  
         
@@ -464,10 +464,10 @@ def test_decoder(target, create_look_ahead_mask, create_padding_mask):
         cases.append(t)  
 
         t = test_case()
-        if not np.allclose(outd[1, 1], [1.6461557, -0.7657816, -0.04255769, -0.8378165]):
+        if not np.allclose(outd[1, 1], [1.1661547, 0.59689665, -1.485515, -0.27753633]):
             t.failed = True
             t.msg = "Wrong values in x"
-            t.want = [1.6461557, -0.7657816, -0.04255769, -0.8378165]
+            t.want = [1.1661547, 0.59689665, -1.485515, -0.27753633]
             t.got = outd[1, 1]
         cases.append(t)   
 
@@ -502,30 +502,30 @@ def test_decoder(target, create_look_ahead_mask, create_padding_mask):
         cases.append(t)  
         
         t = test_case()
-        if not np.allclose(att_weights[keys[0]][0, 0, 1], [0.51728565, 0.48271435, 0.]):
+        if not np.allclose(att_weights[keys[0]][0, 0, 1], [0.5049869, 0.49501312, 0.]):
             t.failed = True
             t.msg = f"Wrong values in att_weights[{keys[0]}]"
-            t.want = [0.51728565, 0.48271435, 0.]
+            t.want = [0.5049869, 0.49501312, 0.]
             t.got = att_weights[keys[0]][0, 0, 1]
         cases.append(t)
         
         outd, att_weights = decoderk(x, encoderq_output, training = True, look_ahead_mask = look_ahead_mask, padding_mask = None)
         
         t = test_case()
-        if not np.allclose(outd[1, 1], [1.6286429, -0.7686589, 0.00983591, -0.86982]):
+        if not np.allclose(outd[1, 1], [0.0568608, -1.075447, -0.5680686, 1.5866548]):
             t.failed = True
             t.msg = "Wrong values in outd when training=True"
-            t.want = [1.6286429, -0.7686589, 0.00983591, -0.86982]
+            t.want = [0.0568608, -1.075447, -0.5680686, 1.5866548]
             t.got = outd[1, 1]
         cases.append(t)
         
         outd, att_weights = decoderk(x, encoderq_output, training = True, look_ahead_mask = look_ahead_mask, padding_mask = create_padding_mask(x))
         
         t = test_case()
-        if not np.allclose(outd[1, 1], [1.390952, 0.2794097, -0.2910638, -1.3792979]):
+        if not np.allclose(outd[1, 1], [0.18430439, -0.89583296, -0.8505463, 1.5620749]):
             t.failed = True
             t.msg = "Wrong values in outd when training=True and use padding mask"
-            t.want = [1.390952, 0.2794097, -0.2910638, -1.3792979]
+            t.want = [0.18430439, -0.89583296, -0.8505463, 1.5620749]
             t.got = outd[1, 1]
         cases.append(t)
 
@@ -596,7 +596,7 @@ def test_transformer(target, create_look_ahead_mask, create_padding_mask):
             t.got = tf.shape(summary).numpy()
         cases.append(t)
 
-        summary_example_1 = [0.04855702, 0.03407773, 0.01294427, 0.05483282, 0.03182802, 0.01409046, 0.02963346, 0.04003222]
+        summary_example_1 = [0.02845942, 0.03648348, 0.02448654, 0.02044249, 0.0313297, 0.03174436, 0.01480646, 0.03073534]
         
         t = test_case()
         if not np.allclose(summary[0, 0, 0:8], summary_example_1):
@@ -646,7 +646,7 @@ def test_transformer(target, create_look_ahead_mask, create_padding_mask):
         cases.append(t)
         
         t = test_case()
-        if not np.allclose(weights[keys[0]][0, 0, 1], [0.481374, 0.51862603, 0.0, 0.0, 0.0]):
+        if not np.allclose(weights[keys[0]][0, 0, 1], [0.48929223, 0.5107078, 0., 0., 0.]):
             t.failed = True
             t.msg = f"Wrong values in weights[{keys[0]}]"
             t.want = [0.481374, 0.51862603, 0.0, 0.0, 0.0]
@@ -662,7 +662,7 @@ def test_transformer(target, create_look_ahead_mask, create_padding_mask):
             look_ahead_mask = look_ahead_mask,
             dec_padding_mask = dec_padding_mask)
         
-        summary_example_2 = [0.05015587, 0.02734077, 0.01308834, 0.04876801, 0.03092919, 0.02046618, 0.02923589, 0.03272967]
+        summary_example_2 = [0.02847256, 0.03805957, 0.0252011, 0.02128581, 0.03038325, 0.03146167, 0.01493196, 0.03245409]
 
         t = test_case()
         if not np.allclose(summary[0, 0, 0:8], summary_example_2):

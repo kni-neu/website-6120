@@ -210,23 +210,18 @@
 
 <p>For any of the options above, you may find more luck in securing GPUs using the more expensive <code class="language-plaintext highlighter-rouge">NVIDIA L4</code> GPU Type. (Just remember to shut it off right after usage). In Colabs, your only available option is the <code class="language-plaintext highlighter-rouge">T4</code> GPU. If you hang on to the <code class="language-plaintext highlighter-rouge">T4</code> for too long, though, Google may shut you out of your account for a while so make sure you close your session. On GPU’s, each iteration is around 20 seconds (except for the first iteration, which is 40 seconds). On CPU’s, each iteration is around 20 minutes.</p>
 
-<ul>
-  <li>Document templates can be either <a href="https://www.overleaf.com/read/zfwcfsbbgtxj" rel="external nofollow noopener" target="_blank">Overleaf TeX File</a> or <a href="https://docs.google.com/document/d/1qXipr5Ko2Xpf71GbLzEZXa9khB5w4O2B/edit?usp=sharing&amp;ouid=117230435864186314036&amp;rtpof=true&amp;sd=true" rel="external nofollow noopener" target="_blank">DOCX File</a>. When you’ve compiled/finished writing, <strong>download the PDF</strong> from Overleaf/Google and upload it to the submission link.</li>
-</ul>
+<p>Note: all the unit tests in the homework were conducted with <code class="language-plaintext highlighter-rouge">tensorflow version 2.18.0</code>. There are minor differences in the tensorflow versions. You can check your version with:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">tensorflow</span> <span class="k">as</span> <span class="n">tf</span>
+<span class="n">tf</span><span class="p">.</span><span class="n">__version__</span>
+</code></pre></div></div>
 
 <p><br>
 <br></p>
 
 <h4 id="submission-instructions">submission instructions</h4>
 
-<p>Submit your work to <a href="http://gradescope.com" rel="external nofollow noopener" target="_blank">Gradescope</a>. You will need to submit the files:</p>
-
-<ul>
-  <li>
-<strong>assignment7.py</strong> - your solutions to the questions</li>
-  <li>
-<strong>assignment7.h5</strong> - parameters to your model</li>
-</ul>
+<p>Submit your Python solution in <a href="/cs6120s25/assets/python/assignment7.py"><strong>assignment7.py</strong></a> to <a href="http://gradescope.com" rel="external nofollow noopener" target="_blank">Gradescope</a>.</p>
 
 
           </article>
