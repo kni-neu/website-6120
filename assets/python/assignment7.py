@@ -486,7 +486,6 @@ class Decoder(tf.keras.layers.Layer):
     The entire Encoder starts by passing the target input to an embedding layer
     and using positional encoding to then pass the output through a stack of
     decoder Layers
-
     """
     def __init__(self, num_layers, embedding_dim, num_heads, fully_connected_dim, target_vocab_size,
                maximum_position_encoding, dropout_rate=0.1, layernorm_eps=1e-6):
@@ -648,7 +647,6 @@ class Transformer(tf.keras.Model):
             attention_weights (dict[str: tf.Tensor]): Dictionary of tensors containing 
                                 all the attention weights for the decoder each of shape 
                                 Tensor of shape (batch_size, num_heads, target_seq_len, input_seq_len)
-
         """
         ### START CODE HERE ###
         # call self.encoder with the appropriate arguments to get the encoder output
@@ -665,6 +663,7 @@ class Transformer(tf.keras.Model):
         return final_output, attention_weights
 
 def transformer_test():
+
     n_layers = 3
     emb_d = 13
     n_heads = 17
@@ -700,41 +699,23 @@ def transformer_test():
         look_ahead_mask = look_ahead_mask,
         dec_padding_mask = dec_padding_mask
     )
+   
+    expected_output = {"decoder_layer1_block1_self_att": (1, 17, 7, 7),
+                       "decoder_layer1_block2_decenc_att": (1, 17, 7, 7),
+                       "decoder_layer2_block1_self_att": (1, 17, 7, 7),
+                       "decoder_layer2_block2_decenc_att": (1, 17, 7, 7),
+                       "decoder_layer3_block1_self_att": (1, 17, 7, 7),
+                       "decoder_layer3_block2_decenc_att": (1, 17, 7, 7)}
 
-    print("-----------------------------------------------")
-    print("Generated Output:")
-    print("")
-    print(f"Using num_layers={n_layers}, target_vocab_size={target_vocab_size} and num_heads={n_heads}:\n")
-    print(f"sentence_a has shape:{sentence_a.shape}")
-    print(f"sentence_b has shape:{sentence_b.shape}")
-
-    print(f"\nOutput of transformer (summary) has shape:{test_summary.shape}\n")
-    print("Attention weights:")
+    assert sentence_a.shape == (1, 7)
+    assert sentence_b.shape == (1, 7)
+    assert test_summary.shape == (1, 7, 350)
     for name, tensor in att_weights.items():
-        print(f"{name} has shape:{tensor.shape}")
+        assert tensor.shape == expected_output[name]
+    
+    print("\033[92m transformer_test: Preliminary shapes OK!")
 
-    print("")
-    print("-----------------------------------------------")
-    print("Expected Output:")
-    print("")
-
-    expected_output = """
-    Using num_layers=3, target_vocab_size=350 and num_heads=17:
-
-    sentence_a has shape:(1, 7)
-    sentence_b has shape:(1, 7)
-
-    Output of transformer (summary) has shape:(1, 7, 350)
-
-    Attention weights:
-    decoder_layer1_block1_self_att has shape:(1, 17, 7, 7)
-    decoder_layer1_block2_decenc_att has shape:(1, 17, 7, 7)
-    decoder_layer2_block1_self_att has shape:(1, 17, 7, 7)
-    decoder_layer2_block2_decenc_att has shape:(1, 17, 7, 7)
-    decoder_layer3_block1_self_att has shape:(1, 17, 7, 7)
-    decoder_layer3_block2_decenc_att has shape:(1, 17, 7, 7)
-    """
-    print(expected_output)
+    assignment7_unittests.test_transformer(Transformer, create_look_ahead_mask, create_padding_mask)
 
 ################################################################################
 #@title Provided Functions: Part III
@@ -929,15 +910,6 @@ def summarize(model, input_document, tokenizer, encoder_maxlen = 150, decoder_ma
 
 def train_model(document, summary, document_test, summary_test, vocab_size):
 
-    # Initialize the Model
-    #
-    # Now that you have defined the model, you can initialize and train it. First you 
-    # can initialize the model with the parameters below. Note that generally these 
-    # models are much larger and you are using a smaller version to fit this environment 
-    # and to be able to train it in just a few minutes. The base model described in the 
-    # original Transformer paper used `num_layers=6`, `embedding_dim=512`, and 
-    # `fully_connected_dim=2048`.
-
      # Define the model parameters
     num_layers = 2
     embedding_dim = 128
@@ -946,6 +918,13 @@ def train_model(document, summary, document_test, summary_test, vocab_size):
     positional_encoding_length = 256
 
     # Initialize the model
+
+    # Now that you have defined the model, you can initialize and train it. First you 
+    # can initialize the model with the parameters below. Note that generally these 
+    # models are much larger and you are using a smaller version to fit this environment 
+    # and to be able to train it in just a few minutes. The base model described in the 
+    # original Transformer paper used `num_layers=6`, `embedding_dim=512`, and 
+    # `fully_connected_dim=2048`.
     transformer = Transformer(
         num_layers,
         embedding_dim,
