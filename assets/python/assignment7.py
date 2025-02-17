@@ -452,24 +452,26 @@ class DecoderLayer(tf.keras.layers.Layer):
 
 def decoder_layer_test():
 
-    key_dim = 12
-    n_heads = 16
-    SEED = 100
+    # Keras versions above 3.6 allow for mismatched dimensions
+    if tf.keras.__version__ > '3.6.0':
+        key_dim = 12
+        n_heads = 16
+        SEED = 100
 
-    decoderLayer_test = DecoderLayer(embedding_dim=key_dim, num_heads=n_heads, fully_connected_dim=32)
+        decoderLayer_test = DecoderLayer(embedding_dim=key_dim, num_heads=n_heads, fully_connected_dim=32)
 
-    q = np.ones((1, 15, key_dim))
-    encoder_test_output = tf.convert_to_tensor(np.random.rand(1, 7, 8))
-    look_ahead_mask = create_look_ahead_mask(q.shape[1])
+        q = np.ones((1, 15, key_dim))
+        encoder_test_output = tf.convert_to_tensor(np.random.rand(1, 7, 8))
+        look_ahead_mask = create_look_ahead_mask(q.shape[1])
 
-    out, attn_w_b1, attn_w_b2 = decoderLayer_test(
-        q, encoder_test_output, training = False, look_ahead_mask = look_ahead_mask, padding_mask = None)
+        out, attn_w_b1, attn_w_b2 = decoderLayer_test(
+            q, encoder_test_output, training = False, look_ahead_mask = look_ahead_mask, padding_mask = None)
 
-    assert out.shape == (1, 15, key_dim)
-    assert attn_w_b1.shape == (1, n_heads, 15, 15)
-    assert attn_w_b2.shape == (1, n_heads, 15, 7)
+        assert out.shape == (1, 15, key_dim)
+        assert attn_w_b1.shape == (1, n_heads, 15, 15)
+        assert attn_w_b2.shape == (1, n_heads, 15, 7)
 
-    print("\033[92m decoder_layer_test: Preliminary shapes OK!")
+    	print("\033[92m decoder_layer_test: Preliminary shapes OK!")
 
     assignment7_unittests.test_decoderlayer(DecoderLayer, create_look_ahead_mask)
 
@@ -554,42 +556,45 @@ class Decoder(tf.keras.layers.Layer):
         return x, attention_weights
 
 def decoder_test():
-    n_layers = 5
-    emb_d = 13
-    n_heads = 17
-    fully_connected_dim = 16
-    target_vocab_size = 300
-    maximum_position_encoding = 6
 
-    x = np.array([[3, 2, 1, 1], [2, 1, 1, 0], [2, 1, 1, 0]])
+    # Later versions of Keras allow for mismatched dimensions
+    if tf.keras.__version__ > '3.6.0':
+        n_layers = 5
+        emb_d = 13
+        n_heads = 17
+        fully_connected_dim = 16
+        target_vocab_size = 300
+        maximum_position_encoding = 6
 
-    encoder_test_output = tf.convert_to_tensor(np.random.rand(3, 7, 9))
+        x = np.array([[3, 2, 1, 1], [2, 1, 1, 0], [2, 1, 1, 0]])
 
-    look_ahead_mask = create_look_ahead_mask(x.shape[1])
+        encoder_test_output = tf.convert_to_tensor(np.random.rand(3, 7, 9))
 
-    decoder_test = Decoder(n_layers, emb_d, n_heads, fully_connected_dim, target_vocab_size,maximum_position_encoding)
+        look_ahead_mask = create_look_ahead_mask(x.shape[1])
 
-    outd, att_weights = decoder_test(
-        x, encoder_test_output, training = False, look_ahead_mask = look_ahead_mask, padding_mask = None)
+        decoder_test = Decoder(n_layers, emb_d, n_heads, fully_connected_dim, target_vocab_size,maximum_position_encoding)
 
-    expected_output = {"decoder_layer1_block1_self_att": (3, 17, 4, 4),
-                       "decoder_layer1_block2_decenc_att": (3, 17, 4, 7),
-                       "decoder_layer2_block1_self_att": (3, 17, 4, 4),
-                       "decoder_layer2_block2_decenc_att": (3, 17, 4, 7),
-                       "decoder_layer3_block1_self_att": (3, 17, 4, 4),
-                       "decoder_layer3_block2_decenc_att": (3, 17, 4, 7),
-                       "decoder_layer4_block1_self_att": (3, 17, 4, 4),
-                       "decoder_layer4_block2_decenc_att": (3, 17, 4, 7),
-                       "decoder_layer5_block1_self_att": (3, 17, 4, 4),
-                       "decoder_layer5_block2_decenc_att": (3, 17, 4, 7)}
+        outd, att_weights = decoder_test(
+            x, encoder_test_output, training = False, look_ahead_mask = look_ahead_mask, padding_mask = None)
 
-    assert x.shape == (3, 4)
-    assert encoder_test_output.shape == (3, 7, 9)
-    assert outd.shape == (3, 4, 13)
-    for name, tensor in att_weights.items():
-        assert tensor.shape == expected_output[name]
+        expected_output = {"decoder_layer1_block1_self_att": (3, 17, 4, 4),
+                           "decoder_layer1_block2_decenc_att": (3, 17, 4, 7),
+                           "decoder_layer2_block1_self_att": (3, 17, 4, 4),
+                           "decoder_layer2_block2_decenc_att": (3, 17, 4, 7),
+                           "decoder_layer3_block1_self_att": (3, 17, 4, 4),
+                           "decoder_layer3_block2_decenc_att": (3, 17, 4, 7),
+                           "decoder_layer4_block1_self_att": (3, 17, 4, 4),
+                           "decoder_layer4_block2_decenc_att": (3, 17, 4, 7),
+                           "decoder_layer5_block1_self_att": (3, 17, 4, 4),
+                           "decoder_layer5_block2_decenc_att": (3, 17, 4, 7)}
 
-    print("\033[92m decoder_test: Preliminary shapes OK!")
+        assert x.shape == (3, 4)
+        assert encoder_test_output.shape == (3, 7, 9)
+        assert outd.shape == (3, 4, 13)
+        for name, tensor in att_weights.items():
+            assert tensor.shape == expected_output[name]
+
+        print("\033[92m decoder_test: Preliminary shapes OK!")
 
     assignment7_unittests.test_decoder(Decoder, create_look_ahead_mask, create_padding_mask)
 
