@@ -73,7 +73,7 @@
 - title: week 7, part 2 - colabs
   type: pdf_table
   contents:
-    - title: <i>word2vec</i> in C
+    - title: <i>word2vec</i> in C (optional)
       institution: Trying Mikolov's Original Code
       year: In-Class
       colab_link: ../assets/pdf/lab-7.pdf
