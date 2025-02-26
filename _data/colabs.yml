@@ -94,13 +94,37 @@
       year: In-Class
       colab_link: https://colab.research.google.com/drive/15TFAx6tERj2_K0BAhJ4_0nr2muBiyDUC
 
-- title: week 9 - colabs
+- title: week 10 - colabs
   type: time_table
   contents:
     - title: Recurrent Neural Networks
       institution: Implementing your first RNN with Numpy and Tensorflow
       year: In-Class
       colab_link: https://colab.research.google.com/drive/1N2In_T8J1evlZPduXoxqeOpR4RE86AHK
+
+- title: week 11, part 1 - colabs
+  type: time_table
+  contents:
+    - title: The Attention Mechanism
+      institution: Implementing attention in Google Colab
+      year: In-Class
+      colab_link: https://colab.research.google.com/drive/1N2In_T8J1evlZPduXoxqeOpR4RE86AHK
+
+- title: week 11, part 2 - colabs
+  type: time_table
+  contents:
+    - title: Masking
+      institution: Incorporating padding and lookahead masks into attention modeling
+      year: In-Class
+      colab_link: https://colab.research.google.com/drive/1j8tjxiN0G9ehF4VfihVqd2-m3QafDh1I
+
+- title: week 11, part 3 - colabs
+  type: time_table
+  contents:
+    - title: Positional Encoding
+      institution: Encode position with sinusoidal functions
+      year: In-Class
+      colab_link: https://colab.research.google.com/drive/1L3WUB6fMTO4WEKnqPmdsqtMeiCkX2VCv
 
 - title: week 13 colabs
   type: time_table
