@@ -5,7 +5,7 @@ permalink: /homework-6/
 description: designing recurrent networks 
 nav: true
 hw_pdf: assignment-6.pdf
-assigned: march 6
+assigned: march 13
 due_date: march 20
 horizontal: false
 ---
