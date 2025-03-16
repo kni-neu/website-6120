@@ -122,7 +122,7 @@
 
 
     - title: <a href="https://docs.google.com/presentation/d/1rYrFIvU3UvYzJUNQwBYX6ZS_W1OtGM7L">Word Modeling with Self-Supervision</a>
-      institution: February 20
+      institution: February 20 <a href="https://northeastern-my.sharepoint.com/:v:/g/personal/k_ni_northeastern_edu/EVpfJu8GgI1LpOrVtaV0kMoB_aTiVoXMIjd5Sr9eQBdXMA?e=YgKS5q">(video)</a>
       year: Week 7
       description:
         - Perhaps the most influential paper to have come out of the natural language community is the <a href="https://arxiv.org/abs/1310.4546"><i>word2vec</i> paper</a> that most general machine learning practioners recognize. You'll find elements of its practice in communities from the information retrieval sciences to modern cyber applications to general ML problems. As it pertains to language models, modeling words is often the first stage in any system pipeline that you may design. This week's lecture reviews word models (including word2vec as well as continuous bags of words) and the embeddings / representations that they create.
@@ -147,7 +147,7 @@
 
 
     - title: <a href="https://docs.google.com/presentation/d/1GdtnBqL5T2yHoj203MWOERBLUDM0hKiQ">Introduction to Sequential Modeling</a>
-      institution: February 27
+      institution: February 27 <a href="https://northeastern-my.sharepoint.com/:v:/g/personal/k_ni_northeastern_edu/Eb4yJiDxXB5FnL1NaRTWLpgBCuWasFLXUDD2tLUhhGeRSA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=nWNfBd">(video)</a>
       year: Week 8
       description:
         - title: Topics
@@ -171,7 +171,7 @@
 
 
     - title: <a href="https://docs.google.com/presentation/d/14AEBfimE6MUv85VRf9nNkWpcuQBqcurj">Recurrence and Neural Networks</a>
-      institution: March 13
+      institution: March 13 <a href="https://northeastern-my.sharepoint.com/:v:/g/personal/k_ni_northeastern_edu/ESm5C6Xub15OivT2pcDn0nQB1J3-nulJwQdj3YwuJcB1TA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=i0EsUt">(video)</a>
       year: Week 10
       description:
         - While newer architectures like transformers now dominate the field of NLP, in its short tenure, Recurrent Neural Networks became workhorses that first demonstrated the power of deep learning for sequential data like text. This lecture builds an appreciation of how modeling language works, how attention and transformers originated, and subsequently the transition to truly deep architectures.  Beyond studying the history; it's we'll review the fundamental principles in RNNs that underpin modern NLP. 
