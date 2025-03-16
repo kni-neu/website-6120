@@ -254,6 +254,7 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
           - <a href="https://colab.research.google.com/drive/1u8DDFEiCC2yJgQIfbCOY4_aN06MJeUfv">Laboratory - Tuning LLMs</a>
+          - <a href="../project-proposal/"> Project Proposals</a>
 
 
     - title: <a href="https://docs.google.com/presentation/d/1ALNDyLPm7qaQFEwEW_JWGNwzZZdfb6Cc">Practically Leveraging Large Language Models</a>
@@ -301,7 +302,7 @@
       institution: April 24
       year: Week 16
       description:
-        - Deploy and show off your domain-specific LLM and pitch your startup idea!
+        - Deploy and show off your domain-specific LLM and pitch your startup idea! Review the guidelines at the <a href="../presentation-and-project/">Final Project Website</a>.
 
 
 
