@@ -54,14 +54,14 @@ For this project, *build a complete PAL Agent that will be able to take actions 
 
 In both paper and project, it is likely that we will need to ensure that we have sufficient GPU resources. Refer to the earlier labs in the class. The following are the artifacts that we will turn in via Gradescope.
 
-* [Project Writeup](https://www.overleaf.com/read/kszvtsstmnfs) (PDF Format)
-  - Why is it important and interesting (review [heilmeier catechism](https://www.darpa.mil/work-with-us/heilmeier-catechism))?
-  - How is your technical approach dealing with the complexity of the data?
+* [Project Writeup](https://www.overleaf.com/read/xcjqmczwyrcz#0deb70) (PDF Format)
+  - Click on `project_template.tex` to edit your project
+  - Rreview the [Heilmeier Catechism](https://www.darpa.mil/work-with-us/heilmeier-catechism)?
 * [Project Repository](http://www.github.com) (Github Repository via Link)
   - Include a README.md on how to setup and run the project. This should be straightforward.
-  - Try to containerize your solution with Docker so we don't need specific libraries or software.
+  - Containerize your solution with Docker so we don't need specific libraries or software.
 * [Demonstration](http://streamlit.io) (DNS unnecessary)
-  - This does not need to have continued uptime 100%. We will access your server (and it can be an IP address)
+  - This will need to be up on presentation day. Ensure that we can access your server (which can be an IP address)
 
 <br>
 

@@ -17,7 +17,7 @@ horizontal: false
 
 Feel free to use whatever word/paper editing software that you're comfortable with, and take advantage of the paper kits below:
 
-* [LaTeX](https://www.overleaf.com/read/kszvtsstmnfs) - Click on "__proposal-template.tex__"
+* [LaTeX](https://www.overleaf.com/read/xcjqmczwyrcz#0deb70) - Click on "__proposal-template.tex__"
 * [Google Doc](https://docs.google.com/document/d/1tMeGUAYdsZMem8CVyS350zHyEL71WqaK) - You can download as MS Doc too
 
 <br>
