@@ -248,10 +248,7 @@
         - title: Lecturing Topics
           contents:
             - Large Language Modeling (LLM) in Code
-            - Deep Reinforcement Learning from Human Feedback
-            - Alternatives to RLHF - Partial Policy Optimization
-            - Aligning LLMs in the Instruction Following Framework
-            - Multimodal Large Language Models
+            - Tuning with Low Resources - LoRA and Quantization
         - <a href="https://arxiv.org/abs/2203.02155">Required Keynote Reading</a> - Training to Instruct with Human Feedback
         - <a href="https://arxiv.org/abs/2303.08774">Required Keynote Reading</a> - GPT-4 Technical Report from OpenAI
         - title: <a href="../submissions">Submissions</a>
@@ -267,10 +264,10 @@
         - Last week, we discussed how large companies might train LLMs. In contrast, this week's lecture is most useful for those interested in entering the industry at the mid- to startup levels, where we explore common approaches to optimally <i>leverage</i> large language models for your particular applications once the LLM has been created. These techniques additionally attack limitations in LLMs, such as knowledge gaps, hallucinations, and logical reasoning problems.
         - title: Lecturing Topics
           contents:
-            - Prompt Engineering - Query and Context
+            - Prompt Engineering - In Context Learning
+            - Aligning LLMs in the Instruction Following Framework
+            - Deep Reinforcement Learning from Human Feedback
             - Retrieval Augmented Generation (RAG)
-            - Tuning with Low Resources - LoRA and Quantization
-            - Intelligent Agents with Program-Aided LLMs
         - <a href="https://arxiv.org/abs/2005.11401">Required Keynote Reading</a> - Retrieval Augmented Generation
         - <a href="https://arxiv.org/abs/1706.03762">Required Keynote Reading</a> - Parameter Efficient Fine-Tuning        
         - title: <a href="../submissions">Submissions</a>
@@ -293,7 +290,8 @@
         - title: Lecturing Topics
           contents:
             - Guidelines and NLP Systems Engineering Diagrams
-            - From Prompting to Fine Tuning to PEFT
+            - Intelligent Agents with Program-Aided LLMs
+            - Multimodal Large Language Models
         - <b>Applications</b> - Creating Your Own GenAI Smart Agents
         - title: <a href="../submissions">Submissions</a>
           contents:
