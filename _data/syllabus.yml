@@ -275,7 +275,6 @@
           contents:
           - <a href="https://colab.research.google.com/drive/1ogy2_MEcMEFrJGiS7XwtEElwnV7bY_p5">Laboratory - Instruction Following Tuning</a>
           - <a href="http://gradescope.com">Assignment 7 is <b>due</b></a>
-          - <a href="../homework-8">Assignment 8 is assigned</a> - <i>Implementing Your RAG System</i>
 
 
     - title: Lecturer on Travel (No Lecture)
@@ -294,10 +293,6 @@
             - Intelligent Agents with Program-Aided LLMs
             - Multimodal Large Language Models
         - <b>Applications</b> - Creating Your Own GenAI Smart Agents
-        - title: <a href="../submissions">Submissions</a>
-          contents:
-          - <a href="http://gradescope.com">Assignment 8 is <b>due</b></a>
-
 
 
     - title: <a href="https://docs.google.com/presentation/d/1VO-SAmfm3smmDhVn6AkyK-SZTDURDILz9xCFx_0OiAA">Demonstrations and Poster Sessions</a>
