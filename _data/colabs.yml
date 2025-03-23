@@ -127,17 +127,9 @@
       colab_link: https://colab.research.google.com/drive/1L3WUB6fMTO4WEKnqPmdsqtMeiCkX2VCv
 
 - title: week 13 colabs
-  type: time_table
+  type: pdf_table
   contents:
-    - title: Fine Tuning Large Language Models
-      institution: Fine tune an LLM for dialogue summarization using FLAN-T5
+    - title: Serving LLMs on Google Cloud
+      institution: Using the Ollama library with Streamlit frontend to serve the latest models on GPU
       year: In-Class
-      colab_link: https://colab.research.google.com/drive/1u8DDFEiCC2yJgQIfbCOY4_aN06MJeUfv
-
-- title: week 14 colabs
-  type: time_table
-  contents:
-    - title: Detoxifying LLMs using RLHF
-      institution: Fine tune FLAN-T5 with reinforcement learning (PPO) to generate less toxic summaries
-      year: In-Class
-      colab_link: https://colab.research.google.com/drive/1ogy2_MEcMEFrJGiS7XwtEElwnV7bY_p5
+      colab_link: ../assets/pdf/lab-11.1.pdf
