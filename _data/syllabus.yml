@@ -215,7 +215,7 @@
           
 
     - title: <a href="https://docs.google.com/presentation/d/1v9Z5e0pqL2uIr2VdQ9rSN9_ff_OPYL_5">Attention and the Transformer Model</a>
-      institution: March 20
+      institution: March 20 <a href="https://northeastern-my.sharepoint.com/:v:/g/personal/k_ni_northeastern_edu/Eaor3xhXVf1LhFK8IWH8fJsBPvJxKV7E5JBHJFFT-iTMhQ?e=pvOSQc">(video)</a>
       year: Week 11
       description:
         - Attention models have been the leap forward that are the fundamental building blocks to modern machine learning today, including the essential ingredients for Large Language Models. We'll go deep into attention layers in neural networks, building our own from scratch.
