@@ -90,15 +90,15 @@ There are two components your project: its presentation and your technical deliv
 
 During the final presentation day, we will be demonstrating our capabilities and projects.
 
-**4:00pm** - Each team will have five minutes to introduce their project in [presentation](https://docs.google.com/presentation/d/1VO-SAmfm3smmDhVn6AkyK-SZTDURDILz9xCFx_0OiAA). Prior or during this time, teams should start their servers so that the demonstration can commence. Instructor and TA's will operate the end-point in real-time from their laptops.
+* **4:00pm** - Each team will have five minutes to introduce their project in [presentation](https://docs.google.com/presentation/d/1VO-SAmfm3smmDhVn6AkyK-SZTDURDILz9xCFx_0OiAA). Prior or during this time, teams should start their servers so that the demonstration can commence. Instructor and TA's will operate the end-point in real-time from their laptops.
 
-**4:45pm** - Instructional staff issues a series of queries designed to verify the main value proposition, corner cases, and latency assessment. Please have preset queries and evidence that your project is functioning within your own expectations. For example, for RAG system queries, identify the passage and provide evidence that the LLM has retrieved from this passage.
+* **4:45pm** - Instructional staff issues a series of queries designed to verify the main value proposition, corner cases, and latency assessment. Please have preset queries and evidence that your project is functioning within your own expectations. For example, for RAG system queries, identify the passage and provide evidence that the LLM has retrieved from this passage.
 
-**6:00pm** - Lightning papers for those working on publications. Target 5 minutes each presentation and allocate 5 minutes for question and answering.
+* **6:00pm** - Lightning papers for those working on publications. Target 5 minutes each presentation and allocate 5 minutes for question and answering.
 
-**6:15pm** - Students query each others' RAG and PAL systems. If demonstrations have faced errors, debugged capabilities can be re-graded.
+* **6:15pm** - Students query each others' RAG and PAL systems. If demonstrations have faced errors, debugged capabilities can be re-graded.
 
-**6:45pm** - Wind down and farewell
+* **6:45pm** - Wind down and farewell
 
 
 <br>

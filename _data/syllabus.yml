@@ -242,7 +242,7 @@
 
     - title: <a href="https://docs.google.com/presentation/d/1s-jVE_cQJ5fyEyPCIzHRu34sGrH4D9Mcrn0QGsOOmKA">Introduction to Large Language Modeling (LLMs)</a>
       institution: March 27
-      year: Week 12
+      year: Week 12 <a href="https://northeastern-my.sharepoint.com/:v:/g/personal/k_ni_northeastern_edu/EXI7NqC5LFxIuoEI3Q0vUQkBW40nqBvfByGAnOYiivVovw">(video)</a>
       description:
         - The next three weeks are devoted to the state of the art in industry, and LLMs in practice, which may have changed in the time that you have started this course! This week, we introduce large language models using the fundamentals that you have learned, from perplexity in system design to transformer neural network layers for pre-training. We'll focus on techniques that large companies (or well-funded ones, at least) use to create <i>foundation</i> LLM models, taking training methods from OpenAI, Anthropic, Amazon, and Google.
         - title: Lecturing Topics
