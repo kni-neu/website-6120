@@ -145,7 +145,7 @@
 - title: week 13 colabs
   type: time_table
   contents:
-    - title: Detoxifying LLMs using RLHF
+    - title: Detoxifying LLMs using RLHF (optional)
       institution: Fine tune FLAN-T5 with reinforcement learning (PPO) to generate less toxic summaries
       year: In-Class
       colab_link: https://colab.research.google.com/drive/1ogy2_MEcMEFrJGiS7XwtEElwnV7bY_p5
