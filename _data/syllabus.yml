@@ -284,7 +284,7 @@
 
     - title: <a href="https://docs.google.com/presentation/d/13YrStTyouGcsJtHK4vUtIkCbC5UgPjD8YqDHwxGxI5Y">Language Modeling Systems Lifecycle</a>
       institution: April 17
-      year: Week 15
+      year: Week 15 <a href="https://northeastern-my.sharepoint.com/:v:/g/personal/k_ni_northeastern_edu/EecpIHXu1WVJpQdEM9xg0uwBWwxbtX-2r4yMjfcKUF8k5A?e=j6Az8v">(video)</a>
       description:
         - You've learned about the inner workings of the LLM, the mechanisms that power it, how and when to tune it, the data collection processes that govern it, how it can be used practically, and the agents that can run on it. In this lecture, we explore the practical aspects of GenAI engineers when product managers ask them to design a system for them. More than the theory, we'll learn about the system itself, devoting time for *when* to focus on certain components of your LLM, and the life cycle of your system design. 
         - title: Lecturing Topics
