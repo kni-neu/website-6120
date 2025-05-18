@@ -1,6 +1,6 @@
 ---
 layout: page
-title: bella chen
+title: dharun nagarajan
 description: head teaching assistant
 office_hours: wed 1-3pm, 9th floor
 img: assets/img/bella-3.jpeg

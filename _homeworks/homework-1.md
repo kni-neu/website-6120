@@ -5,8 +5,8 @@ permalink: /homework-1/
 description: a first look at language processing
 nav: true
 hw_pdf: assignment-1.pdf
-assigned: january 9
-due_date: january 16
+assigned: September 8
+due_date: September 15
 horizontal: false
 ---
 
@@ -26,7 +26,7 @@ Please review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assi
 ### data and starter kit
 -----
 
-You will need [the data](https://course.ccs.neu.edu/cs6120s25/data/shakespeare/), which we'll be using throughout the semester. The Bash command is
+You will need [the data](https://course.ccs.neu.edu/cs6120f25/data/shakespeare/), which we'll be using throughout the semester. The Bash command is
 
 ```
 wget --no-check-certificate https://course.ccs.neu.edu/cs6120s25/data/shakespeare/shakespeare-edit.txt
@@ -44,7 +44,7 @@ You can use Jupyter and Google Colab magick commands (calling Bash from inside o
 #### submission instructions
 -----
 
-Submit via [Gradescope](https://www.gradescope.com/courses/930780). There, you will upload your PDF and code.
+Submit via [Gradescope](https://www.gradescope.com/courses/1042888). There, you will upload your PDF and code.
 
 * Document templates can be either [LaTeX File](https://www.overleaf.com/read/gbwryydmdjhv) or [DOCX File](https://docs.google.com/document/d/1Q8fpJo-gF_L0_TwUdw5E7x7faOAStK4n). When you've compiled/finished writing, **download the PDF** from Overleaf/Google and upload it to the submission link.
 

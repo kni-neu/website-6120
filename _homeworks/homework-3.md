@@ -5,8 +5,8 @@ permalink: /homework-3/
 description: autocorrection in practice
 nav: true
 hw_pdf: assignment-3.pdf
-assigned: january 30
-due_date: february 6
+assigned: september 29
+due_date: october 6
 horizontal: false
 ---
 

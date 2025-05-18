@@ -13,7 +13,7 @@ horizontal: false
 
 Keynote papers are required reading that underly the fundamentals of modern natural language processing theory and practice. Each week, students should sign up for a paper. [Please do so here](https://docs.google.com/spreadsheets/d/1xVrHl8MgkrXhJnYbW5QJP4wEPROlPaSz8xGR1JDtIfY). Updates (it might take a few minutes) on the current schedule can be viewed here:
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSV7dL4--pViZpZC-AlSxKvRqKJsoErWLOQ1N2KYIEZ7ydhwImn7g6mbdwioAMKVdU6AAz3m-7wTV4S/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="710" height="350"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSV7dL4--pViZpZC-AlSxKvRqKJsoErWLOQ1N2KYIEZ7ydhwImn7g6mbdwioAMKVdU6AAz3m-7wTV4S/pubhtml?gid=1843237375&amp;single=true&amp;widget=true&amp;headers=false" width="710" height="350"></iframe>
 
 <br>
 

@@ -5,8 +5,8 @@ permalink: /homework-2/
 description: neural network fundamentals
 nav: true
 hw_pdf: assignment-2.pdf
-assigned: january 16
-due_date: january 30
+assigned: september 15
+due_date: september 29
 horizontal: false
 ---
 

@@ -5,8 +5,8 @@ permalink: /homework-7/
 description: attention neural networks
 nav: true
 hw_pdf: assignment-7.pdf
-assigned: march 20
-due_date: april 3
+assigned: november 17
+due_date: december 1
 horizontal: false
 ---
 

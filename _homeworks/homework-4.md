@@ -5,8 +5,8 @@ permalink: /homework-4/
 description: autocomplete with topical information
 nav: true
 hw_pdf: assignment-4.pdf
-assigned: february 6
-due_date: february 20
+assigned: october 6
+due_date: october 20
 horizontal: false
 ---
 

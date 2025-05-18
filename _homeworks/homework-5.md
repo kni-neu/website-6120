@@ -5,8 +5,8 @@ permalink: /homework-5/
 description: word embeddings
 nav: true
 hw_pdf: assignment-5.pdf
-assigned: february 20
-due_date: march 13
+assigned: october 20
+due_date: november 10
 horizontal: false
 ---
 
@@ -46,7 +46,7 @@ It is important to note that the papers are in sorted order (according to topic)
 <br>
 #### submission instructions
 
-* Prepare your `*.py` and PDF file with the requested functions, artifacts, and ensure that both are well-commented. Submission via [Gradescope](https://www.gradescope.com/courses/690988/assignments/4010650) is before 5pm, Thursday, March 6.
+* Prepare your `*.py` and PDF file with the requested functions, artifacts, and ensure that both are well-commented. Submission via [Gradescope](https://www.gradescope.com/courses/1042888) is before 5pm, Thursday, March 6.
 
 * For all three approaches, include in your writeup the nearest words for the following strings: "neural", "dark", "recurrent", "learning", "monaural", "recognition", "disparity", "expression", "retrieval", "genetic".
 
