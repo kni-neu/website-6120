@@ -5,15 +5,9 @@ nav: true
 nav_order: 6
 dropdown: true
 children: 
-    - title: spring 2023
-      permalink: https://course.ccs.neu.edu/cs6220/spring2023
+    - title: spring 2025 (last semester)
+      permalink: https://course.ccs.neu.edu/cs6120s25
     - title: divider
-    - title: fall 2023
-      permalink: https://course.ccs.neu.edu/cs6220/fall2023/website
-    - title: divider
-    - title: spring 2024
-      permalink: https://course.ccs.neu.edu/cs6220/spring2024/website
-    - title: divider
-    - title: fall 2024
-      permalink: https://course.ccs.neu.edu/cs6220/data-mining
+    - title: fall 2025 (this semester)
+      permalink: https://course.ccs.neu.edu/cs6120f25
 ---
