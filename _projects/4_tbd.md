@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Raman Chahar
+title: TA-3, TBD
 description: Teaching Assistant
 office_hours: mon 1-3 pm, 10th floor
-img: assets/img/raman.jpeg
+img: assets/img/data-from-star-trek-cropped.png
 importance: 2
 category: staffing
 ---

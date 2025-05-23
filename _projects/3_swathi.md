@@ -3,7 +3,7 @@ layout: page
 title: swathi arasu
 description: teaching assistant
 office_hours: tue 12-2pm, 9th floor
-img: assets/img/joy_ta-personnel.jpg
+img: assets/img/swathi-tmp.jpeg
 importance: 2
 category: staffing
 ---

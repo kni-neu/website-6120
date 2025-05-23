@@ -1,9 +1,9 @@
 ---
 layout: page
-title: dharun nagarajan
+title: dharun n.
 description: head teaching assistant
 office_hours: wed 1-3pm, 9th floor
-img: assets/img/bella-3.jpeg
+img: assets/img/dharun-tmp.jpeg
 importance: 2
 category: staffing
 ---
