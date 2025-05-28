@@ -1,7 +1,7 @@
 - title: schedule
   type: time_table
   contents:
-    - title: <a href="https://docs.google.com/presentation/d/1eBrC_240_8mZiZzLAFR7zuizs75GnS7F">Introduction and Applications</a>
+    - title: <a href="https://docs.google.com/presentation/d/1EvZAL5dpZK4B3GNFn6ASxG1K8ssyu0SW">Introduction and Applications</a>
       institution: September 8
       year: Week 1
       description:
@@ -18,7 +18,7 @@
             - <a href="../homework-1">Assignment 1 is assigned</a> - <i>A First Look at Processing Language</i>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1PPcKkjG44GnkpF20HgVCyWCWeXgmpcXW">ML Foundations and Software Engineering</a>
+    - title: <a href="https://docs.google.com/presentation/d/14PzCaOaPv4WEFvjR4IJ7o6RD-WSVr7ZW">ML Foundations and Software Engineering</a>
       institution: September 15
       year: Week 2
       description:
@@ -36,7 +36,7 @@
 
             
 
-    - title: <a href="https://docs.google.com/presentation/d/15xw5pKPLVPJYA5MnWtFvX0ljpmZ9vO8O">Language Classification</a>
+    - title: <a href="https://docs.google.com/presentation/d/1fE9hcD9UJq3GvPQczDxN8rX5_M3SED-8">Language Classification</a>
       institution: September 22
       year: Week 3
       description:
@@ -56,7 +56,7 @@
 
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1Hshg9q3zPhPXZoUTGbJXNnImx5XQJbnP">Text Processing Algorithms</a>
+    - title: <a href="https://docs.google.com/presentation/d/1x_xCsAgSqaO3fSjZyeKlBhMVH48syktb">Text Processing Algorithms</a>
       institution: September 29
       year: Week 4
       description:
@@ -75,7 +75,7 @@
 
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1csrZOD846CFWIHUkTiclrN2z2143_DSU">Introduction to Language Modeling</a>
+    - title: <a href="https://docs.google.com/presentation/d/17hSy11npLcOLbgqHAMh0y4NLet3gSir9">Introduction to Language Modeling</a>
       institution: October 6
       year: Week 5
       description:
@@ -101,7 +101,7 @@
       year: Week 6
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1WYYE4ShD1TE9KvT4ETJW_KMnhxXYZ5GS">Unsupervised NLP - Topic Modeling</a>
+    - title: <a href="https://docs.google.com/presentation/d/1kiEI4S3WLJ3cikQkZ85Nvx2Mz6kFyJLX">Unsupervised NLP - Topic Modeling</a>
       institution: October 20
       year: Week 7
       description:
@@ -127,7 +127,7 @@
 
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1rYrFIvU3UvYzJUNQwBYX6ZS_W1OtGM7L">Word Modeling with Self-Supervision</a>
+    - title: <a href="https://docs.google.com/presentation/d/1cnSHRYSq2esGADDQrVjTMzj9LhAAIfuy">Word Modeling with Self-Supervision</a>
       institution: October 27
       year: Week 8
       description:
@@ -148,11 +148,12 @@
             - <a href="../assets/pdf/lab-7.pdf">Laboratory - The Original Word2Vec Code in C</a> (Optional)
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1GdtnBqL5T2yHoj203MWOERBLUDM0hKiQ">Introduction to Sequential Modeling</a>
+    - title: <a href="https://docs.google.com/presentation/d/1zmPWukoV4r1YYOqi6inWBAHTmoZQ6TA0">Introduction to Sequential Modeling</a>
       institution: November 3
       year: Week 9
       description:
-        - title: Topics
+        - In smaller data regimes and for bespoke problems, we'll find that conversations still revolve around the OG state-driven modeling approach - Hidden Markov Models (HMMs). HMMs dominated NLP and speech recognition for half a century and are classic examples of NLP fundamentals. We'll build a strong foundation this week that appreciates the origins of our field, which helps us understand the motivations behind the latest Deep Learning more modern paradigms like Transformers.
+        - title: Lecturing Topics
           contents:
             - Modeling with Hidden Markov Models
             - The Viterbi Algorithm - Initialization, Forward, and Backward Passes
@@ -165,7 +166,7 @@
             - <a href="https://colab.research.google.com/drive/15TFAx6tERj2_K0BAhJ4_0nr2muBiyDUC">Laboratory - HMMs Numpy PoS Processing </a>
         
 
-    - title: <a href="https://docs.google.com/presentation/d/14AEBfimE6MUv85VRf9nNkWpcuQBqcurj">Recurrence and Neural Networks</a>
+    - title: <a href="https://docs.google.com/presentation/d/1U_CdfaLWgvswaw4T29p7oXDOrootGqmq">Recurrence and Neural Networks</a>
       institution: November 10
       year: Week 10
       description:
@@ -189,7 +190,7 @@
             - <a href="../homework-6">Assignment 6 is assigned</a> - <i>Implement Your Own Recurrent Network</i>
           
 
-    - title: <a href="https://docs.google.com/presentation/d/1v9Z5e0pqL2uIr2VdQ9rSN9_ff_OPYL_5">Attention and the Transformer Model</a>
+    - title: <a href="https://docs.google.com/presentation/d/14mvSG5KB7MHyyL_vTtVDCnwUiYC3_GDw">Attention and the Transformer Model</a>
       institution: November 17
       year: Week 11
       description:
@@ -214,7 +215,7 @@
             - <a href="../homework-7">Assignment 7 is assigned</a> - <i>Attention and Transformer Networks</i>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1s-jVE_cQJ5fyEyPCIzHRu34sGrH4D9Mcrn0QGsOOmKA">Introduction to Large Language Modeling (LLMs)</a>
+    - title: <a href="https://docs.google.com/presentation/d/1UCcxFqBzBp7-FCl957iyVKpetFNDZhU5EepNai_8-oI">Introduction to Large Language Modeling (LLMs)</a>
       institution: November 24
       year: Week 12
       description:
@@ -233,7 +234,7 @@
             - <a href="https://colab.research.google.com/drive/1u8DDFEiCC2yJgQIfbCOY4_aN06MJeUfv">Laboratory - Tuning LLMs</a> (Optional)
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1ALNDyLPm7qaQFEwEW_JWGNwzZZdfb6Cc">Practically Leveraging LLMs and the LLM Lifecycle</a>
+    - title: <a href="https://docs.google.com/presentation/d/19SAm2OxY9ZvBU5fWQaVRg8G5dKvsNioj">Practically Leveraging LLMs and the LLM Lifecycle</a>
       institution: December 1
       year: Week 13
       description:
