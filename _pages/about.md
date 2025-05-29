@@ -25,5 +25,5 @@ This course is heavily project oriented, where students will build and serve app
 By the end of this class, students will have first-hand knowledge and be able to replicate (if not contribute to) any modern NLP approaches that companies like OpenAI, Google, and Meta might invent. They will be able to read most of the technical papers that advance this technology. But perhaps most importantly, I hope that they will have a fun and rewarding experience processing natural language and understanding the machine learning that goes into it.
 
 
-Course Reference: CRN 21066 (San Jose)
+Course Reference: CRN 18645 (San Jose)
 
