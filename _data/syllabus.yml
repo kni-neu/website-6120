@@ -79,6 +79,7 @@
       institution: October 6
       year: Week 5
       description:
+        - Today we'll begin our journey to understanding LLMs by observing its origins. Dropping the "Large" from the now-ubiquitous term "Large Language Models", we take a look at the foundational principles that extract the relationships defining what it means to model language and how we might generate text.
         - title: Lecturing Topics
           contents:
             - What is a language model? (Abstractive vs extractive approaches)
@@ -87,6 +88,10 @@
             - Out of Vocabulary Words and Smoothing
             - Language Model Evaluation
         - <b>Application</b> - Autocompleting words and sentences
+        - title: <a href="https://arxiv.org/abs/2503.23278">Required Keynote Paper</a> - Model Context Protocol
+          contents:
+            - <a href="https://www.anthropic.com/news/model-context-protocol">An Introduction to MCP</a> - Anthropic's Blog
+            - <a href="https://modelcontextprotocol.io/introduction">MCP's Central Documentation</a>
         - title: Submissions
           contents:
             - <a href="https://colab.research.google.com/drive/1AVRooWlPXLxNrREvGt_DQvfRZS6Q2_8b">Laboratory 5.1 - N-Grams Processing</a>
@@ -96,7 +101,7 @@
             - <a href="../homework-4">Assignment 4 is assigned</a> - <i>Autocomplete with Topical Information</i>
 
 
-    - title: Indigenous Peoples Day - Holidary
+    - title: Indigenous Peoples Day - Holiday
       institution: October 13
       year: Week 6
 
