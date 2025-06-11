@@ -32,8 +32,10 @@ For each of the papers, during the *following week*, there will be two sets of s
 
 **Team Two**: Make a pitch to the class on why technology is game changing. You can think about this presentation as something you would give to a VC or a Ph.D. defense committee. Be prepared to face adversarial questions and defend the work from fellow students and teaching assistants. 
 
-* **Elevator Pitch** Pitch the paper to the class as if it were novel 
-* **Scribe**: Notes taking on interesting topics to share out to other students
+* **Elevator Pitch** Pitch the paper to the class as if it were novel (5min)
+* **Questions/Answers**: Be prepared to ask questions from the audience, TA's, and instructor (2min)
+
+---
 
 <br>
 
