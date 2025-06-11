@@ -79,7 +79,7 @@
       institution: October 6
       year: Week 5
       description:
-        - Today we'll begin our journey to understanding LLMs by observing its origins. Dropping the "Large" from the now-ubiquitous term "Large Language Models", we take a look at the foundational principles that extract the relationships defining what it means to model language and how we might generate text.
+        - Today we'll begin our journey to understanding LLMs by observing its origins. Dropping the "Large" from the now-ubiquitous term "Large Language Models", we take a look at the foundational principles that extract the relationships defining what it means to model language and how we might generate text. This week also marks the first week of <a href="../readings/"><b>required keynote paper</b></a> reading, where we will begin the tour of seminal papers that have revolutionized not only language processing but also machine learning and artificial intelligence writ large. 
         - title: Lecturing Topics
           contents:
             - What is a language model? (Abstractive vs extractive approaches)
@@ -110,7 +110,7 @@
       institution: October 20
       year: Week 7
       description:
-        - This week, we will explore David Blei's contributions to the field, a set of concepts that indirectly attack the age-old question of <b>"what is <i>k</i> in the k-means clustering algorithm</b>. We will review the hierarchical nature of how to model natural language using Bayesian concepts, where our corpora is processed without preserving the order of words. This week also marks the first week of <a href="../readings/"><b>required keynote paper</b></a> reading, where we will begin the tour of seminal papers that have revolutionized not only language processing but also machine learning and artificial intelligence writ large. This reading is perhaps the most difficult one that you'll read in this class, since it involves a heavy component of probability and statistics. 
+        - This week, we will explore David Blei's contributions to the field, a set of concepts that indirectly attack the age-old question of <b>"what is <i>k</i> in the k-means clustering algorithm</b>. We will review the hierarchical nature of how to model natural language using Bayesian concepts, where our corpora is processed without preserving the order of words. This week's keynote reading is perhaps the most difficult one that you'll read in this class, since it involves a heavy component of probability and statistics. 
         - title: Lecturing Topics
           contents:
             - Parameter Estimation of a Distribution
