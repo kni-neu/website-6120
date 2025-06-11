@@ -19,12 +19,20 @@ Keynote papers are required reading that underly the fundamentals of modern natu
 
 ### Reading Group Schedule
 
-For each of the papers, during the following week, there will be a reading group _discussion_, which the lead will facilitate. Even though there are leads and co-leads, everyone is expected to contribute in the conversation. Additionally, as there are no lecture notes for the discussion, a scribe will record salient points from the discussion; where these can be posted weekly.
+For each of the papers, during the *following week*, there will be two sets of student partners creating a five minute pitch, writing a summary, and making a video about the paper. Specifically, these two teams will be divided as follows:
 
+---
 
-* **Lead**: Facilitator and discussion generator
-* **Discussion**: Everyone should have read the paper for an interesting discussion
-* **Paper Summary** An summary of the paper (one-pager), providing an overview of the work
+**Team One**: Summarize the seminal work in short and concise ways. Make sure you review the pros and cons of the algorithm. What problems do you see the proposed approach solves? Where do you think there could be room for improvement? What are some challenges associated with the paper?
+
+* **Video Presentation**: Describe the paper, its nuances, and crucial perspectives. (5min)
+* **Summarizing 1 Pager**: Provide a brief overall summary of the paper (1pg)
+
+---
+
+**Team Two**: Make a pitch to the class on why technology is game changing. You can think about this presentation as something you would give to a VC or a Ph.D. defense committee. Be prepared to face adversarial questions and defend the work from fellow students and teaching assistants. 
+
+* **Elevator Pitch** Pitch the paper to the class as if it were novel 
 * **Scribe**: Notes taking on interesting topics to share out to other students
 
 <br>
