@@ -43,6 +43,8 @@ For each of the papers, during the *following week*, there will be two sets of s
 
 You have only five minutes to present your case (in both teams). Make your videos engaging and interesting with high amounts of energy! Some fun examples of people who do this well include [Diana Hsieh](https://www.instagram.com/reel/DINNA2kAA4a), [Harper Carroll](https://www.instagram.com/reel/DKut9ScylzU), [Siraj Raval](https://www.youtube.com/watch?v=2FmcHiLCwTU), and [Annie Sexton](https://www.youtube.com/watch?v=zvJ1-Zzra_g).
 
+<br>
+
 ### Templates and LaTeX
 
 Prepare the notes into a latex document (including figures, if appropriate) using this <a href="https://www.overleaf.com/read/xkqhrtxwrfvc#329270">latex template</a>.&nbsp; Overleaf provides formatting, editing, and library tips. Information about LaTeX itself can be found <a href="https://www.latex-project.org/">here</a> and <a href="https://en.wikibooks.org/wiki/LaTeX">here</a>.&nbsp;
