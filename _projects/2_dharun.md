@@ -2,7 +2,7 @@
 layout: page
 title: dharun n.
 description: head teaching assistant
-office_hours: Mon 2-4pm, 9th floor
+office_hours: mon 2-4pm, 9th floor
 img: assets/img/dharun-tmp.jpeg
 importance: 2
 category: staffing
