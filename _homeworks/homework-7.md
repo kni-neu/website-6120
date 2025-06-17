@@ -89,6 +89,8 @@ import tensorflow as tf
 tf.__version__
 ```
 
+You are free to *develop* in any environment (including [virtual machines](https://console.cloud.google.com/compute/instances) and [notebooks](https://console.cloud.google.com/vertex-ai/workbench)), but your submission must be a `*.py` file.
+
 <br>
 <br>
 

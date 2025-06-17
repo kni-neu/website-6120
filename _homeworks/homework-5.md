@@ -46,7 +46,7 @@ It is important to note that the papers are in sorted order (according to topic)
 <br>
 #### submission instructions
 
-* Prepare your `*.py` and PDF file with the requested functions, artifacts, and ensure that both are well-commented. Submission via [Gradescope](https://www.gradescope.com/courses/1042888) is before 5pm, Thursday, March 6.
+* Prepare your `*.py` and PDF file with the requested functions, artifacts, and ensure that both are well-commented. Submission via [Gradescope](https://www.gradescope.com/courses/1042888) is before 5pm, Monday, November 10.
 
 * For all three approaches, include in your writeup the nearest words for the following strings: "neural", "dark", "recurrent", "learning", "monaural", "recognition", "disparity", "expression", "retrieval", "genetic".
 

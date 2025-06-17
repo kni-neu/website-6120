@@ -33,7 +33,7 @@ You will need the [code](https://course.ccs.neu.edu/cs6120s25/assets/python/assi
 * [Google Cloud Vertex Work](https://console.cloud.google.com/vertex-ai/workbench) with your Google Cloud credits. 
 * [Google Colabs](https://colab.research.google.com/) with your Google Account
 
-You might find prototyping with Notebooks useful, but it is important that you submit a Python file and not a Notebook.
+You are free to *develop* in any environment (including [virtual machines](https://console.cloud.google.com/compute/instances) and [notebooks](https://console.cloud.google.com/vertex-ai/workbench)), but your submission must be a `*.py` file.
 
 -----
 #### submission instructions
