@@ -57,10 +57,7 @@ Named entity recognition is the process of identifying and classifying entities 
 document/d/1qXipr5Ko2Xpf71GbLzEZXa9khB5w4O2B/edit?usp=sharing&ouid=117230435864186314036&rtpof=true&sd=true). When you've compiled/finishe
 d writing, **download the PDF** from Overleaf/Google and upload it to the submission link. 
 
-* You will be turning in Python files, but feel free to develop in notebooks. To set one up, you can use, there are several options:
-  * [Locally on Your Laptop](https://jupyter.org/install)
-  * [Google Cloud Vertex Work](https://console.cloud.google.com/vertex-ai/workbench) with your Google Cloud credits. 
-  * [Google Colabs](https://colab.research.google.com/) with your Google Account
+* You are free to *develop* in any environment (including [virtual machines](https://console.cloud.google.com/compute/instances) and [notebooks](https://console.cloud.google.com/vertex-ai/workbench)), but your submission must be a `*.py` file.
 
 <br>
 <br>

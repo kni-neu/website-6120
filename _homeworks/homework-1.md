@@ -38,7 +38,7 @@ You can use Jupyter and Google Colab magick commands (calling Bash from inside o
 * [Google Cloud Vertex Work](https://console.cloud.google.com/vertex-ai/workbench) with your Google Cloud credits. (Enable Notebooks API).
 * [Google Colabs](https://colab.research.google.com/) with your Google Account
 
-  
+
 
 -----
 #### submission instructions

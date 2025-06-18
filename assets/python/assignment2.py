@@ -22,6 +22,7 @@ def sigmoid( x ):
     y: A numpy array of shape (l,) or (N, l) representing
       the output data.
   """
+  #<YOUR-CODE-HERE>
   return None
 
 def sigmoid_test():
@@ -46,6 +47,7 @@ def inference_layer(X, W, b):
   Returns:
     y: The output of shape l or l x N
   """
+  #<YOUR-CODE-HERE>
   return None
 
 def inference_layer_test():
@@ -82,6 +84,7 @@ def inference_2layers(X, W1, W2, b1, b2):
   Returns:
   y: Singular output data (1, 0), with shape either 1 or N.
   """
+  #<YOUR-CODE-HERE>
   return None
 
 def inference_2layers_test():
@@ -110,6 +113,7 @@ def bce_forward(yhat, y):
   Returns:
     loss_value
   """
+  #<YOUR-CODE-HERE>
   return None
 
 def bce_forward_test():
@@ -141,6 +145,7 @@ def gradients(X, y, W1, W2, b1, b2):
     dL/db2: Derivative of cost fxn w/r/t b2
     L: Loss value
   '''
+  #<YOUR-CODE-HERE>
   return None, None, None, None, None
 
 def gradients_test():
@@ -205,6 +210,7 @@ def update_params(batchx, batchy, W1, b1, W2, b2, lr = 0.01):
         b2: New value of b2
         L: Loss value
     '''
+    #<YOUR-CODE-HERE>
     return None, None, None, None, None
 
 def update_params_test():
@@ -269,6 +275,7 @@ def train_nn(filename, hidden_layer_size, iters=1e6, lr = 0.01, batch = 32,
     Returns:
         W1, b1, W2, b2, Ls
     '''
+    #<YOUR-CODE-HERE>
     return W1, b1, W2, b2, Ls
 
 def train_nn_test():
