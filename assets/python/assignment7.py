@@ -6,7 +6,7 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 import time
 import utils
-import assignment7_unittests
+import assignment7_test
 
 tf.keras.utils.set_random_seed(10)
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
@@ -17,7 +17,7 @@ website. These include utility functions, assumed to be in the same folder as
 where this file is being run.
 
 wget -nc https://course.ccs.neu.edu/cs6120s25/data/samsum/utils.py
-wget -nc https://course.ccs.neu.edu/cs6120s25/assets/python/assignment7_unittests.py
+wget -nc https://course.ccs.neu.edu/cs6120s25/assets/python/assignment7_test.py
 wget -nc https://course.ccs.neu.edu/cs6120s25/data/samsum/corpus.tar
 tar -xvf corpus.tar
 pip install dlai_grader
@@ -473,7 +473,7 @@ def decoder_layer_test():
 
     	print("\033[92m decoder_layer_test: Preliminary shapes OK!")
 
-    assignment7_unittests.test_decoderlayer(DecoderLayer, create_look_ahead_mask)
+    assignment7_test.test_decoderlayer(DecoderLayer, create_look_ahead_mask)
 
 
 ################################################################################
@@ -596,7 +596,7 @@ def decoder_test():
 
         print("\033[92m decoder_test: Preliminary shapes OK!")
 
-    assignment7_unittests.test_decoder(Decoder, create_look_ahead_mask, create_padding_mask)
+    assignment7_test.test_decoder(Decoder, create_look_ahead_mask, create_padding_mask)
 
 ################################################################################
 #@title Question 4: Transformer
@@ -719,7 +719,7 @@ def transformer_test():
     
     print("\033[92m transformer_test: Preliminary shapes OK!")
 
-    assignment7_unittests.test_transformer(Transformer, create_look_ahead_mask, create_padding_mask)
+    assignment7_test.test_transformer(Transformer, create_look_ahead_mask, create_padding_mask)
 
 ################################################################################
 #@title Provided Functions: Part III
@@ -878,7 +878,7 @@ def next_word_test():
     print(f"Predicted word: {predicted_word}")
 
     # assert predicted_token == [[14859]] and predicted_word == "masses"
-    assignment7_unittests.test_next_word(next_word, transformer, encoder_input, output)
+    assignment7_test.test_next_word(next_word, transformer, encoder_input, output)
 
 ################################################################################
 #@title Provided Functions: Part IV
