@@ -1,6 +1,6 @@
 # In a shell, download the data and extract to the base folder:
-# !wget -nc https://course.ccs.neu.edu/cs6120s25/data/named-entities/ner-data.zip
-# !unzip -n ner-data.zip
+# wget -nc https://course.ccs.neu.edu/cs6120s25/data/named-entities/ner-data.zip
+# unzip -n ner-data.zip
 # Copy data/load_data into your source directory from ner-data.zip. If you do not, load_data will not import.
 
 # Imports. You will not need any libraries beyond these.
