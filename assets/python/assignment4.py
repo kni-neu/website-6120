@@ -1,4 +1,14 @@
+'''
+Assignment 4
+
+You will need the data. In a shell, download the data and extract to the base folder:
+
+>> mkdir data
+>> wget https://course.ccs.neu.edu/cs6120f25/data/twitter/en_US.twitter.txt -O data/en_US.twitter.txt
+'''
+
 import nltk
+import utils
 nltk.download('punkt')
 nltk.download('punkt_tab')
 nltk.data.path.append('.')
@@ -206,15 +216,32 @@ def count_n_grams_test():
     print("\033[92m Successful test")
 
     return
+	
+def make_probability_matrix(n_plus1_gram_counts, vocabulary, k):
+	'''
+	To use this function, you'll need to get a utils function:
 
-count_n_grams_test()
+	>> wget -nc https://course.ccs.neu.edu/cs6120f25/data/twitter/utils.py
+	
+	Then, you can visualize your probability matrices. For example, consider the following:
+	
+		sentences = [['i', 'like', 'a', 'cat'],
+		                 ['this', 'dog', 'is', 'like', 'a', 'cat']]
+		unique_words = list(set(sentences[0] + sentences[1]))
+		bigram_counts = count_n_grams(sentences, 2, SpecialTokens())
+		display(make_probability_matrix(bigram_counts, unique_words, k=1))
+	'''
+    count_matrix = utils.make_count_matrix(n_plus1_gram_counts, unique_words)
+    count_matrix += k
+    prob_matrix = count_matrix.div(
+           count_matrix.sum(axis=1) + k*len(vocabulary), axis=0)
+    return prob_matrix
 
 #@title Q3 Estimate the Probabilities
 
 def estimate_probabilities(context_tokens, ngram_model):
     """
-    Estimate the probabilities of a next word using the n-gram counts
-    with k-smoothing
+    Estimate the probabilities of a next word using the n-gram counts with k-smoothing
 
     Args:
         word: next word
@@ -237,6 +264,7 @@ def estimate_probabilities_test():
     """
     Ungraded: You can use this function to test out estimate_probabilities. 
     """
+
     tmp_data = "i like a cat\nthis dog is like a cat"
     with open('tmp_data.txt', 'w') as f:
       f.write(tmp_data + '\n')
@@ -264,17 +292,16 @@ def estimate_probabilities_test():
 
 #@title Q4 Inference
 
-def predict_next_word(sentence_beginning, model):
+def predict_next_word(partial_sentence, ngram_model):
     """
+    Predicts the next word in a partial sentence using the provided n-gram model.
+
     Args:
-        sentence_beginning: a string
-        model: an NGramModel object
+        partial_sentence: The partial sentence as a string.
+        ngram_model: An instance of the NGramModel class.
 
     Returns:
-        next_word = a string with the next word that his most likely to appear 
-        after the sentence_beginning input based ont he model. (You do not need to 
-        add in any top K or random sampling.)
-        probability = corresponding probability of that word
+        The predicted next word (string) or None if no prediction can be made.
     """
     # <YOUR-CODE-HERE>
     return None
@@ -321,6 +348,10 @@ if __name__ == "__main__":
     train_data_replaced, test_data_replaced, vocabulary = preprocess_data(
         "data/en_US.twitter.txt", count_threshold, special_tokens
     )
+
+    preprocess_data_test()
+    count_n_grams_test()
+    estimate_probabilities_test()
 
     # n=2
     unigram_counts = count_n_grams(train_data_replaced, 1, special_tokens)
