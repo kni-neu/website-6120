@@ -13,7 +13,7 @@ def test_process_data(target):
     test_cases = [
         {
             "name": "default_check",
-            "input": {"file_name": "./data/shakespeare.txt"},
+            "input": {"file_name": "./shakespeare-7k.txt"},
             "expected": {
                 "expected_output_head": [
                     "o",
