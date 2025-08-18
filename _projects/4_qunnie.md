@@ -1,9 +1,9 @@
 ---
 layout: page
-title: TA-3, Qunnie Yu
+title: Qunnie Yu
 description: Teaching Assistant
 office_hours: wed 11-1 pm, 10th floor or Zoom
-img: assets/img/qunnie.png
+img: assets/img/qunnie.jpeg
 importance: 2
 category: staffing
 ---
