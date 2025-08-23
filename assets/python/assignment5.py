@@ -249,9 +249,12 @@ def train_svd_test():
   word_vectors = dict()
   for i, word in enumerate(vocabulary):
     word_vectors[word] = U_fast[i]
+  
+  # Check the sizes of the matrices
+  assert adjacency_matrix.shape == (14, 14)
+  assert U_fast.shape == (14, 8)
 
-  df = pd.DataFrame(U_fast.T, columns = vocabulary)
-  sns.heatmap(df.corr())
+  print("train_svd: \033[1;32mtests OK.\033[0m")
 
 #@title Question 3.1
 
@@ -373,17 +376,9 @@ def train_w2v_test():
                            iters = 1000, negsamps = 5, win = 3,
                            embedding_dim = 100, learning_rate=0.01)
 
-  print(Vw2v_Vi.shape)
-  print(losses)
-
-  word_vectors = dict()
-  for i, word in enumerate(vocabulary):
-    word_vectors[word] = Vw2v_Vi[i]
-
-  print("neural x networks: ", word_vectors['neural'] @ word_vectors['networks'])
-  print("neural x for: ", word_vectors['neural'] @ word_vectors['for'])
-  print("language x better: ", word_vectors['language'] @ word_vectors['networks'])
-  print("language x models: ", word_vectors['language'] @ word_vectors['models'])
+  assert Vw2v_Vi.shape == (14, 100)
+  assert Vw2v_Vo.shape == (14, 100)
+  assert len(losses) == 1000
 
 #@title Main Function
 
