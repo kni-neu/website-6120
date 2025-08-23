@@ -34,11 +34,11 @@ def save_models(word_freqs, Vsvd, Vw2v,
     '''
     data = {
         'word_freqs': word_freqs,
-        'V_svd': V_svd,
-        'V_w2v': V_w2v,
+        'Vsvd': Vsvd,
+        'Vw2v': Vw2v,
         'word2index': word2index,
         'index2word': index2word,
-        'loss_w2v': losses_w2v,
+        'losses_w2v': losses_w2v,
     }
 
     with open('assignment5.pkl', 'wb') as f:
@@ -255,9 +255,6 @@ def train_svd_test():
 
 #@title Question 3.1
 
-import random
-import numpy as np
-
 def sample_w2v(data, word2index, neg_samples=5, win=10, sampling_distro=None):
     '''
     Randomly samples a title and a window within that title, returning
@@ -413,9 +410,9 @@ if __name__ == '__main__':
   adjacency_matrix = create_adjacency(filtered_dataset, word2index, win=5)
   Vsvd = train_svd(adjacency_matrix, min_sv_index = 1, max_sv_index=100)
 
+  # Process with Word2Vec
   Vw2v, losses = train_w2v(filtered_dataset, word2index, word_freqs, iters = 1e6, negsamps = 1,
-              win = 5, embedding_dim = 100, learning_rate=0.01, vectors = Vw2v)
-  losses_w2v.extend(losses) # Extend the list with new losses
+              win = 5, embedding_dim = 100, learning_rate=0.01, vectors = None)
 
   # Nearest vectors to the word "neural".
   word_to_test = "neural"
@@ -424,4 +421,3 @@ if __name__ == '__main__':
 
   # Save the word vectors
   save_models(word_freqs, Vsvd, Vw2v)
-
