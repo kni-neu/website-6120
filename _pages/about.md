@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <p>CRN 18645</p>
-    <p><a href="https://admin.khoury.northeastern.edu/teaching/schedules/section/251685?semester=Spring+2025&campus=2859">Thu 4:00-7:20pm</a></p>
+    <p><a href="https://admin.khoury.northeastern.edu/teaching/schedules/section/251685?semester=Spring+2025&campus=2859">Mon 4:00-7:20pm</a></p>
     <p><a href="https://admin.khoury.northeastern.edu/teaching/schedules/section/251685?semester=Spring+2025&campus=2859">San Jose Room R1045</a></p>
 
 news: true  # includes a list of news items
