@@ -283,6 +283,14 @@
     - name: Assignments
       value: 30%
 
+- title: grading policies
+  type: list
+  contents: 
+    - Labs must be turned in by the following lecture
+    - Late labs / assignments have 3pt deduction each weekday until the following lecture
+    - Late assignments cannot be accepted past the time when the next homework assignment is released
+    - You must notify cs6120-staff@ccs.neu.edu ahead of any absences.
+
 
 - title: course meeting times
   type: nested_list
@@ -290,13 +298,13 @@
     - title: Lectures
       items: 
         - "Mon, 4pm-7:20pm"
-        - Room TBD
+        - Room San Jose R1045
     - title: Office Hours
       items:
         - "Karl, Tues 8:30-9:30pm, Teams"
-        - "Dharun, Mon 1-3pm, 9th Floor"
-        - "Swathi, Tues 12-2pm, 9th Floor"
-        - "TA TBD, Wed 1-3pm, 9th Floor" 
+        - "Dharun, Fri 1-3pm, 9th Floor"
+        - "Swathi, Thu 12-2pm, 9th Floor"
+        - "Huining, Wed 1-3pm, 9th Floor" 
 
 - title: suggested textbooks
   type: list
