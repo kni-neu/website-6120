@@ -40,7 +40,7 @@
       institution: September 22
       year: Week 3
       description:
-        - Building upon our review of machine learning, we discuss strategies in feature extraction and generation. Particularly as creating a vocabulary can explode required memory space, our featurization includes NLP-specific techniques (e.g., tokenization, lemmatization, etc.).
+        - Building upon our review of machine learning, we discuss strategies in feature extraction and generation. Particularly as creating a vocabulary can explode required memory space, our featurization includes NLP-specific techniques (e.g., tokenization, lemmatization, etc.). This week also marks the first week of <a href="../readings/"><b>required keynote paper</b></a> reading, where we will begin the tour of seminal papers that have revolutionized not only language processing but also machine learning and artificial intelligence writ large.
         - title: Lecturing Topics
           contents:
             - Building Vocabulary with Stopwords and Stemming
@@ -48,6 +48,9 @@
             - Logistic Regression Classifier
             - Naïve Bayes Classifiers
         - <b>Application</b> - Sentiment Analysis
+        - title: <a href="https://cdn.openai.com/gpt-5-system-card.pdf">Required Keynote Paper</a> - GPT-5 Model Card from OpenAI
+          contents:
+            - Older model reference - <a href="https://arxiv.org/abs/2303.08774"> OpenAI's GPT-4 technical report </a>
         - title: Submissions
           contents:
             - <a href="https://colab.research.google.com/drive/14wNBIyAOMTyh5Hnuv8tOBXdyV39H0QYW#">Laboratory - Naïve Bayes</a>
@@ -67,6 +70,10 @@
             - Comparisons / Differences in Language
             - Minimum Edit Distance Algorithms
         - <b>Application</b> - Autocorrect in Practice
+        - title: <a href="https://arxiv.org/abs/2503.23278">Required Keynote Paper</a> - Outrageously Large Neural Networks
+          contents:
+            - <a href="https://arxiv.org/abs/2412.19437">DeepSeek Technical Report</a> - Mixture of Experts
+            - <a href="https://huggingface.co/blog/moe">Hugging Face Blog</a>
         - title: Submissions
           contents:
             - <a href="https://colab.research.google.com/drive/1M8i7DuIuUMKDHO3Kuu98ZE3xv60zupAV">Laboratory - Autocorrect Vocabulary Candidates</a>
@@ -79,7 +86,7 @@
       institution: October 6
       year: Week 5
       description:
-        - Today we'll begin our journey to understanding LLMs by observing its origins. Dropping the "Large" from the now-ubiquitous term "Large Language Models", we take a look at the foundational principles that extract the relationships defining what it means to model language and how we might generate text. This week also marks the first week of <a href="../readings/"><b>required keynote paper</b></a> reading, where we will begin the tour of seminal papers that have revolutionized not only language processing but also machine learning and artificial intelligence writ large. 
+        - Today we'll begin our journey to understanding LLMs by observing its origins. Dropping the "Large" from the now-ubiquitous term "Large Language Models", we take a look at the foundational principles that extract the relationships defining what it means to model language and how we might generate text.  
         - title: Lecturing Topics
           contents:
             - What is a language model? (Abstractive vs extractive approaches)
