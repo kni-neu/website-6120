@@ -25,17 +25,15 @@ For each of the papers, during the *following week*, students will create a vide
 
 1. **Video Presentation** (10min, maximum) - The video presentation will need to be concise, to the point, and isolate the most important aspects of the work. It is a TL;DR elevator pitch as if you had a short amount of time to get your ideas across to an executive or your manager before they go into a leadership review. For this, you will need to:
 
-	* **Summarize** the seminal work in short and concise ways. This includes the problems we face and a specific approach to remedy them.
+	* **Overview** the seminal work in short and concise ways. This includes the problems we face and a specific approach to remedy them.
 
 	* **Analyze** and review the pros and cons of the algorithm. What problems do you see the proposed approach solves? Where do you think there could be room for improvement? What are some challenges associated with the paper? What are the nuances
 
-	* **Opinionate** and provide crucial perspectives about the work.
-	
-	* **Pitch** the work on why the technology is game changing. What can this work help us to do?
+	* **Pitch** the work on why the technology is game changing. What can this work help us to do? What are some potential applications? Be creative; think about many different verticals.
 
 	There are maximum four people per week. Feel free to organize ahead of time.
 
-2. **TL;DR Report** (Est 1 page, but 2pg max) Write a concise one page report that summarizes the paper in a clear and concise manner. Feel free to use the LaTeX templates below.
+2. **TL;DR Report** (Est 1 page, but 2pg max) Write a concise one page report that summarizes your video presentation in a clear and concise manner. Feel free to use the LaTeX templates below.
 
 3. **Questions/Answers**: Be prepared to ask questions from the audience, TA's, and instructor (5min).
 
