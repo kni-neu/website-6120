@@ -2,7 +2,7 @@
 layout: page
 title: swathi arasu
 description: Teaching Assistant
-office_hours: Wed 12-2pm, 9th floor
+office_hours: Wed 9-11am, 9th floor
 img: assets/img/swathi-tmp.jpeg
 importance: 2
 category: staffing
@@ -28,7 +28,7 @@ Outside of academics, I enjoy clay sculpting, reading books and exploring new de
 ### Office Hours and Logistics  
 Feel free to drop by my office hours with any questions or just to chat! I’d appreciate a heads-up about your question or topic so I can prepare better :)
 
-* **Wednesday, 12:00 PM - 2:00 PM**  
+* **Wednesday, 9:00 AM - 11:00 AM**  
   Message me on [Teams](https://teams.microsoft.com/l/chat/0/0?users=arasu.sw@northeastern.edu) or [email](mailto:arasu.sw@northeastern.edu).  
 
 
