@@ -29,7 +29,7 @@ Please review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assi
 You will need [the data](https://course.ccs.neu.edu/cs6120f25/data/shakespeare/), which we'll be using throughout the semester. The Bash command is
 
 ```
-wget --no-check-certificate https://course.ccs.neu.edu/cs6120s25/data/shakespeare/shakespeare-edit.txt
+wget --no-check-certificate https://course.ccs.neu.edu/cs6120f25/data/shakespeare/shakespeare-edit.txt
 ```
 
 You can use Jupyter and Google Colab magick commands (calling Bash from inside of a notebook) with the `!` indicator. For example, `!wget <options> <file>` will suffice. If you are more comfortable with notebooks, there are several options:
