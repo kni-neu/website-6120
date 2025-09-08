@@ -2,18 +2,16 @@
 layout: page
 title: dharun n.
 description: head teaching assistant
-office_hours: mon 2-4pm, 9th floor
+office_hours: Fri 12-2pm, 9th floor
 img: assets/img/dharun-tmp.jpeg
 importance: 2
 category: staffing
 ---
 
 <img src="../../assets/img/dharun-tmp.jpeg" alt="Dharun" style="float: left; margin-right: 20px;" width="200">
-<p>Hi! I’m Dharun, one of your CS6120 Teaching Assistants this semester. I’m a grad student at Northeastern who’s spent some time juggling internships at Bevi and Clade, and I’ve also worked at Swiggy — basically the Indian version of Doordash, where I learned the art of getting things delivered on time (well atleast sometimes).
+<p>Hi! I’m Dharun, one of your CS6120 Teaching Assistants this semester. I’m a grad student at Northeastern who’s spent some time juggling internships at Bevi and Clade, and I’ve also worked as a Data Scientist at Swiggy — the Indian version of Doordash, which laid the foundation for my journey in Data Science and Machine Learning. 
 
-My interests bounce around from generative models to Consumer AI —  a fancy way of saying I like making machines understand language and everyday human needs without losing their minds. I’ve taken CS6120 before, so I know the thrill of wrestling with transformers and trying to get them not to hallucinate (especially when medical codes are involved).
-
-I’m here to help make this journey a little easier (and maybe even fun). Feel free to reach out with questions, ideas, or to debate whether AI will ever truly “get” us humans. Looking forward to a great semester! 
+My interests bounce around from generative models to Inference Efficiency —  a fancy way of saying I like solving complicated problems without losing my mind. I’ve taken CS6120 before, so I know the thrill of wrestling with transformers and trying to not hit the CUDA OOM error. I’m here to help make this journey a little easier (and maybe have some fun while doing it). Feel free to reach out with questions, ideas, or to debate whether AI will ever truly “get” us humans. Looking forward to a great semester! 
 </p>
 
 <br>
@@ -21,7 +19,7 @@ I’m here to help make this journey a little easier (and maybe even fun). Feel 
 
 ### A Little More About Myself
 
-Outside of academics, I’m a soccer enthusiast who’s been also known to turn any shower into a personal concert stage (yes, bathroom singing is a hobby). Master’s studies take up most of my time, but I always try to keep a balance between work and life(which is work mostly again).
+Outside of academics, I’m a soccer enthusiast. Master’s studies take up most of my time, but I always try to keep a balance between work and life(but we all know how that goes).
 
 <br>
 <br>
@@ -30,8 +28,7 @@ Outside of academics, I’m a soccer enthusiast who’s been also known to turn 
 
 ### Office Hours and Logistics
 Feel free to drop by my office hours with any questions, challenges, or even just to chat about soccer, singing, or your favorite book! If you can give me a quick heads-up about what you want to discuss, that’d be awesome
-* Mondays 2pm-4pm, 9th Floor
-* Thirsday 1pm-3pm, 10th Floor
+* Friday 12pm-2pm, 9th Floor.
 Message me on [Teams](https://teams.microsoft.com/l/chat/0/0?users=nagarajan.dh@northeastern.edu) or [email](mailto:nagarajan.dh@northeastern.edu). 
 
 ### Contact Information
