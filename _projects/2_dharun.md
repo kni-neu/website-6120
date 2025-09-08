@@ -28,7 +28,7 @@ Outside of academics, I’m a soccer enthusiast. Master’s studies take up most
 
 ### Office Hours and Logistics
 Feel free to drop by my office hours with any questions, challenges, or even just to chat about soccer, singing, or your favorite book! If you can give me a quick heads-up about what you want to discuss, that’d be awesome
-* Friday 12pm-2pm, 9th Floor.
+* Friday 12pm-2pm, 9th Floor
 Message me on [Teams](https://teams.microsoft.com/l/chat/0/0?users=nagarajan.dh@northeastern.edu) or [email](mailto:nagarajan.dh@northeastern.edu). 
 
 ### Contact Information
