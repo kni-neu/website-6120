@@ -36,9 +36,9 @@ This Week:
 
 ### To-Do Before Class
 
-1. Read the syllabus carefully: CS 6120 Fall 2025 Syllabus
+1. Read the syllabus carefully: [CS 6120 Fall 2025 Syllabus](https://course.ccs.neu.edu/cs6120f25/syllabus/)
 2. Get your development environment ready with the lab instructions.
-3. Start Assignment 1 early -- it’s your on-ramp to the course.
+3. Start [Assignment 1 early](https://course.ccs.neu.edu/cs6120f25/homework-1/) -- it’s your on-ramp to the course.
 
 ### Welcoming Notes
 
