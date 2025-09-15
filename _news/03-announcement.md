@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-George Ignatius from DoorDash to guest speak about agentic workflows
+George Ignatius from DoorDash to guest speak about agentic workflows on Oct 5.
