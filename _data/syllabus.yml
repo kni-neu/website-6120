@@ -99,6 +99,7 @@
           contents:
             - <a href="https://www.anthropic.com/news/model-context-protocol">An Introduction to MCP</a> - Anthropic's Blog
             - <a href="https://modelcontextprotocol.io/introduction">MCP's Central Documentation</a>
+            - <a href="https://learn.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic">DeepLearning.Net</a> - Anthropic's on MCP
         - title: Submissions
           contents:
             - <a href="https://colab.research.google.com/drive/1AVRooWlPXLxNrREvGt_DQvfRZS6Q2_8b">Laboratory 5.1 - N-Grams Processing</a>
