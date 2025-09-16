@@ -2,7 +2,7 @@
   type: time_table
   contents:
     - title: <a href="https://docs.google.com/presentation/d/1EvZAL5dpZK4B3GNFn6ASxG1K8ssyu0SW">Introduction and Applications</a>
-      institution: September 8
+      institution: September 8 <a href="https://shorturl.at/9kuwO">(video)</a>
       year: Week 1
       description:
         - <b>Language</b> - the most efficient and compact way to transfer knowledge is through words, where the window to AGI is through NLP. This lecture is an introduction that takes us through history of how we got to LLMs. We'll also review some applications of NLP, current industry standards, and some of the most impactful approaches and where they are being implemented. Finally, we'll preview what we'll be learning, the logistics of how we'll be doing so, and the expectations for your participation in this class.
@@ -19,7 +19,7 @@
 
 
     - title: <a href="https://docs.google.com/presentation/d/14PzCaOaPv4WEFvjR4IJ7o6RD-WSVr7ZW">ML Foundations and Software Engineering</a>
-      institution: September 15
+      institution: September 15 <a href="https://shorturl.at/SFB3P">(video)</a>
       year: Week 2
       description:
         - As NLP is a specific branch of machine learning, we will review some foundational knowledge that we'll utilize through the course of this class. We'll look at both machine learning and software engineering best practices that will help you build and scale NLP systems later in the course. Because most NLP algorithms today rely heavily on computing resources, we'll dive into distributed compution approaches and cloud-based operations.
