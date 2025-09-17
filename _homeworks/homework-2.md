@@ -29,7 +29,7 @@ In this homework, we will explore the fundamentals of neural networks, implement
 
 For this assignment, you must complete your work in the provided **starter template**: ➡️ [**assignment2.py**](https://course.ccs.neu.edu/cs6120f25/assets/python/assignment2.py). All of your code should go into this file. Submissions not based on this template may not run with the autograder. 
 
-All utility and data files are available in the [homework 1's data folder](https://course.ccs.neu.edu/cs6120f25/data/twitter/). You will find:
+All utility and data files are available in the [homework 2's data folder](https://course.ccs.neu.edu/cs6120f25/data/twitter/). You will find:
 - **Twitter dataset:** [twitter_data.pkl](https://course.ccs.neu.edu/cs6120f25/data/twitter/twitter_data.pkl)  
 - **Utility functions:** [utils.py](https://course.ccs.neu.edu/cs6120f25/data/twitter/utils.py)  
 

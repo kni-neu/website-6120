@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Policies on the use of artificial intelligence and LLMs, specifically
-date: 2024-01-16
+date: 2025-09-16
 inline: false
 related_posts: false
 ---
