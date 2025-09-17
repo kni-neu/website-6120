@@ -2,7 +2,7 @@
 layout: page
 title: karl ni
 description: instructor
-office_hours: tue 8:30-9:30pm, teams
+office_hours: thu 8:30-9:30pm, teams
 img: https://pbs.twimg.com/profile_images/757076762236891136/ccrb9A3u_400x400.jpg
 importance: 1
 category: staffing
