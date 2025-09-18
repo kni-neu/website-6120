@@ -43,7 +43,7 @@ For each of the papers, during the *following week*, students will create a vide
 
 ### Style and Substance
 
-You have only five minutes to present your case. Make your videos engaging and interesting with high amounts of energy! Some fun examples of people who do this well include [Diana Hsieh](https://www.instagram.com/reel/DINNA2kAA4a), [Harper Carroll](https://www.instagram.com/reel/DKut9ScylzU), [Siraj Raval](https://www.youtube.com/watch?v=2FmcHiLCwTU), and [Annie Sexton](https://www.youtube.com/watch?v=zvJ1-Zzra_g).
+You have a limited time to present your case, and it's OK (preferable) not to use all ten minutes. Make your videos engaging and interesting with high amounts of energy! Some fun examples of people who do this well include [Diana Hsieh](https://www.instagram.com/reel/DINNA2kAA4a), [Harper Carroll](https://www.instagram.com/reel/DKut9ScylzU), [Siraj Raval](https://www.youtube.com/watch?v=2FmcHiLCwTU), and [Annie Sexton](https://www.youtube.com/watch?v=zvJ1-Zzra_g).
 
 <br>
 
