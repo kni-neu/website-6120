@@ -27,7 +27,7 @@ In this homework, we will implement a functional and practical autocorrection an
 #### data and starter kit
 -----
 
-You will need the [code](https://course.ccs.neu.edu/cs6120s25/assets/python/assignment3.py), corresponding [utility functions](https://course.ccs.neu.edu/cs6120s25/data/twitter/utils.py), and [shakespeare data](https://course.ccs.neu.edu/cs6120s25/data/shakespeare/shakespeare-edit.txt) at our [website](https://course.ccs.neu.edu/cs6120s25/data/shakespeare/). Please  develop in Python. 
+You will need the [code](https://course.ccs.neu.edu/cs6120f25/assets/python/assignment3.py), corresponding [utility functions](https://course.ccs.neu.edu/cs6120f25/data/twitter/utils.py), and [shakespeare data](https://course.ccs.neu.edu/cs6120f25/data/shakespeare/shakespeare-edit.txt) at our [website](https://course.ccs.neu.edu/cs6120f25/data/shakespeare/). Please  develop in Python. 
 
 You are free to *develop* in any environment (including [virtual machines](https://console.cloud.google.com/compute/instances) and [notebooks](https://console.cloud.google.com/vertex-ai/workbench)), but your submission must be a `*.py` file.
 
