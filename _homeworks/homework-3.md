@@ -35,7 +35,7 @@ You are free to *develop* in any environment (including [virtual machines](https
 #### submission instructions
 -----
 
-* Submit your Python file `assignment3.py` via  [Gradescope](https://www.gradescope.com) before 5pm, Thursday, February 6.
+* Submit your Python file `assignment3.py` via  [Gradescope](https://www.gradescope.com) before 5pm, Monday, October 6.
 
 <!-- * Document templates can be either [Overleaf TeX File](https://www.overleaf.com/read/gbwryydmdjhv) or [DOCX File](https://docs.google.com/document/d/1Q8fpJo-gF_L0_TwUdw5E7x7faOAStK4n). When you've compiled/finished writing, **download the PDF** from Overleaf/Google and upload it to the submission link.  -->
 
