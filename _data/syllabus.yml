@@ -60,7 +60,7 @@
 
 
     - title: <a href="https://docs.google.com/presentation/d/1x_xCsAgSqaO3fSjZyeKlBhMVH48syktb">Text Processing Algorithms</a>
-      institution: September 29
+      institution: September 29 <a href="https://northeastern-my.sharepoint.com/:v:/g/personal/k_ni_northeastern_edu/EXTTL1-1fohPv8vJCLv32c0B6N0NFGQThTEToIULD9RdbA?e=yHd3pn">(video)</a>
       year: Week 4
       description:
         - One of the most widely used algorithms in practice today are autocorrecting algorithms that typically have on-device requirements. In this lecture, we'll review elements of dynamic programming, particularly with respect to the minimum edit distance algorithm, and how we can apply these concepts to the autocorrect and subsequently the autocomplete problem.
