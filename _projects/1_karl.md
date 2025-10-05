@@ -27,7 +27,7 @@ Welcome to CS6120! It's nice to meet you. You can find my academic and commerica
 </div>
 
 
-I'm looking forward to getting to know everyone this semester. Please feel free to stop by during office hours.
+I'm looking forward to getting to know everyone this semester. Please feel free to stop by during <a href="https://shorturl.at/Clp29">office hours</a>.
 
 <center>
 <img src="../../assets/img/karl-interests.png" width="750">
