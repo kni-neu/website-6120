@@ -6,7 +6,7 @@ inline: false
 related_posts: false
 ---
 
-We'll provide an extension to [assignment 2](https://course.ccs.neu.edu/cs6120f25/assets/pdf/assignment-2.pdf) (Deep Learning) due later on Friday. A reminder that all homeworks have pdfs. 
+We'll provide an extension to [assignment 2](https://course.ccs.neu.edu/cs6120f25/assets/pdf/assignment-2.pdf) (Deep Learning) due later on Friday. A reminder that all homeworks have pdfs. For this particular homework, feel free to use [this website](http://www.ee.ic.ac.uk/hp/staff/dmb/matrix/calculus.html) of matrix / vector calculus.
 
 <br>
 <center>
