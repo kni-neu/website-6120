@@ -83,7 +83,7 @@
 
 
     - title: <a href="https://docs.google.com/presentation/d/17hSy11npLcOLbgqHAMh0y4NLet3gSir9">Introduction to Language Modeling</a>
-      institution: October 6
+      institution: October 6 <a href="https://shorturl.at/L8HOY">(video 1)</a> <a href="https://shorturl.at/GML1T">(video 2)</a>
       year: Week 5
       description:
         - Today we'll begin our journey to understanding LLMs by observing its origins. Dropping the "Large" from the now-ubiquitous term "Large Language Models", we take a look at the foundational principles that extract the relationships defining what it means to model language and how we might generate text.  
