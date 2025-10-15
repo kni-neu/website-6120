@@ -2,11 +2,6 @@
 In a shell, download the data to the base folder:
 
 >> wget -nc --no-check-certificate https://course.ccs.neu.edu/cs6120f25/data/arxiv/arxiv_titles.txt
-
-Copy data/load_data into your source directory.
-
-Solutions originate from:
-    https://colab.research.google.com/drive/1mlZhB5oKyy_7OGTcu7-WwtsiSIBeavk1
 """
 
 import re
