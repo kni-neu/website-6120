@@ -2,7 +2,7 @@
   type: time_table
   contents:
     - title: <a href="https://docs.google.com/presentation/d/1EvZAL5dpZK4B3GNFn6ASxG1K8ssyu0SW">Introduction and Applications</a>
-      institution: September 8 <a href="https://shorturl.at/VEzQr">(video)</a>
+      institution: January 12 
       year: Week 1
       description:
         - <b>Language</b> - the most efficient and compact way to transfer knowledge is through words, where the window to AGI is through NLP. This lecture is an introduction that takes us through history of how we got to LLMs. We'll also review some applications of NLP, current industry standards, and some of the most impactful approaches and where they are being implemented. Finally, we'll preview what we'll be learning, the logistics of how we'll be doing so, and the expectations for your participation in this class.
@@ -19,7 +19,7 @@
 
 
     - title: <a href="https://docs.google.com/presentation/d/14PzCaOaPv4WEFvjR4IJ7o6RD-WSVr7ZW">ML Foundations and Software Engineering</a>
-      institution: September 15 <a href="https://shorturl.at/GZ8Oi">(video)</a>
+      institution: January 19
       year: Week 2
       description:
         - As NLP is a specific branch of machine learning, we will review some foundational knowledge that we'll utilize through the course of this class. We'll look at both machine learning and software engineering best practices that will help you build and scale NLP systems later in the course. Because most NLP algorithms today rely heavily on computing resources, we'll dive into distributed compution approaches and cloud-based operations.
@@ -37,7 +37,7 @@
             
 
     - title: <a href="https://docs.google.com/presentation/d/1fE9hcD9UJq3GvPQczDxN8rX5_M3SED-8">Language Classification</a>
-      institution: September 22 <a href="https://shorturl.at/Aqq8N">(video)</a>
+      institution: January 26
       year: Week 3
       description:
         - Building upon our review of machine learning, we discuss strategies in feature extraction and generation. Particularly as creating a vocabulary can explode required memory space, our featurization includes NLP-specific techniques (e.g., tokenization, lemmatization, etc.). This week also marks the first week of <a href="../readings/"><b>required keynote paper</b></a> reading, where we will begin the tour of seminal papers that have revolutionized not only language processing but also machine learning and artificial intelligence writ large.
@@ -60,7 +60,7 @@
 
 
     - title: <a href="https://docs.google.com/presentation/d/1x_xCsAgSqaO3fSjZyeKlBhMVH48syktb">Text Processing Algorithms</a>
-      institution: September 29 <a href="https://northeastern-my.sharepoint.com/:v:/g/personal/k_ni_northeastern_edu/EXTTL1-1fohPv8vJCLv32c0B6N0NFGQThTEToIULD9RdbA?e=yHd3pn">(video)</a>
+      institution: February 2
       year: Week 4
       description:
         - One of the most widely used algorithms in practice today are autocorrecting algorithms that typically have on-device requirements. In this lecture, we'll review elements of dynamic programming, particularly with respect to the minimum edit distance algorithm, and how we can apply these concepts to the autocorrect and subsequently the autocomplete problem.
@@ -83,7 +83,7 @@
 
 
     - title: <a href="https://docs.google.com/presentation/d/17hSy11npLcOLbgqHAMh0y4NLet3gSir9">Introduction to Language Modeling</a>
-      institution: October 6 <a href="https://shorturl.at/L8HOY">(video 1)</a> <a href="https://shorturl.at/GML1T">(video 2)</a>
+      institution: February 9
       year: Week 5
       description:
         - Today we'll begin our journey to understanding LLMs by observing its origins. Dropping the "Large" from the now-ubiquitous term "Large Language Models", we take a look at the foundational principles that extract the relationships defining what it means to model language and how we might generate text.  
@@ -109,14 +109,9 @@
             - <a href="../homework-4">Assignment 4 is assigned</a> - <i>Autocomplete with Topical Information</i>
 
 
-    - title: Indigenous Peoples Day - Holiday
-      institution: October 13
-      year: Week 6
-
-
     - title: <a href="https://docs.google.com/presentation/d/1kiEI4S3WLJ3cikQkZ85Nvx2Mz6kFyJLX">Unsupervised NLP - Topic Modeling</a>
-      institution: October 20
-      year: Week 7
+      institution: February 16
+      year: Week 6
       description:
         - This week, we will explore David Blei's contributions to the field, a set of concepts that indirectly attack the age-old question of <b>"what is <i>k</i> in the k-means clustering algorithm</b>. We will review the hierarchical nature of how to model natural language using Bayesian concepts, where our corpora is processed without preserving the order of words. This week's keynote reading is perhaps the most difficult one that you'll read in this class, since it involves a heavy component of probability and statistics. 
         - title: Lecturing Topics
@@ -141,8 +136,8 @@
 
 
     - title: <a href="https://docs.google.com/presentation/d/1cnSHRYSq2esGADDQrVjTMzj9LhAAIfuy">Word Modeling with Self-Supervision</a>
-      institution: October 27 <a href="https://shorturl.at/Hm0BF">(video)</a>
-      year: Week 8
+      institution: Feburary 23
+      year: Week 7
       description:
         - Perhaps the most influential paper to have come out of the natural language community is the <a href="https://arxiv.org/abs/1310.4546"><i>word2vec</i> paper</a> that most general machine learning practioners recognize. You'll find elements of its practice in communities from the information retrieval sciences to modern cyber applications to general ML problems. As it pertains to language models, modeling words is often the first stage in any system pipeline that you may design. This week's lecture reviews word models (including word2vec as well as continuous bags of words) and the embeddings / representations that they create.
         - title: Lecturing Topics
@@ -161,8 +156,13 @@
             - <a href="../assets/pdf/lab-7.pdf">Laboratory - The Original Word2Vec Code in C</a> (Optional)
 
 
+    - title: Enjoy Your Spring Break!
+      institution: March 2
+      year: Week 8
+
+
     - title: <a href="https://docs.google.com/presentation/d/1zmPWukoV4r1YYOqi6inWBAHTmoZQ6TA0">Introduction to Sequential Modeling</a>
-      institution: November 3
+      institution: March 9
       year: Week 9
       description:
         - In smaller data regimes and for bespoke problems, we'll find that conversations still revolve around the OG state-driven modeling approach - Hidden Markov Models (HMMs). HMMs dominated NLP and speech recognition for half a century and are classic examples of NLP fundamentals. We'll build a strong foundation this week that appreciates the origins of our field, which helps us understand the motivations behind the latest Deep Learning more modern paradigms like Transformers.
@@ -180,7 +180,7 @@
         
 
     - title: <a href="https://docs.google.com/presentation/d/1U_CdfaLWgvswaw4T29p7oXDOrootGqmq">Recurrence and Neural Networks</a>
-      institution: November 10
+      institution: March 16
       year: Week 10
       description:
         - While newer architectures like transformers now dominate the field of NLP, in its short tenure, Recurrent Neural Networks became workhorses that first demonstrated the power of deep learning for sequential data like text. This lecture builds an appreciation of how modeling language works, how attention and transformers originated, and subsequently the transition to truly deep architectures.  Beyond studying the history; it's we'll review the fundamental principles in RNNs that underpin modern NLP. 
@@ -204,7 +204,7 @@
           
 
     - title: <a href="https://docs.google.com/presentation/d/14mvSG5KB7MHyyL_vTtVDCnwUiYC3_GDw">Attention and the Transformer Model</a>
-      institution: November 17
+      institution: March 23
       year: Week 11
       description:
         - Attention models have been the leap forward that are the fundamental building blocks to modern machine learning today, including the essential ingredients for Large Language Models. We'll go deep into attention layers in neural networks, building our own from scratch.
@@ -229,7 +229,7 @@
 
 
     - title: <a href="https://docs.google.com/presentation/d/1UCcxFqBzBp7-FCl957iyVKpetFNDZhU5EepNai_8-oI">Introduction to Large Language Modeling (LLMs)</a>
-      institution: November 24
+      institution: March 30
       year: Week 12
       description:
         - The next two weeks are devoted to the state of the art in industry, and LLMs in practice, which may have changed in the time that you have started this course! This week, we introduce large language models using the fundamentals that you have learned, from perplexity in system design to transformer neural network layers for pre-training. We'll focus on techniques that large companies (or well-funded ones, at least) use to create <i>foundation</i> LLM models, taking training methods from OpenAI, Anthropic, Amazon, and Google.
@@ -248,7 +248,7 @@
 
 
     - title: <a href="https://docs.google.com/presentation/d/19SAm2OxY9ZvBU5fWQaVRg8G5dKvsNioj">Practically Leveraging LLMs and the LLM Lifecycle</a>
-      institution: December 1
+      institution: April 6
       year: Week 13
       description:
         - Last week, we discussed how large companies might train LLMs. In contrast, this week's lecture is most useful for those interested in entering the industry at the mid- to startup levels, where we explore common approaches to optimally <i>leverage</i> large language models for your particular applications once the LLM has been created. These techniques additionally attack limitations in LLMs, such as knowledge gaps, hallucinations, and logical reasoning problems. Additionally, we explore the practical aspects of GenAI engineers when product managers ask them to design a system for them. More than the theory, we'll learn about the system itself, devoting time for *when* to focus on certain components of your LLM, and the life cycle of your system design. 
@@ -270,7 +270,7 @@
 
 
     - title: <a href="https://docs.google.com/presentation/d/1VO-SAmfm3smmDhVn6AkyK-SZTDURDILz9xCFx_0OiAA">Demonstrations and Poster Sessions</a>
-      institution: December 8
+      institution: April 13
       year: Week 16
       description:
         - Deploy and show off your domain-specific LLM and pitch your startup idea! Review the guidelines at the <a href="../presentation-and-project/">Final Project Website</a>.
