@@ -162,7 +162,7 @@
 
 
     - title: <a href="https://docs.google.com/presentation/d/1zmPWukoV4r1YYOqi6inWBAHTmoZQ6TA0">Introduction to Sequential Modeling</a>
-      institution: November 3
+      institution: November 3 <a href="https://shorturl.at/9kswL">(video)</a>
       year: Week 9
       description:
         - In smaller data regimes and for bespoke problems, we'll find that conversations still revolve around the OG state-driven modeling approach - Hidden Markov Models (HMMs). HMMs dominated NLP and speech recognition for half a century and are classic examples of NLP fundamentals. We'll build a strong foundation this week that appreciates the origins of our field, which helps us understand the motivations behind the latest Deep Learning more modern paradigms like Transformers.
