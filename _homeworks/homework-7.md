@@ -56,10 +56,10 @@ You will need to edit between `START CODE HERE` and `END CODE HERE`.
 In addition, you will need the data. There are a variety of ways you can download them onto your workstations. On [GCP VMs](https://console.cloud.google.com/compute/instances), you can download with the bash command `wget`. If you wish to download inside of a notebook, you can type in a shell command by prepending each of the following commands with `!`. The full package can be downloaded with
 
   ```bash
-  wget -nc https://course.ccs.neu.edu/cs6120s25/assets/python/assignment7.py
-  wget -nc https://course.ccs.neu.edu/cs6120s25/data/samsum/utils.py
-  wget -nc https://course.ccs.neu.edu/cs6120s25/assets/python/assignment7_unittests.py
-  wget -nc https://course.ccs.neu.edu/cs6120s25/data/samsum/corpus.tar
+  wget -nc https://course.ccs.neu.edu/cs6120f25/assets/python/assignment7.py
+  wget -nc https://course.ccs.neu.edu/cs6120f25/data/samsum/utils.py
+  wget -nc https://course.ccs.neu.edu/cs6120f25/assets/python/assignment7_unittests.py
+  wget -nc https://course.ccs.neu.edu/cs6120f25/data/samsum/corpus.tar
   tar -xvf corpus.tar
   pip install dlai_grader
   ```
