@@ -1,63 +1,37 @@
-    - name: Setup Node (for mermaid)
-      uses: actions/setup-node@v3
+name: deploy
+
+on:
+  push:
+    branches:
+      - master
+      - main
+  pull_request:
+    branches:
+      - master
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout 🛎️
+      uses: actions/checkout@v3
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
       with:
-        node-version: '18'
-
-    - name: Install system packages required by gems and tools
+        ruby-version: '3.2.1'
+        bundler-cache: true
+    - name: Install and Build 🔧
       run: |
-        sudo apt-get update
-        sudo apt-get install -y build-essential pkg-config libv8-dev libffi-dev imagemagick graphviz
-
-    - name: Install and Build (capture full logs)
-      run: |
-        set -o pipefail
-        mkdir -p logs
-
-        echo "=== ENV ===" > logs/env.log
-        ruby --version >> logs/env.log 2>&1 || true
-        gem --version >> logs/env.log 2>&1 || true
-        bundle --version >> logs/env.log 2>&1 || true
-        node --version >> logs/env.log 2>&1 || true
-        npm --version >> logs/env.log 2>&1 || true
-
-        echo "=== Installing mermaid cli ===" > logs/mermaid-install.log
-        npm install -g @mermaid-js/mermaid-cli >> logs/mermaid-install.log 2>&1 || npm install -g mermaid.cli >> logs/mermaid-install.log 2>&1 || true
-        echo "mermaid install exit: $?" >> logs/mermaid-install.log
-
-        echo "=== bundle install ===" > logs/bundle-install.log
-        bundle install --jobs 4 --retry 3 >> logs/bundle-install.log 2>&1
-        BUNDLE_EXIT=$?
-        echo "bundle exit code: $BUNDLE_EXIT" >> logs/bundle-install.log
-
-        echo "=== jekyll build ===" > logs/jekyll-build.log
-        bundle exec jekyll build --verbose >> logs/jekyll-build.log 2>&1
-        JEKYLL_EXIT=$?
-        echo "jekyll exit code: $JEKYLL_EXIT" >> logs/jekyll-build.log
-
-        # extra debug if something failed
-        if [ $BUNDLE_EXIT -ne 0 ]; then
-          echo "----- bundle env -----" >> logs/bundle-install.log
-          bundle env >> logs/bundle-install.log 2>&1 || true
-          echo "----- gem list -----" >> logs/bundle-install.log
-          gem list >> logs/bundle-install.log 2>&1 || true
-        fi
-
-        if [ $JEKYLL_EXIT -ne 0 ]; then
-          echo "----- jekyll trace -----" >> logs/jekyll-build.log
-          bundle exec jekyll build --trace >> logs/jekyll-build.log 2>&1 || true
-        fi
-
-        # create summary
-        echo "bundle:$BUNDLE_EXIT jekyll:$JEKYLL_EXIT" > logs/summary.txt
-
-        # fail the step if any of the important steps failed
-        if [ $BUNDLE_EXIT -ne 0 ] || [ $JEKYLL_EXIT -ne 0 ]; then
-          exit 1
-        fi
-
-    - name: Upload build logs
-      if: always()
-      uses: actions/upload-artifact@v4
+        npm install -g mermaid.cli
+        bundle exec jekyll build --trace
+    - name: Deploy 🚀
+      if: github.event_name != 'pull_request'
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
-        name: build-logs
-        path: logs
+        folder: _site
+
