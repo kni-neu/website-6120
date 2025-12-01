@@ -48,7 +48,7 @@ Commit all your code to your repository, and submit via [Gradescope](https://www
 * [Project Writeup](https://www.overleaf.com/read/xcjqmczwyrcz#0deb70) (PDF Format)
   - Click on `project_template.tex` to edit your project
   - Review the [Heilmeier Catechism](https://www.darpa.mil/work-with-us/heilmeier-catechism)
-* [Slides Linked to Master Deck](https://docs.google.com/presentation/d/1VO-SAmfm3smmDhVn6AkyK-SZTDURDILz9xCFx_0OiAA)
+* [Slides Linked to Master Deck](https://docs.google.com/presentation/d/1THS63CCLEqvzfadkNAwDTP2hCg9bLNnt9LdAo7dUWNc)
   - Link your slide deck to the master presentation slide deck on slide 2
   - Your elevator pitch for your work should be _at most_ three minutes. We will be strict on timelines.
 * [Project Repository](http://www.github.com) (Github Repository via Link)
