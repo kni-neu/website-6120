@@ -72,7 +72,7 @@ There are two components your project: its presentation and your technical deliv
 |     |  | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  * Background and Related Work: Project is well-researched within and beyond course scope
 |     |  | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  * Modeling Methodology: Robustness to pitfalls like class imbalance and overfitting
 |     |  | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  * Evaluation and Analysis: Justification of the approach is sound
-|     | - | &nbsp;&nbsp; Oral Delivery [Slide Deck](https://docs.google.com/presentation/d/1VO-SAmfm3smmDhVn6AkyK-SZTDURDILz9xCFx_0OiAA) (10%)
+|     | - | &nbsp;&nbsp; Oral Delivery [Slide Deck](https://docs.google.com/presentation/d/1THS63CCLEqvzfadkNAwDTP2hCg9bLNnt9LdAo7dUWNc) (10%)
 | 60% | : | __Technical__ : Demonstration of your work, handling of corner cases, technical correctness
 |     | - | &nbsp;&nbsp;&nbsp;&nbsp; _Accessibilty and Performance_: The endpoint is open and is accessible to the public. Results arrive in a reasonble time, and path to additional scaling is apparent
 |     | - | &nbsp;&nbsp;&nbsp;&nbsp; _Problem Complexity and Data Scale_: Data needs to be meaningfully challenging and unique. There are oftentimes at least 10k rows of meaningful amount of data
