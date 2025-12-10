@@ -179,7 +179,6 @@
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href = "https://colab.research.google.com/drive/1N2In_T8J1evlZPduXoxqeOpR4RE86AHK">Laboratory - Building Your First RNN</a>
-            - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
             - <a href="../homework-6">Assignment 6 is assigned</a> - <i>Implement Your Own Recurrent Network</i>
           
 
@@ -204,6 +203,7 @@
             - <a href = "https://colab.research.google.com/drive/10SDgUL4px6M_R7-4c1EDHEx0neck2ZOq">Laboratory - Dot Product Attention</a>
             - <a href = "https://colab.research.google.com/drive/1j8tjxiN0G9ehF4VfihVqd2-m3QafDh1I">Laboratory - Masking in Attention</a>
             - <a href = "https://colab.research.google.com/drive/1L3WUB6fMTO4WEKnqPmdsqtMeiCkX2VCv">Laboratory - Positional Encoding</a>
+            - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
             - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
             - <a href="../homework-7">Assignment 7 is assigned</a> - <i>Attention and Transformer Networks</i>
 

@@ -6,7 +6,7 @@ description: word embeddings
 nav: true
 hw_pdf: assignment-5.pdf
 assigned: october 20
-due_date: november 10
+due_date: november 17
 horizontal: false
 ---
 

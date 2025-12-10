@@ -48,7 +48,7 @@ Commit all your code to your repository, and submit via [Gradescope](https://www
 * [Project Writeup](https://www.overleaf.com/read/xcjqmczwyrcz#0deb70) (PDF Format)
   - Click on `project_template.tex` to edit your project
   - Review the [Heilmeier Catechism](https://www.darpa.mil/work-with-us/heilmeier-catechism)
-* [Slides Linked to Master Deck](https://docs.google.com/presentation/d/1VO-SAmfm3smmDhVn6AkyK-SZTDURDILz9xCFx_0OiAA)
+* [Slides Linked to Master Deck](https://docs.google.com/presentation/d/1THS63CCLEqvzfadkNAwDTP2hCg9bLNnt9LdAo7dUWNc)
   - Link your slide deck to the master presentation slide deck on slide 2
   - Your elevator pitch for your work should be _at most_ three minutes. We will be strict on timelines.
 * [Project Repository](http://www.github.com) (Github Repository via Link)
@@ -72,7 +72,7 @@ There are two components your project: its presentation and your technical deliv
 |     |  | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  * Background and Related Work: Project is well-researched within and beyond course scope
 |     |  | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  * Modeling Methodology: Robustness to pitfalls like class imbalance and overfitting
 |     |  | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  * Evaluation and Analysis: Justification of the approach is sound
-|     | - | &nbsp;&nbsp; Oral Delivery [Slide Deck](https://docs.google.com/presentation/d/1VO-SAmfm3smmDhVn6AkyK-SZTDURDILz9xCFx_0OiAA) (10%)
+|     | - | &nbsp;&nbsp; Oral Delivery [Slide Deck](https://docs.google.com/presentation/d/1THS63CCLEqvzfadkNAwDTP2hCg9bLNnt9LdAo7dUWNc) (10%)
 | 60% | : | __Technical__ : Demonstration of your work, handling of corner cases, technical correctness
 |     | - | &nbsp;&nbsp;&nbsp;&nbsp; _Accessibilty and Performance_: The endpoint is open and is accessible to the public. Results arrive in a reasonble time, and path to additional scaling is apparent
 |     | - | &nbsp;&nbsp;&nbsp;&nbsp; _Problem Complexity and Data Scale_: Data needs to be meaningfully challenging and unique. There are oftentimes at least 10k rows of meaningful amount of data
@@ -88,11 +88,11 @@ There are two components your project: its presentation and your technical deliv
 
 During the final presentation day, we will be demonstrating our capabilities and projects.
 
-* **4:00pm** - Lightning papers for those working on publications. Target 5 minutes each presentation and allocate 5 minutes for question and answering.
+* **4:00pm** - Class settles in, review the schedule and order of presentations. Set up your machines and IP addresses beforehand for faculty and TA query.
 
-* **4:15pm** - Each team will have five minutes to introduce their project in [presentation](https://docs.google.com/presentation/d/1VO-SAmfm3smmDhVn6AkyK-SZTDURDILz9xCFx_0OiAA). Prior or during this time, teams should start their servers so that the demonstration can commence. Instructor and TA's will operate the end-point in real-time from their laptops.
+* **4:05pm** - Each team will have two minutes to introduce their project in [presentation](https://docs.google.com/presentation/d/1THS63CCLEqvzfadkNAwDTP2hCg9bLNnt9LdAo7dUWNc). Prior or during this time, teams should start their servers so that the demonstration can commence. Instructor and TA's will operate the end-point in real-time from their laptops.
 
-* **4:45pm** - Instructional staff issues a series of queries designed to verify the main value proposition, corner cases, and latency assessment. Please have preset queries and evidence that your project is functioning within your own expectations. For example, for RAG system queries, identify the passage and provide evidence that the LLM has retrieved from this passage.
+* **4:50pm** - Instructional staff issues a series of queries designed to verify the main value proposition, corner cases, and latency assessment. Please have preset queries and evidence that your project is functioning within your own expectations. For example, for RAG system queries, identify the passage and provide evidence that the LLM has retrieved from this passage.
 
 * **5:45pm** - Students query each others' RAG and PAL systems. If demonstrations have faced errors, debugged capabilities can be re-graded.
 
