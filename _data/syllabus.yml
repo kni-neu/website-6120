@@ -145,39 +145,23 @@
       institution: March 16
       year: Week 10
       description:
-        - In smaller data regimes and for bespoke problems, we'll find that conversations still revolve around the OG state-driven modeling approach - Hidden Markov Models (HMMs). HMMs dominated NLP and speech recognition for half a century and are classic examples of NLP fundamentals. We'll build a strong foundation this week that appreciates the origins of our field, which helps us understand the motivations behind the latest Deep Learning more modern paradigms like Transformers.
+        - Sequence relate to the order by which we see information, and it separates modern NLP from statistical methods. This week, we will learn about the modeling of sequences from soup to nuts, and how that translates to the every day transformer that exists in almost every LLM today. To get there, we will investigate smaller data regimes and for bespoke problems, where some applications still leverage OG state-driven modeling approach - Hidden Markov Models (HMMs). Then, we'll move onto recurrent neural networks, which in its short tenure as the de facto default NLP algorithm,  formed the foundation of neural models and paved the way for modern neural networks.
         - title: Lecturing Topics
           contents:
             - Modeling with Hidden Markov Models
             - The Viterbi Algorithm - Initialization, Forward, and Backward Passes
-        - <b>Application</b> - Parts of Speech Tagging
-        - <a href="https://arxiv.org/abs/2310.12321">Required Keynote Reading</a> - A Survey of LLMs Including ChatGPT and GPT-4
-        - <a href="https://arxiv.org/abs/2310.12321">Required Keynote Reading</a> - Learning Text Similarity with Siamese Recurrent Networks
-        - title: Submissions
-          contents:
-            - <a href="https://colab.research.google.com/drive/1fAmkPaSkecIVhgljO4vAwz5dilDmodUc">Laboratory - HMMs Text Processing</a>
-            - <a href="https://colab.research.google.com/drive/15TFAx6tERj2_K0BAhJ4_0nr2muBiyDUC">Laboratory - HMMs Numpy PoS Processing </a>
-        
-
-    - title: <a href="https://docs.google.com/presentation/d/1U_CdfaLWgvswaw4T29p7oXDOrootGqmq">Recurrence and Neural Networks</a>
-      institution: March 16
-      year: Week 10
-      description:
-        - While newer architectures like transformers now dominate the field of NLP, in its short tenure, Recurrent Neural Networks became workhorses that first demonstrated the power of deep learning for sequential data like text. This lecture builds an appreciation of how modeling language works, how attention and transformers originated, and subsequently the transition to truly deep architectures.  Beyond studying the history; it's we'll review the fundamental principles in RNNs that underpin modern NLP. 
-        - title: Lecturing Topics
-          contents:
-            - Traditional Language Models vs Recurrent Models
             - The Recurrent Neural Network
             - Vanishing and Exploding Gradients
             - Memory Gating - GRUs and LSTMs
-            - Accuracy and Evaluation - Perplexity
-        - <b>Applications</b> - Named Entity Recognition and Machine Translation
-        - <a href="https://deeplearning.cs.cmu.edu/F23/document/readings/LSTM.pdf"> Required Keynote Paper </a> Long Short Term Memory Networks
+        - <b>Application</b> - Parts of Speech Tagging, Named Entity Recognition, and Machine Translation
+        - <a href="https://arxiv.org/abs/2310.12321">Required Keynote Reading</a> - Learning Text Similarity with Siamese Recurrent Networks
         - title: <a href="https://arxiv.org/abs/1211.5063"> Required Keynote Paper </a> - On the Difficulty of Training RNNs
           contents:
             - <a href="https://karpathy.github.io/2015/05/21/rnn-effectiveness/"> Karpathy's Blog on Recurrent Networks</a>
         - title: <a href="../submissions">Submissions</a>
           contents:
+            - <a href="https://colab.research.google.com/drive/1fAmkPaSkecIVhgljO4vAwz5dilDmodUc">Laboratory - HMMs Text Processing</a>
+            - <a href="https://colab.research.google.com/drive/15TFAx6tERj2_K0BAhJ4_0nr2muBiyDUC">Laboratory - HMMs Numpy PoS Processing </a>
             - <a href = "https://colab.research.google.com/drive/1N2In_T8J1evlZPduXoxqeOpR4RE86AHK">Laboratory - Building Your First RNN</a>
             - <a href="../homework-6">Assignment 6 is assigned</a> - <i>Implement Your Own Recurrent Network</i>
           
