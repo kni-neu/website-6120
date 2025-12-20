@@ -145,7 +145,7 @@
       institution: March 16
       year: Week 10
       description:
-        - Sequence relate to the order by which we see information, and it separates modern NLP from statistical methods. This week, we will learn about the modeling of sequences from soup to nuts, and how that translates to the every day transformer that exists in almost every LLM today. To get there, we will investigate smaller data regimes and for bespoke problems, where some applications still leverage OG state-driven modeling approach - Hidden Markov Models (HMMs). Then, we'll move onto recurrent neural networks, which in its short tenure as the de facto default NLP algorithm,  formed the foundation of neural models and paved the way for modern neural networks.
+        - Sequence relates to the order by which we see information, and it separates modern NLP from statistical methods. This week, we will learn about the modeling of sequences from soup to nuts, and how that translates to the every day transformer that exists in almost every LLM today. To get there, we will investigate smaller data regimes and for bespoke problems, where some applications still leverage OG state-driven modeling approach - Hidden Markov Models (HMMs). Then, we'll move onto recurrent neural networks, which in its short tenure as the de facto default NLP algorithm,  formed the foundation of neural models and paved the way for modern neural networks.
         - title: Lecturing Topics
           contents:
             - Modeling with Hidden Markov Models
