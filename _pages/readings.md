@@ -11,15 +11,15 @@ horizontal: false
 
 ## Keynote Reading Schedule
 
-Keynote papers are required reading that underly the fundamentals of modern natural language processing theory and practice. Each week, students should sign up for a paper. [Please do so here](https://docs.google.com/spreadsheets/d/1xVrHl8MgkrXhJnYbW5QJP4wEPROlPaSz8xGR1JDtIfY). Updates (it might take a few minutes) on the current schedule can be viewed here:
+Keynote papers are required reading that underly the fundamentals of modern natural language processing theory and practice. Each week, students should sign up for a paper. [Please do so here](https://docs.google.com/spreadsheets/d/1AQRd_UqSUld7hWJsCsN2NeDXmUWClZPAK9ZeroC4mw4). Updates (it might take a few minutes) on the current schedule can be viewed here:
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSV7dL4--pViZpZC-AlSxKvRqKJsoErWLOQ1N2KYIEZ7ydhwImn7g6mbdwioAMKVdU6AAz3m-7wTV4S/pubhtml?gid=1843237375&amp;single=true&amp;widget=true&amp;headers=false" width="710" height="350"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQpFwKBwTIlrNmHtXEGgTkTox3lPjWcgyGC_w5GHkU02AXvS6VhVFClRn9L1oqtj9kVDFC6ne22Rsih/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="710" height="350"></iframe>
 
 <br>
 
 ### Reading Group Schedule
 
-For each of the papers, during the *following week*, students will create a video five minute video pitch, write a 1 page summary, and answer student questions about the paper. The deliveries are as follows.
+For each of the papers, students will create a video five minute video pitch, write a 1 page summary, and answer student questions about the paper during class. The deliveries are as follows.
 
 ---
 
@@ -51,4 +51,4 @@ You have a limited time to present your case, and it's OK (preferable) not to us
 
 Prepare the notes into a latex document (including figures, if appropriate) using this <a href="https://www.overleaf.com/read/xkqhrtxwrfvc#329270">latex template</a>.&nbsp; Overleaf provides formatting, editing, and library tips. Information about LaTeX itself can be found <a href="https://www.latex-project.org/">here</a> and <a href="https://en.wikibooks.org/wiki/LaTeX">here</a>.&nbsp;
 
-Once you have completed your summaries and notes, please add to the [spreadsheet](https://docs.google.com/spreadsheets/d/1xVrHl8MgkrXhJnYbW5QJP4wEPROlPaSz8xGR1JDtIfY). Request permissions with your **Northeastern University** account. Attribution: templates and instructions are taken from [here](https://www.cs.princeton.edu/courses/archive/spring19/cos511/scribeinfo.html).
+Once you have completed your summaries and notes, please add to the [spreadsheet](https://docs.google.com/spreadsheets/d/1AQRd_UqSUld7hWJsCsN2NeDXmUWClZPAK9ZeroC4mw4). Request permissions with your **Northeastern University** account. Attribution: templates and instructions are taken from [here](https://www.cs.princeton.edu/courses/archive/spring19/cos511/scribeinfo.html).
