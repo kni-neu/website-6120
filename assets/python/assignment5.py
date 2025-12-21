@@ -1,7 +1,7 @@
 """
 In a shell, download the data to the base folder:
 
->> wget -nc --no-check-certificate https://course.ccs.neu.edu/cs6120f25/data/arxiv/arxiv_titles.txt
+>> wget -nc --no-check-certificate https://course.ccs.neu.edu/cs6120s26/data/arxiv/arxiv_titles.txt
 """
 
 import re
@@ -387,7 +387,7 @@ if __name__ == '__main__':
   train_w2v_test()
 
   # Process "arxiv_titles.txt". Download from:
-  #    https://course.ccs.neu.edu/cs6120f25/data/arxiv/arxiv_titles.txt
+  #    https://course.ccs.neu.edu/cs6120s26/data/arxiv/arxiv_titles.txt
   word_freqs, filtered_dataset = process_data(
       "arxiv_titles.txt", 100, 1e10, min_words=5, min_letters=4)
 

@@ -16,9 +16,9 @@ This assignment requires some data files that you will need to download from the
 website. These include utility functions, assumed to be in the same folder as 
 where this file is being run.
 
-wget -nc https://course.ccs.neu.edu/cs6120f25/data/samsum/utils.py
-wget -nc https://course.ccs.neu.edu/cs6120f25/assets/python/assignment7_test.py
-wget -nc https://course.ccs.neu.edu/cs6120f25/data/samsum/corpus.tar
+wget -nc https://course.ccs.neu.edu/cs6120s26/data/samsum/utils.py
+wget -nc https://course.ccs.neu.edu/cs6120s26/assets/python/assignment7_test.py
+wget -nc https://course.ccs.neu.edu/cs6120s26/data/samsum/corpus.tar
 tar -xvf corpus.tar
 pip install dlai_grader
 '''

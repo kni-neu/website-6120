@@ -90,7 +90,7 @@
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="https://course.ccs.neu.edu/cs6120s25">spring 2025 (last semester)</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="https://course.ccs.neu.edu/cs6120f25">fall 2025 (this semester)</a>
+                  <a class="dropdown-item" href="https://course.ccs.neu.edu/cs6120s26">fall 2025 (this semester)</a>
                 </div>
               </li>
 
@@ -176,10 +176,10 @@
 
 <p>In addition, you will need the data. There are a variety of ways you can download them onto your workstations. On <a href="https://console.cloud.google.com/compute/instances" rel="external nofollow noopener" target="_blank">GCP VMs</a>, you can download with the bash command <code class="language-plaintext highlighter-rouge">wget</code>. If you wish to download inside of a notebook, you can type in a shell command by prepending each of the following commands with <code class="language-plaintext highlighter-rouge">!</code>. The full package can be downloaded with</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  wget <span class="nt">-nc</span> https://course.ccs.neu.edu/cs6120f25/assets/python/assignment7.py
-  wget <span class="nt">-nc</span> https://course.ccs.neu.edu/cs6120f25/data/samsum/utils.py
-  wget <span class="nt">-nc</span> https://course.ccs.neu.edu/cs6120f25/assets/python/assignment7_unittests.py
-  wget <span class="nt">-nc</span> https://course.ccs.neu.edu/cs6120f25/data/samsum/corpus.tar
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  wget <span class="nt">-nc</span> https://course.ccs.neu.edu/cs6120s26/assets/python/assignment7.py
+  wget <span class="nt">-nc</span> https://course.ccs.neu.edu/cs6120s26/data/samsum/utils.py
+  wget <span class="nt">-nc</span> https://course.ccs.neu.edu/cs6120s26/assets/python/assignment7_unittests.py
+  wget <span class="nt">-nc</span> https://course.ccs.neu.edu/cs6120s26/data/samsum/corpus.tar
   <span class="nb">tar</span> <span class="nt">-xvf</span> corpus.tar
   pip <span class="nb">install </span>dlai_grader
 </code></pre></div></div>
@@ -188,16 +188,16 @@
 
 <ul>
   <li>
-    <p><strong>Your Code Template</strong>: found in <a href="https://course.ccs.neu.edu/cs6120f25/assets/python/assignment7.py"><code class="language-plaintext highlighter-rouge">assignment7.py</code></a>, which is as described above.</p>
+    <p><strong>Your Code Template</strong>: found in <a href="https://course.ccs.neu.edu/cs6120s26/assets/python/assignment7.py"><code class="language-plaintext highlighter-rouge">assignment7.py</code></a>, which is as described above.</p>
   </li>
   <li>
-    <p><strong>The SAMsum dataset</strong>: around 16k paired conversations with their human-generated summaries, and can be found <a href="https://course.ccs.neu.edu/cs6120f25/data/samsum/">here</a>. Both the samples and their annotations are created by linguists, reflecting real-life messenger conversations: varying style, formality, slang, emojis, and general language patterns.</p>
+    <p><strong>The SAMsum dataset</strong>: around 16k paired conversations with their human-generated summaries, and can be found <a href="https://course.ccs.neu.edu/cs6120s26/data/samsum/">here</a>. Both the samples and their annotations are created by linguists, reflecting real-life messenger conversations: varying style, formality, slang, emojis, and general language patterns.</p>
   </li>
   <li>
-    <p><strong>Loading Scripts</strong> found in <a href="https://course.ccs.neu.edu/cs6120f25/data/samsum/utils.py"><code class="language-plaintext highlighter-rouge">utils.py</code></a>. The dataset has several functions that we will be using to process the data, including splitting training and test data from a folder name and preprocessing that data. We will be calling the majority of these utils functions from the <code class="language-plaintext highlighter-rouge">preprocess_data</code> function.</p>
+    <p><strong>Loading Scripts</strong> found in <a href="https://course.ccs.neu.edu/cs6120s26/data/samsum/utils.py"><code class="language-plaintext highlighter-rouge">utils.py</code></a>. The dataset has several functions that we will be using to process the data, including splitting training and test data from a folder name and preprocessing that data. We will be calling the majority of these utils functions from the <code class="language-plaintext highlighter-rouge">preprocess_data</code> function.</p>
   </li>
   <li>
-    <p><strong>Unit Tests</strong> found in <a href="https://course.ccs.neu.edu/cs6120f25/assets/python/assignment7_unittests.py"><code class="language-plaintext highlighter-rouge">assignment7_unittests.py</code></a>. For every function that you’re required to implement in <a href="https://course.ccs.neu.edu/cs6120f25/assets/python/assignment7.py"><code class="language-plaintext highlighter-rouge">assignment7.py</code></a>, there is a corresponding <code class="language-plaintext highlighter-rouge">*_test()</code> function that does preliminary dimensionality checks, initial sanity checks, and some unit tests. This function calls out to the unit test file, which has additional parameter checks after tensorflow initialization. If you are using a different version of Tensorflow (than <code class="language-plaintext highlighter-rouge">v2.18.0</code>), then you may not necessarily get the same exact values, so you can either disregard the calls to <code class="language-plaintext highlighter-rouge">assignment7_unittest</code> or install <code class="language-plaintext highlighter-rouge">v2.18.0</code>.</p>
+    <p><strong>Unit Tests</strong> found in <a href="https://course.ccs.neu.edu/cs6120s26/assets/python/assignment7_unittests.py"><code class="language-plaintext highlighter-rouge">assignment7_unittests.py</code></a>. For every function that you’re required to implement in <a href="https://course.ccs.neu.edu/cs6120s26/assets/python/assignment7.py"><code class="language-plaintext highlighter-rouge">assignment7.py</code></a>, there is a corresponding <code class="language-plaintext highlighter-rouge">*_test()</code> function that does preliminary dimensionality checks, initial sanity checks, and some unit tests. This function calls out to the unit test file, which has additional parameter checks after tensorflow initialization. If you are using a different version of Tensorflow (than <code class="language-plaintext highlighter-rouge">v2.18.0</code>), then you may not necessarily get the same exact values, so you can either disregard the calls to <code class="language-plaintext highlighter-rouge">assignment7_unittest</code> or install <code class="language-plaintext highlighter-rouge">v2.18.0</code>.</p>
   </li>
 </ul>
 
