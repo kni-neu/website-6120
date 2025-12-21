@@ -5,8 +5,8 @@ permalink: /homework-1/
 description: a first look at language processing
 nav: true
 hw_pdf: assignment-1.pdf
-assigned: September 8
-due_date: September 15
+assigned: January 12, 2026
+due_date: January 26, 2026
 horizontal: false
 ---
 
@@ -26,10 +26,10 @@ Please review the homework in this [pdf file]({{ site.baseurl }}/assets/pdf/assi
 ### data and starter kit
 -----
 
-You will need [the data](https://course.ccs.neu.edu/cs6120f25/data/shakespeare/), which we'll be using throughout the semester. The Bash command is
+You will need [the data](https://course.ccs.neu.edu/cs6120s26/data/shakespeare/), which we'll be using throughout the semester. The Bash command is
 
 ```
-wget --no-check-certificate https://course.ccs.neu.edu/cs6120f25/data/shakespeare/shakespeare-edit.txt
+wget --no-check-certificate https://course.ccs.neu.edu/cs6120s26/data/shakespeare/shakespeare-edit.txt
 ```
 
 You can use Jupyter and Google Colab magick commands (calling Bash from inside of a notebook) with the `!` indicator. For example, `!wget <options> <file>` will suffice. If you are more comfortable with notebooks, there are several options:

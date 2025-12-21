@@ -9,5 +9,5 @@ children:
       permalink: https://course.ccs.neu.edu/cs6120s25
     - title: divider
     - title: fall 2025 (this semester)
-      permalink: https://course.ccs.neu.edu/cs6120f25
+      permalink: https://course.ccs.neu.edu/cs6120s26
 ---

@@ -4,7 +4,7 @@ Assignment 4
 You will need the data. In a shell, download the data and extract to the base folder:
 
 >> mkdir data
->> wget https://course.ccs.neu.edu/cs6120f25/data/twitter/en_US.twitter.txt -O data/en_US.twitter.txt
+>> wget https://course.ccs.neu.edu/cs6120s26/data/twitter/en_US.twitter.txt -O data/en_US.twitter.txt
 '''
 
 import nltk
@@ -221,7 +221,7 @@ def make_probability_matrix(n_plus1_gram_counts, vocabulary, k):
 	'''
 	To use this function, you'll need to get a utils function:
 
-	>> wget -nc https://course.ccs.neu.edu/cs6120f25/data/twitter/utils.py
+    >> wget -nc https://course.ccs.neu.edu/cs6120s26/data/twitter/utils.py
 	
 	Then, you can visualize your probability matrices. For example, consider the following:
 	

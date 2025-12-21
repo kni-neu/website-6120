@@ -5,8 +5,8 @@ permalink: /homework-6/
 description: designing recurrent networks 
 nav: true
 hw_pdf: assignment-6.pdf
-assigned: november 10
-due_date: november 17
+assigned: March 16, 2026
+due_date: March 23, 2026
 horizontal: false
 ---
 
@@ -29,9 +29,9 @@ Named entity recognition is the process of identifying and classifying entities 
 
 * The code template for homework 6 is located [here]({{ site.baseurl }}//assets/python/assignment6.py). Please fill out where you see `# <YOUR-CODE-HERE>`. There will be `None` values for those lines that require attention.
 
-* The dataset has several different sizes for prototyping, evaluation, and training, and can be found [here](https://course.ccs.neu.edu/cs6120f25/data//named-entities). If you're on a GCP VM, you can download with the bash command `wget`. If you wish to download inside of a notebook, you can type in a shell commnad with a `!`.
+* The dataset has several different sizes for prototyping, evaluation, and training, and can be found [here](https://course.ccs.neu.edu/cs6120s26/data/named-entities). If you're on a GCP VM, you can download with the bash command `wget`. If you wish to download inside of a notebook, you can type in a shell commnad with a `!`.
 
-* You will need the data and loading scripts, which are found in [this zipfile](https://course.ccs.neu.edu/cs6120f25/data/named-entities/ner-data.zip). The dataset has several different sizes for prototyping, evaluation, and training. You can download it with the `wget` command. Inside of this zip file, there is a script called `load_data`. To make the Python code work, you will put load_data.py where you can import it. Line 12 in `assignment6.py` appears as follows:
+* You will need the data and loading scripts, which are found in [this zipfile](https://course.ccs.neu.edu/cs6120s26/data/named-entities/ner-data.zip). The dataset has several different sizes for prototyping, evaluation, and training. You can download it with the `wget` command. Inside of this zip file, there is a script called `load_data`. To make the Python code work, you will put load_data.py where you can import it. Line 12 in `assignment6.py` appears as follows:
 
   ```python
   from load_data import load_data

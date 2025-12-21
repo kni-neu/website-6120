@@ -5,8 +5,8 @@ permalink: /homework-5/
 description: word embeddings
 nav: true
 hw_pdf: assignment-5.pdf
-assigned: october 20
-due_date: november 17
+assigned: March 9, 2026
+due_date: March 16, 2026
 horizontal: false
 ---
 

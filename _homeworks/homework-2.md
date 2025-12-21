@@ -5,8 +5,8 @@ permalink: /homework-2/
 description: neural network fundamentals
 nav: true
 hw_pdf: assignment-2.pdf
-assigned: september 15
-due_date: september 29
+assigned: January 26, 2026
+due_date: February 9, 2026
 horizontal: false
 ---
 
@@ -27,11 +27,11 @@ In this homework, we will explore the fundamentals of neural networks, implement
 #### data and starter kit
 -----
 
-For this assignment, you must complete your work in the provided **starter template**: ➡️ [**assignment2.py**](https://course.ccs.neu.edu/cs6120f25/assets/python/assignment2.py). All of your code should go into this file. Submissions not based on this template may not run with the autograder. 
+For this assignment, you must complete your work in the provided **starter template**: ➡️ [**assignment2.py**](https://course.ccs.neu.edu/cs6120s26/assets/python/assignment2.py). All of your code should go into this file. Submissions not based on this template may not run with the autograder. 
 
-All utility and data files are available in the [homework 2's data folder](https://course.ccs.neu.edu/cs6120f25/data/twitter/). You will find:
-- **Twitter dataset:** [twitter_data.pkl](https://course.ccs.neu.edu/cs6120f25/data/twitter/twitter_data.pkl)  
-- **Utility functions:** [utils.py](https://course.ccs.neu.edu/cs6120f25/data/twitter/utils.py)  
+All utility and data files are available in the [homework 2's data folder](https://course.ccs.neu.edu/cs6120s26/data/twitter/). You will find:
+- **Twitter dataset:** [twitter_data.pkl](https://course.ccs.neu.edu/cs6120s26/data/twitter/twitter_data.pkl)  
+- **Utility functions:** [utils.py](https://course.ccs.neu.edu/cs6120s26/data/twitter/utils.py)  
 
 Additionally, I've created some background reference slides about [helpful linear algebra and calculus properties](https://docs.google.com/presentation/d/1zy2veJEjDT-0acPbGsrEC93EP0MOZIx54jL-gA7wPqE).
 

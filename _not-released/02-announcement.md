@@ -12,6 +12,6 @@ The primary book resources for this class are:
 
 ***
 
-Beyond this book, please make sure that you have filled out a spot on the [reading group sheet](https://course.ccs.neu.edu/cs6120f25/readings/). Each group of four people will collectively collaborate and create a single video and writeup. Looking forward to seeing the entertaining videos! 
+Beyond this book, please make sure that you have filled out a spot on the [reading group sheet](https://course.ccs.neu.edu/cs6120s26/readings/). Each group of four people will collectively collaborate and create a single video and writeup. Looking forward to seeing the entertaining videos! 
 
 **Please sign up before the end of next week, Friday, 9/22/2025**.

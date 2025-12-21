@@ -39,7 +39,7 @@ After the first class, I would advise you to do the following.
 
 1. Read the syllabus carefully: [CS 6120 Spring Syllabus](https://course.ccs.neu.edu/cs6120s26/syllabus/)
 2. Get your development environment ready with the lab instructions.
-3. Start [Assignment 1 early](https://course.ccs.neu.edu/cs6120f25/homework-1/) -- it’s your on-ramp to the course.
+3. Start [Assignment 1 early](https://course.ccs.neu.edu/cs6120s26/homework-1/) -- it’s your on-ramp to the course.
 
 ### Welcoming Notes
 
