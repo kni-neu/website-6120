@@ -3,7 +3,7 @@ layout: page
 title: barry chen
 description: research staff lead, llnl
 img: /assets/img/chen52.png
-importance: 2
+importance: 3
 category: guest lecturers
 ---
 
@@ -15,6 +15,3 @@ Since then, he has spent a considerable amount of time applying ML to security a
 
 Lately, Chen has been focusing on developing neural networks to model multimodal data—teaching them to map images, text, and video of similar concepts to proximal locations in a common vector space. With this capability, a nonproliferation analyst could specify a search for anything related to, for example, “centrifuge,” and the system can then scan massive collections of data, looking for technologies relevant to nuclear centrifuge development. Chen explains: “The challenges posed by these application areas are different from those faced by commercial interests. We are making a difference to both basic science and national security.”
 
-<img src="https://lh3.googleusercontent.com/p/AF1QipPZ7MtFLoHGX8ySvT0l9-ABGfygr60ScsSKFLJB=s680-w680-h510"
-     width="750" 
-     height="500" />

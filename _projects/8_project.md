@@ -3,7 +3,7 @@ layout: page
 title: patrick callier
 description: sr. applied scientist, etsy
 img: https://64.media.tumblr.com/83bf8fe84a8c78ea10c6f7135276b736/tumblr_nrwimroRAF1stmou2o1_500.jpg
-importance: 2
+importance: 3
 category: guest lecturers
 ---
 

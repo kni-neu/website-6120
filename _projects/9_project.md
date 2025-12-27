@@ -3,7 +3,7 @@ layout: page
 title: jamie wilcox
 description: sr. data scientist, c.b. robinson
 img: https://yellowcrayon.github.io/images/NicePhoto2.png
-importance: 2
+importance: 4
 category: guest lecturers
 ---
 
