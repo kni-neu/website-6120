@@ -2,7 +2,7 @@
 layout: page
 title: alwin jacob
 description: head teaching assistant
-office_hours: Wed 3-5pm, 10th floor
+office_hours: Tue 3-5pm, 10th floor
 img: assets/img/AlwinJacob.jpg
 importance: 2
 category: staffing
@@ -24,7 +24,7 @@ Outside of academics, I enjoy reading macroeconomic theory and scrolling Twitter
 
 ### Office Hours and Logistics
 Feel free to reach out during office hours!
-* Wednesday 3pm-5pm, 10th Floor
+* Tuesday 3pm-5pm, 10th Floor
 Message me on [Teams](https://teams.microsoft.com/l/chat/0/0?users=jacob.alw@northeastern.edu) or [email](mailto:jacob.alw@northeastern.edu). 
 
 ### Contact Information
