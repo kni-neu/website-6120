@@ -2,7 +2,7 @@
 layout: page
 title: Qunnie Yu
 description: Teaching Assistant
-office_hours: thu 1-3pm, 10th floor or Zoom
+office_hours: Fri 1-3pm, 10th floor or Zoom
 img: assets/img/qunnie.jpeg
 importance: 2
 category: staffing
@@ -28,7 +28,7 @@ Outside of academics, I enjoy walking my cat, Million, and I’m a foodie who lo
 
 ### Office Hours and Logistics
 
-- Thursdays 1-3pm, 10th Floor or Zoom
+- Fridays 1-3pm, 10th Floor or Zoom
 - OR - Schedule a one-on-one meeting, Drop me an email or text on Teams.
 - Zoom Link: https://northeastern.zoom.us/j/92553054623
 
