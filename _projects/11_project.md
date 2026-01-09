@@ -3,7 +3,7 @@ layout: page
 title: amogha s.
 description: sr. software engineer, etsy
 img: /assets/img/amogha.jpeg
-importance: 2
+importance: 3
 category: guest lecturers
 ---
 

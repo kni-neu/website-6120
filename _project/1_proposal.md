@@ -6,8 +6,8 @@ description: preliminary project proposal requirements and detail
 nav: true
 nav_order: 0
 hw_pdf: project-proposal.pdf
-assigned: september 8, 2025
-due_date: november 24, 2025
+assigned: January 12, 2026
+due_date: March 30, 2026
 horizontal: false
 ---
 

@@ -1,7 +1,7 @@
 - title: schedule
   type: time_table
   contents:
-    - title: <a href="https://docs.google.com/presentation/d/1EvZAL5dpZK4B3GNFn6ASxG1K8ssyu0SW">Introduction and Applications</a>
+    - title: <a href="https://docs.google.com/presentation/d/1Jg37kz_8CVGiEa4OMt6Dnb9F2giyUjQX">Introduction and Applications</a>
       institution: January 12 
       year: Week 1
       description:
@@ -22,7 +22,7 @@
       year: Week 2
 
 
-    - title: <a href="https://docs.google.com/presentation/d/14PzCaOaPv4WEFvjR4IJ7o6RD-WSVr7ZW">ML Foundations and Software Engineering</a>
+    - title: <a href="https://docs.google.com/presentation/d/12XMsenosJHJoC5VZOQrbmXq0pG7Ove0y">ML Foundations and Software Engineering</a>
       institution: January 26
       year: Week 3
       description:
@@ -31,7 +31,7 @@
           contents:
             - Foundations of Machine Learning
             - Software Engineering Practices
-        - <a href="https://web.stanford.edu/class/cs224n/readings/gradient-notes.pdf">Required Keynote Reading</a>
+        - <a href="https://web.stanford.edu/class/cs224n/readings/gradient-notes.pdf">Required Keynote Reading</a> Linear Algebra and Gradients
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href="../assets/pdf/lab-2.pdf">Laboratory - Containerization in the Cloud</a>
@@ -40,7 +40,7 @@
 
             
 
-    - title: <a href="https://docs.google.com/presentation/d/1fE9hcD9UJq3GvPQczDxN8rX5_M3SED-8">Language Classification</a>
+    - title: <a href="https://docs.google.com/presentation/d/13olQ4iYGLOgAbYSP-l1uxeypHMTfdKFL">Language Classification</a>
       institution: February 2
       year: Week 4
       description:
@@ -52,9 +52,8 @@
             - Logistic Regression Classifier
             - Naïve Bayes Classifiers
         - <b>Application</b> - Sentiment Analysis
-        - title: <a href="https://cdn.openai.com/gpt-5-system-card.pdf">Required Keynote Paper</a> - GPT-5 Model Card from OpenAI
-          contents:
-            - Older model reference - <a href="https://arxiv.org/abs/2303.08774"> OpenAI's GPT-4 technical report </a>
+        - <a href="https://arxiv.org/abs/2511.16043">Required Keynote Paper</a> - Agentic Learning without Data
+        - <a href="https://arxiv.org/abs/1704.04760">Required Keynote Paper</a> -  Tensor Processing Unit Analysis
         - title: Submissions
           contents:
             - <a href="https://colab.research.google.com/drive/14wNBIyAOMTyh5Hnuv8tOBXdyV39H0QYW#">Laboratory - Naïve Bayes</a>
@@ -63,7 +62,7 @@
 
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1x_xCsAgSqaO3fSjZyeKlBhMVH48syktb">Text Processing Algorithms</a>
+    - title: <a href="https://docs.google.com/presentation/d/1NaaiOkdFXizWyrBv9lYZHUMPb3waDygW">Text Processing Algorithms</a>
       institution: February 9
       year: Week 5
       description:
@@ -74,10 +73,8 @@
             - Comparisons / Differences in Language
             - Minimum Edit Distance Algorithms
         - <b>Application</b> - Autocorrect in Practice
-        - title: <a href="https://arxiv.org/abs/2503.23278">Required Keynote Paper</a> - Outrageously Large Neural Networks
-          contents:
-            - <a href="https://arxiv.org/abs/2412.19437">DeepSeek Technical Report</a> - Mixture of Experts
-            - <a href="https://huggingface.co/blog/moe">Hugging Face Blog</a>
+        - <a href="https://arxiv.org/abs/2503.23278">Required Keynote Paper</a> - Agent to Application Protocols
+        - <a href="https://arxiv.org/abs/2505.02279">Required Keynote Paper</a> - Agent Interoperability Protocols
         - title: Submissions
           contents:
             - <a href="https://colab.research.google.com/drive/1M8i7DuIuUMKDHO3Kuu98ZE3xv60zupAV">Laboratory - Autocorrect Vocabulary Candidates</a>
@@ -88,7 +85,7 @@
       institution: February 16
       year: Week 6
 
-    - title: <a href="https://docs.google.com/presentation/d/17hSy11npLcOLbgqHAMh0y4NLet3gSir9">Introduction to Language Modeling</a>
+    - title: <a href="https://docs.google.com/presentation/d/1Bil62cMryeAIHDX9CcWZqbakle6Or3b3">Introduction to Language Modeling</a>
       institution: February 23
       year: Week 7
       description:
@@ -101,11 +98,7 @@
             - Out of Vocabulary Words and Smoothing
             - Language Model Evaluation
         - <b>Application</b> - Autocompleting words and sentences
-        - title: <a href="https://arxiv.org/abs/2503.23278">Required Keynote Paper</a> - Model Context Protocol
-          contents:
-            - <a href="https://www.anthropic.com/news/model-context-protocol">An Introduction to MCP</a> - Anthropic's Blog
-            - <a href="https://modelcontextprotocol.io/introduction">MCP's Central Documentation</a>
-            - <a href="https://learn.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic">DeepLearning.Net</a> - Anthropic's on MCP
+        - <a href="https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf">Required Keynote Paper</a> - Topic Modeling with Latent Dirichlet Allocation
         - title: Submissions
           contents:
             - <a href="https://colab.research.google.com/drive/1AVRooWlPXLxNrREvGt_DQvfRZS6Q2_8b">Laboratory 5.1 - N-Grams Processing</a>
@@ -120,7 +113,7 @@
       year: Week 8
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1cnSHRYSq2esGADDQrVjTMzj9LhAAIfuy">Word Modeling with Self-Supervision</a>
+    - title: <a href="https://docs.google.com/presentation/d/1kesXmMT5rdxPMdeQ1EnKvcfwk8Z8vJez_">Word Modeling with Self-Supervision</a>
       institution: March 9
       year: Week 9
       description:
@@ -132,9 +125,7 @@
             - Word Modeling in Practice
             - The Skip-gram and Negative Sampling
             - From Words to Sentences
-        - title: <a href="https://arxiv.org/abs/1310.4546">Required Keynote Paper</a> - Distributed Representations of Words
-          contents:
-            - <a href="https://www.baeldung.com/cs/nlps-word2vec-negative-sampling">Blog - Gentle Introduction to Negative Sampling</a>
+        - <a href="https://arxiv.org/abs/2310.12321">Required Keynote Reading</a> - Learning Text Similarity with Siamese Recurrent Networks
         - title: Submissions
           contents:
             - <a href="https://colab.research.google.com/drive/1lknBFuNeVr7-AvQx4vKvCQfVkL_za65Z">Laboratory - Word Embeddings with CBOW</a>
@@ -156,10 +147,10 @@
             - Vanishing and Exploding Gradients
             - Memory Gating - GRUs and LSTMs
         - <b>Application</b> - Parts of Speech Tagging, Named Entity Recognition, and Machine Translation
-        - <a href="https://arxiv.org/abs/2310.12321">Required Keynote Reading</a> - Learning Text Similarity with Siamese Recurrent Networks
-        - title: <a href="https://arxiv.org/abs/1211.5063"> Required Keynote Paper </a> - On the Difficulty of Training RNNs
+        - title: <a href="https://arxiv.org/abs/1310.4546">Required Keynote Paper</a> - Distributed Representations of Words
           contents:
-            - <a href="https://karpathy.github.io/2015/05/21/rnn-effectiveness/"> Karpathy's Blog on Recurrent Networks</a>
+            - <a href="https://www.baeldung.com/cs/nlps-word2vec-negative-sampling">Blog - Gentle Introduction to Negative Sampling</a>
+        - <a href="https://arxiv.org/abs/2512.02556"> Required Keynote Paper</a> - DeepSeek v3.2 Technical Report
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href="https://colab.research.google.com/drive/1fAmkPaSkecIVhgljO4vAwz5dilDmodUc">Laboratory - HMMs Text Processing</a>
@@ -169,7 +160,7 @@
             - <a href="../homework-6">Assignment 6 is assigned</a> - <i>Implement Your Own Recurrent Network</i>
           
 
-    - title: <a href="https://docs.google.com/presentation/d/14mvSG5KB7MHyyL_vTtVDCnwUiYC3_GDw">Attention and the Transformer Model</a>
+    - title: <a href="https://docs.google.com/presentation/d/1L2UfukJVr2f6Lf3A6v3OIaPp9upmjqdP">Attention and the Transformer Model</a>
       institution: March 23
       year: Week 11
       description:
@@ -180,11 +171,9 @@
             - The Self-Attention Mechanism
             - The Transformer Modeling Layer
             - Large Scale Attention Modeling
-        - <a href="https://arxiv.org/abs/1706.03762">Required Keynote Reading</a> - Attention is All You Need
-        - title: <a href="https://arxiv.org/abs/1810.04805">Required Keynote Reading</a> - BERT - Pre-training Bidirectional Transformers
+        - title: <a href="https://arxiv.org/abs/1211.5063"> Required Keynote Paper </a> - On the Difficulty of Training RNNs
           contents:
-            - <a href="https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270">BERT Explained - State of the art in NLP, Blog</a>
-            - <a href="https://www.youtube.com/watch?v=XowwKOAWYoQ&themeRefresh=1">Attention Paper Explained</a>
+            - <a href="https://karpathy.github.io/2015/05/21/rnn-effectiveness/"> Karpathy's Blog on Recurrent Networks</a>
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href = "https://colab.research.google.com/drive/10SDgUL4px6M_R7-4c1EDHEx0neck2ZOq">Laboratory - Dot Product Attention</a>
@@ -194,7 +183,7 @@
             - <a href="../homework-7">Assignment 7 is assigned</a> - <i>Attention and Transformer Networks</i>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1UCcxFqBzBp7-FCl957iyVKpetFNDZhU5EepNai_8-oI">Introduction to Large Language Modeling (LLMs)</a>
+    - title: <a href="https://docs.google.com/presentation/d/1nMyC1w6ItzDjDw3xXLJeRN0DOyZu1QiAh9lDMe-mn3A">Introduction to Large Language Modeling (LLMs)</a>
       institution: March 30
       year: Week 12
       description:
@@ -204,8 +193,11 @@
             - Large Language Modeling (LLM) in Code
             - Aligning LLMs in the Instruction Following Framework
             - Tuning with Low Resources - LoRA and Quantization
-        - <a href="https://arxiv.org/abs/2203.02155">Required Keynote Reading</a> - Training to Instruct with Human Feedback
-        - <a href="https://arxiv.org/abs/2303.08774">Required Keynote Reading</a> - GPT-4 Technical Report from OpenAI
+        - <a href="https://arxiv.org/abs/1706.03762">Required Keynote Reading</a> - Attention is All You Need
+        - title: <a href="https://arxiv.org/abs/1810.04805">Required Keynote Reading</a> - BERT - Pre-training Bidirectional Transformers
+          contents:
+            - <a href="https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270">BERT Explained - State of the art in NLP, Blog</a>
+            - <a href="https://www.youtube.com/watch?v=XowwKOAWYoQ&themeRefresh=1">Attention Paper Explained</a>
         - title: <a href="../submissions">Submissions</a>
           contents:
             - <a href="../project-proposal/"> Project Proposals are <b>due</b></a>
@@ -214,7 +206,7 @@
             - <a href="http://gradescope.com">Assignment 7 is <b>due</b></a>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/19SAm2OxY9ZvBU5fWQaVRg8G5dKvsNioj">Practically Leveraging LLMs and the LLM Lifecycle</a>
+    - title: <a href="https://docs.google.com/presentation/d/1Kh1rLlQ3rAK4BuRPPyWXG5d_Ba_39n-_">Practically Leveraging LLMs and the LLM Lifecycle</a>
       institution: April 6
       year: Week 13
       description:
@@ -228,8 +220,8 @@
             - Guidelines and NLP Systems Engineering Diagrams
             - Intelligent Agents with Program-Aided LLMs
             - Multimodal Large Language Models
+        - <a href="https://arxiv.org/abs/2203.02155">Required Keynote Reading</a> - Training to Instruct with Human Feedback
         - <a href="https://arxiv.org/abs/2005.11401">Required Keynote Reading</a> - Retrieval Augmented Generation
-        - <a href="https://arxiv.org/abs/1706.03762">Required Keynote Reading</a> - Parameter Efficient Fine-Tuning        
         - title: <a href="../submissions">Submissions</a>
           contents:
           - <a href="https://colab.research.google.com/drive/1ogy2_MEcMEFrJGiS7XwtEElwnV7bY_p5">Laboratory - Instruction Following Tuning</a>
@@ -240,22 +232,23 @@
       year: Week 14
       description:
         - Deploy and show off your domain-specific LLM and pitch your startup idea! Review the guidelines at the <a href="../presentation-and-project/">Final Project Website</a>.
-
-
+        - <a href="https://arxiv.org/abs/1706.03762">Required Keynote Reading</a> - Low Rank Approximations for DNN Tuning
 
 - title: grading criterion
   type: map
   contents:
     - name: Participation
-      value: 5%
-    - name: Reading Group
-      value: 15%
+      value: 10%
     - name: Labs
-      value: 25%
+      value: 10%
+    - name: Reading Group
+      value: 20%
     - name: LLM Deployment Project
-      value: 25%
+      value: 20%
+    - name: Quizzes
+      value: 20%
     - name: Assignments
-      value: 30%
+      value: 20%
 
 - title: grading policies
   type: list
@@ -264,7 +257,6 @@
     - Late labs / assignments have 3pt deduction each weekday until the following lecture
     - Late assignments cannot be accepted past the time when the next homework assignment is released
     - You must notify cs6120-staff@ccs.neu.edu ahead of any absences.
-
 
 - title: course meeting times
   type: nested_list

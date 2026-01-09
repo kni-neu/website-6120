@@ -6,8 +6,8 @@ description: final submission- demo and writeup
 nav: true
 nav_order: 2
 hw_pdf: project-description.pdf
-assigned: september 8, 2025
-due_date: december  8, 2025
+assigned: January 12, 2026
+due_date: April  13, 2026
 horizontal: false
 ---
 

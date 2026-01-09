@@ -9,9 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>CRN 18645</p>
-    <p><a href="https://admin.khoury.northeastern.edu/teaching/schedules/section/251685?semester=Spring+2025&campus=2859">Mon 4:00-7:20pm</a></p>
-    <p><a href="https://admin.khoury.northeastern.edu/teaching/schedules/section/251685?semester=Spring+2025&campus=2859">San Jose Room R1045</a></p>
+    <p>CRN 39412</p>
+    <p><a href="https://admin.khoury.northeastern.edu/teaching/schedules/section/253100?semester=Spring+2026&campus=2859">Mon 4:00-7:20pm</a></p>
+    <p><a href="https://admin.khoury.northeastern.edu/teaching/schedules/section/253100?semester=Spring+2026&campus=2859">San Jose Room 902/903</a></p>
 
 news: true  # includes a list of news items
 latest_posts: false # includes a list of the newest posts
@@ -25,5 +25,5 @@ This course is heavily project oriented, where students will build and serve app
 By the end of this class, students will have first-hand knowledge and be able to replicate (if not contribute to) any modern NLP approaches that companies like OpenAI, Google, and Meta might invent. They will be able to read most of the technical papers that advance this technology. But perhaps most importantly, I hope that they will have a fun and rewarding experience processing natural language and understanding the machine learning that goes into it.
 
 
-Course Reference: CRN 18645 (San Jose)
+Course Reference: CRN 39412 (San Jose)
 

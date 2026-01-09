@@ -3,7 +3,7 @@ layout: page
 title: alex kamil
 description: sr. ml software engineer, etsy
 img: /assets/img/alex-bike-tall.jpg
-importance: 2
+importance: 3
 category: guest lecturers
 ---
 

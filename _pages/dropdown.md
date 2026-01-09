@@ -5,9 +5,12 @@ nav: true
 nav_order: 6
 dropdown: true
 children: 
-    - title: spring 2025 (last semester)
+    - title: spring 2025
       permalink: https://course.ccs.neu.edu/cs6120s25
     - title: divider
-    - title: fall 2025 (this semester)
-      permalink: https://course.ccs.neu.edu/cs6120s26
+    - title: fall 2025
+      permalink: https://course.ccs.neu.edu/cs6120f25
+    - title: divider
+    - title: spring 2026 (this semester)
+      permalink: https://course.ccs.neu/edu/cs6120s26
 ---
