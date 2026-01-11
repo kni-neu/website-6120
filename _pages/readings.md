@@ -13,7 +13,7 @@ horizontal: false
 
 Keynote papers are required reading that underly the fundamentals of modern natural language processing theory and practice. Each week, students should sign up for a paper. [Please do so here](https://docs.google.com/spreadsheets/d/1AQRd_UqSUld7hWJsCsN2NeDXmUWClZPAK9ZeroC4mw4). Updates (it might take a few minutes) on the current schedule can be viewed here:
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQpFwKBwTIlrNmHtXEGgTkTox3lPjWcgyGC_w5GHkU02AXvS6VhVFClRn9L1oqtj9kVDFC6ne22Rsih/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="710" height="350"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQpFwKBwTIlrNmHtXEGgTkTox3lPjWcgyGC_w5GHkU02AXvS6VhVFClRn9L1oqtj9kVDFC6ne22Rsih/pubhtml?widget=true&amp;headers=false" width="710" height="350"></iframe>
 
 <br>
 
@@ -23,7 +23,7 @@ For each of the papers, students will create a video five minute video pitch, wr
 
 ---
 
-1. **Video Presentation** (10min, maximum) - The video presentation will need to be concise, to the point, and isolate the most important aspects of the work. It is a TL;DR elevator pitch as if you had a short amount of time to get your ideas across to an executive or your manager before they go into a leadership review. For this, you will need to:
+1. **Video Presentation** (5 min, maximum) - The video presentation will need to be concise, to the point, and isolate the most important aspects of the work. It is a TL;DR elevator pitch as if you had a short amount of time to get your ideas across to an executive or your manager before they go into a leadership review. For this, you will need to:
 
 	* **Overview** the seminal work in short and concise ways. This includes the problems we face and a specific approach to remedy them.
 
