@@ -3,7 +3,7 @@
   contents:
     - title: <a href="https://docs.google.com/presentation/d/1Jg37kz_8CVGiEa4OMt6Dnb9F2giyUjQX">Introduction and Applications</a>
       institution: January 12 
-      year: Week 1
+      year: Week 1 (<a href="https://shorturl.at/1h1co">video</a>)
       description:
         - <b>Language</b> - the most efficient and compact way to transfer knowledge is through words, where the window to AGI is through NLP. This lecture is an introduction that takes us through history of how we got to LLMs. We'll also review some applications of NLP, current industry standards, and some of the most impactful approaches and where they are being implemented. Finally, we'll preview what we'll be learning, the logistics of how we'll be doing so, and the expectations for your participation in this class.
         - title: Applications Overview
