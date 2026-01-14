@@ -2,7 +2,7 @@
 layout: page
 title: swathi arasu
 description: Teaching Assistant
-office_hours: Wed 12-2pm, 10th floor, Zoom
+office_hours: wed 12-2p, 10th floor, zoom
 img: assets/img/swathi-tmp.jpeg
 importance: 2
 category: staffing

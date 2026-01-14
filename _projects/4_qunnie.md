@@ -2,7 +2,7 @@
 layout: page
 title: Qunnie Yu
 description: Teaching Assistant
-office_hours: Fri 1-3pm, 10th floor or Zoom
+office_hours: fri 1-3pm, 10th floor, Zoom
 img: assets/img/qunnie.jpeg
 importance: 2
 category: staffing

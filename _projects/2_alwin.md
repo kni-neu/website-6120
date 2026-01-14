@@ -2,7 +2,7 @@
 layout: page
 title: alwin jacob
 description: head teaching assistant
-office_hours: Tue 3-5pm, 10th floor
+office_hours: tue 3-5pm, 10th floor
 img: assets/img/AlwinJacob.jpg
 importance: 2
 category: staffing
