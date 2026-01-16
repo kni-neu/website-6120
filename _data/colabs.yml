@@ -1,4 +1,4 @@
-- title: week 1 colabs
+- title: week 1 lab
   type: pdf_table
   contents:
     - title: Introduction to Google Cloud Platform
@@ -6,7 +6,7 @@
       year: In-Class
       colab_link: ../assets/pdf/lab-1.pdf
 
-- title: week 2 colabs
+- title: week 3 lab
   type: pdf_table
   contents:
     - title: Introducing Docker and Docker Containers
@@ -14,7 +14,7 @@
       year: In-Class
       colab_link: ../assets/pdf/lab-2.pdf
 
-- title: week 3 colabs
+- title: week 4 lab
   type: time_table
   contents:
     - title: The Complete Naïve Bayes Algorithm
@@ -22,7 +22,7 @@
       year: In-Class
       colab_link: https://colab.research.google.com/drive/14wNBIyAOMTyh5Hnuv8tOBXdyV39H0QYW#
 
-- title: week 4 colabs
+- title: week 5 lab
   type: time_table
   contents:
     - title: Autocorrect - Vocabulary and Candidates
@@ -30,7 +30,7 @@
       year: In-Class
       colab_link: https://colab.research.google.com/drive/1M8i7DuIuUMKDHO3Kuu98ZE3xv60zupAV
 
-- title: week 5, part 1 - colabs
+- title: week 7, part 1 - lab
   type: time_table
   contents:
     - title: N-Grams - Processing Data
@@ -38,7 +38,7 @@
       year: In-Class
       colab_link: https://colab.research.google.com/drive/16jeUZhERNq4DaVU0g9m7S0Zd4HRQMfO6
 
-- title: week 5, part 2 - colabs
+- title: week 7, part 2 - lab
   type: time_table
   contents:
     - title: N-Grams - Out of Vocabulary Words
@@ -46,7 +46,7 @@
       year: In-Class
       colab_link: https://colab.research.google.com/drive/1bSeH7jy3F8sgdPTDlYu8gdJW1IvuvucX
 
-- title: week 5, part 3 - colabs
+- title: week 7, part 3 - lab
   type: time_table
   contents:
     - title: N-Grams - Building N-Grams Models
@@ -54,7 +54,7 @@
       year: In-Class
       colab_link: https://colab.research.google.com/drive/1Ul6HAglGBoc53yAIfui-pgeTso7wMB26
 
-- title: week 6 colabs
+- title: week 8 lab
   type: pdf_table
   contents:
     - title: JupyterLabs with a GPU
@@ -62,7 +62,7 @@
       year: In-Class
       colab_link: ../assets/pdf/lab-6.pdf
 
-- title: week 7, part 1 - colabs
+- title: week 9, part 1 - lab
   type: time_table
   contents:
     - title: Training a CBOW Word Embedding Model
@@ -70,7 +70,7 @@
       year: In-Class
       colab_link: https://colab.research.google.com/drive/1lknBFuNeVr7-AvQx4vKvCQfVkL_za65Z
 
-- title: week 7, part 2 - colabs
+- title: week 9, part 2 - lab
   type: pdf_table
   contents:
     - title: <i>word2vec</i> in C (optional)
@@ -78,7 +78,7 @@
       year: In-Class
       colab_link: ../assets/pdf/lab-7.pdf
 
-- title: week 8, part 1 - colabs
+- title: week 10, part 1 - lab
   type: time_table
   contents:
     - title: Preprocessing Parts of Speech
@@ -86,7 +86,7 @@
       year: In-Class
       colab_link: https://colab.research.google.com/drive/1fAmkPaSkecIVhgljO4vAwz5dilDmodUc
 
-- title: week 8, part 2 - colabs
+- title: week 10, part 2 - lab
   type: time_table
   contents:
     - title: PoS Processing with Numpy
@@ -94,7 +94,7 @@
       year: In-Class
       colab_link: https://colab.research.google.com/drive/15TFAx6tERj2_K0BAhJ4_0nr2muBiyDUC
 
-- title: week 10 - colabs
+- title: week 10, part 3 - lab
   type: time_table
   contents:
     - title: Recurrent Neural Networks
@@ -102,7 +102,7 @@
       year: In-Class
       colab_link: https://colab.research.google.com/drive/1N2In_T8J1evlZPduXoxqeOpR4RE86AHK
 
-- title: week 11, part 1 - colabs
+- title: week 11, part 1 - lab
   type: time_table
   contents:
     - title: The Attention Mechanism
@@ -110,7 +110,7 @@
       year: In-Class
       colab_link: https://colab.research.google.com/drive/10SDgUL4px6M_R7-4c1EDHEx0neck2ZOq
 
-- title: week 11, part 2 - colabs
+- title: week 11, part 2 - lab
   type: time_table
   contents:
     - title: Masking
@@ -118,7 +118,7 @@
       year: In-Class
       colab_link: https://colab.research.google.com/drive/1j8tjxiN0G9ehF4VfihVqd2-m3QafDh1I
 
-- title: week 11, part 3 - colabs
+- title: week 11, part 3 - lab
   type: time_table
   contents:
     - title: Positional Encoding
@@ -126,7 +126,7 @@
       year: In-Class
       colab_link: https://colab.research.google.com/drive/1L3WUB6fMTO4WEKnqPmdsqtMeiCkX2VCv
 
-- title: week 12 colabs
+- title: week 12, part 1 - lab
   type: pdf_table
   contents:
     - title: Serving LLMs on Google Cloud
@@ -134,7 +134,7 @@
       year: In-Class
       colab_link: ../assets/pdf/lab-11.1.pdf
 
-- title: week 12 colabs
+- title: week 12, part 2 - lab
   type: time_table
   contents:
     - title: Fine Tuning Large Language Models (optional)
@@ -142,7 +142,7 @@
       year: In-Class
       colab_link: https://colab.research.google.com/drive/1u8DDFEiCC2yJgQIfbCOY4_aN06MJeUfv
 
-- title: week 13 colabs
+- title: week 13 lab
   type: time_table
   contents:
     - title: Detoxifying LLMs using RLHF (optional)
