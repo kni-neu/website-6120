@@ -23,7 +23,7 @@
 
 
     - title: <a href="https://docs.google.com/presentation/d/12XMsenosJHJoC5VZOQrbmXq0pG7Ove0y">ML Foundations and Software Engineering</a>
-      institution: January 26
+      institution: January 26 (<a href="https://northeastern-my.sharepoint.com/:v:/g/personal/k_ni_northeastern_edu/IQAcLFn30OWqRIaTcs6GspboAVh2pY9T25hkZF6yNnqYKUY?e=alhcFM">video</a>)
       year: Week 3
       description:
         - As NLP is a specific branch of machine learning, we will review some foundational knowledge that we'll utilize through the course of this class. We'll look at both machine learning and software engineering best practices that will help you build and scale NLP systems later in the course. Because most NLP algorithms today rely heavily on computing resources, we'll dive into distributed compution approaches and cloud-based operations.
