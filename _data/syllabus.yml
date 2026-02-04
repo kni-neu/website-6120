@@ -41,7 +41,7 @@
             
 
     - title: <a href="https://docs.google.com/presentation/d/13olQ4iYGLOgAbYSP-l1uxeypHMTfdKFL">Language Classification</a>
-      institution: February 2
+      institution: February 2 (<a href="https://shorturl.at/HlyOU">video</a>)
       year: Week 4
       description:
         - Building upon our review of machine learning, we discuss strategies in feature extraction and generation. Particularly as creating a vocabulary can explode required memory space, our featurization includes NLP-specific techniques (e.g., tokenization, lemmatization, etc.). This week also marks the first week of <a href="../readings/"><b>required keynote paper</b></a> reading, where we will begin the tour of seminal papers that have revolutionized not only language processing but also machine learning and artificial intelligence writ large.
