@@ -63,7 +63,7 @@
 
 
     - title: <a href="https://docs.google.com/presentation/d/1NaaiOkdFXizWyrBv9lYZHUMPb3waDygW">Text Processing Algorithms</a>
-      institution: February 9
+      institution: February 9 <a href="https://shorturl.at/jw3BX">(video)</a>
       year: Week 5
       description:
         - One of the most widely used algorithms in practice today are autocorrecting algorithms that typically have on-device requirements. In this lecture, we'll review elements of dynamic programming, particularly with respect to the minimum edit distance algorithm, and how we can apply these concepts to the autocorrect and subsequently the autocomplete problem.
@@ -72,6 +72,7 @@
             - Representations of Language
             - Comparisons / Differences in Language
             - Minimum Edit Distance Algorithms
+            - <b>Quiz 1</b> - Linear Algebra and Machine Learning Foundations
         - <b>Application</b> - Autocorrect in Practice
         - <a href="https://arxiv.org/abs/2503.23278">Required Keynote Paper</a> - Agent to Application Protocols
         - <a href="https://arxiv.org/abs/2505.02279">Required Keynote Paper</a> - Agent Interoperability Protocols
@@ -97,6 +98,7 @@
             - The N-Gram Model
             - Out of Vocabulary Words and Smoothing
             - Language Model Evaluation
+            - <b>Quiz 2</b> - Edit Distance and Dynamic Programming <a href="../assets/pdf/quiz-2-prep.pdf">(Prep)</a>
         - <b>Application</b> - Autocompleting words and sentences
         - <a href="https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf">Required Keynote Paper</a> - Topic Modeling with Latent Dirichlet Allocation
         - title: Submissions
@@ -125,7 +127,7 @@
             - Word Modeling in Practice
             - The Skip-gram and Negative Sampling
             - From Words to Sentences
-        - <a href="https://arxiv.org/abs/2310.12321">Required Keynote Reading</a> - Learning Text Similarity with Siamese Recurrent Networks
+        - <a href="https://arxiv.org/abs/2310.12321">Required Keynote Reading</a> - Learning Text Similarity with Siamese RNNs
         - title: Submissions
           contents:
             - <a href="https://colab.research.google.com/drive/1lknBFuNeVr7-AvQx4vKvCQfVkL_za65Z">Laboratory - Word Embeddings with CBOW</a>
