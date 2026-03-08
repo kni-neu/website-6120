@@ -319,7 +319,7 @@ class StyleGram:
         # <YOUR-CODE-HERE>
         return
 
-    def write_in_style_ngram(self, passage):
+    def write_in_style_ngram(self, passage, k=10):
         """
         Takes a passage in, matches it with a style, given a list of
         filenames, and predicts the next word that will appear
@@ -330,8 +330,8 @@ class StyleGram:
             style_file: a list of filenames to be used to determine the style
             
         Returns:
-             single word <string>
-             probability associated with the word <float>
+             top k words <string>
+             probabilities associated with each word <float>
              index of "style" it originated from (e.g., 0 for 1st file) <int8>
              probability associated with the style <float>
         """
