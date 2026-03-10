@@ -15,7 +15,7 @@
         - title: Submissions
           contents:
             - <a href="../assets/pdf/lab-1.pdf">Laboratory - Getting Started on Google Cloud with Your Credits</a>
-            - <a href="../homework-1">Assignment 1 is assigned</a> - <i>A First Look at Processing Language</i>
+            - <a href="../homework-1/">Assignment 1 is assigned</a> - <i>A First Look at Processing Language</i>
 
     - title: Martin Luther King, Jr. Day
       institution: January 19
@@ -36,7 +36,7 @@
           contents:
             - <a href="../assets/pdf/lab-2.pdf">Laboratory - Containerization in the Cloud</a>
             - <a href="http://gradescope.com">Assignment 1 is <b>due</b></a>
-            - <a href="../homework-2">Assignment 2 is assigned</a> - <i>Text Classification</i>
+            - <a href="../homework-2/">Assignment 2 is assigned</a> - <i>Text Classification</i>
 
             
 
@@ -80,7 +80,7 @@
           contents:
             - <a href="https://colab.research.google.com/drive/1M8i7DuIuUMKDHO3Kuu98ZE3xv60zupAV">Laboratory - Autocorrect Vocabulary Candidates</a>
             - <a href="http://gradescope.com">Assignment 2 is <b>due</b></a>
-            - <a href="../homework-3">Assignment 3 is assigned</a> - <i>Autocorrect and Minimum Edit Distances</i>
+            - <a href="../homework-3/">Assignment 3 is assigned</a> - <i>Autocorrect and Minimum Edit Distances</i>
 
     - title: President's Day - No Class
       institution: February 16
@@ -107,7 +107,7 @@
             - <a href="https://colab.research.google.com/drive/1bSeH7jy3F8sgdPTDlYu8gdJW1IvuvucX">Laboratory 5.2 - Out of Vocabulary Words</a>
             - <a href="https://colab.research.google.com/drive/1Ul6HAglGBoc53yAIfui-pgeTso7wMB26">Laboratory 5.3 - Building the Language Model</a>
             - <a href="http://gradescope.com">Assignment 3 is <b>due</b></a>
-            - <a href="../homework-4">Assignment 4 is assigned</a> - <i>Autocomplete with Topical Information</i>
+            - <a href="../homework-4/">Assignment 4 is assigned</a> - <i>Autocomplete with Topical Information</i>
 
 
     - title: Enjoy Your Spring Break!
@@ -133,7 +133,7 @@
             - <a href="https://colab.research.google.com/drive/1lknBFuNeVr7-AvQx4vKvCQfVkL_za65Z">Laboratory - Word Embeddings with CBOW</a>
             - <a href="../assets/pdf/lab-7.pdf">Laboratory - The Original Word2Vec Code in C</a> (Optional)
             - <a href="http://gradescope.com">Assignment 4 is <b>due</b></a>
-            - <a href="../homework-5">Assignment 5 is assigned</a> - <i>Word Embeddings and Their Applications</i>
+            - <a href="../homework-5/">Assignment 5 is assigned</a> - <i>Word Embeddings and Their Applications</i>
 
 
     - title: <a href="https://docs.google.com/presentation/d/1NQn__1SQ_T1yYgFJhBxdCd1QzWsLsEbm">Introduction to Sequential Modeling</a>
@@ -159,7 +159,7 @@
             - <a href="https://colab.research.google.com/drive/15TFAx6tERj2_K0BAhJ4_0nr2muBiyDUC">Laboratory - HMMs Numpy PoS Processing </a>
             - <a href = "https://colab.research.google.com/drive/1N2In_T8J1evlZPduXoxqeOpR4RE86AHK">Laboratory - Building Your First RNN</a>
             - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
-            - <a href="../homework-6">Assignment 6 is assigned</a> - <i>Implement Your Own Recurrent Network</i>
+            - <a href="../homework-6/">Assignment 6 is assigned</a> - <i>Implement Your Own Recurrent Network</i>
           
 
     - title: <a href="https://docs.google.com/presentation/d/1L2UfukJVr2f6Lf3A6v3OIaPp9upmjqdP">Attention and the Transformer Model</a>
@@ -182,7 +182,7 @@
             - <a href = "https://colab.research.google.com/drive/1j8tjxiN0G9ehF4VfihVqd2-m3QafDh1I">Laboratory - Masking in Attention</a>
             - <a href = "https://colab.research.google.com/drive/1L3WUB6fMTO4WEKnqPmdsqtMeiCkX2VCv">Laboratory - Positional Encoding</a>
             - <a href="http://gradescope.com">Assignment 6 is <b>due</b></a>
-            - <a href="../homework-7">Assignment 7 is assigned</a> - <i>Attention and Transformer Networks</i>
+            - <a href="../homework-7/">Assignment 7 is assigned</a> - <i>Attention and Transformer Networks</i>
 
 
     - title: <a href="https://docs.google.com/presentation/d/1nMyC1w6ItzDjDw3xXLJeRN0DOyZu1QiAh9lDMe-mn3A">Introduction to Large Language Modeling (LLMs)</a>
