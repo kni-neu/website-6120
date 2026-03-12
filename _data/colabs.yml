@@ -102,6 +102,14 @@
       year: In-Class
       colab_link: https://colab.research.google.com/drive/1N2In_T8J1evlZPduXoxqeOpR4RE86AHK
 
+- title: week 10, part 4 - lab
+  type: pdf_table
+  contents:
+    - title: Serving LLMs on Google Cloud
+      institution: Using the Ollama library with Streamlit frontend to serve the latest models on GPU
+      year: In-Class
+      colab_link: ../assets/pdf/lab-11.1.pdf
+
 - title: week 11, part 1 - lab
   type: time_table
   contents:
@@ -126,15 +134,7 @@
       year: In-Class
       colab_link: https://colab.research.google.com/drive/1L3WUB6fMTO4WEKnqPmdsqtMeiCkX2VCv
 
-- title: week 12, part 1 - lab
-  type: pdf_table
-  contents:
-    - title: Serving LLMs on Google Cloud
-      institution: Using the Ollama library with Streamlit frontend to serve the latest models on GPU
-      year: In-Class
-      colab_link: ../assets/pdf/lab-11.1.pdf
-
-- title: week 12, part 2 - lab
+- title: week 12 lab
   type: time_table
   contents:
     - title: Fine Tuning Large Language Models (optional)
