@@ -78,23 +78,23 @@
       year: In-Class
       colab_link: ../assets/pdf/lab-7.pdf
 
-- title: week 10, part 1 - lab
-  type: time_table
+- title: week 10, part 1a - lab
+  type: pdf_table
   contents:
-    - title: Preprocessing Parts of Speech (optional)
-      institution: First Steps- Working with text files, Creating a Vocabulary and Handling Unknown Words
+    - title: Serving LLMs on Google Cloud
+      institution: Using the Ollama library with Streamlit frontend to serve the latest models on GPU
       year: In-Class
-      colab_link: https://colab.research.google.com/drive/1fAmkPaSkecIVhgljO4vAwz5dilDmodUc
+      colab_link: ../assets/pdf/lab-11.1.pdf
+
+- title: week 10, part 1b - lab
+  type: pdf_table
+  contents:
+    - title: Serving LLMs on NEU's Explorer Cluster
+      institution: Using the Ollama library with Streamlit frontend to serve the latest models on GPU
+      year: In-Class
+      colab_link: ../assets/pdf/lab-11.2.pdf
 
 - title: week 10, part 2 - lab
-  type: time_table
-  contents:
-    - title: PoS Processing with Numpy (optional)
-      institution: Parts-of-Speech Tagging - Working with tags and Numpy
-      year: In-Class
-      colab_link: https://colab.research.google.com/drive/15TFAx6tERj2_K0BAhJ4_0nr2muBiyDUC
-
-- title: week 10, part 3 - lab
   type: time_table
   contents:
     - title: Recurrent Neural Networks
@@ -102,13 +102,21 @@
       year: In-Class
       colab_link: https://colab.research.google.com/drive/1N2In_T8J1evlZPduXoxqeOpR4RE86AHK
 
-- title: week 10, part 4 - lab
-  type: pdf_table
+- title: week 10, part 3a - lab
+  type: time_table
   contents:
-    - title: Serving LLMs on Google Cloud
-      institution: Using the Ollama library with Streamlit frontend to serve the latest models on GPU
+    - title: Preprocessing Parts of Speech (optional)
+      institution: First Steps- Working with text files, Creating a Vocabulary and Handling Unknown Words
       year: In-Class
-      colab_link: ../assets/pdf/lab-11.1.pdf
+      colab_link: https://colab.research.google.com/drive/1fAmkPaSkecIVhgljO4vAwz5dilDmodUc
+
+- title: week 10, part 3b - lab
+  type: time_table
+  contents:
+    - title: PoS Processing with Numpy (optional)
+      institution: Parts-of-Speech Tagging - Working with tags and Numpy
+      year: In-Class
+      colab_link: https://colab.research.google.com/drive/15TFAx6tERj2_K0BAhJ4_0nr2muBiyDUC
 
 - title: week 11, part 1 - lab
   type: time_table
