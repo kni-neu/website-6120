@@ -155,10 +155,11 @@
         - <a href="https://arxiv.org/abs/2512.02556"> Required Keynote Paper</a> - DeepSeek v3.2 Technical Report
         - title: <a href="../submissions">Submissions</a>
           contents:
+            - <a href = "https://colab.research.google.com/drive/1N2In_T8J1evlZPduXoxqeOpR4RE86AHK">Laboratory - Building Your First RNN</a>
+            - <a href="../assets/pdf/lab-11.1.pdf">Laboratory - Serving an LLM (GCP)</a>
+            - <a href="../assets/pdf/lab-11.2.pdf">Laboratory - Serving an LLM (NEU)</a>
             - <a href="https://colab.research.google.com/drive/1fAmkPaSkecIVhgljO4vAwz5dilDmodUc">Laboratory - HMMs Text Processing</a> (optional)
             - <a href="https://colab.research.google.com/drive/15TFAx6tERj2_K0BAhJ4_0nr2muBiyDUC">Laboratory - HMMs Numpy PoS Processing </a> (optional)
-            - <a href = "https://colab.research.google.com/drive/1N2In_T8J1evlZPduXoxqeOpR4RE86AHK">Laboratory - Building Your First RNN</a>
-            - <a href="../assets/pdf/lab-11.1.pdf">Laboratory - Serving an LLM</a>
             - <a href="http://gradescope.com">Assignment 5 is <b>due</b></a>
             - <a href="../homework-6/">Assignment 6 is assigned</a> - <i>Implement Your Own Recurrent Network</i>
           
