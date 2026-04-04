@@ -137,7 +137,7 @@
 
 
     - title: <a href="https://docs.google.com/presentation/d/1NQn__1SQ_T1yYgFJhBxdCd1QzWsLsEbm">Introduction to Sequential Modeling</a>
-      institution: March 16
+      institution: March 16 <a href="https://shorturl.at/QeAgL">(video)</a>
       year: Week 10 <a href="https://shorturl.at/Qz5Gv">(video)</a>
       description:
         - Sequence relates to the order by which we see information, and it separates modern NLP from statistical methods. This week, we will learn about the modeling of sequences from soup to nuts, and how that translates to the every day transformer that exists in almost every LLM today. To get there, we will investigate smaller data regimes and for bespoke problems, where some applications still leverage OG state-driven modeling approach - Hidden Markov Models (HMMs). Then, we'll move onto recurrent neural networks, which in its short tenure as the de facto default NLP algorithm,  formed the foundation of neural models and paved the way for modern neural networks.
@@ -165,7 +165,7 @@
           
 
     - title: <a href="https://docs.google.com/presentation/d/1L2UfukJVr2f6Lf3A6v3OIaPp9upmjqdP">Attention and the Transformer Model</a>
-      institution: March 23
+      institution: March 23 <a href="https://shorturl.at/2Zaj8">(video)</a>
       year: Week 11
       description:
         - Attention models have been the leap forward that are the fundamental building blocks to modern machine learning today, including the essential ingredients for Large Language Models. We'll go deep into attention layers in neural networks, building our own from scratch.
@@ -188,7 +188,7 @@
 
 
     - title: <a href="https://docs.google.com/presentation/d/1nMyC1w6ItzDjDw3xXLJeRN0DOyZu1QiAh9lDMe-mn3A">Introduction to Large Language Modeling (LLMs)</a>
-      institution: March 30
+      institution: March 30 <a href="https://shorturl.at/JV3fN">(video)</a>
       year: Week 12
       description:
         - The next two weeks are devoted to the state of the art in industry, and LLMs in practice, which may have changed in the time that you have started this course! This week, we introduce large language models using the fundamentals that you have learned, from perplexity in system design to transformer neural network layers for pre-training. We'll focus on techniques that large companies (or well-funded ones, at least) use to create <i>foundation</i> LLM models, taking training methods from OpenAI, Anthropic, Amazon, and Google.
