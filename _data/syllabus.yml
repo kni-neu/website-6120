@@ -191,12 +191,14 @@
       institution: March 30 <a href="https://shorturl.at/JV3fN">(video)</a>
       year: Week 12
       description:
-        - The next two weeks are devoted to the state of the art in industry, and LLMs in practice, which may have changed in the time that you have started this course! This week, we introduce large language models using the fundamentals that you have learned, from perplexity in system design to transformer neural network layers for pre-training. We'll focus on techniques that large companies (or well-funded ones, at least) use to create <i>foundation</i> LLM models, taking training methods from OpenAI, Anthropic, Amazon, and Google.
+        - The next three weeks are devoted to the state of the art in industry, and LLMs in practice, which may have changed in the time that you have started this course! This week, we introduce large language models using the fundamentals that you have learned, from perplexity in system design to transformer neural network layers for pre-training. We'll focus on techniques that large companies (or well-funded ones, at least) use to create <i>foundation</i> LLM models, taking training methods from OpenAI, Anthropic, Amazon, and Google.
         - title: Lecturing Topics
           contents:
+            - System Design for LLM Applications
             - Large Language Modeling (LLM) in Code
-            - Aligning LLMs in the Instruction Following Framework
-            - Tuning with Low Resources - LoRA and Quantization
+            - Pre-training LLMs - Masked and Causal Language Modeling
+            - Parameter-Efficient Tuning with Low Resources
+            - Scaling Laws and Emergent Abilities
         - <a href="https://arxiv.org/abs/1706.03762">Required Keynote Reading</a> - Attention is All You Need
         - title: <a href="https://arxiv.org/abs/1810.04805">Required Keynote Reading</a> - BERT - Pre-training Bidirectional Transformers
           contents:
@@ -210,29 +212,41 @@
 
 
     - title: <a href="https://docs.google.com/presentation/d/1Kh1rLlQ3rAK4BuRPPyWXG5d_Ba_39n-_">Practically Leveraging LLMs and the LLM Lifecycle</a>
-      institution: April 6
+      institution: April 6 <a href="https://shorturl.at/oJBJb">(video)</a>
       year: Week 13
       description:
         - Last week, we discussed how large companies might train LLMs. In contrast, this week's lecture is most useful for those interested in entering the industry at the mid- to startup levels, where we explore common approaches to optimally <i>leverage</i> large language models for your particular applications once the LLM has been created. These techniques additionally attack limitations in LLMs, such as knowledge gaps, hallucinations, and logical reasoning problems. Additionally, we explore the practical aspects of GenAI engineers when product managers ask them to design a system for them. More than the theory, we'll learn about the system itself, devoting time for *when* to focus on certain components of your LLM, and the life cycle of your system design. 
         - title: Lecturing Topics
           contents:
-            - Prompt Engineering - Query and Context
             - Retrieval Augmented Generation (RAG)
+            - In Context Learning and Prompting
+            - Prompt Engineering - Query and Context
+            - Aligning LLMs in the Instruction Following Framework
+            - Reinforcement Learning with Human Feedback (RLHF)
+        - <a href="https://arxiv.org/abs/2203.02155">Required Keynote Reading</a> - Training to Instruct with Human Feedback
+        - <a href="https://arxiv.org/abs/2005.11401">Required Keynote Reading</a> - Retrieval Augmented Generation
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+          - <a href="https://colab.research.google.com/drive/1ogy2_MEcMEFrJGiS7XwtEElwnV7bY_p5">Laboratory - Instruction Following Tuning</a> (Optional)
+
+
+    - title: Agentic Workflows
+      institution: April 13
+      year: Week 14
+      description:
+        - In the final week of lectures, we will discuss the most cutting edge approaches to leveraging LLMs in practice, which is through agentic workflows. These approaches are the most recent developments in the industry, and are being rapidly developed by companies like Google DeepMind, OpenAI, Anthropic, and Microsoft. We will discuss how to build agents with LLMs, and how to use program-aided prompting to create intelligent agents that can perform complex tasks.
+        - title: Lecturing Topics
+          contents:
             - Tuning with Low Resources - LoRA and Quantization
             - Intelligent Agents with Program-Aided LLMs
             - Guidelines and NLP Systems Engineering Diagrams
             - Intelligent Agents with Program-Aided LLMs
             - Multimodal Large Language Models
-        - <a href="https://arxiv.org/abs/2203.02155">Required Keynote Reading</a> - Training to Instruct with Human Feedback
-        - <a href="https://arxiv.org/abs/2005.11401">Required Keynote Reading</a> - Retrieval Augmented Generation
-        - title: <a href="../submissions">Submissions</a>
-          contents:
-          - <a href="https://colab.research.google.com/drive/1ogy2_MEcMEFrJGiS7XwtEElwnV7bY_p5">Laboratory - Instruction Following Tuning</a>
 
 
-    - title: <a href="https://docs.google.com/presentation/d/1VO-SAmfm3smmDhVn6AkyK-SZTDURDILz9xCFx_0OiAA">Demonstrations and Poster Sessions</a>
-      institution: April 13
-      year: Week 14
+    - title: <a href="https://docs.google.com/presentation/d/1l3a-vyAofPcqCfzGqpAYVoHeyDN4T_g8">Demonstrations and Poster Sessions</a>
+      institution: April 20
+      year: Week 15
       description:
         - Deploy and show off your domain-specific LLM and pitch your startup idea! Review the guidelines at the <a href="../presentation-and-project/">Final Project Website</a>.
         - <a href="https://arxiv.org/abs/1706.03762">Required Keynote Reading</a> - Low Rank Approximations for DNN Tuning
