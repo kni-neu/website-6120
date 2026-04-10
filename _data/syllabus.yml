@@ -234,10 +234,9 @@
       institution: April 13
       year: Week 14
       description:
-        - In the final week of lectures, we will discuss the most cutting edge approaches to leveraging LLMs in practice, which is through agentic workflows. These approaches are the most recent developments in the industry, and are being rapidly developed by companies like Google DeepMind, OpenAI, Anthropic, and Microsoft. We will discuss how to build agents with LLMs, and how to use program-aided prompting to create intelligent agents that can perform complex tasks.
+        - In this final week of lectures, we discuss the most cutting edge approaches to leveraging LLMs in practice, which is through agentic workflows. These approaches are the most recent developments in the industry, and are being rapidly developed by companies like Google DeepMind, OpenAI, Anthropic, and Microsoft. We will discuss how to build agents with LLMs, and how to use program-aided prompting to create intelligent agents that can perform complex tasks.
         - title: Lecturing Topics
           contents:
-            - Tuning with Low Resources - LoRA and Quantization
             - Intelligent Agents with Program-Aided LLMs
             - Guidelines and NLP Systems Engineering Diagrams
             - Intelligent Agents with Program-Aided LLMs
