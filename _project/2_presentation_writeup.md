@@ -48,7 +48,7 @@ Commit all your code to your repository, and submit via [Gradescope](https://www
 * [Project Writeup](https://www.overleaf.com/read/xcjqmczwyrcz#0deb70) (PDF Format)
   - Click on `project_template.tex` to edit your project
   - Review the [Heilmeier Catechism](https://www.darpa.mil/work-with-us/heilmeier-catechism)
-* [Slides Linked to Master Deck](https://docs.google.com/presentation/d/1THS63CCLEqvzfadkNAwDTP2hCg9bLNnt9LdAo7dUWNc)
+* [Slides Linked to Master Deck](https://docs.google.com/presentation/d/1l3a-vyAofPcqCfzGqpAYVoHeyDN4T_g8)
   - Link your slide deck to the master presentation slide deck on slide 2
   - Your elevator pitch for your work should be _at most_ three minutes. We will be strict on timelines.
 * [Project Repository](http://www.github.com) (Github Repository via Link)
@@ -90,7 +90,7 @@ During the final presentation day, we will be demonstrating our capabilities and
 
 * **4:00pm** - Class settles in, review the schedule and order of presentations. Set up your machines and IP addresses beforehand for faculty and TA query.
 
-* **4:05pm** - Each team will have two minutes to introduce their project in [presentation](https://docs.google.com/presentation/d/1THS63CCLEqvzfadkNAwDTP2hCg9bLNnt9LdAo7dUWNc). Prior or during this time, teams should start their servers so that the demonstration can commence. Instructor and TA's will operate the end-point in real-time from their laptops.
+* **4:05pm** - Each team will have two minutes to introduce their project in [presentation](https://docs.google.com/presentation/d/1l3a-vyAofPcqCfzGqpAYVoHeyDN4T_g8). Prior or during this time, teams should start their servers so that the demonstration can commence. Instructor and TA's will operate the end-point in real-time from their laptops.
 
 * **4:50pm** - Instructional staff issues a series of queries designed to verify the main value proposition, corner cases, and latency assessment. Please have preset queries and evidence that your project is functioning within your own expectations. For example, for RAG system queries, identify the passage and provide evidence that the LLM has retrieved from this passage.
 
