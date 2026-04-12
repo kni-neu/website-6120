@@ -230,7 +230,7 @@
           - <a href="https://colab.research.google.com/drive/1ogy2_MEcMEFrJGiS7XwtEElwnV7bY_p5">Laboratory - Instruction Following Tuning</a> (Optional)
 
 
-    - title: Agentic Workflows
+    - title: <a href="https://docs.google.com/presentation/d/1SDDo4FYWQoascknu6g6lNSCHwZIxRuSwKW-KXNKuO-A/">Agentic Workflows</a>
       institution: April 13
       year: Week 14
       description:
@@ -239,8 +239,9 @@
           contents:
             - Intelligent Agents with Program-Aided LLMs
             - Guidelines and NLP Systems Engineering Diagrams
-            - Intelligent Agents with Program-Aided LLMs
-            - Multimodal Large Language Models
+            - Creating and Evaluating Agentic Workflows 
+            - Highly Autonomous Agents
+            - Agent Communications and Standardization
 
 
     - title: <a href="https://docs.google.com/presentation/d/1l3a-vyAofPcqCfzGqpAYVoHeyDN4T_g8">Demonstrations and Poster Sessions</a>
