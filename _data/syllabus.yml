@@ -250,6 +250,10 @@
       description:
         - Deploy and show off your domain-specific LLM and pitch your startup idea! Review the guidelines at the <a href="../presentation-and-project/">Final Project Website</a>.
         - <a href="https://arxiv.org/abs/1706.03762">Required Keynote Reading</a> - Low Rank Approximations for DNN Tuning
+        - title: <a href="../submissions">Submissions</a>
+          contents:
+          - <a href="https://colab.research.google.com/drive/1EkHKTeXei1VrGus9AYugknkOKAg22ea1">Laboratory - Agentic Workflows</a> (Optional)
+          - <a href="../assets/pdf/lab-week14.pdf">Laboratory - OpenClaw Installation</a> (Optional)
 
 - title: grading criterion
   type: map
