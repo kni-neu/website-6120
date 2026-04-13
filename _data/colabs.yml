@@ -157,3 +157,19 @@
       institution: Fine tune FLAN-T5 with reinforcement learning (PPO) to generate less toxic summaries
       year: In-Class
       colab_link: https://colab.research.google.com/drive/1ogy2_MEcMEFrJGiS7XwtEElwnV7bY_p5
+
+- title: week 14, part 1 - lab
+  type: time_table
+  contents:
+    - title: Agentic Workflows (optional)
+      institution: Creating and evaluating agentic workflows with LLMs
+      year: In-Class
+      colab_link: https://colab.research.google.com/drive/1EkHKTeXei1VrGus9AYugknkOKAg22ea1
+
+- title: week 14, part 2 - lab
+  type: pdf_table
+  contents:
+    - title: OpenClaw Installation (optional)
+      institution: Setting up OpenClaw for agentic workflows
+      year: In-Class
+      colab_link: ../assets/pdf/lab-week14.pdf
